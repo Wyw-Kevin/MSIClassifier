@@ -1,0 +1,274 @@
+{
+  "scope": "Static argument declarations; no model execution/deserialization",
+  "commands": {
+    "reproduce.py": [
+      {
+        "flags": [
+          "--branch"
+        ],
+        "choices": "['all','bulk','scRNA','sensitivity','spatial','paired','stability','bayesprism','plots']",
+        "default": "'all'"
+      },
+      {
+        "flags": [
+          "--output-dir"
+        ],
+        "type": "Path",
+        "default": "ROOT/'output'"
+      },
+      {
+        "flags": [
+          "--plots"
+        ],
+        "action": "'store_true'"
+      }
+    ],
+    "workflows/bulk/reproduce_frozen_bulk.py": [
+      {
+        "flags": [
+          "--output-dir"
+        ],
+        "type": "Path",
+        "default": "HERE/'outputs/frozen_bulk'"
+      }
+    ],
+    "workflows/bulk/compute_selection_stability.py": [
+      {
+        "flags": [
+          "--output"
+        ],
+        "type": "Path",
+        "default": "HERE/'outputs/selection_stability'"
+      }
+    ],
+    "workflows/bulk/compute_paired_increment.py": [
+      {
+        "flags": [
+          "--replay"
+        ],
+        "action": "'store_true'",
+        "help": "'Use preserved input copies without historical project folders'"
+      },
+      {
+        "flags": [
+          "--output"
+        ],
+        "type": "Path",
+        "help": "'Write deterministic recomputation to a new directory'"
+      }
+    ],
+    "workflows/bulk/predict_bulk.py": [
+      {
+        "flags": [
+          "--feature-table"
+        ],
+        "type": "Path",
+        "required": "True"
+      },
+      {
+        "flags": [
+          "--model"
+        ],
+        "type": "Path",
+        "default": "HERE/'classifier_snapshot/models/panel12_fold0.joblib'"
+      },
+      {
+        "flags": [
+          "--mmr4-lock"
+        ],
+        "type": "Path",
+        "help": "'Explicit matching existing cohort lock; no default across cohorts'"
+      },
+      {
+        "flags": [
+          "--output"
+        ],
+        "type": "Path",
+        "required": "True"
+      }
+    ],
+    "workflows/scRNA/replay_frozen_scRNA.py": [
+      {
+        "flags": [
+          "--project-root"
+        ],
+        "type": "Path"
+      },
+      {
+        "flags": [
+          "--output-dir"
+        ],
+        "type": "Path"
+      }
+    ],
+    "workflows/scRNA/predict_scrna.py": [
+      {
+        "flags": [
+          "--model"
+        ],
+        "type": "Path"
+      },
+      {
+        "flags": [
+          "--feature-table"
+        ],
+        "required": "True",
+        "type": "Path"
+      },
+      {
+        "flags": [
+          "--weighted-mlh1-column"
+        ],
+        "default": "'weighted_MLH1'",
+        "help": "'Must contain mu*N_malignant/N_epithelial from the same retained CNV cells.'"
+      },
+      {
+        "flags": [
+          "--output"
+        ],
+        "required": "True",
+        "type": "Path"
+      }
+    ],
+    "workflows/spatial/reproduce_frozen_spatial.py": [
+      {
+        "flags": [
+          "--output-dir"
+        ],
+        "type": "Path",
+        "default": "HERE/'outputs/frozen_replay'"
+      },
+      {
+        "flags": [
+          "--figures"
+        ],
+        "action": "'store_true'",
+        "help": "'Recreate the paired spatial plot from its retained source and saved inputs.'"
+      }
+    ],
+    "workflows/bayesprism/validate_implementation.py": [
+      {
+        "flags": [
+          "--output-dir"
+        ],
+        "required": "True",
+        "type": "Path"
+      }
+    ],
+    "workflows/plots/reproduce_plots.py": [
+      {
+        "flags": [
+          "--output-dir"
+        ],
+        "required": "True",
+        "type": "Path"
+      }
+    ],
+    "workflows/bulk/classifier_snapshot/run_analysis.py": [
+      {
+        "flags": [
+          "--output"
+        ],
+        "type": "Path",
+        "default": "HERE"
+      },
+      {
+        "flags": [
+          "--replay"
+        ],
+        "action": "'store_true'"
+      }
+    ],
+    "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/run_analysis.py": [
+      {
+        "flags": [
+          "--output-dir"
+        ],
+        "required": "True",
+        "type": "Path"
+      }
+    ],
+    "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/verify_analysis.py": [
+      {
+        "flags": [
+          "--analysis-dir"
+        ],
+        "type": "Path",
+        "default": "Path(__file__).resolve().parent"
+      },
+      {
+        "flags": [
+          "--output"
+        ],
+        "type": "Path",
+        "required": "True"
+      }
+    ],
+    "workflows/bayesprism/vendor/pybayesprism/main.py": [
+      {
+        "flags": [
+          "-n"
+        ],
+        "dest": "'ncores'",
+        "help": "'CPU cores'"
+      },
+      {
+        "flags": [
+          "-x"
+        ],
+        "dest": "'file_x'",
+        "help": "'Bulk count matrix'"
+      },
+      {
+        "flags": [
+          "-x.type"
+        ],
+        "dest": "'file_x_type'",
+        "help": "'Bulk file type'"
+      },
+      {
+        "flags": [
+          "-ref"
+        ],
+        "dest": "'file_ref'",
+        "help": "'Reference count matrix'"
+      },
+      {
+        "flags": [
+          "-ref.file.type"
+        ],
+        "dest": "'file_ref_type'",
+        "help": "'Reference file type'"
+      },
+      {
+        "flags": [
+          "-ref.data.type"
+        ],
+        "dest": "'data_type'",
+        "help": "'Reference data type'"
+      },
+      {
+        "flags": [
+          "-species"
+        ],
+        "dest": "'species'",
+        "choices": "['hs', 'mm']",
+        "help": "'Species'"
+      },
+      {
+        "flags": [
+          "-out"
+        ],
+        "dest": "'out_prefix'",
+        "help": "'Output prefix'"
+      },
+      {
+        "flags": [
+          "-file.cell.type"
+        ],
+        "dest": "'file_cell_type'",
+        "help": "'file of cell type'"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "orientation": "sample rows, feature columns",
+  "csv_has_header": true,
+  "numeric_features": "finite measured values on documented original scale; no extra Z-score",
+  "scRNA": {
+    "id": "unique sampleID",
+    "features": [
+      "cTNI14",
+      "cTNI18",
+      "cS18",
+      "cTNI13",
+      "cTNI16",
+      "cTNI05",
+      "cTNI07",
+      "cS27",
+      "cTNI04",
+      "cS17",
+      "cM01",
+      "cP1",
+      "cM05",
+      "cM06",
+      "cTNI08",
+      "cTNI19",
+      "cTNI10",
+      "cM04"
+    ],
+    "weighted_feature": "weighted_MLH1",
+    "formula": "mean(candidate malignant epithelial MLH1) * N_candidate/N_all_epithelial",
+    "missing": "zero candidate cells means missing, not zero"
+  },
+  "bulk": {
+    "keys": "sampleID or dataset+sampleID",
+    "features": [
+      "cS27",
+      "cTNI16",
+      "cM06",
+      "cTNI05",
+      "cTNI10",
+      "cP1",
+      "cTNI13",
+      "cS18",
+      "cTNI04",
+      "cS17",
+      "cM05",
+      "cTNI08"
+    ],
+    "scale": "subtype abundance divided by sum of all same-parent reference subtypes",
+    "fraction_range": [
+      0,
+      1
+    ],
+    "fusion_extra": [
+      "dataset",
+      "MLH1_raw",
+      "MSH2_raw",
+      "MSH6_raw",
+      "PMS2_raw"
+    ],
+    "fusion_expression_scale": "pre-Z-score stored log2 values; matching saved cohort lock required"
+  }
+}
