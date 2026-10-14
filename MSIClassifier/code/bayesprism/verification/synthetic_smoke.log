@@ -1,0 +1,24 @@
+/home/wyw/rstudio/MSI/MSIClassifier/code/bayesprism/vendor/pybayesprism/prism.py:95: FutureWarning: unique with argument that is not not a Series, Index, ExtensionArray, or np.ndarray is deprecated and will raise in a future version.
+  if len(pd.unique(cell_type_labels)) > len(pd.unique(cell_state_labels)):
+number of cells in each cell state
+A    1
+B    1
+Name: count, dtype: int64
+recommend to have sufficient number of cells in each cell state
+No tumor reference is speficied. Reference cell types are treated equally.
+Number of outlier genes filtered from mixture = 0
+Aligning reference and mixture...
+Normalizing reference...
+Run Gibbs sampling...
+initial 1 / 2 elapsed 0
+initial 2 / 2 elapsed 0
+Now Merging...
+Update the reference matrix ...
+running with 2 cores!
+Run Gibbs sampling using updated reference ...
+final 1 / 2 elapsed 0
+final 2 / 2 elapsed 0
+            A         B
+one  0.200010  0.799990
+two  0.799868  0.200132
+END-TO-END SMOKE PASS

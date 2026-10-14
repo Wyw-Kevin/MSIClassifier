@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "supplement_word_figures": 3,
+  "supplement_word_tables": 0,
+  "supplement_body_font_points": 12,
+  "supplement_body_line_spacing": "fixed24pt",
+  "table_workbook_sheets": 37,
+  "workbook_cells_checked": 52200,
+  "table_language": "English, no Chinese cells",
+  "main_only_content_edit_block": 144,
+  "main_removed_supplement_blocks": [
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+  ],
+  "main_references_preserved_black": 37,
+  "all_other_main_document_blocks_and_media_preserved": true
+}

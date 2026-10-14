@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "scope": "saved-artifact read-only reconstruction replay; no model fitting, posterior resampling or figure edits",
+  "n_sections": 14,
+  "n_spots": 20733,
+  "normalization_denominator": "sum candidate-allocated counts over all 12079 shared filtered cell2location model genes",
+  "normalization_target": 10000,
+  "logarithm": "natural log1p, after type-specific count allocation and CP10K",
+  "posterior_summary": "post_sample_means, exported from 200 samples; plug-in reconstruction from parameter means",
+  "classifier_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
+  "reconstruction_script_sha256": "9ecf90a0cfbd312bfd7f2fcdf44be36a785da40896b1d031a38dd17f1db79a40",
+  "signature_sha256": "0897b65cf16f9078059994778b3e9f4b553cf816cbcd7561f67c361d472ab73c",
+  "reference_checkpoint_sha256": "92ca8b0724927ea0a1385e12d5ac0bf791e92bd48d6e8b154d268c464623bd8c",
+  "max_reconstructed_log_error": 5.706787109538425e-08,
+  "max_weighted_error": 3.073791873808851e-09,
+  "last50_relative_change_min": 0.003183761254709543,
+  "last50_relative_change_max": 0.015451693693010646,
+  "versions": {
+    "cell2location": "0.1.5",
+    "scvi-tools": "1.4.0.post1",
+    "anndata": "0.12.6",
+    "scanpy": "1.11.5",
+    "torch": "2.6.0+cu124",
+    "pyro-ppl": "1.9.1",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3"
+  }
+}

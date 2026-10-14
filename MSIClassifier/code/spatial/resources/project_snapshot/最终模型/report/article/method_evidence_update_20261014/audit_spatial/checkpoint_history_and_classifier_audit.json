@@ -1,0 +1,201 @@
+{
+  "reference": {
+    "checkpoint": "reference/model/model.pt",
+    "top_keys": [
+      "model_state_dict",
+      "var_names",
+      "attr_dict"
+    ],
+    "attr_keys": [
+      "factor_names_",
+      "get_normalized_function_name_",
+      "history_",
+      "init_params_",
+      "is_trained_",
+      "n_factors_",
+      "registry_",
+      "test_indices_",
+      "train_indices_",
+      "validation_indices_"
+    ],
+    "history_keys": [],
+    "is_trained": true,
+    "n_genes": 12079,
+    "reference_gene_order_matches_signature": true,
+    "reference_history_recoverable_from_checkpoint": false,
+    "convergence_established": false
+  },
+  "sections": [
+    {
+      "sample": "VISDS000771(S5_Rec_Rep1)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000772(S5_Rec_Rep2)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000773(S3_Col_R_Rep1)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000774(S3_Col_R_Rep2)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000775(S1_Cec_Rep1)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000776(S2_Col_R_Rep1)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000777(S7_RecSig_Rep1)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000778(S6_Rec_Rep1)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000779(S1_Cec_Rep2劣质)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000780(S2_Col_R_Rep2)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000781(S7_RecSig_Rep2)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000782(S6_Rec_Rep2)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000783(S4_Col_Sig_Rep1)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    },
+    {
+      "sample": "VISDS000784(S4_Col_Sig_Rep2)",
+      "history_keys": [
+        "elbo_train"
+      ],
+      "history_epochs": 500,
+      "history_csv_matches_checkpoint": true,
+      "signature_matches_checkpoint": true,
+      "is_trained": true
+    }
+  ],
+  "frozen_classifier": {
+    "features": [
+      "cTNI14",
+      "cTNI18",
+      "cS18",
+      "cTNI13",
+      "cTNI16",
+      "cTNI05",
+      "cTNI07",
+      "cS27",
+      "cTNI04",
+      "cS17",
+      "cM01",
+      "cP1",
+      "cM05",
+      "cM06",
+      "cTNI08",
+      "cTNI19",
+      "cTNI10",
+      "cM04",
+      "mean_MLH1_epithelial"
+    ],
+    "pipeline_steps": {
+      "scaler": "StandardScaler",
+      "model": "LinearDiscriminantAnalysis"
+    },
+    "model_solver": "lsqr",
+    "model_shrinkage": "auto",
+    "replayed_prediction_max_abs_error": 2.220446049250313e-16,
+    "source_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b"
+  }
+}

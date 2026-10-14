@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks_passed": 106019,
+  "all_96000_AUROCs_independently_replayed": true,
+  "all_indices_match_single_advancing_seed2026_stream": true,
+  "only_development_samples_used": true,
+  "original_classifier_weights_and_predictions_preserved": true,
+  "LOCO_MMR4_and_fusion_preserved": true,
+  "source_hashes_unchanged": true
+}

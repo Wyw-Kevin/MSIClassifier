@@ -1,0 +1,59 @@
+{
+  "status": "verified",
+  "refitting": false,
+  "project_root": "/home/wyw/rstudio/MSI/MSIClassifier/code/scRNA/project",
+  "frozen_full_model_replay": [
+    {
+      "dataset": "GSE178341",
+      "split": "training_apparent",
+      "n": 64,
+      "AUROC": 0.9891625615763546,
+      "max_frozen_score_error": 1.1102230246251565e-16
+    },
+    {
+      "dataset": "GSE132465",
+      "split": "external",
+      "n": 23,
+      "AUROC": 0.9605263157894737,
+      "max_frozen_score_error": 1.1102230246251565e-16
+    },
+    {
+      "dataset": "GSE200997",
+      "split": "external",
+      "n": 15,
+      "AUROC": 1.0,
+      "max_frozen_score_error": 1.1102230246251565e-16
+    }
+  ],
+  "max_frozen_score_error": 1.1102230246251565e-16,
+  "archived_primary_OOF_AUROC": 0.9783251231527094,
+  "OOF_replay_limit": "Original weighted five fold artifacts unavailable; separate archived CNV_q95 sensitivity refits numerically reproduce the primary saved OOF scores without relabelling their fit identity.",
+  "max_separately_identified_q95_fold_refit_error": 2.886579864025407e-15,
+  "S7_archived_score_rows_verified": 21,
+  "paired_patient_bootstrap": [
+    {
+      "dataset": "GSE178341",
+      "patient_clusters": 62,
+      "replicates": 2000,
+      "delta": 0.02364532019704446,
+      "p_two_sided_null_centered": 0.16391804097951024,
+      "saved_index_replay": true
+    },
+    {
+      "dataset": "GSE132465",
+      "patient_clusters": 23,
+      "replicates": 2000,
+      "delta": 0.07894736842105265,
+      "p_two_sided_null_centered": 0.21739130434782608,
+      "saved_index_replay": true
+    }
+  ],
+  "GSE200997_p_test": "Skipped: degenerate paired delta; zero p-test draws",
+  "correlation_VIF_rows_verified": 18,
+  "software": {
+    "python": "3.12.12",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2"
+  }
+}

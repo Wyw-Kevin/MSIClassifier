@@ -1,0 +1,30 @@
+{
+  "compiled_python_files": 68,
+  "compile_errors": [],
+  "imported_project_modules": [
+    {
+      "module": "scrna_metadata_adjustment",
+      "file": "/home/wyw/rstudio/MSI/MSIClassifier/code/scRNA/project/最终模型/model_code/scrna_metadata_adjustment.py"
+    },
+    {
+      "module": "run_unified66_scrna_pipeline",
+      "file": "/home/wyw/rstudio/MSI/MSIClassifier/code/scRNA/project/最终模型/model_code/run_unified66_scrna_pipeline.py"
+    },
+    {
+      "module": "run_scrna_metadata_adjusted_pipeline",
+      "file": "/home/wyw/rstudio/MSI/MSIClassifier/code/scRNA/project/最终模型/model_code/run_scrna_metadata_adjusted_pipeline.py"
+    },
+    {
+      "module": "scrna_clinical_ablation",
+      "file": "/home/wyw/rstudio/MSI/MSIClassifier/code/scRNA/project/最终模型/model_code/scrna_clinical_ablation.py"
+    },
+    {
+      "module": "recompute_scrna_zscore_audits",
+      "file": "/home/wyw/rstudio/MSI/MSIClassifier/code/scRNA/project/最终模型/model_code/recompute_scrna_zscore_audits.py"
+    },
+    {
+      "module": "scRNA_msi.preprocess",
+      "file": "/home/wyw/rstudio/MSI/MSIClassifier/code/scRNA/project/最终模型/scRNA_model/scRNA_msi/preprocess.py"
+    }
+  ]
+}

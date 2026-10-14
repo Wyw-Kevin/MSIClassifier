@@ -1,0 +1,49 @@
+model,sampleID,y,score,epithelial_proxy
+MSIsensor-RNA pseudobulk,T_cac1,0,0.04797603443261788,False
+MSIsensor-RNA pseudobulk,T_cac2,0,0.016575408665648814,False
+MSIsensor-RNA pseudobulk,T_cac3,0,0.004680075446751921,False
+MSIsensor-RNA pseudobulk,T_cac4,0,0.6907222149168836,False
+MSIsensor-RNA pseudobulk,T_cac5,0,0.5878230032772518,False
+MSIsensor-RNA pseudobulk,T_cac6,0,0.8162299160589572,False
+MSIsensor-RNA pseudobulk,T_cac7,1,0.9456483669912669,False
+MSIsensor-RNA pseudobulk,T_cac8,0,0.22053804556784803,False
+MSIsensor-RNA pseudobulk,T_cac9,0,0.633261753794959,False
+MSIsensor-RNA pseudobulk,T_cac10,0,0.6260163157751137,False
+MSIsensor-RNA pseudobulk,T_cac11,0,0.8154129734781149,False
+MSIsensor-RNA pseudobulk,T_cac12,1,0.7651855114781191,False
+MSIsensor-RNA pseudobulk,T_cac13,0,0.5,False
+MSIsensor-RNA pseudobulk,T_cac14,0,0.35206255470397646,False
+MSIsensor-RNA pseudobulk,T_cac15,0,0.6961653156051179,False
+MSIsensor-RNA pseudobulk,T_cac16,0,0.7963335387620509,False
+MSIsensor-RNA cell mean,T_cac1,0,0.1244179609229338,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac1,0,0.13286706563719025,False
+MSIsensor-RNA cell mean,T_cac2,0,0.048914599664199705,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac2,0,0.060340264682137025,False
+MSIsensor-RNA cell mean,T_cac3,0,0.013598254527446623,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac3,0,0.01593651525962282,False
+MSIsensor-RNA cell mean,T_cac4,0,0.46374769970923724,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac4,0,0.43455620907156334,False
+MSIsensor-RNA cell mean,T_cac5,0,0.43448425190990425,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac5,0,0.3912059439009513,False
+MSIsensor-RNA cell mean,T_cac6,0,0.5312961734866478,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac6,0,0.45997340312946833,False
+MSIsensor-RNA cell mean,T_cac7,1,0.5991715778821515,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac7,1,0.5216077563831478,False
+MSIsensor-RNA cell mean,T_cac8,0,0.26013472199607046,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac8,0,0.25291486570268573,False
+MSIsensor-RNA cell mean,T_cac9,0,0.31702474121641094,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac9,0,0.26787332956463666,False
+MSIsensor-RNA cell mean,T_cac10,0,0.35746938923458266,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac10,0,0.3007434127783378,False
+MSIsensor-RNA cell mean,T_cac11,0,0.4610549763544401,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac11,0,0.3803456515373578,False
+MSIsensor-RNA cell mean,T_cac12,1,0.45582306445904475,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac12,1,0.4154999128731708,False
+MSIsensor-RNA cell mean,T_cac13,0,0.24241461581055787,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac13,0,0.22410589900838535,False
+MSIsensor-RNA cell mean,T_cac14,0,0.39032957838893945,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac14,0,0.3808060365412916,False
+MSIsensor-RNA cell mean,T_cac15,0,0.4287214254595069,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac15,0,0.38947305339225796,False
+MSIsensor-RNA cell mean,T_cac16,0,0.5816505692865274,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac16,0,0.5332714761072149,False

@@ -1,0 +1,42 @@
+{
+  "model_name": "tosica_subtype_Plasma",
+  "label_col": "tosica_training_label",
+  "n_cells": 37809,
+  "n_genes": 16496,
+  "n_classes": 2,
+  "classes": [
+    "Other",
+    "cP1"
+  ],
+  "n_pathways": 120,
+  "best_epoch": 4,
+  "best_val_auc_macro_ovr": 0.9875484269066965,
+  "best_val_auc_weighted_ovr": 0.9875484269066965,
+  "best_val_acc": 0.9407564136471833,
+  "best_val_error_rate": 0.05924358635281668,
+  "best_val_macro_recall": 0.9408826872626044,
+  "best_val_min_recall": 0.9391775424772224,
+  "selection_metric": "validation_accuracy",
+  "accuracy_threshold": 0.95,
+  "usable": false,
+  "model_weight_path": "/home/wyw/rstudio/MSI/最终模型/scRNA_model/reference_seed2026/Migrate/models/tosica_subtype_Plasma/model_best.pth",
+  "training_seconds": 758.4165086746216,
+  "seed": 2026,
+  "config": {
+    "epochs": 25,
+    "batch_size": 64,
+    "lr": 0.001,
+    "lrf": 0.01,
+    "max_g": 300,
+    "max_gs": 120,
+    "n_unannotated": 64,
+    "embed_dim": 32,
+    "depth": 2,
+    "num_heads": 4,
+    "test_size": 0.2,
+    "major_cap_per_class": 5000,
+    "subtype_cap_per_class": null,
+    "gmt_path": "human_gobp",
+    "balanced_sampler": true
+  }
+}

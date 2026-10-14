@@ -1,0 +1,16 @@
+panel,title,metric,maximum,n_subtype_features,n_model_features,model
+A,GSE178341 5-fold OOF | AUROC,train_auc,0.9921182266009853,12,13,gradient_boosting_shallow
+B,GSE178341 5-fold OOF | Balanced accuracy,train_ba,0.951231527093596,20,21,gradient_boosting_shallow
+C,GSE132465 external validation | AUROC,external_auc,0.9473684210526316,10,11,linear_svc
+C,GSE132465 external validation | AUROC,external_auc,0.9473684210526316,10,11,linear_svc_balanced
+C,GSE132465 external validation | AUROC,external_auc,0.9473684210526316,10,11,perceptron_balanced
+C,GSE132465 external validation | AUROC,external_auc,0.9473684210526316,10,11,ridge_classifier
+C,GSE132465 external validation | AUROC,external_auc,0.9473684210526316,14,15,gradient_boosting
+D,GSE132465 external validation | Balanced accuracy,external_ba,0.9473684210526316,10,11,logistic_l2_balanced
+D,GSE132465 external validation | Balanced accuracy,external_ba,0.9473684210526316,10,11,perceptron_balanced
+D,GSE132465 external validation | Balanced accuracy,external_ba,0.9473684210526316,10,11,ridge_classifier
+E,GSE236581 external validation | AUROC,gse236581_auc,0.7857142857142858,20,21,perceptron_balanced
+F,GSE236581 external validation | Balanced accuracy,gse236581_ba,0.6666666666666667,11,12,linear_svc
+F,GSE236581 external validation | Balanced accuracy,gse236581_ba,0.6666666666666667,11,12,perceptron_balanced
+F,GSE236581 external validation | Balanced accuracy,gse236581_ba,0.6666666666666667,12,13,perceptron_balanced
+F,GSE236581 external validation | Balanced accuracy,gse236581_ba,0.6666666666666667,21,22,mlp_4_l2

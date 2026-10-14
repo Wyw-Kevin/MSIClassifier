@@ -1,0 +1,22 @@
+{
+  "seed": 2026,
+  "replicates": 2000,
+  "sampling": "Fixed original cohort-by-outcome strata with replacement",
+  "candidate_n": 17,
+  "threshold": 0.5,
+  "directions": "GSE178341 frozen",
+  "indices_source": "Archived seed2026 samples; exactly replayed with one advancing RNG stream",
+  "external_labels_used": false,
+  "classifier_refitted_in_selection_resamples": false,
+  "source_hashes": {
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/inputs/all_cohort_features.csv": "83eee30823d02b8e965f168c5085478d74ef403f39e7c2d57cfededf59e1e739",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/panel_membership.csv": "df9daf777c2f6608f78d491353d3b9a17c475bc24417140b56041669f7deeed3",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/verification.json": "484978df4c7328803ffaeb3ab32d462dc9e0c0f51d5170f0159f187bcd72d936",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/protocol.json": "3f618dd9be78fa8eda9adadb8e18223111e6184af154976fd369a0b024822c09",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/predictions.csv": "8b0996f84e1e6db7a7d6c1ed62b790d5b535bd30ff11eecf45d06e688670e8b2",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_selection_bootstrap_seed2026_20261012/resampling_records.npz": "a20e4b9e01a31341fcffb363bee888ba6d6b1104e88b81253646c664c2a0f6c6",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_selection_bootstrap_seed2026_20261012/development_inputs.csv": "99961c41809be8b30fb7f749270cde01025f5e0efa3a0270ee8c61fe3d4a2117",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_selection_bootstrap_seed2026_20261012/candidate_directions.csv": "c8500b4bf0d5748f73c920e108743bd95ef13144fe4c34113f79fe6bc748e420",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_selection_bootstrap_seed2026_20261012/verification.json": "bb7235a29252936b3d2f905e2482be782b0f6008e076be2b85b6af9e0ce3b97b"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "seed": 2026,
+  "reference_epochs": 180,
+  "spatial_epochs": 500,
+  "posterior_samples": 200,
+  "reference_types": 73,
+  "N_cells_per_location": 8,
+  "detection_alpha": 20,
+  "external_labels_used_for_fitting": false,
+  "fixed_classifier": "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/model/reference/shared18_weighted_mlh1_2026/model.joblib",
+  "classifier_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
+  "formula": "weighted_MLH1_proxy = sum_spots(reconstructed_malignant_MLH1 * malignant_abundance) / sum_spots(all_epithelial_abundance)",
+  "interpretation": "exploratory cross-platform feature reconstruction; not exact measurement equivalence",
+  "historical_spatial_hyperparameters": "180 reference epochs, 500 spatial epochs, 200 posterior samples; convergence must be audited"
+}

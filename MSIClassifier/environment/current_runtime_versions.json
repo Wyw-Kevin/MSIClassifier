@@ -1,0 +1,21 @@
+{
+  "python": "3.12.12",
+  "platform": "Linux-3.10.0-1160.119.1.el7.x86_64-x86_64-with-glibc2.17",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "joblib": "1.5.2",
+    "matplotlib": "3.10.7",
+    "lxml": "6.1.1",
+    "Pillow": "12.0.0",
+    "openpyxl": "3.1.5",
+    "CairoSVG": "2.9.1",
+    "h5py": "3.15.1",
+    "anndata": "0.12.6",
+    "xarray": "2025.10.1",
+    "tqdm": "4.67.1"
+  },
+  "identity": "Current package verification environment, not every historical fit runtime"
+}

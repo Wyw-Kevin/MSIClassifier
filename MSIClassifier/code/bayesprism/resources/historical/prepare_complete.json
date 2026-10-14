@@ -1,0 +1,10 @@
+{
+  "n_cohorts": 9,
+  "n_samples": 1270,
+  "reference_cells": 257129,
+  "types": 72,
+  "reference_genes": 17039,
+  "seed": 2026,
+  "key": null,
+  "no_MSI_labels_loaded": true
+}

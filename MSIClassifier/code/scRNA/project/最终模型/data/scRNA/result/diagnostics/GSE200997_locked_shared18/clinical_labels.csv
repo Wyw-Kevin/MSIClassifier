@@ -1,0 +1,17 @@
+sampleID,side,location,stage,MSI_Status,race,age,sex,y
+T_cac1,Right,Cecum,T3N2,MSS,Caucasian,76,Female,0
+T_cac2,Left,Sigmoid,T4aN2M1C,MSS,Caucasian,83,Male,0
+T_cac3,Right,Hepatic Flexure,T4aN2,MSS,Other,68,Male,0
+T_cac4,Left,Descending,T3N0,MSS,African American,80,Female,0
+T_cac5,Right,Cecum,T3N1,MSS,Caucasian,37,Male,0
+T_cac6,Left,Sigmoid,T2N0,MSS,African American,75,Male,0
+T_cac7,Right,Cecum/IC,T3N1A,MSI-H,Caucasian,78,Male,1
+T_cac8,Right,Cecum,T4aN1,MSS,African American,38,Male,0
+T_cac9,Left,Sigmoid,T2N0,MSS,Asian,72,Male,0
+T_cac10,Left,Descending,T2N0,MSS,Hispanic,55,Male,0
+T_cac11,Right,Ascending,T3N0,MSS,Caucasian,70,Male,0
+T_cac12,Right,Cecum,T2N0,MSI-H,African American,66,Female,1
+T_cac13,Right,Cecum/Appendix,T1N0,MSS,Caucasian,68,Female,0
+T_cac14,Left,Descending,T3N1,MSS,African American,51,female,0
+T_cac15,Left,Sigmoid,T3N1,MSS,Caucasian,64,Male,0
+T_cac16,Left,Rectosigmoid,T3N0,MSS,African American,64,Female,0

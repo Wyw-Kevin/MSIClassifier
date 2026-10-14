@@ -1,0 +1,3 @@
+level,historical_unweighted_AUROC,current_weighted_AUROC,interpretation
+Section,1.0,1.0,Reference reconstruction and classifier both changed; not an isolated weighting effect
+Patient,1.0,1.0,Reference reconstruction and classifier both changed; not an isolated weighting effect

@@ -1,0 +1,7 @@
+level,model,n,MSI,AUROC
+Section,Weighted reconstructed transfer,14,4,1.0
+Section,18-subtype only transfer,14,4,0.925
+Section,Negative weighted MLH1 proxy,14,4,1.0
+Patient,Weighted reconstructed transfer,7,2,1.0
+Patient,18-subtype only transfer,7,2,1.0
+Patient,Negative weighted MLH1 proxy,7,2,1.0

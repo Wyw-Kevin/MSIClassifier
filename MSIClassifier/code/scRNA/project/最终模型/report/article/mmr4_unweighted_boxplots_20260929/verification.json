@@ -1,0 +1,25 @@
+{
+  "samples": 102,
+  "observations": 408,
+  "gene_panels": [
+    "MLH1",
+    "MSH2",
+    "MSH6",
+    "PMS2"
+  ],
+  "cohorts": [
+    "GSE178341",
+    "GSE132465",
+    "GSE200997"
+  ],
+  "label_source": "MMR column (MSI/MSS), not loss/express",
+  "sample_counts_and_MLH1_match_current_model_inputs": true,
+  "proportion_weighting": false,
+  "between_sample_zscore": false,
+  "random_seed_jitter": 2026,
+  "source_sha256": {
+    "/home/wyw/rstudio/MSI/MSIClassifier/code/scRNA/project/最终模型/data/scRNA/result/diagnostics/mmr4_loss_vs_mlh1_001_unique2026/GSE178341_four_gene_features.csv": "2318b89eb26570e75164dd7f96d00f072fb81a9b3c77ba00b0e33c151a930de4",
+    "/home/wyw/rstudio/MSI/MSIClassifier/code/scRNA/project/最终模型/data/scRNA/result/diagnostics/mmr4_loss_vs_mlh1_001_unique2026/GSE132465_four_gene_features.csv": "90772296a3d5fd2fbae1e18c115bfa0d6b39da85050b4a0213e0e45c468b89ec",
+    "/home/wyw/rstudio/MSI/MSIClassifier/code/scRNA/project/最终模型/data/scRNA/result/diagnostics/mmr4_loss_vs_mlh1_001_unique2026/GSE200997_four_gene_features.csv": "6808b4f3e3a1301bea86b597df19a5b7e3018dd5b5de8bcdaaa63262ae643fc8"
+  }
+}

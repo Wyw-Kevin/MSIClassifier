@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "checks_passed": 627,
+  "heldout_label_isolation_verified": true,
+  "subtype_scores_bitwise_unchanged": true,
+  "historical_weights_unchanged": true,
+  "independent_scalar_grid_checks": true,
+  "raw_expression_replay": true,
+  "source_hashes_unchanged": true,
+  "summary": {
+    "status": "complete; independently verified",
+    "MMR4_macro_AUROC": {
+      "development": 0.9019812558657372,
+      "external": 0.9052690757766868,
+      "all": 0.9044471207989493
+    },
+    "classifier_ranges": {
+      "all": {
+        "fusion_min": 0.9007180574735723,
+        "fusion_max": 0.9378325670967893,
+        "subtype_min": 0.6521367188900566,
+        "subtype_max": 0.8171921527027468
+      },
+      "development": {
+        "fusion_min": 0.9025163146680175,
+        "fusion_max": 0.9400315456817006,
+        "subtype_min": 0.6142146350882806,
+        "subtype_max": 0.8506823530285218
+      },
+      "external": {
+        "fusion_min": 0.9001186384087573,
+        "fusion_max": 0.9370995742351522,
+        "subtype_min": 0.6647774134906488,
+        "subtype_max": 0.817528603458041
+      }
+    },
+    "subtype_scores_unchanged": true,
+    "source_files_unchanged": true,
+    "n_samples": 1212,
+    "n_prediction_rows": 13332
+  }
+}

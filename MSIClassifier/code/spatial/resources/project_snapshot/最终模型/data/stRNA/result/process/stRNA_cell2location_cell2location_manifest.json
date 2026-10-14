@@ -1,0 +1,157 @@
+{
+  "dataset": "stRNA_cell2location",
+  "cell2location_root": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all",
+  "mapping_path": "/home/wyw/rstudio/MSI/最终模型/stRNA_model/reference/small_to_major_mapping_used.csv",
+  "selected_features": [
+    "cS18",
+    "cTNI13",
+    "cTNI07",
+    "cTNI05",
+    "cS27",
+    "cM01",
+    "cTNI04",
+    "cP1",
+    "cS17",
+    "cM05",
+    "cM06",
+    "cTNI10",
+    "cM02",
+    "cTNI11",
+    "cM04",
+    "cTNI26",
+    "cTNI02",
+    "cS32",
+    "mean_MLH1_epithelial"
+  ],
+  "feature_mode": "within_major_fraction",
+  "use_h5ad_mlh1": true,
+  "processed_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/process/stRNA_cell2location_processed.csv",
+  "samples": [
+    {
+      "sampleID": "VISDS000771",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000771(S5_Rec_Rep1)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000771(S5_Rec_Rep1)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000771(S5_Rec_Rep1)/cell2location_spatial.h5ad",
+      "MMR": "MSS",
+      "mean_MLH1_epithelial": 0.31799837174673196,
+      "n_epithelial_cells_for_MLH1": 2203
+    },
+    {
+      "sampleID": "VISDS000772",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000772(S5_Rec_Rep2)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000772(S5_Rec_Rep2)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000772(S5_Rec_Rep2)/cell2location_spatial.h5ad",
+      "MMR": "MSS",
+      "mean_MLH1_epithelial": 0.29586255477254797,
+      "n_epithelial_cells_for_MLH1": 2385
+    },
+    {
+      "sampleID": "VISDS000773",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000773(S3_Col_R_Rep1)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000773(S3_Col_R_Rep1)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000773(S3_Col_R_Rep1)/cell2location_spatial.h5ad",
+      "MMR": "MSI",
+      "mean_MLH1_epithelial": 0.0948432105194986,
+      "n_epithelial_cells_for_MLH1": 2317
+    },
+    {
+      "sampleID": "VISDS000774",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000774(S3_Col_R_Rep2)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000774(S3_Col_R_Rep2)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000774(S3_Col_R_Rep2)/cell2location_spatial.h5ad",
+      "MMR": "MSI",
+      "mean_MLH1_epithelial": 0.10136014695194506,
+      "n_epithelial_cells_for_MLH1": 1803
+    },
+    {
+      "sampleID": "VISDS000775",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000775(S1_Cec_Rep1)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000775(S1_Cec_Rep1)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000775(S1_Cec_Rep1)/cell2location_spatial.h5ad",
+      "MMR": "MSI",
+      "mean_MLH1_epithelial": 0.10093076592751572,
+      "n_epithelial_cells_for_MLH1": 691
+    },
+    {
+      "sampleID": "VISDS000776",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000776(S2_Col_R_Rep1)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000776(S2_Col_R_Rep1)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000776(S2_Col_R_Rep1)/cell2location_spatial.h5ad",
+      "MMR": "MSS",
+      "mean_MLH1_epithelial": 0.48538553924435535,
+      "n_epithelial_cells_for_MLH1": 1192
+    },
+    {
+      "sampleID": "VISDS000777",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000777(S7_RecSig_Rep1)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000777(S7_RecSig_Rep1)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000777(S7_RecSig_Rep1)/cell2location_spatial.h5ad",
+      "MMR": "MSS",
+      "mean_MLH1_epithelial": 0.2241984089013185,
+      "n_epithelial_cells_for_MLH1": 1685
+    },
+    {
+      "sampleID": "VISDS000778",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000778(S6_Rec_Rep1)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000778(S6_Rec_Rep1)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000778(S6_Rec_Rep1)/cell2location_spatial.h5ad",
+      "MMR": "MSS",
+      "mean_MLH1_epithelial": 0.2982121753461289,
+      "n_epithelial_cells_for_MLH1": 2128
+    },
+    {
+      "sampleID": "VISDS000779",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000779(S1_Cec_Rep2劣质)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000779(S1_Cec_Rep2劣质)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000779(S1_Cec_Rep2劣质)/cell2location_spatial.h5ad",
+      "MMR": "MSI",
+      "mean_MLH1_epithelial": 0.024171849226232243,
+      "n_epithelial_cells_for_MLH1": 1219
+    },
+    {
+      "sampleID": "VISDS000780",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000780(S2_Col_R_Rep2)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000780(S2_Col_R_Rep2)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000780(S2_Col_R_Rep2)/cell2location_spatial.h5ad",
+      "MMR": "MSS",
+      "mean_MLH1_epithelial": 0.3430668106833463,
+      "n_epithelial_cells_for_MLH1": 387
+    },
+    {
+      "sampleID": "VISDS000781",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000781(S7_RecSig_Rep2)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000781(S7_RecSig_Rep2)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000781(S7_RecSig_Rep2)/cell2location_spatial.h5ad",
+      "MMR": "MSS",
+      "mean_MLH1_epithelial": 0.31330874285063537,
+      "n_epithelial_cells_for_MLH1": 1656
+    },
+    {
+      "sampleID": "VISDS000782",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000782(S6_Rec_Rep2)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000782(S6_Rec_Rep2)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000782(S6_Rec_Rep2)/cell2location_spatial.h5ad",
+      "MMR": "MSS",
+      "mean_MLH1_epithelial": 0.5169555748008521,
+      "n_epithelial_cells_for_MLH1": 1691
+    },
+    {
+      "sampleID": "VISDS000783",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000783(S4_Col_Sig_Rep1)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000783(S4_Col_Sig_Rep1)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000783(S4_Col_Sig_Rep1)/cell2location_spatial.h5ad",
+      "MMR": "MSS",
+      "mean_MLH1_epithelial": 0.23670137174282396,
+      "n_epithelial_cells_for_MLH1": 328
+    },
+    {
+      "sampleID": "VISDS000784",
+      "cell2location_dir": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000784(S4_Col_Sig_Rep2)",
+      "abundance_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000784(S4_Col_Sig_Rep2)/small_cell_abundance_means.csv",
+      "h5ad_path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/cell2location_all/VISDS000784(S4_Col_Sig_Rep2)/cell2location_spatial.h5ad",
+      "MMR": "MSS",
+      "mean_MLH1_epithelial": 0.20677623551679758,
+      "n_epithelial_cells_for_MLH1": 1048
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "numeric_sources_match_current_S13": true,
+  "current_panel12_n": 12,
+  "S2_all_candidates_n": 17,
+  "S3_uncapped_candidate_counts": [
+    39,
+    24,
+    17,
+    9
+  ],
+  "model_fit_performed": false,
+  "input_hashes": {
+    "code/reporting/historical_bulk12_build/build_tables_figures.py": "a2dafccb37f48d1f7e52eaaccd111f72053dc7cab8add66c78e8533b41f72dda",
+    "code/reporting/resources/plot_scRNA_sensitivity_block.py": "48afaf85984cab30c43967e4f3483a5040b016b5fb1419adfc20f13f84af5a62",
+    "code/bulk/classifier_snapshot/cohort_metrics.csv": "b53920b2fc8c651a7feb61b3894fc3b70f67aa421af3818d78add449775d1e99",
+    "code/bulk/classifier_snapshot/macro_metrics.csv": "3f4f1c0d69b6d33d13110afc1909a5a301d76ceececebd1c924dad28711f5162",
+    "code/bulk/stability_archive/S14.csv": "f9dda6c7d45bf5008b68100b648d3752bd35256209fa802dd680ec829f7c9b93",
+    "code/bulk/stability_archive/summary.json": "897cebe9cfc8344ce74a036bfffd27f84cd81beda95ae941b9b00e4ab2367cfa",
+    "code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/S10_threshold_performance.csv": "eb0b539c3e3c6d8ea301704a9f6f62d05e7547c1bc245f3a9f7a578aec40614e",
+    "code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/S3_CNV_quantile_performance.csv": "8b153d5483373d8acc0882e5a2ac03dbbbd59c989c483a2d732489581ffcc832"
+  },
+  "figure_modes": [
+    {
+      "figure": "Figure1_study_design_bulk12.svg",
+      "mode": "retained source vector updated with current numeric cells/labels",
+      "edits": [
+        {
+          "old": "MMR4 LOCO + fixed fusion",
+          "new": "Cohort-held-out MMR4 + fixed fusion",
+          "matches": 1
+        },
+        {
+          "old": "MMR4 LOCO; fixed subtype predictions",
+          "new": "MMR4 held out by cohort; subtype scores fixed",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "figure": "Figure02_scRNA_main.svg",
+      "mode": "retained final SVG export"
+    },
+    {
+      "figure": "Figure02_scRNA_continued.svg",
+      "mode": "retained final SVG export"
+    },
+    {
+      "figure": "Figure4_twelve_subtype_MMR4_LOCO.svg",
+      "mode": "numerical plot plus audited labels",
+      "edits": [
+        {
+          "old": "MMR4 LOCO",
+          "new": "Cohort-held-out MMR4",
+          "matches": 2
+        },
+        {
+          "old": "Fusion 0.50",
+          "new": "Fusion 0.50:0.50",
+          "matches": 1
+        },
+        {
+          "old": "GSE39582 (OOF)",
+          "new": "GSE39582 (subtype OOF)",
+          "matches": 1
+        },
+        {
+          "old": "TCGA-COADREAD (OOF)",
+          "new": "TCGA-COADREAD (subtype OOF)",
+          "matches": 1
+        },
+        {
+          "old": "Subtype-development cohorts (OOF)",
+          "new": "Subtype-development cohorts (subtype OOF)",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "figure": "Figure5_comparison_bulk12.svg",
+      "mode": "retained source vector updated with current numeric cells/labels",
+      "edits": [
+        {
+          "old": "bulk RNA: twelve-subtype LOCO fusion",
+          "new": "bulk RNA: 12-subtype MLP + cohort-held-out MMR4",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "figure": "SupplementaryFigureS1_current_selection.svg",
+      "mode": "retained source vector updated with current numeric cells/labels",
+      "edits": [
+        {
+          "old": "Eight-cohort LOCO MMR4: fit7, score held-out1",
+          "new": "MMR4: fit 7 cohorts, score 1 held-out cohort",
+          "matches": 1
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    "Figure02_scRNA_continued.pdf",
+    "Figure02_scRNA_continued.png",
+    "Figure02_scRNA_continued.svg",
+    "Figure02_scRNA_main.pdf",
+    "Figure02_scRNA_main.png",
+    "Figure02_scRNA_main.svg",
+    "Figure1_study_design_bulk12.pdf",
+    "Figure1_study_design_bulk12.png",
+    "Figure1_study_design_bulk12.svg",
+    "Figure3_spatial_transfer_unchanged.png",
+    "Figure4_twelve_subtype_MMR4_LOCO.pdf",
+    "Figure4_twelve_subtype_MMR4_LOCO.png",
+    "Figure4_twelve_subtype_MMR4_LOCO.svg",
+    "Figure5_comparison_bulk12.pdf",
+    "Figure5_comparison_bulk12.png",
+    "Figure5_comparison_bulk12.svg",
+    "SupplementaryFigureS1_current_selection.pdf",
+    "SupplementaryFigureS1_current_selection.png",
+    "SupplementaryFigureS1_current_selection.svg",
+    "SupplementaryFigureS2_bulk12_selection_stability.pdf",
+    "SupplementaryFigureS2_bulk12_selection_stability.png",
+    "SupplementaryFigureS2_bulk12_selection_stability.svg",
+    "SupplementaryFigureS3_scRNA_threshold_CNV_sensitivity.pdf",
+    "SupplementaryFigureS3_scRNA_threshold_CNV_sensitivity.png",
+    "SupplementaryFigureS3_scRNA_threshold_CNV_sensitivity.svg"
+  ]
+}

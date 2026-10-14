@@ -1,0 +1,39 @@
+{
+  "seed": 2026,
+  "scope": "manuscript evidence audit plus fixed additional controls; no model selection, no replacement of active model",
+  "source_hashes": {
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/reference/metadata_sources/GSE178341_crc10x_full_c295v4_submit_metatables.csv.gz": "0452149b0bcff9660951de87913b82a4d72784c08d0c782e49395f756a4b9853",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/GSE200997_locked_shared18/local_predictions.csv": "6820232ec1a321a78a14b15a26682829a2a82e0e3d3759e8aa4aa9bd8595a437",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/GSE200997_locked_shared18/process/GSE200997_tosica_migration_cells.csv": "ae7ec69799c2035da01faf97b833e24a339acfc27ffc733b016532e021cdfa3c",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/GSE200997_qc_total_cells_gt200/sample_cell_QC_decision.csv": "b835b1c1f690f8c4c9d78daa38ef20d697b7ea5c4da916293cec7e4683169025",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/infercnvpy_stromal_only_unique_seed2026/GSE132465/cell_malignancy_scores.csv.gz": "99435350878f791780fe11a8e05170bd89ee1a8302644dba3b32049bf2bdf85e",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/infercnvpy_stromal_only_unique_seed2026/GSE178341/cell_malignancy_scores.csv.gz": "f68ad868ce6dc39397c932c0ef4d7b2378ea5027166e4dfad7481c35fbeb24c0",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/infercnvpy_stromal_only_unique_seed2026/GSE200997/cell_malignancy_scores.csv.gz": "e7db59e63afe7d08ce48060a47071c45ee91d9ca6e4b14c1be6fbf3e2196350b",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE132465_raw_MLH1_refit_features.csv": "9763342589c80e9f4c6508eb21bf9dff86632f5d1c4194d67ba141900e773982",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE178341_raw_MLH1_refit_features.csv": "7ad8e8dd12bfc7eff4a961a5ba79eefa2bc9062f1d38a2c3b40cad1dd751493c",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE200997_raw_MLH1_refit_features.csv": "b03307915f267f1250b0486cef3b6129e522db9996e60f9df2ea178014514b3d",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/seed2026_migration_qc/GSE200997/process/GSE200997_tosica_migration_cells.csv": "2973badb132c6b7225b95217c0c59a06cf56ca4ad3b1398d7f8a97cfc4f6c805",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_scRNA_update/all_model_predictions.csv": "f68468a4afb92a3bb22e1e51c96dfefcb867806423c128ce23ed1f8de1a197fb",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_scRNA_update/paired_ablation_AUROC_differences.csv": "119c344a3ee441438b44cb2d1e05da4f3b1c620c101001eef3f9973d0966e5ee"
+  },
+  "pending": [
+    "full nested weighted development evaluation",
+    "new unexposed cohort evaluation",
+    "bulk 4+4 reanalysis",
+    "CNV reclustering resolution sensitivity",
+    "repeated subsampling and CNV reruns",
+    "original normalization creation logs",
+    "dated QC threshold decision record"
+  ],
+  "additional_source_hashes": {
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/sample_counts_and_weights.csv": "72ddcc766c0ad88e6909264494a5c4ce4362c71e1c58dabe10aae75e80eef332",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_same_sample_benchmark_seed2026/sample_ledger.csv": "bfc9d1447ddcd47af23ba77566ccd903caa39a0c74d2f059b6788f19eb765ccf",
+    "/home/wyw/rstudio/MSI/最终模型/model/reference/shared18_weighted_mlh1_2026/model.joblib": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/revision_review_20260928/audit_evidence.py": "b99829e525cd1314d133f8719b9579c7b2d658fa4712e1c3403f34d4d3f24926",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/revision_review_20260928/revise_document.py": "16d0dee44ec5b169b8955b720cdf198dfa449374c932e5b36e9f71684f8c7c74",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/revision_review_20260928/build_supplement.py": "d3e39a9caea168c0297b2cd15e9a741ff0a9c4916e12f66c817370c7dc196a29"
+  },
+  "active_model_parameters": "{'memory': None, 'steps': [('scaler', StandardScaler()), ('model', LinearDiscriminantAnalysis(shrinkage='auto', solver='lsqr'))], 'transform_input': None, 'verbose': False, 'scaler': StandardScaler(), 'model': LinearDiscriminantAnalysis(shrinkage='auto', solver='lsqr'), 'scaler__copy': True, 'scaler__with_mean': True, 'scaler__with_std': True, 'model__covariance_estimator': None, 'model__n_components': None, 'model__priors': None, 'model__shrinkage': 'auto', 'model__solver': 'lsqr', 'model__store_covariance': False, 'model__tol': 0.0001}",
+  "qc_timestamp_interpretation": "2026-09-24 file mtimes are audit evidence, not proof of first decision or prespecification",
+  "epithelial_annotation_caveat": "GSE200997 current QC-passing epithelium uses seed2026_migration_qc. Excluded T_cac5 has only historical pre-QC annotation. GSE132465 uses h5ad Cell_type for epithelial identity as in active feature extraction."
+}

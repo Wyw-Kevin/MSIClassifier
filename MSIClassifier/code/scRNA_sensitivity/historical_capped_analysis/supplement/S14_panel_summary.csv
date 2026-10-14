@@ -1,0 +1,17 @@
+statistic,value,scope
+replicates,2000.0,Development-only conditional bootstrap perturbation
+n_development,892.0,Development-only conditional bootstrap perturbation
+n_positive,129.0,Development-only conditional bootstrap perturbation
+candidate_count,24.0,Development-only conditional bootstrap perturbation
+fixed10_frequency_min,0.5395,Development-only conditional bootstrap perturbation
+fixed10_frequency_max,1.0,Development-only conditional bootstrap perturbation
+selected_count_median,9.0,Development-only conditional bootstrap perturbation
+selected_count_p025,4.0,Development-only conditional bootstrap perturbation
+selected_count_p975,13.0,Development-only conditional bootstrap perturbation
+Jaccard_median,0.6923076923076923,Development-only conditional bootstrap perturbation
+Jaccard_p025,0.3333333333333333,Development-only conditional bootstrap perturbation
+Jaccard_p975,0.9090909090909092,Development-only conditional bootstrap perturbation
+exact_panel_recovery_frequency,0.0145,Development-only conditional bootstrap perturbation
+retained_original_count_median,8.0,Development-only conditional bootstrap perturbation
+exactly_10_selected_count,252.0,"Development-only conditional bootstrap; selected count=10, identities unrestricted"
+exactly_10_selected_frequency,0.126,"Development-only conditional bootstrap; selected count=10, identities unrestricted"

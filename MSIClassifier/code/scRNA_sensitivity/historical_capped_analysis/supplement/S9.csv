@@ -1,0 +1,13 @@
+dataset,model,omitted,n,AUROC,interpretation
+GSE178341,18 subtypes + raw MLH1,C165T;C172T,62,0.9716386554621848,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE178341,18 subtypes + weighted MLH1,C165T;C172T,62,0.9831932773109244,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE178341,18 subtypes only,C165T;C172T,62,0.9653361344537814,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE178341,Weighted MLH1 only,C165T;C172T,62,0.9191176470588236,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE132465,18 subtypes + raw MLH1,SMC05-T;SMC06-T,21,0.8518518518518519,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE132465,18 subtypes + weighted MLH1,SMC05-T;SMC06-T,21,0.9629629629629628,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE132465,18 subtypes only,SMC05-T;SMC06-T,21,0.8148148148148148,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE132465,Weighted MLH1 only,SMC05-T;SMC06-T,21,1.0,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE200997,18 subtypes + raw MLH1,,15,1.0,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE200997,18 subtypes + weighted MLH1,,15,1.0,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE200997,18 subtypes only,,15,1.0,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"
+GSE200997,Weighted MLH1 only,,15,0.8846153846153846,"descriptive subset of unchanged predictions, no retraining; <10 is not eligibility criterion"

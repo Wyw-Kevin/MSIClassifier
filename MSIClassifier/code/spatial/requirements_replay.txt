@@ -1,0 +1,6 @@
+# Audited Python3.12 CPU replay environment.
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+joblib==1.5.2

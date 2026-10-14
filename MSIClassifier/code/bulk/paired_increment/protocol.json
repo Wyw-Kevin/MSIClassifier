@@ -1,0 +1,23 @@
+{
+  "seed": 2026,
+  "resamples": 2000,
+  "prediction_identity": "actual panel12 five-fold OOF/retrospective; archived eight-round LOCO MMR4",
+  "comparison": "AUROC(Fusion05) minus AUROC(MMR4_LOCO)",
+  "interval": "paired outcome-stratified sample bootstrap; percentile95",
+  "resampling_unit": "bulk sample within cohort; TCGA patient IDs distinct; GEO patient clustering not independently audited",
+  "macro": "equal cohort weight; same replicate combines independent within-cohort resamples; no cohort resampling",
+  "draw_identity": "exact archived RNG2026 stream, independently reproduced; no seed offsets or loop reset",
+  "conditional_on": "fixed panel, features, classifier predictions, cohort Z-score and LOCO cutoff locks",
+  "models_refitted": false,
+  "external_outcomes_used_for_selection": false,
+  "source_sha256": {
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/predictions.csv": "8b0996f84e1e6db7a7d6c1ed62b790d5b535bd30ff11eecf45d06e688670e8b2",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/cohort_metrics.csv": "b53920b2fc8c651a7feb61b3894fc3b70f67aa421af3818d78add449775d1e99",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/macro_metrics.csv": "3f4f1c0d69b6d33d13110afc1909a5a301d76ceececebd1c924dad28711f5162",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/bootstrap_indices.npz": "2240921a7e33c36548d3f8883c52a3a9b6b7119c7e1dcb635fd87bf54a2a8137",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/bootstrap_index_metadata.json": "79eaa8da25eb6ba96882b7c0e0eb04734046e6af6577f5257c1900ad50ed045a",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_7_vs12_mlp_mmr4_loco_seed2026_20261013/bootstrap_protocol.json": "53d8c9b10631c73d150f44e035077f88800fa2afec8e65a8945acf5007c98125",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_mmr4_loco_fixed05_seed2026_20261012/mmr4_loco_predictions.csv": "08042ddd7e643cd31e15347d277ffd087ef089cf2ad9502d1522260a0abe2410",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_mmr4_loco_fixed05_seed2026_20261012/tables/table_mmr4_loco_cutoffs.csv": "3c9365105f77c3753157af0fa669a0354198ddb4b1fcedd3235c84070bcf0227"
+  }
+}

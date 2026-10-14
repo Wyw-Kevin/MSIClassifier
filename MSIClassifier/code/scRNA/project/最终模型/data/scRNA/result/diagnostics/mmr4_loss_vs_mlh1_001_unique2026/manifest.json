@@ -1,0 +1,9 @@
+{
+  "seed": 2026,
+  "training_target": "h5ad stored MLH1 loss versus express; MSS assigned express",
+  "model": "Z-score + L2 logistic, C=1, unweighted, default threshold 0.5",
+  "evaluation": "existing patient-grouped five folds; no parameter or threshold search",
+  "training_provenance": "unique-cell corrected stromal-only q95; PCA/neighbor/Leiden seeds 2026",
+  "external_provenance": "unique-cell corrected stromal-only q95, candidates unchanged",
+  "limitation": "loss predictions are not independently validated MSI calls; labels require source verification; cohort-level CNV is not fold-isolated"
+}

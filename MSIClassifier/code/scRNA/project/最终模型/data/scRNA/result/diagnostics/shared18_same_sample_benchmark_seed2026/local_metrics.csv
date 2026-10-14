@@ -1,0 +1,25 @@
+split,dataset,model,normalization,n,MSI,MSS,auc
+train_grouped_oof,GSE178341,Shared18 + MLH1 (LDA),fold_train_zscore,64,35,29,0.9783251231527094
+train_full_fit,GSE178341,Shared18 + MLH1 (LDA),full_train_zscore,64,35,29,0.9901477832512315
+external,GSE132465,Shared18 + MLH1 (LDA),development_train_zscore,23,4,19,0.9210526315789473
+train_grouped_oof,GSE178341,Shared18 only (LDA),fold_train_zscore,64,35,29,0.961576354679803
+train_full_fit,GSE178341,Shared18 only (LDA),full_train_zscore,64,35,29,0.9793103448275862
+external,GSE132465,Shared18 only (LDA),development_train_zscore,23,4,19,0.8421052631578947
+train_grouped_oof,GSE178341,MLH1 only (LDA),fold_train_zscore,64,35,29,0.794088669950739
+train_full_fit,GSE178341,MLH1 only (LDA),full_train_zscore,64,35,29,0.8118226600985221
+external,GSE132465,MLH1 only (LDA),development_train_zscore,23,4,19,0.6842105263157895
+train_grouped_oof,GSE178341,Major7 + MLH1 (LDA),fold_train_zscore,64,35,29,0.8216748768472907
+train_full_fit,GSE178341,Major7 + MLH1 (LDA),full_train_zscore,64,35,29,0.8679802955665025
+external,GSE132465,Major7 + MLH1 (LDA),development_train_zscore,23,4,19,0.736842105263158
+train_grouped_oof,GSE178341,Major7 + MLH1 (Logistic),fold_train_zscore,64,35,29,0.7881773399014778
+train_full_fit,GSE178341,Major7 + MLH1 (Logistic),full_train_zscore,64,35,29,0.8679802955665026
+external,GSE132465,Major7 + MLH1 (Logistic),development_train_zscore,23,4,19,0.75
+train_grouped_oof,GSE178341,Collapsed18 + MLH1 (LDA),fold_train_zscore,64,35,29,0.7980295566502462
+train_full_fit,GSE178341,Collapsed18 + MLH1 (LDA),full_train_zscore,64,35,29,0.8719211822660099
+external,GSE132465,Collapsed18 + MLH1 (LDA),development_train_zscore,23,4,19,0.7105263157894737
+train_grouped_oof,GSE178341,MMR4 expression (Logistic),fold_train_zscore,64,35,29,0.5123152709359606
+train_full_fit,GSE178341,MMR4 expression (Logistic),full_train_zscore,64,35,29,0.7172413793103448
+external,GSE132465,MMR4 expression (Logistic),development_train_zscore,23,4,19,0.7631578947368421
+train_grouped_oof,GSE178341,397-gene expression (Logistic),fold_train_zscore,64,35,29,0.9310344827586207
+train_full_fit,GSE178341,397-gene expression (Logistic),full_train_zscore,64,35,29,1.0
+external,GSE132465,397-gene expression (Logistic),development_train_zscore,23,4,19,1.0

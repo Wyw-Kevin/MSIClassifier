@@ -1,0 +1,43 @@
+{
+  "default_model_set": "hybrid_major_plus_crc_subtypes",
+  "notes": [
+    "Major-celltype migration uses the tosica_major model built under final Migrate outputs.",
+    "Subtype migration uses the CRC TOSICA checkpoints selected by the previous GSE132465 hybrid migration run.",
+    "CRC subtype models must read train_genes.csv with header=None and align h5ad var columns into that exact order."
+  ],
+  "major_model": {
+    "model": "Major",
+    "model_dir": "reference/tosica_major",
+    "weight": "model_best.pth",
+    "source_dir": "/home/wyw/rstudio/MSI/最终模型/Migrate/models/tosica_major"
+  },
+  "subtype_models": [
+    {
+      "model": "TNKILC",
+      "model_dir": "reference/CRC/TNKILC",
+      "weight": "model-9.pth",
+      "source_dir": "/home/wyw/rstudio/MSI/CRC/TNKILC"
+    },
+    {
+      "model": "Myeloid",
+      "model_dir": "reference/CRC/Myeloid",
+      "weight": "model-9.pth",
+      "source_dir": "/home/wyw/rstudio/MSI/CRC/Myeloid"
+    },
+    {
+      "model": "Strom",
+      "model_dir": "reference/CRC/Strom",
+      "weight": "model-14.pth",
+      "source_dir": "/home/wyw/rstudio/MSI/CRC/Strom"
+    },
+    {
+      "model": "Plasma",
+      "model_dir": "reference/CRC/Plasma",
+      "weight": "model-9.pth",
+      "source_dir": "/home/wyw/rstudio/MSI/CRC/Plasma"
+    }
+  ],
+  "tosica_source": "reference/TOSICA_source",
+  "final_features": "reference/selected_18_plus_mlh1_features.csv",
+  "subtype_features": "reference/selected_18_subtype_features.csv"
+}

@@ -1,0 +1,17 @@
+sampleID,n_tumor_cells,n_selected,fallback
+T_cac1,1696,20,True
+T_cac2,1677,20,True
+T_cac3,1188,20,True
+T_cac4,1591,20,True
+T_cac5,174,20,True
+T_cac6,1693,20,True
+T_cac7,1502,20,True
+T_cac8,999,20,True
+T_cac9,1649,20,True
+T_cac10,701,20,True
+T_cac11,2866,20,True
+T_cac12,4053,20,True
+T_cac13,2660,20,True
+T_cac14,4077,20,True
+T_cac15,3679,20,True
+T_cac16,1381,20,True

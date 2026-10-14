@@ -1,0 +1,58 @@
+{
+  "current_model": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/model/reference/shared18_weighted_mlh1_2026/model.joblib",
+    "sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b"
+  },
+  "current_manifest": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/model/reference/shared18_weighted_mlh1_2026/manifest.json",
+    "sha256": "733be28ad092419472d072bc3bacd6b37ec0268a47f9214f981fc02dd7eb18c1"
+  },
+  "candidate_ledger": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/report/article/第三版_十亚型与留一队列MMR4修订_研究设计图恢复版/补充图S2十亚型数量入选率/supplement/S10.csv",
+    "sha256": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80"
+  },
+  "cnv_quantile_summary": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/report/article/第三版_十亚型与留一队列MMR4修订_研究设计图恢复版/补充图S2十亚型数量入选率/supplement/S2.csv",
+    "sha256": "f18dd073cc463c065d815e4560ad6b01f5c405d640175271751b6650ed928cfc"
+  },
+  "cnv_sample_features": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/report/article/第三版_十亚型与留一队列MMR4修订_研究设计图恢复版/补充图S2十亚型数量入选率/supplement/S3.csv",
+    "sha256": "17d8c07b3a3f24e06cc22fc4c29573ab928e5c378588229dd3ba82b02676f2bb"
+  },
+  "patient_ledger": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_same_sample_benchmark_seed2026/sample_ledger.csv",
+    "sha256": "bfc9d1447ddcd47af23ba77566ccd903caa39a0c74d2f059b6788f19eb765ccf"
+  },
+  "fold_manifest": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_same_sample_benchmark_seed2026/manifest.json",
+    "sha256": "36a2d8023df16327f6288c9bc1485d79acb386e451260409c8f1acb418c1ff5b"
+  },
+  "current_predictions": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_scRNA_update/all_model_predictions.csv",
+    "sha256": "f68468a4afb92a3bb22e1e51c96dfefcb867806423c128ce23ed1f8de1a197fb"
+  },
+  "reference71": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/unmerged_raw_subtypes_min50_20260908/GSE178341_unmerged71_features.csv",
+    "sha256": "eefa24060c26a2664accef53ec15a49af7acfef2188b39a1c5c3ca8d4ba1a398"
+  },
+  "GSE132465_all_subtypes": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/unmerged_raw_subtypes_min50_20260908/GSE132465_unmerged71_features.csv",
+    "sha256": "e0e4f47d5836d97cc7f5ccbdc2eceb227f39ae9bd05d41f99e1fca1405599d0c"
+  },
+  "GSE200997_all_subtypes": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/GSE200997_locked_shared18/GSE200997_unmerged71_features.csv",
+    "sha256": "ca67d011607773bc6ed4db6f43b03896f598f1e811c7385621683d834720db26"
+  },
+  "GSE178341_features": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE178341_malignant_fraction_weighted_MLH1_refit_features.csv",
+    "sha256": "06c309735a914388c8d1b3e65e553a81c53f280661162deced07c9d789792b16"
+  },
+  "GSE132465_features": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE132465_malignant_fraction_weighted_MLH1_refit_features.csv",
+    "sha256": "2b9d18fd7059e7482b559df7d0406732106dcb7c3f87c5b22355068cd40aa2de"
+  },
+  "GSE200997_features": {
+    "path": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE200997_malignant_fraction_weighted_MLH1_refit_features.csv",
+    "sha256": "90b4e786aa17bfa6e5ae68b9601aa8d2b167dc8ec4c05e4124a7c536cd4710c1"
+  }
+}

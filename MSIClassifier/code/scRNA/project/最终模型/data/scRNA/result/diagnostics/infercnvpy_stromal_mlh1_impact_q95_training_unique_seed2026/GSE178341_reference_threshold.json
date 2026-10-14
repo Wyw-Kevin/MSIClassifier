@@ -1,0 +1,8 @@
+{
+  "dataset": "GSE178341",
+  "reference_quantile": 0.95,
+  "reference_categories": [
+    "stromal"
+  ],
+  "threshold": 0.0083527404114812
+}

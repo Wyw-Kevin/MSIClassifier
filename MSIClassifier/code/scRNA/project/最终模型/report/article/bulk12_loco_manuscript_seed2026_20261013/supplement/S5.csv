@@ -1,0 +1,4 @@
+sampleID,source_patient_type,matched_cell_ids,source_MMR_IHC,source_MMRStatus,source_MLH1_methylation,local_MLH1,model_MSI_endpoint,conclusion
+C106T,C106_T,1926,MLH1 and PMS2 deficient,MMRd,MLH1Meth,express,MSI,cell-ID mapping agrees; local express/loss provenance unresolved; methylation is distinct from IHC; do not infer RNA-protein discordance
+C115T,C115_T,1100,MLH1 and PMS2 deficient,MMRd,MLH1NoMeth,express,MSI,cell-ID mapping agrees; local express/loss provenance unresolved; methylation is distinct from IHC; do not infer RNA-protein discordance
+C132T,C132_T,5609,MLH1 and PMS2 deficient,MMRd,MLH1NoMeth,express,MSI,cell-ID mapping agrees; local express/loss provenance unresolved; methylation is distinct from IHC; do not infer RNA-protein discordance

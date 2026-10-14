@@ -1,0 +1,47 @@
+{
+  "seed": 2026,
+  "status": "locked before new classifier fitting and evaluation",
+  "main_rule_unchanged": {
+    "subtype_cutoff": 0.65,
+    "maximum_subtypes": 18,
+    "CNV_quantile": 0.95
+  },
+  "subtype_thresholds": [
+    0.6,
+    0.65,
+    0.7,
+    0.75
+  ],
+  "subtype_rule": "All candidates with frozen full-development historical oriented AUROC strictly above cutoff; no feature-count cap",
+  "threshold_maximum_subtypes": null,
+  "fixed18_reference": "Historical top18 configuration; separate from the24 passing candidates at cutoff0.65",
+  "CNV_quantiles": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "CNV_scope": "Saved separate-cohort stromal-only CNV scores and same retained epithelial denominators; no new CNV or cell annotation",
+  "CNV_modes": [
+    "Re-fit scaler and shrinkage LDA for each quantile",
+    "Freeze q95 fold/full models and change only weighted MLH1 inputs"
+  ],
+  "sampling_and_folds": "Reuse archived patient-grouped five folds: 64 samples/62 patients; no splitting RNG or new bootstrap",
+  "fit": "StandardScaler and lsqr auto-shrinkage LDA; fit only GSE178341 training fold or full development set",
+  "external_cohorts": [
+    "GSE132465",
+    "GSE200997"
+  ],
+  "external_labels_used_for_training_or_selection": false,
+  "upstream_status": "Historical candidate ranking and cohort-wide CNV remain fixed; conditional sensitivity, not nested end-to-end evaluation",
+  "missing": "Zero candidate malignant cells means missing; preserve observed zero MLH1; evaluate scoreable sample set and disclose differences",
+  "input_alias": "mean_MLH1_epithelial in archived features contains malignant-fraction-weighted MLH1, renamed weighted_MLH1 here",
+  "primary_checkpoint_replacement": false,
+  "threshold_selection_from_new_results": false,
+  "software": {
+    "python": "3.12.12",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "platform": "Linux-3.10.0-1160.119.1.el7.x86_64-x86_64-with-glibc2.17"
+  }
+}

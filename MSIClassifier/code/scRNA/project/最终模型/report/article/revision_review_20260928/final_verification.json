@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "document": "/home/wyw/rstudio/MSI/最终模型/report/article/MMR多转录组分类器_第二版.docx",
+  "document_sha256": "4f81c2a17790399c369f241c8864602a53fc0bd86eebd17456293beb4ea19e5a",
+  "backup_sha256": "a07104538111373ad6233d024283da3bebf70ec79b997801c119cbe41c339030",
+  "changed_docx_parts": [
+    "word/document.xml",
+    "word/media/image1.png",
+    "word/media/image10.svg",
+    "word/media/image2.svg",
+    "word/media/image9.png"
+  ],
+  "sample_qc_rows": 103,
+  "current_scored_samples": 102,
+  "new_control_prediction_rows": 306,
+  "quantile_sensitivity_rows": 306,
+  "source_hashes_rechecked": true,
+  "existing_model_weights_replaced": false,
+  "main_equations_and_other_figures_preserved": true,
+  "word_pagination_visual_check": "not available: no local DOCX renderer",
+  "figure_1_and_5_visual_check": "inspected revised PNGs; labels readable",
+  "old_fulltext_pdf_and_reproduction_zip": "not updated; historical"
+}

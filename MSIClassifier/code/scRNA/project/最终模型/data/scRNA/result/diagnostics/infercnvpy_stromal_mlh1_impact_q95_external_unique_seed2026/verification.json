@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "dataset": "GSE132465",
+      "unique_cells": 50483,
+      "stromal_reference": 5932,
+      "q95": 0.0090740609981529,
+      "total_samples": 23,
+      "eligible": 23,
+      "missing": [],
+      "candidate_epithelial_in_evaluated_samples": 13648
+    },
+    {
+      "dataset": "GSE200997",
+      "unique_cells": 31676,
+      "stromal_reference": 1303,
+      "q95": 0.0148275915593408,
+      "total_samples": 15,
+      "eligible": 15,
+      "missing": [],
+      "candidate_epithelial_in_evaluated_samples": 5337
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "source": "/home/wyw/rstudio/MSI/最终模型/report/article/第三版_十亚型与留一队列MMR4修订_研究设计图恢复版/补充图S2十亚型数量入选率/MMR分模态分类器_第三版_补充图S2十亚型数量入选率_句子标红.docx",
+  "output": "/home/wyw/rstudio/MSI/最终模型/report/article/scRNA_threshold_cnv_sensitivity_seed2026_20261013/MMR分模态分类器_第三版_单细胞阈值与CNV敏感性分析_句子标红.docx",
+  "output_SHA256": "dc7381e4588759ee9004f19d16802c4969d02ef8678eb0644fb8f893fa6f8a8e",
+  "new_body_paragraphs": 4,
+  "new_supplementary_figure": "S3",
+  "modified_original_blocks": [
+    60,
+    135,
+    140
+  ],
+  "all_original_images_tables_equations": "unchanged",
+  "new_sentences_red": "verified",
+  "body_and_captions": "12pt, fixed24pt; body first-line indent preserved",
+  "table_line_spacing": "single",
+  "all_existing_workbook_values": "preserved",
+  "new_English_supplement_sheets": [
+    "S10_thresholds",
+    "S10_threshold_membership",
+    "S2_CNV_AUROC_ranges",
+    "S3_CNV_AUROC",
+    "S10_threshold_ranges"
+  ],
+  "analysis_verification_checks": 1092
+}

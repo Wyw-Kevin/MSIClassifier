@@ -1,0 +1,11 @@
+-r requirements_figures.txt
+# Historical fit used2.6.0+cu124; select its appropriate CUDA wheel explicitly.
+torch==2.6.0
+cell2location==0.1.5
+scvi-tools==1.4.0.post1
+anndata==0.12.6
+scanpy==1.11.5
+lightning==2.5.6
+pyro-ppl==1.9.1
+h5py==3.15.1
+threadpoolctl==3.6.0

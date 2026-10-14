@@ -1,0 +1,11 @@
+{
+  "seed": 2026,
+  "model": "fixed18 Z-score shrinkage LDA + epithelial MLH1",
+  "repo_commit": "0fc3b7874349e9b182b86ca006fc965b856d8761",
+  "official_model_sha256": "7a68f590acde90c8e7ffc11fb375d045cdb8e59b5de5315d390bf4bfc277128e",
+  "paper": "https://doi.org/10.1093/gpbjnl/qzae004",
+  "protocol": "All comparators prespecified; no external tuning; same 64/23 samples and patient folds.",
+  "pseudobulk": "Sum raw counts by sample, sum duplicate gene symbols, CPM using all-gene library, log2(1+CPM).",
+  "cell_mean": "Tumor cells; >=20% of397 panel genes detected, else top20. Raw zeros imputed with per-gene mean over all tumor cells of that sample before log2(1+x). Official gene-wise-within-cell standardization ddof1, then score cells and average. Log-space imputation is a separate sensitivity.",
+  "limitations": "Fixed18 selected historically, not a nested selection estimate. GSE132465 repeatedly examined and retrospective. Official paper scRNA preprocessing has interpretive details, so cell mean is a paper-informed reconstruction, not an exact replication. No new independent validation."
+}

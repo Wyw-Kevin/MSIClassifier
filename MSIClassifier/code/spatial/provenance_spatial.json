@@ -1,0 +1,1997 @@
+{
+  "scope": "current exploratory weighted spatial reconstruction and frozen fixed18+weighted_MLH1 scRNA classifier transfer",
+  "scientific_model_identity": "shared18_weighted_mlh1_2026",
+  "classifier_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
+  "current_seed": 2026,
+  "posterior_summary": "200 samples; post_sample_means",
+  "reference_types": 73,
+  "normalization_gene_denominator": 12079,
+  "reference_counts_layer": "GSE178341.h5ad layers['counts']",
+  "copied_files": [
+    {
+      "path": "original_sources/最终模型/model_code/run_weighted_spatial_transfer.py",
+      "category": "source",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/model_code/run_weighted_spatial_transfer.py",
+      "origin_project_relative": "最终模型/model_code/run_weighted_spatial_transfer.py",
+      "sha256": "9ecf90a0cfbd312bfd7f2fcdf44be36a785da40896b1d031a38dd17f1db79a40",
+      "size_bytes": 12083,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "original_sources/最终模型/model_code/summarize_weighted_spatial_transfer.py",
+      "category": "source",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/model_code/summarize_weighted_spatial_transfer.py",
+      "origin_project_relative": "最终模型/model_code/summarize_weighted_spatial_transfer.py",
+      "sha256": "8fcde12999e92fb3e1502f5c6dd97698f53445e13d8292c343bcae85be88222f",
+      "size_bytes": 15526,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "original_sources/最终模型/model_code/fix_spatial_and_bulk_figure_layout.py",
+      "category": "source",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/model_code/fix_spatial_and_bulk_figure_layout.py",
+      "origin_project_relative": "最终模型/model_code/fix_spatial_and_bulk_figure_layout.py",
+      "sha256": "d1562c198b387f2e22b4e29d987e4c3861b14c18dff3fbec1033efc216906bee",
+      "size_bytes": 11580,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "original_sources/stRNA_result/run_cell2location_gse178341_spatial.py",
+      "category": "source",
+      "origin": "/home/wyw/rstudio/MSI/stRNA_result/run_cell2location_gse178341_spatial.py",
+      "origin_project_relative": "stRNA_result/run_cell2location_gse178341_spatial.py",
+      "sha256": "1f84add0bd7e4d28a20ed6736d65eeecc3a712555e25edc8ace1f850e5d68ad9",
+      "size_bytes": 20187,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "original_sources/最终模型/report/article/method_evidence_update_20261014/audit_spatial/audit_saved_spatial.py",
+      "category": "source",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/audit_spatial/audit_saved_spatial.py",
+      "origin_project_relative": "最终模型/report/article/method_evidence_update_20261014/audit_spatial/audit_saved_spatial.py",
+      "sha256": "a778cc23393ccefdb0e51c2a7fcd5c775f4aff65a304181e7fa818a3f98c7564",
+      "size_bytes": 7272,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "original_sources/最终模型/report/article/method_evidence_update_20261014/audit_spatial/audit_checkpoint_history.py",
+      "category": "source",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/audit_spatial/audit_checkpoint_history.py",
+      "origin_project_relative": "最终模型/report/article/method_evidence_update_20261014/audit_spatial/audit_checkpoint_history.py",
+      "sha256": "6c00b8c860ab0c9d8e1cc4d7414a73347ba12a66e408fa54be3964e96a7e3f7b",
+      "size_bytes": 2811,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "original_sources/最终模型/report/article/merged_scrna_figure_20260928/panel_label_update/unify_panel_letters.py",
+      "category": "source",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/merged_scrna_figure_20260928/panel_label_update/unify_panel_letters.py",
+      "origin_project_relative": "最终模型/report/article/merged_scrna_figure_20260928/panel_label_update/unify_panel_letters.py",
+      "sha256": "8389a5db91e5832fd36551017e97645914d1be6416e99cc28450118b6225a41c",
+      "size_bytes": 5809,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "original_sources/最终模型/report/article/bulk_10panel_mmr4_fixed05_20261005/export_editable_figures.py",
+      "category": "source",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_10panel_mmr4_fixed05_20261005/export_editable_figures.py",
+      "origin_project_relative": "最终模型/report/article/bulk_10panel_mmr4_fixed05_20261005/export_editable_figures.py",
+      "sha256": "dcb7df68223d382b8253d9b94453dd0f759ac171317e6a3cb4ccf944846f9574",
+      "size_bytes": 6846,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/complete.json",
+      "sha256": "7e3e095706cfe225288ba8f35503a97775d32501e25819adfc339305cdb1d629",
+      "size_bytes": 427,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/eligible_reference_counts.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/eligible_reference_counts.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/eligible_reference_counts.csv",
+      "sha256": "5d0ff3a0cc47a609f3d7a12b740bba262d4d04529a51e509b8641f5e782ad39b",
+      "size_bytes": 765,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/gene_filter.png",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/gene_filter.png",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/gene_filter.png",
+      "sha256": "2ef4d7143725e0ec5991927ace7d2aa3a8da7c33d87b65f44cee8244d1ab28ee",
+      "size_bytes": 35570,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/mapping.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/mapping.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/mapping.csv",
+      "sha256": "28b68f67b173db6d7c95fb91b8e9c2cc285452e969f330137775bcf5c76c23f3",
+      "size_bytes": 922,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/selected_reference_cells.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/selected_reference_cells.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/selected_reference_cells.csv.gz",
+      "sha256": "877c006283753994f6f58ac81023065298fa6875e662caadf96d81e098988757",
+      "size_bytes": 403765,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/signature.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/signature.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/signature.csv",
+      "sha256": "0897b65cf16f9078059994778b3e9f4b553cf816cbcd7561f67c361d472ab73c",
+      "size_bytes": 10136181,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/verification.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/verification.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/verification.json",
+      "sha256": "f90d10551803e1a23ca37ebaa683b80bb22c273a0b662b941dc64a53b340cd6d",
+      "size_bytes": 193,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/analysis_plan.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/analysis_plan.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/analysis_plan.json",
+      "sha256": "a9ac7f23d7f67cd10d0cb2052a3599bc5a8f49a3add048bec3e24c3c30d8c42d",
+      "size_bytes": 824,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/small_cell_abundance_means.csv",
+      "sha256": "9ff55f6984997690bf3e5ae85a25c9b4f4700f3b74e51176c2dbc7f69c0b2f9e",
+      "size_bytes": 1823928,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "8b2524121d00704d9a9b81c808f617fd23ae75b981b84436635553abd3ba3510",
+      "size_bytes": 73783,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/classifier_features.csv",
+      "sha256": "a78683b4eff8f1c467aa62a9f99b15761fa2072f6360a6eefe22d1de43ffa6cf",
+      "size_bytes": 536,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/posterior_means.npz",
+      "sha256": "29de4ff4b0137462bc4300d6df7d1d73255c6d0f0f7d01433b4ab5ff19d8a0a5",
+      "size_bytes": 1679360,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/history_elbo_train.csv",
+      "sha256": "d65a79e80b1fc3bab2497f5c183a300080427dccca5a9f2d95fe5bb37dc8ec2e",
+      "size_bytes": 7407,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/complete.json",
+      "sha256": "75a320e36954d15d772416cdd204a5bc7b03f0fd6714848050c96237d76a6d2d",
+      "size_bytes": 727,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/small_cell_abundance_means.csv",
+      "sha256": "d61c7b59e1f328376c3781a041a5d576bddf825f360c607def132dceb8021487",
+      "size_bytes": 1976438,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "fd22a4c4337b73fffa665d0fee63640ac5b3a5f08e55171d961daa3fa9ed97df",
+      "size_bytes": 79472,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/classifier_features.csv",
+      "sha256": "9342160a5c03a3672eb2ca3065716b9e1b692bf58c3036f0ac97199b7fff1079",
+      "size_bytes": 532,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/posterior_means.npz",
+      "sha256": "16d15c141c56752ea9ff61b96256ef1bfef069ee9e5b9e25c4a9907d21ea4764",
+      "size_bytes": 1808657,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/history_elbo_train.csv",
+      "sha256": "dbdfa58f2df46e77da8e5b42c2bf27be23f000593a90f3b00fd3ec16bfcc7ffe",
+      "size_bytes": 7407,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/complete.json",
+      "sha256": "9907fc078e8e811796c4974f4d688305731841b0d8913f9ac05417210dc820b1",
+      "size_bytes": 727,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/small_cell_abundance_means.csv",
+      "sha256": "ba75e0b9279c09a15cc0bab7d0e336d8e7255e3c7f089d286eaa643f294e8eb2",
+      "size_bytes": 1916216,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "3ef664dc0d67a8cc50d9c7e2661be39994dffe79eb68566e515b3e47ed4db445",
+      "size_bytes": 74681,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/classifier_features.csv",
+      "sha256": "12f429a9709b8695a20f10829cbccc66acc58ee7d8a761b4eb28c4e051514bae",
+      "size_bytes": 536,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/posterior_means.npz",
+      "sha256": "a965acf7fddcc44b0aa29f18f088a180efb456dfdd953c5c5a9d6b317a60eb49",
+      "size_bytes": 1764327,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/history_elbo_train.csv",
+      "sha256": "0ff30b0f7595b5a7e7ad678545a63252d3fdcc72e7cb73754d4c4ba2d73834db",
+      "size_bytes": 7407,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/complete.json",
+      "sha256": "9a1dc42efe86432fe6cfa304b0300f1ef01543f9602c995c297de4a1ff34cfaf",
+      "size_bytes": 731,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/small_cell_abundance_means.csv",
+      "sha256": "975f384dacec8964e93f39882708777f3c798419dafb13fca106d92bd829157e",
+      "size_bytes": 1494502,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "2e7d4e18a8cac7e5148c1e1bbc2cf42255f6f5ad8ca96d6805a4bff61763ea09",
+      "size_bytes": 58140,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/classifier_features.csv",
+      "sha256": "88ef90fd451e5669c0bc64f8cc238212783e77236ab1228988fe44f07ea288bd",
+      "size_bytes": 535,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/posterior_means.npz",
+      "sha256": "01ad006d222e649143d35e9e0a7932c29b8ebadf93b64be85c92acc962e57578",
+      "size_bytes": 1402287,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/history_elbo_train.csv",
+      "sha256": "1f8d3d84a108b050be95b04a92102748736f87a69fa50a74fe5f0ea7dbcaaf21",
+      "size_bytes": 7407,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/complete.json",
+      "sha256": "5ce6cc8fff0cc0deec8c2b5261992a38fb6fa5137db77661ec1a56d00e0b3b20",
+      "size_bytes": 729,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/small_cell_abundance_means.csv",
+      "sha256": "37816dc03857e6cd1a860fbe69645ac92eeccb5d1a86202271de87f8735ae553",
+      "size_bytes": 574093,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "c24f86bf2ee7dd35ad58b15b8fff80487c131996373a9ec4e52847326da592d3",
+      "size_bytes": 21808,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/classifier_features.csv",
+      "sha256": "b15ed38345b31e2f03a1a1f35b4e8059100f0cee7827f7190e157e32326d0420",
+      "size_bytes": 534,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/posterior_means.npz",
+      "sha256": "1612a9bc33a1c1520d4fc1e2763d884ba4bf0985f81aa39ac05e670d1abc6ea9",
+      "size_bytes": 612305,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/history_elbo_train.csv",
+      "sha256": "ae78acf580ded066e2ee6dddd28b06d1cb6c38a45d5baa7946ebcb22aeb7fb2f",
+      "size_bytes": 6907,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/complete.json",
+      "sha256": "4e6098fb8872ce78f9bcc16c8ed36133064533263e4ccaa77fc3596288f948df",
+      "size_bytes": 728,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/small_cell_abundance_means.csv",
+      "sha256": "d4ffba15e7fb165768e2dd33463158157e06a08062af8e57db8f0b7f07f684bd",
+      "size_bytes": 986023,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "e7df6c746db7d3d95b9d4a90a8805f0cca9f5fccb860822fb550404d4243e474",
+      "size_bytes": 41348,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/classifier_features.csv",
+      "sha256": "c5e621e15b1a9fc4f7b31d67e2c1fbbfb100f3551a755d3a0cdcc137773f1c25",
+      "size_bytes": 538,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/posterior_means.npz",
+      "sha256": "b00afbb201e07550590fa711387800352d69bbb7ded10e5b7d2c63feee6f7a95",
+      "size_bytes": 973174,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/history_elbo_train.csv",
+      "sha256": "36ad34bb9d0fbd1faed9e96b467d67fd4683a3a3d5f1c093e539a980046799d4",
+      "size_bytes": 7407,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/complete.json",
+      "sha256": "e51160425dc4cb2e8eeafb19b687b120a8527b0a1fa9704d000a059f88e1f6c1",
+      "size_bytes": 730,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/small_cell_abundance_means.csv",
+      "sha256": "148f6d6dbfca89a9725690aa8888fd52754d7ce46373a5b1d6c733f71e856fe1",
+      "size_bytes": 1402860,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "dcbb801c228ceef94331eff4f9481ac28d1e16506722d35d77ba5936768f7050",
+      "size_bytes": 55680,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/classifier_features.csv",
+      "sha256": "7adef6afc43401c446902cff68abc7c205596eba6db8dbcad01ae8b18de10170",
+      "size_bytes": 533,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/posterior_means.npz",
+      "sha256": "ad754157e7dc228c1e95f2be6e89b74aca7895da0b5fdc1eb2026fc1cec4635f",
+      "size_bytes": 1313023,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/history_elbo_train.csv",
+      "sha256": "dcda14c6dba067465a41d2c2829082d51dfcdf71716d3aa456e180cbcc2b66d5",
+      "size_bytes": 7407,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/complete.json",
+      "sha256": "1dbd64501be84621c0d141fb99b1f9effc206273ad7daaece8214b29434f0b96",
+      "size_bytes": 730,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/small_cell_abundance_means.csv",
+      "sha256": "b0f6752cc20ec6e118d4954e5e1db4faf983e85d42b9992ff6602f7b2661fb02",
+      "size_bytes": 1763348,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "d6804ebbb7cb64147f7185df98906a259d8c32d7993ff31a9003b8bd1ee4e64d",
+      "size_bytes": 71220,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/classifier_features.csv",
+      "sha256": "c2fd3da5ee80a07d7f8615a637f578580c4bc319d84595b880f2b063fb2d7adc",
+      "size_bytes": 532,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/posterior_means.npz",
+      "sha256": "b6d18b733e3d3258ab7902c7479d94632d9c43377544d85f78c9089c8b2f65b9",
+      "size_bytes": 1628850,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/history_elbo_train.csv",
+      "sha256": "489da1529d61e0460a167c5869873622e2c3a9b4e0afb57475f5d30555834c71",
+      "size_bytes": 7407,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/complete.json",
+      "sha256": "3045eef7a6d814d2a71593ecf6d7e22b12827fc9e7c0b387d0dc3d172c6c1e47",
+      "size_bytes": 727,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/small_cell_abundance_means.csv",
+      "sha256": "ef8263d71eb3c88400d76747bd8e2117737a462b7cb7c887d511c07b50b83eef",
+      "size_bytes": 1008684,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "6ca4dca31b1a67fd56275867556b723d95c659181dada18a70d6afe161c0fcab",
+      "size_bytes": 38513,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/classifier_features.csv",
+      "sha256": "d3b417380b0e9cfca101ab2eef26f7b2463ab61734d4499c3f87ffea65358f2e",
+      "size_bytes": 535,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/posterior_means.npz",
+      "sha256": "ed546e61ed8bd37d08c436c3f18a016ffecd9d262f08c74ea09147c95adb2ef2",
+      "size_bytes": 986074,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/history_elbo_train.csv",
+      "sha256": "9f40033ca046638bc9484e1cd58cfdc3d1257e829756680b0bfaa7f83fb97e16",
+      "size_bytes": 6907,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/complete.json",
+      "sha256": "0293d9294bf8ff7355276b179e915b558389def9b9c703fb9a63fa03584512bf",
+      "size_bytes": 738,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/small_cell_abundance_means.csv",
+      "sha256": "e9b1593c814dba03489c46835b9e92ecfbb9847faabadd8c81fa60b279b9b2d4",
+      "size_bytes": 321934,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "324390dbb98087913e3b6c7e03c2d1a95e3f8d36850a72291de9220e959c3634",
+      "size_bytes": 13320,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/classifier_features.csv",
+      "sha256": "24cb9756fcbdf7c7f4c0adeb513e67e16bdb9eb03fecc78c0c26a140780a3715",
+      "size_bytes": 526,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/posterior_means.npz",
+      "sha256": "7a8c59ccbd8150f87da824c4350f0d6a5c03d43b3d5d91de0d79f1c32fd30082",
+      "size_bytes": 402533,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/history_elbo_train.csv",
+      "sha256": "75a5ab70949eadfc440f8f7e7c1a7c3daae73f7a03c2661ca5fb51407e8a1ac5",
+      "size_bytes": 6959,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/complete.json",
+      "sha256": "7021ec4dc1bbfe1bb2cc553c44402ea444a8d3ce5c02b2cb6d0987522e7eb158",
+      "size_bytes": 728,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/small_cell_abundance_means.csv",
+      "sha256": "2702f6f711ae8296066624cbfd7e3efdca177acdd8ba4eb5dd0871db8599a8f2",
+      "size_bytes": 1380169,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "cbe4e4a0337a68b963568cba9162999a3557b88b83ea73090784cbc99b14abd5",
+      "size_bytes": 55350,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/classifier_features.csv",
+      "sha256": "8ccc9f3959855b07ad1b3f3413b5588e2cbb95196afcec7e5d79f4fa94a1340c",
+      "size_bytes": 532,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/posterior_means.npz",
+      "sha256": "c249e802209bf4192d8976112870f13ba696f9f789cd6ac018225b97a02cb8df",
+      "size_bytes": 1295562,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/history_elbo_train.csv",
+      "sha256": "ca9ab73b0331d63c27611b810d98963ec834aef5a076701d616288c19d769493",
+      "size_bytes": 7407,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/complete.json",
+      "sha256": "0d42088be2e98c3e7c04c87ba5bccaca3ae17e122dd18f8440fb3ba982323a65",
+      "size_bytes": 729,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/small_cell_abundance_means.csv",
+      "sha256": "c53cf8772b68f8a1769e263579b0c37a358b4487167fe55ceee5938be5e097f3",
+      "size_bytes": 1403148,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "02930cb7e43dd4adc285f13b683588bc2492439cec36ff70fd7f278da3a151f0",
+      "size_bytes": 59187,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/classifier_features.csv",
+      "sha256": "6960162030dcd06f9c44e7a5c49d43869ba16e7d79361a93a9492ddf9f957d21",
+      "size_bytes": 533,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/posterior_means.npz",
+      "sha256": "2bfa43795bfe2cd05e36f0b7e53341796df9c3476a06032d1b8c3ba54ba995b2",
+      "size_bytes": 1322756,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/history_elbo_train.csv",
+      "sha256": "c7fc3007530e835b665361d320f18649a5a3f43bf682b86667ae49ff84ea6d6d",
+      "size_bytes": 7407,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/complete.json",
+      "sha256": "08a2a8c337dd3b2221613c52bb85a8baaf4707a880e4a37af466a40b3f814a4b",
+      "size_bytes": 727,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/small_cell_abundance_means.csv",
+      "sha256": "2d55f5bce9e7ffc5166dff14c308628b09f7d38399b053679900360d95fcf085",
+      "size_bytes": 272182,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "ac8091ebc682d41067f1c31d0b311935f6ec95cf01ce8ce64d8ee6f69990fa4b",
+      "size_bytes": 11090,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/classifier_features.csv",
+      "sha256": "8fa440d6652e035dad223deedd6d33c9267854702795b8ecac43d627732ac0e1",
+      "size_bytes": 533,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/posterior_means.npz",
+      "sha256": "34ee3b8fb11a594994e509fb40446425ec28f0216bb6c9b638bc64b00e271a4e",
+      "size_bytes": 363305,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/history_elbo_train.csv",
+      "sha256": "518a992c57f912decec74daf29d5dfb9c3ee01589c2488e2d823cf6b26848ce7",
+      "size_bytes": 7167,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/complete.json",
+      "sha256": "8932253b2cb6f3999cd9b6d96e13d7f49cc7f28ac4fd68515427a4e3a79b9d44",
+      "size_bytes": 728,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/small_cell_abundance_means.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/small_cell_abundance_means.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/small_cell_abundance_means.csv",
+      "sha256": "64b90f193452501b27c7a2c3c303ce7b4265e4bc1ae72ba0f474020ab89cdac7",
+      "size_bytes": 866564,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/spot_mlh1_and_abundance.csv.gz",
+      "sha256": "48ab8c71b5d2abaffbbf6c8e796bd64ef971ba945741568d65cd9bb09f175c21",
+      "size_bytes": 34818,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/classifier_features.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/classifier_features.csv",
+      "sha256": "76b8070b725a74ef3a223f5e529b6b6782ca9b84ad6c74307e04a9cdd5c21528",
+      "size_bytes": 532,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/posterior_means.npz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/posterior_means.npz",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/posterior_means.npz",
+      "sha256": "78e2d41c6f8fcefa5c630d23829a5f120c63c43fed7d2b1fdeaa17b7ee751a0d",
+      "size_bytes": 868537,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/history_elbo_train.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/history_elbo_train.csv",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/history_elbo_train.csv",
+      "sha256": "517679ddfc7eda4d995a71a945006b37bb1c559eca444a84b23cb1f7548877b9",
+      "size_bytes": 6996,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/complete.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/complete.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/complete.json",
+      "sha256": "874cf722c9b50afc91cd1ee778a315675fca1a49e8a52088d11a8e7d381aabab",
+      "size_bytes": 732,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/weighted_spatial_update/ecology_only_comparator.joblib",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_spatial_update/ecology_only_comparator.joblib",
+      "origin_project_relative": "最终模型/report/article/weighted_spatial_update/ecology_only_comparator.joblib",
+      "sha256": "97d84a1bef35a9693bb7e3bda2bc9e46700ae432cde9dcca7f230ebadd5f10a5",
+      "size_bytes": 5469,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/weighted_spatial_update/section_predictions.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_spatial_update/section_predictions.csv",
+      "origin_project_relative": "最终模型/report/article/weighted_spatial_update/section_predictions.csv",
+      "sha256": "2b20cb82073d41e4bf39d67465338c17b1eb16ebd289ead56c6d9441864de6e9",
+      "size_bytes": 2470,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/weighted_spatial_update/patient_predictions.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_spatial_update/patient_predictions.csv",
+      "origin_project_relative": "最终模型/report/article/weighted_spatial_update/patient_predictions.csv",
+      "sha256": "9b5ada486f1c3ad2427a3c089507e2f54a59e89c4b5fc7f3d0989f2c0b1e9607",
+      "size_bytes": 721,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/weighted_spatial_update/spatial_classifier_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_spatial_update/spatial_classifier_features.csv",
+      "origin_project_relative": "最终模型/report/article/weighted_spatial_update/spatial_classifier_features.csv",
+      "sha256": "dae6ae4bb339039f6e86066b0450b10ef9928840a4abafef8ee771e49c4325d1",
+      "size_bytes": 5380,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/weighted_spatial_update/feature_scale_audit.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_spatial_update/feature_scale_audit.csv",
+      "origin_project_relative": "最终模型/report/article/weighted_spatial_update/feature_scale_audit.csv",
+      "sha256": "0fde6c1eaf29cd93cab857583d4b68a50451f703d04bebe19cda5d3b80ecc30c",
+      "size_bytes": 1443,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/weighted_spatial_update/convergence_audit.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_spatial_update/convergence_audit.csv",
+      "origin_project_relative": "最终模型/report/article/weighted_spatial_update/convergence_audit.csv",
+      "sha256": "9f3ec8b9bd8a44e472b889064066fd0b5acc4c9683a3ff2a3d5437abfef0c84c",
+      "size_bytes": 1358,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/weighted_spatial_update/descriptive_AUROC.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_spatial_update/descriptive_AUROC.csv",
+      "origin_project_relative": "最终模型/report/article/weighted_spatial_update/descriptive_AUROC.csv",
+      "sha256": "0ff9e7d7ba4b3ece2687848b2a32d24c8a0b5fac24d323dbabb699e3bb474195",
+      "size_bytes": 297,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/weighted_spatial_update/historical_current_comparison.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_spatial_update/historical_current_comparison.csv",
+      "origin_project_relative": "最终模型/report/article/weighted_spatial_update/historical_current_comparison.csv",
+      "sha256": "a91dbcb6ae3d0c5351d27a7c80fde898d4b19d3377637e028fc1f225b5f3f922",
+      "size_bytes": 278,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/weighted_spatial_update/verification.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_spatial_update/verification.json",
+      "origin_project_relative": "最终模型/report/article/weighted_spatial_update/verification.json",
+      "sha256": "278e6f7fd3b4ada6dbcbfb5c7c30834dd9edebb65f57144a680bf8ac3189a446",
+      "size_bytes": 367,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/weighted_spatial_update/README.md",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_spatial_update/README.md",
+      "origin_project_relative": "最终模型/report/article/weighted_spatial_update/README.md",
+      "sha256": "295b2e00ae648717dd5a534caf43cc35794b1dc00b6daa7d380ab8766ef50777",
+      "size_bytes": 4070,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/model/reference/shared18_weighted_mlh1_2026/model.joblib",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/model/reference/shared18_weighted_mlh1_2026/model.joblib",
+      "origin_project_relative": "最终模型/model/reference/shared18_weighted_mlh1_2026/model.joblib",
+      "sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
+      "size_bytes": 5917,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/model/reference/shared18_weighted_mlh1_2026/manifest.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/model/reference/shared18_weighted_mlh1_2026/manifest.json",
+      "origin_project_relative": "最终模型/model/reference/shared18_weighted_mlh1_2026/manifest.json",
+      "sha256": "733be28ad092419472d072bc3bacd6b37ec0268a47f9214f981fc02dd7eb18c1",
+      "size_bytes": 922,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE178341_malignant_fraction_weighted_MLH1_refit_features.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE178341_malignant_fraction_weighted_MLH1_refit_features.csv",
+      "origin_project_relative": "最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE178341_malignant_fraction_weighted_MLH1_refit_features.csv",
+      "sha256": "06c309735a914388c8d1b3e65e553a81c53f280661162deced07c9d789792b16",
+      "size_bytes": 20861,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/sample_counts_and_weights.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/sample_counts_and_weights.csv",
+      "origin_project_relative": "最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/sample_counts_and_weights.csv",
+      "sha256": "72ddcc766c0ad88e6909264494a5c4ce4362c71e1c58dabe10aae75e80eef332",
+      "size_bytes": 19862,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/scRNA/result/diagnostics/infercnvpy_stromal_only_unique_seed2026/GSE178341/cell_malignancy_scores.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/infercnvpy_stromal_only_unique_seed2026/GSE178341/cell_malignancy_scores.csv.gz",
+      "origin_project_relative": "最终模型/data/scRNA/result/diagnostics/infercnvpy_stromal_only_unique_seed2026/GSE178341/cell_malignancy_scores.csv.gz",
+      "sha256": "f68ad868ce6dc39397c932c0ef4d7b2378ea5027166e4dfad7481c35fbeb24c0",
+      "size_bytes": 815704,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/scRNA/result/diagnostics/infercnvpy_stromal_mlh1_impact_q95_training_unique_seed2026/GSE178341_selected_epithelial_cells.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/infercnvpy_stromal_mlh1_impact_q95_training_unique_seed2026/GSE178341_selected_epithelial_cells.csv.gz",
+      "origin_project_relative": "最终模型/data/scRNA/result/diagnostics/infercnvpy_stromal_mlh1_impact_q95_training_unique_seed2026/GSE178341_selected_epithelial_cells.csv.gz",
+      "sha256": "06ecedc5e875e86fd375c4848c1d64f6712c778eaa9c6951914c2877d2b72e0d",
+      "size_bytes": 239904,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/scRNA/result/diagnostics/unmerged_raw_subtypes_min50_20260908/class_contract_71_unmerged.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/unmerged_raw_subtypes_min50_20260908/class_contract_71_unmerged.csv",
+      "origin_project_relative": "最终模型/data/scRNA/result/diagnostics/unmerged_raw_subtypes_min50_20260908/class_contract_71_unmerged.csv",
+      "sha256": "34ce87edf0d19905856a6fb3099b607bf4d3aa4738372770721c70769254cc89",
+      "size_bytes": 1634,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/data/stRNA/result/process/stRNA_cell2location_cell2location_manifest.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/process/stRNA_cell2location_cell2location_manifest.json",
+      "origin_project_relative": "最终模型/data/stRNA/result/process/stRNA_cell2location_cell2location_manifest.json",
+      "sha256": "21013aea94df4efb49bf133a77fa42019bdc6d9719cff33d117352ad387509f8",
+      "size_bytes": 8691,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/model/reference/shared18_LDA_zscore2026/spatial_predictions.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/model/reference/shared18_LDA_zscore2026/spatial_predictions.csv",
+      "origin_project_relative": "最终模型/model/reference/shared18_LDA_zscore2026/spatial_predictions.csv",
+      "sha256": "319701f90a4efbfae9a75bb0d324c3167dea53714ecbf25fef176cdbe2bdeee5",
+      "size_bytes": 1039,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/bulk_data/standardized_expression_common_genes.txt",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/bulk_data/standardized_expression_common_genes.txt",
+      "origin_project_relative": "bulk_data/standardized_expression_common_genes.txt",
+      "sha256": "61e36abf8180a1d0d9256a7eed940d580a30dcc7b9ef823c16f6c44d8ec56d8c",
+      "size_bytes": 119165,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/docs/superpowers/specs/locked-transcriptomic-workflow.md",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/docs/superpowers/specs/locked-transcriptomic-workflow.md",
+      "origin_project_relative": "docs/superpowers/specs/locked-transcriptomic-workflow.md",
+      "sha256": "8cf8b5976e64d3c34c4594289ec3507b6e49df583ef1821279f50391adacc9a8",
+      "size_bytes": 15652,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/docs/superpowers/specs/weighted-spatial-transfer.md",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/docs/superpowers/specs/weighted-spatial-transfer.md",
+      "origin_project_relative": "docs/superpowers/specs/weighted-spatial-transfer.md",
+      "sha256": "9d24350ed1f9269dbc5aa521223fcefc86dd2d05ae1f8d01f5cc78ff2f24e5c2",
+      "size_bytes": 4076,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/figure_layout_corrections/Figure04_spot_display_values.csv.gz",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/figure_layout_corrections/Figure04_spot_display_values.csv.gz",
+      "origin_project_relative": "最终模型/report/article/figure_layout_corrections/Figure04_spot_display_values.csv.gz",
+      "sha256": "89f02ddfe66f2a7895a23f37fe79336ffd4414f6ea6d23630127eeadb9e8ba1f",
+      "size_bytes": 1155969,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/figure_layout_corrections/Figure04_section_scores.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/figure_layout_corrections/Figure04_section_scores.csv",
+      "origin_project_relative": "最终模型/report/article/figure_layout_corrections/Figure04_section_scores.csv",
+      "sha256": "a0e8aeaf279eabb7361dc7eca414fbe38c6d689c59db87246f91c425c7be55ef",
+      "size_bytes": 2394,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/figure_layout_corrections/Figure04_AUROC.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/figure_layout_corrections/Figure04_AUROC.csv",
+      "origin_project_relative": "最终模型/report/article/figure_layout_corrections/Figure04_AUROC.csv",
+      "sha256": "0ff9e7d7ba4b3ece2687848b2a32d24c8a0b5fac24d323dbabb699e3bb474195",
+      "size_bytes": 297,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/method_evidence_update_20261014/audit_spatial/checkpoint_history_and_classifier_audit.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/audit_spatial/checkpoint_history_and_classifier_audit.json",
+      "origin_project_relative": "最终模型/report/article/method_evidence_update_20261014/audit_spatial/checkpoint_history_and_classifier_audit.json",
+      "sha256": "6a95e5b2cfff3385ed1840032ec827a94646a077133a9a57cee722451cdd493c",
+      "size_bytes": 4933,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/method_evidence_update_20261014/audit_spatial/reference_layer_audit.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/audit_spatial/reference_layer_audit.json",
+      "origin_project_relative": "最终模型/report/article/method_evidence_update_20261014/audit_spatial/reference_layer_audit.json",
+      "sha256": "8ba4dad00865ac7020db4e1bd86138fb23930f7456bae30cb624456d33ef3184",
+      "size_bytes": 1127,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/method_evidence_update_20261014/audit_spatial/saved_spatial_replay.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/audit_spatial/saved_spatial_replay.csv",
+      "origin_project_relative": "最终模型/report/article/method_evidence_update_20261014/audit_spatial/saved_spatial_replay.csv",
+      "sha256": "0fdd57151d0e1ca3bc6525febd442c775d5dafc70024782da926e0639810b398",
+      "size_bytes": 6131,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/method_evidence_update_20261014/audit_spatial/saved_spatial_replay_summary.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/audit_spatial/saved_spatial_replay_summary.json",
+      "origin_project_relative": "最终模型/report/article/method_evidence_update_20261014/audit_spatial/saved_spatial_replay_summary.json",
+      "sha256": "4d3c7f577c8ed21d0171754ba04d0d7dda146b16184bf002b80903774aee7cd2",
+      "size_bytes": 1354,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/最终模型/report/article/method_evidence_update_20261014/audit_spatial/spatial_method_evidence.json",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/audit_spatial/spatial_method_evidence.json",
+      "origin_project_relative": "最终模型/report/article/method_evidence_update_20261014/audit_spatial/spatial_method_evidence.json",
+      "sha256": "53b4ecab1a45148c1fa53c521e368c54abd17a416d7bfcf45d3c7d1ffaa40c36",
+      "size_bytes": 9164,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000771(S5_Rec_Rep1)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000771(S5_Rec_Rep1)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000771(S5_Rec_Rep1)/spatial/tissue_positions_list.csv",
+      "sha256": "5921f815c6b00510013d1c6d7580437965a2f13a4524e06f7745809daa0516bd",
+      "size_bytes": 179994,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000772(S5_Rec_Rep2)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000772(S5_Rec_Rep2)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000772(S5_Rec_Rep2)/spatial/tissue_positions_list.csv",
+      "sha256": "bd28a3c0e047d7dbdb09ac91add30b46a53f0497793b8189ddff136cf85f27f0",
+      "size_bytes": 180278,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000773(S3_Col_R_Rep1)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000773(S3_Col_R_Rep1)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000773(S3_Col_R_Rep1)/spatial/tissue_positions_list.csv",
+      "sha256": "8268471971a07edcf371916cae2a73bc88ec14159631ecc579f11cc66623bae8",
+      "size_bytes": 180225,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000774(S3_Col_R_Rep2)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000774(S3_Col_R_Rep2)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000774(S3_Col_R_Rep2)/spatial/tissue_positions_list.csv",
+      "sha256": "c013e91714d00bc772667b6d9021930d33e0e071d28b97f8b93394c9f4f624d2",
+      "size_bytes": 180448,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000775(S1_Cec_Rep1)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000775(S1_Cec_Rep1)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000775(S1_Cec_Rep1)/spatial/tissue_positions_list.csv",
+      "sha256": "14b225b75f5957263ac09b7fc64e8599386b49d3d01dcc688e1dcd5f90674a82",
+      "size_bytes": 179799,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000776(S2_Col_R_Rep1)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000776(S2_Col_R_Rep1)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000776(S2_Col_R_Rep1)/spatial/tissue_positions_list.csv",
+      "sha256": "e0c4e815dbf371122599028f50c3eff250ba1f3fa1d02608faa56fcac58c3893",
+      "size_bytes": 179877,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000777(S7_RecSig_Rep1)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000777(S7_RecSig_Rep1)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000777(S7_RecSig_Rep1)/spatial/tissue_positions_list.csv",
+      "sha256": "6891b09d940ae690f9d257f744e17ed6f47f54c6d7a24dea99cc087d762f98bd",
+      "size_bytes": 179774,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000778(S6_Rec_Rep1)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000778(S6_Rec_Rep1)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000778(S6_Rec_Rep1)/spatial/tissue_positions_list.csv",
+      "sha256": "66f3836f651064b6bb34513d10f5547cdacbd8ca34e33b5560549c6d782f2b01",
+      "size_bytes": 179813,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000779(S1_Cec_Rep2劣质)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000779(S1_Cec_Rep2劣质)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000779(S1_Cec_Rep2劣质)/spatial/tissue_positions_list.csv",
+      "sha256": "4ccd8f23d7a87a1cd12afc834139c9e55948ed29fb1a2b74d9a43722e305b106",
+      "size_bytes": 179838,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000780(S2_Col_R_Rep2)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000780(S2_Col_R_Rep2)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000780(S2_Col_R_Rep2)/spatial/tissue_positions_list.csv",
+      "sha256": "61b229cf4064cab001e7826274b3100019317de361ce601c451bf30ab17ec88f",
+      "size_bytes": 179835,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000781(S7_RecSig_Rep2)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000781(S7_RecSig_Rep2)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000781(S7_RecSig_Rep2)/spatial/tissue_positions_list.csv",
+      "sha256": "e6eff8fad1311d5a95ffd5b3bf262c11f64ece912b408a99d9d3c8be42dad557",
+      "size_bytes": 179922,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000782(S6_Rec_Rep2)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000782(S6_Rec_Rep2)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000782(S6_Rec_Rep2)/spatial/tissue_positions_list.csv",
+      "sha256": "ccf1b6be467ee749e89d96f613bac8c8ea3007c633439325af4c95602c809f14",
+      "size_bytes": 179877,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000783(S4_Col_Sig_Rep1)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000783(S4_Col_Sig_Rep1)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000783(S4_Col_Sig_Rep1)/spatial/tissue_positions_list.csv",
+      "sha256": "89b14e38849dff64390913fe05b2dddee121211b2e31c137c1a4ea037255f5a7",
+      "size_bytes": 179881,
+      "byte_identical_to_origin": true
+    },
+    {
+      "path": "resources/project_snapshot/空间转录组/VISDS000784(S4_Col_Sig_Rep2)/spatial/tissue_positions_list.csv",
+      "category": "resource",
+      "origin": "/home/wyw/rstudio/MSI/空间转录组/VISDS000784(S4_Col_Sig_Rep2)/spatial/tissue_positions_list.csv",
+      "origin_project_relative": "空间转录组/VISDS000784(S4_Col_Sig_Rep2)/spatial/tissue_positions_list.csv",
+      "sha256": "e553b1b58ad681181913272d3532b203bb73b1b409e358fc266a0a0c78284c18",
+      "size_bytes": 179774,
+      "byte_identical_to_origin": true
+    }
+  ],
+  "path_only_adaptations": [
+    {
+      "path": "run_weighted_spatial_transfer.py",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/model_code/run_weighted_spatial_transfer.py",
+      "origin_sha256": "9ecf90a0cfbd312bfd7f2fcdf44be36a785da40896b1d031a38dd17f1db79a40",
+      "sha256": "8242fc7e259fc7f605ebd5e6a0834761a2d57426df9cf05bcacc580f58447a85",
+      "changes": [
+        "ROOT uses MSI_PROJECT_ROOT or bundled project_snapshot",
+        "helper import uses byte-identical archived stRNA_result source"
+      ],
+      "scientific_source_unchanged_after_reversing_path_edits": true
+    },
+    {
+      "path": "summarize_weighted_spatial_transfer.py",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/model_code/summarize_weighted_spatial_transfer.py",
+      "origin_sha256": "8fcde12999e92fb3e1502f5c6dd97698f53445e13d8292c343bcae85be88222f",
+      "sha256": "30ed656da288484d501d9172b94039f22e88b62e6b4179148409a569903a518e",
+      "changes": [
+        "FINAL uses MSI_PROJECT_ROOT or bundled project_snapshot"
+      ],
+      "scientific_source_unchanged_after_reversing_path_edits": true
+    },
+    {
+      "path": "fix_spatial_and_bulk_figure_layout.py",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/model_code/fix_spatial_and_bulk_figure_layout.py",
+      "origin_sha256": "d1562c198b387f2e22b4e29d987e4c3861b14c18dff3fbec1033efc216906bee",
+      "sha256": "1a725e1e3c08614280e44461ef0c6cb472372bd488a3b1696b3117dbed2fdccb",
+      "changes": [
+        "FINAL uses MSI_PROJECT_ROOT or bundled project_snapshot"
+      ],
+      "scientific_source_unchanged_after_reversing_path_edits": true
+    },
+    {
+      "path": "audit_saved_spatial.py",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/audit_spatial/audit_saved_spatial.py",
+      "origin_sha256": "a778cc23393ccefdb0e51c2a7fcd5c775f4aff65a304181e7fa818a3f98c7564",
+      "sha256": "d8c230011979b9820650b33d88600ed42efbc48851c098b8f2dccbaf75db7899",
+      "changes": [
+        "ROOT uses MSI_PROJECT_ROOT or bundled project_snapshot",
+        "OUT points to package outputs/audit"
+      ],
+      "scientific_source_unchanged_after_reversing_path_edits": true
+    },
+    {
+      "path": "audit_checkpoint_history.py",
+      "origin": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/audit_spatial/audit_checkpoint_history.py",
+      "origin_sha256": "6c00b8c860ab0c9d8e1cc4d7414a73347ba12a66e408fa54be3964e96a7e3f7b",
+      "sha256": "f89eaca0cfdd0e21f7aaa1d01495b3c20133fd6004c2fa77844f9cb8628a4ccd",
+      "changes": [
+        "ROOT uses MSI_PROJECT_ROOT or bundled project_snapshot",
+        "OUT points to package outputs/audit"
+      ],
+      "scientific_source_unchanged_after_reversing_path_edits": true
+    }
+  ],
+  "external_data_and_checkpoint_inventory": [
+    {
+      "path": "/home/wyw/rstudio/MSI/GSE178341.h5ad",
+      "project_relative": "GSE178341.h5ad",
+      "size_bytes": 18432871117,
+      "role": "GSE178341 counts layer for reference",
+      "bundled": false,
+      "accession": "GSE178341"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000771(S5_Rec_Rep1)/download_page_VISDS000771_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000771(S5_Rec_Rep1)/download_page_VISDS000771_filtered_feature_bc_matrix.h5",
+      "size_bytes": 12915075,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000771"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000772(S5_Rec_Rep2)/download_page_VISDS000772_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000772(S5_Rec_Rep2)/download_page_VISDS000772_filtered_feature_bc_matrix.h5",
+      "size_bytes": 12850789,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000772"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000773(S3_Col_R_Rep1)/download_page_VISDS000773_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000773(S3_Col_R_Rep1)/download_page_VISDS000773_filtered_feature_bc_matrix.h5",
+      "size_bytes": 12986387,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000773"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000774(S3_Col_R_Rep2)/download_page_VISDS000774_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000774(S3_Col_R_Rep2)/download_page_VISDS000774_filtered_feature_bc_matrix.h5",
+      "size_bytes": 11193676,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000774"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000775(S1_Cec_Rep1)/download_page_VISDS000775_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000775(S1_Cec_Rep1)/download_page_VISDS000775_filtered_feature_bc_matrix.h5",
+      "size_bytes": 4518289,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000775"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000776(S2_Col_R_Rep1)/download_page_VISDS000776_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000776(S2_Col_R_Rep1)/download_page_VISDS000776_filtered_feature_bc_matrix.h5",
+      "size_bytes": 7523246,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000776"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000777(S7_RecSig_Rep1)/download_page_VISDS000777_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000777(S7_RecSig_Rep1)/download_page_VISDS000777_filtered_feature_bc_matrix.h5",
+      "size_bytes": 6624692,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000777"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000778(S6_Rec_Rep1)/download_page_VISDS000778_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000778(S6_Rec_Rep1)/download_page_VISDS000778_filtered_feature_bc_matrix.h5",
+      "size_bytes": 9651260,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000778"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000779(S1_Cec_Rep2劣质)/download_page_VISDS000779_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000779(S1_Cec_Rep2劣质)/download_page_VISDS000779_filtered_feature_bc_matrix.h5",
+      "size_bytes": 2687195,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000779"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000780(S2_Col_R_Rep2)/download_page_VISDS000780_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000780(S2_Col_R_Rep2)/download_page_VISDS000780_filtered_feature_bc_matrix.h5",
+      "size_bytes": 2463506,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000780"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000781(S7_RecSig_Rep2)/download_page_VISDS000781_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000781(S7_RecSig_Rep2)/download_page_VISDS000781_filtered_feature_bc_matrix.h5",
+      "size_bytes": 7249090,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000781"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000782(S6_Rec_Rep2)/download_page_VISDS000782_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000782(S6_Rec_Rep2)/download_page_VISDS000782_filtered_feature_bc_matrix.h5",
+      "size_bytes": 11886230,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000782"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000783(S4_Col_Sig_Rep1)/download_page_VISDS000783_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000783(S4_Col_Sig_Rep1)/download_page_VISDS000783_filtered_feature_bc_matrix.h5",
+      "size_bytes": 2097463,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000783"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000784(S4_Col_Sig_Rep2)/download_page_VISDS000784_filtered_feature_bc_matrix.h5",
+      "project_relative": "空间转录组/VISDS000784(S4_Col_Sig_Rep2)/download_page_VISDS000784_filtered_feature_bc_matrix.h5",
+      "size_bytes": 5121982,
+      "role": "raw spatial UMI count matrix",
+      "bundled": false,
+      "accession": "VISDS000784"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000771(S5_Rec_Rep1)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000771(S5_Rec_Rep1)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179994,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000771"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000772(S5_Rec_Rep2)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000772(S5_Rec_Rep2)/spatial/tissue_positions_list.csv",
+      "size_bytes": 180278,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000772"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000773(S3_Col_R_Rep1)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000773(S3_Col_R_Rep1)/spatial/tissue_positions_list.csv",
+      "size_bytes": 180225,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000773"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000774(S3_Col_R_Rep2)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000774(S3_Col_R_Rep2)/spatial/tissue_positions_list.csv",
+      "size_bytes": 180448,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000774"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000775(S1_Cec_Rep1)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000775(S1_Cec_Rep1)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179799,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000775"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000776(S2_Col_R_Rep1)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000776(S2_Col_R_Rep1)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179877,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000776"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000777(S7_RecSig_Rep1)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000777(S7_RecSig_Rep1)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179774,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000777"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000778(S6_Rec_Rep1)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000778(S6_Rec_Rep1)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179813,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000778"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000779(S1_Cec_Rep2劣质)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000779(S1_Cec_Rep2劣质)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179838,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000779"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000780(S2_Col_R_Rep2)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000780(S2_Col_R_Rep2)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179835,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000780"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000781(S7_RecSig_Rep2)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000781(S7_RecSig_Rep2)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179922,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000781"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000782(S6_Rec_Rep2)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000782(S6_Rec_Rep2)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179877,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000782"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000783(S4_Col_Sig_Rep1)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000783(S4_Col_Sig_Rep1)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179881,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000783"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/空间转录组/VISDS000784(S4_Col_Sig_Rep2)/spatial/tissue_positions_list.csv",
+      "project_relative": "空间转录组/VISDS000784(S4_Col_Sig_Rep2)/spatial/tissue_positions_list.csv",
+      "size_bytes": 179774,
+      "role": "spot spatial coordinates",
+      "bundled": true,
+      "accession": "VISDS000784"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/model/model.pt",
+      "size_bytes": 22527167,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/cell2location_model/model.pt",
+      "size_bytes": 16911525,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/cell2location_model/model.pt",
+      "size_bytes": 17098277,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/cell2location_model/model.pt",
+      "size_bytes": 17028261,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/cell2location_model/model.pt",
+      "size_bytes": 16509989,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/cell2location_model/model.pt",
+      "size_bytes": 15883941,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/cell2location_model/model.pt",
+      "size_bytes": 15372840,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/cell2location_model/model.pt",
+      "size_bytes": 16834853,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/cell2location_model/model.pt",
+      "size_bytes": 15911781,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/cell2location_model/model.pt",
+      "size_bytes": 16389029,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/cell2location_model/model.pt",
+      "size_bytes": 16395173,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/cell2location_model/model.pt",
+      "size_bytes": 16359333,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/cell2location_model/model.pt",
+      "size_bytes": 15063848,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/cell2location_model/model.pt",
+      "size_bytes": 15003752,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/cell2location_model/model.pt",
+      "project_relative": "最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/cell2location_model/model.pt",
+      "size_bytes": 15736421,
+      "role": "saved cell2location checkpoint; checkpoint audit requires external original",
+      "bundled": false,
+      "accession": null
+    }
+  ],
+  "third_party_libraries": [
+    {
+      "distribution": "numpy",
+      "version": "1.26.4",
+      "license_expression": null,
+      "license_metadata": "Copyright (c) 2005-2023, NumPy Developers.\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n    * Redistributions of source code must retain the above copyright\n       notice, this list of conditions and the following disclaimer.\n\n    * Redistributions in binary form must reproduce the above\n       copyright notice, this list of conditions and the following\n       disclaimer in the documentation and/or other materials provided\n       with the distribution.\n\n    * Neither the name of the NumPy Developers nor the names of any\n       contributors may be used to endorse or promote products derived\n       from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\nA PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\nOWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+      "home_page": "https://numpy.org",
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/numpy-1.26.4.dist-info/LICENSE.txt",
+      "bundled_license_notice": "third_party_licenses/numpy_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "263223390c43a9d4a0841e0209265fd927a198f8e89c8eee809b7437d7e5e8c2"
+    },
+    {
+      "distribution": "pandas",
+      "version": "2.3.3",
+      "license_expression": null,
+      "license_metadata": "BSD 3-Clause License\n\n Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team\n All rights reserved.\n\n Copyright (c) 2011-2023, Open source contributors.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n * Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n * Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n * Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+      "home_page": null,
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/pandas-2.3.3.dist-info/LICENSE",
+      "bundled_license_notice": "third_party_licenses/pandas_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "533eb6d0b98e5be3ddd12dce97be35dd11282f5c47cdf8d08c81756fd5d70a26"
+    },
+    {
+      "distribution": "scipy",
+      "version": "1.16.3",
+      "license_expression": null,
+      "license_metadata": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions\n are met:\n\n 1. Redistributions of source code must retain the above copyright\n    notice, this list of conditions and the following disclaimer.\n\n 2. Redistributions in binary form must reproduce the above\n    copyright notice, this list of conditions and the following\n    disclaimer in the documentation and/or other materials provided\n    with the distribution.\n\n 3. Neither the name of the copyright holder nor the names of its\n    contributors may be used to endorse or promote products derived\n    from this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+      "home_page": null,
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/scipy-1.16.3.dist-info/LICENSE.txt",
+      "bundled_license_notice": "third_party_licenses/scipy_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "221e59f5e910fd7f94e44f0dac77436a11338c285c6346232e4a850a50da0e94"
+    },
+    {
+      "distribution": "scikit-learn",
+      "version": "1.7.2",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "home_page": null,
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/scikit_learn-1.7.2.dist-info/licenses/COPYING",
+      "bundled_license_notice": "third_party_licenses/scikit-learn_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "75684d16f4662ab842ed5af9482ac01939aee83c8243d89993616d959d3053f8"
+    },
+    {
+      "distribution": "joblib",
+      "version": "1.5.2",
+      "license_expression": null,
+      "license_metadata": "BSD 3-Clause",
+      "home_page": null,
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/joblib-1.5.2.dist-info/licenses/LICENSE.txt",
+      "bundled_license_notice": "third_party_licenses/joblib_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "42612911c1872c5e4b43f6ae0e8ee59467cd350332241cf72ce90640264fae6a"
+    },
+    {
+      "distribution": "torch",
+      "version": "2.6.0+cu124",
+      "license_expression": null,
+      "license_metadata": "BSD-3-Clause",
+      "home_page": "https://pytorch.org/",
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/torch-2.6.0+cu124.dist-info/LICENSE",
+      "bundled_license_notice": "third_party_licenses/torch_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "6ecc267746f8c2b9c1faa1facc857c6f0d26db9bd00e6f43017da06f06120313"
+    },
+    {
+      "distribution": "cell2location",
+      "version": "0.1.5",
+      "license_expression": null,
+      "license_metadata": "Apache License, Version 2.0",
+      "home_page": "https://github.com/BayraktarLab/cell2location",
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/cell2location-0.1.5.dist-info/licenses/LICENSE",
+      "bundled_license_notice": "third_party_licenses/cell2location_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "distribution": "scvi-tools",
+      "version": "1.4.0.post1",
+      "license_expression": null,
+      "license_metadata": "BSD 3-Clause License\n\nCopyright (c) 2025, Yosef Lab, Weizmann Institute of Science\n\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+      "home_page": null,
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/scvi_tools-1.4.0.post1.dist-info/licenses/LICENSE",
+      "bundled_license_notice": "third_party_licenses/scvi-tools_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "1f337c4504ce41f0b81fc2bcc5bf1da80f980db8cbc8ba57ced1892177706650"
+    },
+    {
+      "distribution": "anndata",
+      "version": "0.12.6",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "home_page": null,
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/anndata-0.12.6.dist-info/licenses/LICENSE",
+      "bundled_license_notice": "third_party_licenses/anndata_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "55cad7a0454c86d36ebccbca6063fe23994c4fca99ffa7457f6d9fb0bd7cd2a0"
+    },
+    {
+      "distribution": "scanpy",
+      "version": "1.11.5",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "home_page": null,
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/scanpy-1.11.5.dist-info/licenses/LICENSE",
+      "bundled_license_notice": "third_party_licenses/scanpy_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "1435eeb7d8618943740178e5b8e14abda6be994f0f0a31894becc20e945ae2bf"
+    },
+    {
+      "distribution": "lightning",
+      "version": "2.5.6",
+      "license_expression": null,
+      "license_metadata": "Apache-2.0",
+      "home_page": "https://github.com/Lightning-AI/lightning",
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/lightning-2.5.6.dist-info/licenses/LICENSE",
+      "bundled_license_notice": "third_party_licenses/lightning_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "a41e2fae9915ae56028f8dbd0bf27995f1907613cbcd2d81a61b010ad34e9fe9"
+    },
+    {
+      "distribution": "matplotlib",
+      "version": "3.10.7",
+      "license_expression": null,
+      "license_metadata": "License agreement for matplotlib versions 1.3.0 and later\n =========================================================\n\n 1. This LICENSE AGREEMENT is between the Matplotlib Development Team\n (\"MDT\"), and the Individual or Organization (\"Licensee\") accessing and\n otherwise using matplotlib software in source or binary form and its\n associated documentation.\n\n 2. Subject to the terms and conditions of this License Agreement, MDT\n hereby grants Licensee a nonexclusive, royalty-free, world-wide license\n to reproduce, analyze, test, perform and/or display publicly, prepare\n derivative works, distribute, and otherwise use matplotlib\n alone or in any derivative version, provided, however, that MDT's\n License Agreement and MDT's notice of copyright, i.e., \"Copyright (c)\n 2012- Matplotlib Development Team; All Rights Reserved\" are retained in\n matplotlib  alone or in any derivative version prepared by\n Licensee.\n\n 3. In the event Licensee prepares a derivative work that is based on or\n incorporates matplotlib or any part thereof, and wants to\n make the derivative work available to others as provided herein, then\n Licensee hereby agrees to include in any such work a brief summary of\n the changes made to matplotlib .\n\n 4. MDT is making matplotlib available to Licensee on an \"AS\n IS\" basis.  MDT MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, MDT MAKES NO AND\n DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF MATPLOTLIB\n WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n 5. MDT SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF MATPLOTLIB\n  FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR\n LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING\n MATPLOTLIB , OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF\n THE POSSIBILITY THEREOF.\n\n 6. This License Agreement will automatically terminate upon a material\n breach of its terms and conditions.\n\n 7. Nothing in this License Agreement shall be deemed to create any\n relationship of agency, partnership, or joint venture between MDT and\n Licensee.  This License Agreement does not grant permission to use MDT\n trademarks or trade name in a trademark sense to endorse or promote\n products or services of Licensee, or any third party.\n\n 8. By copying, installing or otherwise using matplotlib ,\n Licensee agrees to be bound by the terms and conditions of this License\n Agreement.\n\n License agreement for matplotlib versions prior to 1.3.0\n ========================================================\n\n 1. This LICENSE AGREEMENT is between John D. Hunter (\"JDH\"), and the\n Individual or Organization (\"Licensee\") accessing and otherwise using\n matplotlib software in source or binary form and its associated\n documentation.\n\n 2. Subject to the terms and conditions of this License Agreement, JDH\n hereby grants Licensee a nonexclusive, royalty-free, world-wide license\n to reproduce, analyze, test, perform and/or display publicly, prepare\n derivative works, distribute, and otherwise use matplotlib\n alone or in any derivative version, provided, however, that JDH's\n License Agreement and JDH's notice of copyright, i.e., \"Copyright (c)\n 2002-2011 John D. Hunter; All Rights Reserved\" are retained in\n matplotlib  alone or in any derivative version prepared by\n Licensee.\n\n 3. In the event Licensee prepares a derivative work that is based on or\n incorporates matplotlib  or any part thereof, and wants to\n make the derivative work available to others as provided herein, then\n Licensee hereby agrees to include in any such work a brief summary of\n the changes made to matplotlib.\n\n 4. JDH is making matplotlib  available to Licensee on an \"AS\n IS\" basis.  JDH MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, JDH MAKES NO AND\n DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF MATPLOTLIB\n WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n 5. JDH SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF MATPLOTLIB\n  FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR\n LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING\n MATPLOTLIB , OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF\n THE POSSIBILITY THEREOF.\n\n 6. This License Agreement will automatically terminate upon a material\n breach of its terms and conditions.\n\n 7. Nothing in this License Agreement shall be deemed to create any\n relationship of agency, partnership, or joint venture between JDH and\n Licensee.  This License Agreement does not grant permission to use JDH\n trademarks or trade name in a trademark sense to endorse or promote\n products or services of Licensee, or any third party.\n\n 8. By copying, installing or otherwise using matplotlib,\n Licensee agrees to be bound by the terms and conditions of this License\n Agreement.",
+      "home_page": null,
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/matplotlib-3.10.7.dist-info/LICENSE",
+      "bundled_license_notice": "third_party_licenses/matplotlib_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "5a1a81ea301728c8bba2933da832c0cd62229daf20893a024ab3d53244468dbc"
+    },
+    {
+      "distribution": "h5py",
+      "version": "3.15.1",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "home_page": null,
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/h5py-3.15.1.dist-info/licenses/LICENSE",
+      "bundled_license_notice": "third_party_licenses/h5py_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "e574b296655cfb0ca5180ec6eee3c95d122b0906736d3ca7e3ce19e0f297f0c9"
+    },
+    {
+      "distribution": "threadpoolctl",
+      "version": "3.6.0",
+      "license_expression": null,
+      "license_metadata": "BSD-3-Clause",
+      "home_page": "https://github.com/joblib/threadpoolctl",
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/threadpoolctl-3.6.0.dist-info/licenses/LICENSE",
+      "bundled_license_notice": "third_party_licenses/threadpoolctl_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "81ac619075248b06e53660b652d10e485f4675f5d0ae0f97ea22370da1f7e23b"
+    },
+    {
+      "distribution": "lxml",
+      "version": "6.1.1",
+      "license_expression": null,
+      "license_metadata": "BSD-3-Clause",
+      "home_page": "https://lxml.de/",
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/lxml-6.1.1.dist-info/licenses/LICENSE.txt",
+      "bundled_license_notice": "third_party_licenses/lxml_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "8fc2b568133516e46845d2147917adeee1648e70ae9ab5ed6c5417afef4ce855"
+    },
+    {
+      "distribution": "CairoSVG",
+      "version": "2.9.1",
+      "license_expression": null,
+      "license_metadata": "LGPL-3.0-or-later",
+      "home_page": "https://courtbouillon.org/cairosvg",
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/cairosvg-2.9.1.dist-info/licenses/LICENSE",
+      "bundled_license_notice": "third_party_licenses/CairoSVG_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "ea8af5e789cb2d4e9b10bce3874982ade163b749b6bfbdb32e2df21c4d106de1"
+    },
+    {
+      "distribution": "pyro-ppl",
+      "version": "1.9.1",
+      "license_expression": null,
+      "license_metadata": "Apache 2.0",
+      "home_page": "http://pyro.ai",
+      "installed_license_origin": "/home/wyw/miniconda3/envs/MSI/lib/python3.12/site-packages/pyro_ppl-1.9.1.dist-info/LICENSE.md",
+      "bundled_license_notice": "third_party_licenses/pyro-ppl_LICENSE.txt",
+      "library_source_vendored": false,
+      "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  ],
+  "upstream_project_license": "No explicit project license identified; authorship/ownership preserved. Third-party library licenses are recorded separately.",
+  "copied_resource_total_bytes": 49973157,
+  "notes": [
+    "No model was fitted, no posterior was sampled and no historical file was changed during packaging.",
+    "Reference checkpoint lacks per-epoch history; 14 section histories each contain500 epochs. No convergence claim.",
+    "Legacy imported helper original source retains its historical CLI default seed; the active weighted entrypoint never calls that CLI and seeds2026 itself.",
+    "Figure display input partition/99th-percentile clipping affects display only. Full source includes historical manuscript publication utilities but lightweight replay never invokes publication."
+  ],
+  "verified_lightweight_replay": {
+    "passed": true,
+    "scope": "Existing saved-input feature and frozen-weight replay; no fitting or posterior sampling",
+    "n_sections": 14,
+    "n_patients": 7,
+    "n_spots": 20733,
+    "classifier_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
+    "max_section_probability_error": 2.220446049250313e-16,
+    "max_patient_probability_error": 2.220446049250313e-16,
+    "max_weighted_feature_reconstruction_error": 4.695447919367268e-09,
+    "figure_display_values_verified": true,
+    "figure_outputs": [
+      "figures/Figure04_AUROC.csv",
+      "figures/Figure04_paired_spatial.pdf",
+      "figures/Figure04_paired_spatial.png",
+      "figures/Figure04_paired_spatial.svg",
+      "figures/Figure04_section_scores.csv",
+      "figures/Figure04_spot_display_values.csv.gz"
+    ],
+    "reference_epoch_history_available": false,
+    "convergence_established": false
+  },
+  "replay_command": "python code/spatial/reproduce_frozen_spatial.py --output-dir code/spatial/outputs/frozen_replay",
+  "figure_replay_command": "python code/spatial/reproduce_frozen_spatial.py --output-dir code/spatial/outputs/frozen_replay --figures",
+  "final_spatial_figure_presentation_chain": {
+    "paired_svg_origin": "/home/wyw/rstudio/MSI/最终模型/report/article/figure_layout_corrections/Figure04_paired_spatial.svg",
+    "paired_svg_sha256": "0e247cc240bdfd988246b53222e61f4bbce8a0b508de81d79708175f517978fb",
+    "final_editable_svg_origin": "/home/wyw/rstudio/MSI/最终模型/report/article/editable_main_figures_20261005/Figure03_spatial_transfer.svg",
+    "final_editable_svg_sha256": "732d6108cb32d92dcb4045e3958265219c676c670b606b69952954afdff7def8",
+    "all_svg_path_geometry_equal": true,
+    "presentation_changes": "Panel letters were separated from titles; numeric geometry unchanged."
+  },
+  "generated_files": [
+    {
+      "path": "README_spatial.md",
+      "sha256": "336d392f1c1febeb9f446009fbdf269a83e49770bf006f4426fb0a25819d728b",
+      "size_bytes": 9513,
+      "origin": "new packaging documentation or verified replay orchestration; no new scientific fit"
+    },
+    {
+      "path": "reproduce_frozen_spatial.py",
+      "sha256": "c30a34747d2a5728195a158c055581f3e05aac8103bdaf4b514898d8f109290a",
+      "size_bytes": 7571,
+      "origin": "new packaging documentation or verified replay orchestration; no new scientific fit"
+    },
+    {
+      "path": "requirements_figures.txt",
+      "sha256": "20af313e768722fd0ac52f14e5c94d05283614a312a99fcef6b4d277b9e871ff",
+      "size_bytes": 149,
+      "origin": "new packaging documentation or verified replay orchestration; no new scientific fit"
+    },
+    {
+      "path": "requirements_reconstruction.txt",
+      "sha256": "d6f21b37e4e7e340786d45df9a6550fa12c360c0bb1b869bc80d347a98529fbc",
+      "size_bytes": 264,
+      "origin": "new packaging documentation or verified replay orchestration; no new scientific fit"
+    },
+    {
+      "path": "requirements_replay.txt",
+      "sha256": "39719e0d9be8cacb67d01daaecf94c0ab25d0ff5afbc2c40e7b162eb6507209a",
+      "size_bytes": 121,
+      "origin": "new packaging documentation or verified replay orchestration; no new scientific fit"
+    },
+    {
+      "path": "resources/feature_contract.json",
+      "sha256": "0776532c7a46cec46f076ef2e51e3635833739dfe8322234ef088b9da0808275",
+      "size_bytes": 1764,
+      "origin": "new packaging documentation or verified replay orchestration; no new scientific fit"
+    }
+  ],
+  "portable_run_from_unrelated_working_directory": {
+    "cwd": "/tmp",
+    "passed": true,
+    "section_probability_error": 2.220446049250313e-16,
+    "patient_probability_error": 2.220446049250313e-16
+  },
+  "package_verification": {
+    "copied_files_verified": 144,
+    "path_only_exports_verified": 5,
+    "generated_files_verified": 6,
+    "source_origins_unchanged": true,
+    "all_exported_python_files_parse": true
+  }
+}

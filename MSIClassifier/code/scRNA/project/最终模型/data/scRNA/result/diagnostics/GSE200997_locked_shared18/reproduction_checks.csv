@@ -1,0 +1,10 @@
+model,previous_external_max_abs_difference,n_scored
+Shared18 + MLH1 (LDA),1.1102230246251565e-16,16
+Shared18 only (LDA),1.1102230246251565e-16,16
+MLH1 only (LDA),8.326672684688674e-17,16
+Major7 + MLH1 (LDA),1.1102230246251565e-16,16
+Major7 + MLH1 (Logistic),1.1102230246251565e-16,16
+Collapsed18 + MLH1 (LDA),1.6653345369377348e-16,16
+MMR4 expression (Logistic),2.220446049250313e-16,16
+397-gene expression (Logistic),9.972578318695469e-14,16
+397-gene expression (tuned Logistic),2.220446049250313e-16,16

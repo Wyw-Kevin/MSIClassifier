@@ -1,0 +1,12 @@
+{
+  "purpose": "Manuscript-only clarification with post hoc frozen-score tests and label-free feature diagnostics; no refitting, selection or weight changes",
+  "new_random_sampling": "Paired patient bootstrap only; seed 2026 initialized once, stream advanced across all resamples and cohorts",
+  "sources": {
+    "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_scRNA_update/all_model_predictions.csv": "f68468a4afb92a3bb22e1e51c96dfefcb867806423c128ce23ed1f8de1a197fb",
+    "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/shared18_same_sample_benchmark_seed2026/sample_ledger.csv": "bfc9d1447ddcd47af23ba77566ccd903caa39a0c74d2f059b6788f19eb765ccf",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/revision_review_20260928/S1_sample_QC_and_counts.csv": "849b602b881e0b8c60f139d2521b49e1d8ad2502073dc20e793f4549e1fbf604",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/weighted_scRNA_update/paired_ablation_AUROC_differences.csv": "119c344a3ee441438b44cb2d1e05da4f3b1c620c101001eef3f9973d0966e5ee"
+  },
+  "checks": "Exact sample and label alignment; patients remain together; kernel AUROCs equal sklearn AUROC; differences equal archived paired differences",
+  "earlier_nominal_DeLong": "Superseded: sample-level independence is inappropriate for the development cohort with two duplicated patients"
+}

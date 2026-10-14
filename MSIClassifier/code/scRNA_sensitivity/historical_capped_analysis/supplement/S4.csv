@@ -1,0 +1,4 @@
+dataset,layer,counts_layer,n_genes,audit_cells,inferred_total_min,inferred_total_median,inferred_total_max,max_abs_error_log1p10k,n_cells_matching_log1p10k,history
+GSE178341,X,layers/counts,43113,128,9999.999999999996,10000.0,10000.000000000004,0.0,128,uns has no normalization provenance; numeric audit of 128 evenly spaced cells
+GSE132465,X,layers/counts,33694,128,9999.999999999996,10000.0,10000.000000000004,0.0,128,uns has no normalization provenance; numeric audit of 128 evenly spaced cells
+GSE200997,X,layers/counts,23828,128,9999.998194895314,10000.000034778002,10000.002026951766,5.096223816281054e-07,128,uns has no normalization provenance; numeric audit of 128 evenly spaced cells

@@ -1,0 +1,306 @@
+{
+  "status": "passed",
+  "n_samples": 1212,
+  "n_cohorts": 8,
+  "model_refitted": false,
+  "MMR4_refitted": false,
+  "max_score_error": 1.2836953722228372e-16,
+  "max_scaler_sd_error": 1.1102230246251565e-16,
+  "score_unit": "bulk specimen",
+  "fusion_weights": [
+    0.5,
+    0.5
+  ],
+  "macro_results": [
+    {
+      "scope": "development_OOF",
+      "component": "Subtype",
+      "n_cohorts": 2,
+      "AUROC": 0.809506310933362
+    },
+    {
+      "scope": "development_OOF",
+      "component": "MMR4_LOCO",
+      "n_cohorts": 2,
+      "AUROC": 0.9019812558657372
+    },
+    {
+      "scope": "development_OOF",
+      "component": "Fusion05",
+      "n_cohorts": 2,
+      "AUROC": 0.9335171273300142
+    },
+    {
+      "scope": "retrospective",
+      "component": "Subtype",
+      "n_cohorts": 6,
+      "AUROC": 0.7690147674345301
+    },
+    {
+      "scope": "retrospective",
+      "component": "MMR4_LOCO",
+      "n_cohorts": 6,
+      "AUROC": 0.9052690757766868
+    },
+    {
+      "scope": "retrospective",
+      "component": "Fusion05",
+      "n_cohorts": 6,
+      "AUROC": 0.9387469000536596
+    },
+    {
+      "scope": "all_eight",
+      "component": "Subtype",
+      "n_cohorts": 8,
+      "AUROC": 0.779137653309238
+    },
+    {
+      "scope": "all_eight",
+      "component": "MMR4_LOCO",
+      "n_cohorts": 8,
+      "AUROC": 0.9044471207989493
+    },
+    {
+      "scope": "all_eight",
+      "component": "Fusion05",
+      "n_cohorts": 8,
+      "AUROC": 0.9374394568727483
+    }
+  ],
+  "cohort_results": [
+    {
+      "dataset": "GSE24550",
+      "split": "retrospective",
+      "component": "Subtype",
+      "n": 65,
+      "MSI": 14,
+      "MSS": 51,
+      "AUROC": 0.7128851540616246
+    },
+    {
+      "dataset": "GSE24550",
+      "split": "retrospective",
+      "component": "MMR4_LOCO",
+      "n": 65,
+      "MSI": 14,
+      "MSS": 51,
+      "AUROC": 0.9677871148459383
+    },
+    {
+      "dataset": "GSE24550",
+      "split": "retrospective",
+      "component": "Fusion05",
+      "n": 65,
+      "MSI": 14,
+      "MSS": 51,
+      "AUROC": 0.9663865546218487
+    },
+    {
+      "dataset": "GSE25071",
+      "split": "retrospective",
+      "component": "Subtype",
+      "n": 43,
+      "MSI": 5,
+      "MSS": 38,
+      "AUROC": 0.5736842105263158
+    },
+    {
+      "dataset": "GSE25071",
+      "split": "retrospective",
+      "component": "MMR4_LOCO",
+      "n": 43,
+      "MSI": 5,
+      "MSS": 38,
+      "AUROC": 0.9894736842105264
+    },
+    {
+      "dataset": "GSE25071",
+      "split": "retrospective",
+      "component": "Fusion05",
+      "n": 43,
+      "MSI": 5,
+      "MSS": 38,
+      "AUROC": 0.9842105263157895
+    },
+    {
+      "dataset": "GSE27544",
+      "split": "retrospective",
+      "component": "Subtype",
+      "n": 22,
+      "MSI": 8,
+      "MSS": 14,
+      "AUROC": 0.9375
+    },
+    {
+      "dataset": "GSE27544",
+      "split": "retrospective",
+      "component": "MMR4_LOCO",
+      "n": 22,
+      "MSI": 8,
+      "MSS": 14,
+      "AUROC": 0.9464285714285714
+    },
+    {
+      "dataset": "GSE27544",
+      "split": "retrospective",
+      "component": "Fusion05",
+      "n": 22,
+      "MSI": 8,
+      "MSS": 14,
+      "AUROC": 0.9910714285714286
+    },
+    {
+      "dataset": "GSE35896",
+      "split": "retrospective",
+      "component": "Subtype",
+      "n": 61,
+      "MSI": 5,
+      "MSS": 56,
+      "AUROC": 0.7035714285714286
+    },
+    {
+      "dataset": "GSE35896",
+      "split": "retrospective",
+      "component": "MMR4_LOCO",
+      "n": 61,
+      "MSI": 5,
+      "MSS": 56,
+      "AUROC": 0.7250000000000001
+    },
+    {
+      "dataset": "GSE35896",
+      "split": "retrospective",
+      "component": "Fusion05",
+      "n": 61,
+      "MSI": 5,
+      "MSS": 56,
+      "AUROC": 0.7821428571428571
+    },
+    {
+      "dataset": "GSE39084",
+      "split": "retrospective",
+      "component": "Subtype",
+      "n": 70,
+      "MSI": 16,
+      "MSS": 54,
+      "AUROC": 0.8171296296296297
+    },
+    {
+      "dataset": "GSE39084",
+      "split": "retrospective",
+      "component": "MMR4_LOCO",
+      "n": 70,
+      "MSI": 16,
+      "MSS": 54,
+      "AUROC": 0.8483796296296297
+    },
+    {
+      "dataset": "GSE39084",
+      "split": "retrospective",
+      "component": "Fusion05",
+      "n": 70,
+      "MSI": 16,
+      "MSS": 54,
+      "AUROC": 0.9143518518518519
+    },
+    {
+      "dataset": "GSE39582",
+      "split": "development_OOF",
+      "component": "Subtype",
+      "n": 536,
+      "MSI": 77,
+      "MSS": 459,
+      "AUROC": 0.8790708202472908
+    },
+    {
+      "dataset": "GSE39582",
+      "split": "development_OOF",
+      "component": "MMR4_LOCO",
+      "n": 536,
+      "MSI": 77,
+      "MSS": 459,
+      "AUROC": 0.8937271878448348
+    },
+    {
+      "dataset": "GSE39582",
+      "split": "development_OOF",
+      "component": "Fusion05",
+      "n": 536,
+      "MSI": 77,
+      "MSS": 459,
+      "AUROC": 0.9374416433239962
+    },
+    {
+      "dataset": "GSE75316",
+      "split": "retrospective",
+      "component": "Subtype",
+      "n": 59,
+      "MSI": 11,
+      "MSS": 48,
+      "AUROC": 0.8693181818181819
+    },
+    {
+      "dataset": "GSE75316",
+      "split": "retrospective",
+      "component": "MMR4_LOCO",
+      "n": 59,
+      "MSI": 11,
+      "MSS": 48,
+      "AUROC": 0.9545454545454546
+    },
+    {
+      "dataset": "GSE75316",
+      "split": "retrospective",
+      "component": "Fusion05",
+      "n": 59,
+      "MSI": 11,
+      "MSS": 48,
+      "AUROC": 0.9943181818181818
+    },
+    {
+      "dataset": "TCGA-COADREAD",
+      "split": "development_OOF",
+      "component": "Subtype",
+      "n": 356,
+      "MSI": 52,
+      "MSS": 304,
+      "AUROC": 0.7399418016194331
+    },
+    {
+      "dataset": "TCGA-COADREAD",
+      "split": "development_OOF",
+      "component": "MMR4_LOCO",
+      "n": 356,
+      "MSI": 52,
+      "MSS": 304,
+      "AUROC": 0.9102353238866395
+    },
+    {
+      "dataset": "TCGA-COADREAD",
+      "split": "development_OOF",
+      "component": "Fusion05",
+      "n": 356,
+      "MSI": 52,
+      "MSS": 304,
+      "AUROC": 0.9295926113360323
+    }
+  ],
+  "source_sha256": {
+    "models/panel12_fold0.joblib": "a1f32f5a585fe38330890c61fb0f5f790cdb75bf65108b25fdb1d0b73e64c6b3",
+    "source_archive/heldout_GSE24550.json": "b0b9d00c434ad67f120311e5e86cc8281065bab15eff9ed395452425174f1e21",
+    "source_archive/heldout_GSE25071.json": "c42bd0ec07bccceb8593c41cdc1a6fa4cfeed3a6c13a49930b134d0f1f37cef3",
+    "source_archive/heldout_GSE27544.json": "55939656869f5781b79a94ec2d4695fe404cc408e60a9ad4c3cd68478ceffea4",
+    "source_archive/heldout_GSE35896.json": "d7880ac92aef4e2a1da8405ea392fe7f340a2ce08977374b7b2c44d30e566a06",
+    "source_archive/heldout_GSE39084.json": "49362f86b15fcfc6d0fb8532cb4057e3af2a6d0066565be805366a24b8b720cc",
+    "models/panel12_fold1.joblib": "7945bc3502925d8ab58e75fc87140aa753f5695af684d9577b4f7255b2f916b1",
+    "models/panel12_fold2.joblib": "a327a4214f9aac60eccfbe5786933ac86a3c9e41c2a310c5f2262df7ef56eacd",
+    "models/panel12_fold3.joblib": "179c66f0cedb151f5689abcc5bef3677ac4902b6034dde93fb6e1767515fad24",
+    "models/panel12_fold4.joblib": "5aae48cb2ce272fb3b85f0e25f43843e18646c8a63d9ea41abe4faeedbef50f9",
+    "models/panel12_fold5.joblib": "2b7d00a692c58e9887f1aaf80c3ad3dc9c357a8e64636b7e02e0c37d5bcef578",
+    "source_archive/heldout_GSE39582.json": "64a50427c5daddfc68f4b89adadefa5abc5a6ee489f095b86a6564cb2c294ff9",
+    "source_archive/heldout_GSE75316.json": "e1e2a9bcbdff57dbdd3c9382e6fd603b222ede8fbfc972eb210fdc7d0338a85e",
+    "source_archive/heldout_TCGA-COADREAD.json": "1cc3acb139294e39c62b17897eeb1aa73cc0a8483fa2093d353f577d20acc976"
+  },
+  "input_sha256": "83eee30823d02b8e965f168c5085478d74ef403f39e7c2d57cfededf59e1e739",
+  "interpretation": "Replay of fixed archived measurements/models and eight LOCO locks; no independent validation"
+}

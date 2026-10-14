@@ -1,0 +1,16 @@
+{
+  "sample": "VISDS000771(S5_Rec_Rep1)",
+  "n_spots": 2203,
+  "n_genes": 12079,
+  "n_types": 73,
+  "seed": 2026,
+  "spatial_epochs": 500,
+  "posterior_samples": 200,
+  "candidate_MLH1_mean_proxy": 0.07183559983968735,
+  "candidate_fraction": 0.4984356760978699,
+  "weighted_MLH1_proxy": 0.035805425773990596,
+  "expression": "official conditional count allocation; malignant spot profile normalized to 10000 counts and log1p; candidate-abundance weighted across spots",
+  "limitation": "reconstructed malignant spot profile is not an observed mean of single-cell log expression; shared-gene normalization and platform scales may differ",
+  "elapsed_seconds": 442.6855683326721,
+  "official_expression_formula_verified": true
+}

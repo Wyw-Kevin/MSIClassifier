@@ -1,0 +1,1582 @@
+{
+  "scope": "Copy of the current paper BayesPrism source bank plus path-only portable entry scripts. No cohort inference, weights, predictions or classifier performance regenerated during packaging.",
+  "source_branch": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026",
+  "package": "pybayesprism0.1.0 locally patched",
+  "repository": "https://github.com/ziluwang829/pyBayesPrism",
+  "author": "Zilu Wang",
+  "git_commit": null,
+  "historical_runtime_dependency_versions": null,
+  "explicit_active_rng_seeds": 2026,
+  "historical_vendor_default_seed123_preserved": true,
+  "current_cohorts": [
+    "TCGA-COADREAD",
+    "GSE39582",
+    "GSE24550",
+    "GSE25071",
+    "GSE27544",
+    "GSE35896",
+    "GSE39084",
+    "GSE75316"
+  ],
+  "historical_ninth_cohort": "GSE92921",
+  "key": null,
+  "final_posterior": "posterior_theta_f.theta",
+  "source_records": [
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/__init__.py",
+      "destination": "vendor/pybayesprism/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/compare.py",
+      "destination": "vendor/pybayesprism/compare.py",
+      "source_sha256": "9e94984eca9dcf4dba00df21ec124a3a68a44810128a05248734ac2b9327fd88",
+      "packaged_sha256": "9e94984eca9dcf4dba00df21ec124a3a68a44810128a05248734ac2b9327fd88",
+      "bytes": 8338,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/extract.py",
+      "destination": "vendor/pybayesprism/extract.py",
+      "source_sha256": "3fbf072413e503a96a9e7dd57dd9f83f76e7d0c016c96715815a49f8184c16f7",
+      "packaged_sha256": "3fbf072413e503a96a9e7dd57dd9f83f76e7d0c016c96715815a49f8184c16f7",
+      "bytes": 1104,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/gibbs.py",
+      "destination": "vendor/pybayesprism/gibbs.py",
+      "source_sha256": "18d2a067e04100297d678585e63cce34bf81445d3d5908115d9e507ce3247aad",
+      "packaged_sha256": "18d2a067e04100297d678585e63cce34bf81445d3d5908115d9e507ce3247aad",
+      "bytes": 11071,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/joint_post.py",
+      "destination": "vendor/pybayesprism/joint_post.py",
+      "source_sha256": "09296d3645a70cc85bd0b7e482cb27c943b13d9f8e1c090d3517b6415e4cb69a",
+      "packaged_sha256": "09296d3645a70cc85bd0b7e482cb27c943b13d9f8e1c090d3517b6415e4cb69a",
+      "bytes": 2576,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/main.py",
+      "destination": "vendor/pybayesprism/main.py",
+      "source_sha256": "30b95c8e16dcf29168e6bb0ae74447c9f426bda901e65d2d7aaab9c7d0b0f305",
+      "packaged_sha256": "30b95c8e16dcf29168e6bb0ae74447c9f426bda901e65d2d7aaab9c7d0b0f305",
+      "bytes": 8248,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/optim.py",
+      "destination": "vendor/pybayesprism/optim.py",
+      "source_sha256": "4c72a82d071535d3eb8ee6b31d6301451f3a3c3d24f599162883f81bd0ff36fb",
+      "packaged_sha256": "4c72a82d071535d3eb8ee6b31d6301451f3a3c3d24f599162883f81bd0ff36fb",
+      "bytes": 7426,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/prism.py",
+      "destination": "vendor/pybayesprism/prism.py",
+      "source_sha256": "7297cfe546c0716f78a8bb1b937bd9ef29e284e0ffdbebe0d22204d39bfd9400",
+      "packaged_sha256": "7297cfe546c0716f78a8bb1b937bd9ef29e284e0ffdbebe0d22204d39bfd9400",
+      "bytes": 10810,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/process_input.py",
+      "destination": "vendor/pybayesprism/process_input.py",
+      "source_sha256": "82fe86eeae834bd3046d99b02cfbcaa153ac085aaee5b4be92f5256bbd125ec2",
+      "packaged_sha256": "82fe86eeae834bd3046d99b02cfbcaa153ac085aaee5b4be92f5256bbd125ec2",
+      "bytes": 7013,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/references.py",
+      "destination": "vendor/pybayesprism/references.py",
+      "source_sha256": "3d16961f23084ec4d9c363d5beea95d160e06241ab0eba2afaa3d96defb40d64",
+      "packaged_sha256": "3d16961f23084ec4d9c363d5beea95d160e06241ab0eba2afaa3d96defb40d64",
+      "bytes": 315,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/run.py",
+      "destination": "vendor/pybayesprism/run.py",
+      "source_sha256": "0d4ee2acf4bf48c5551a293f082236fd413c3f73f62c3c8e77236e6f4cc15e0c",
+      "packaged_sha256": "0d4ee2acf4bf48c5551a293f082236fd413c3f73f62c3c8e77236e6f4cc15e0c",
+      "bytes": 2914,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/theta_post.py",
+      "destination": "vendor/pybayesprism/theta_post.py",
+      "source_sha256": "47d695d54f6c4351a8f10d68f25b48265d86a8dd3b0029d5ae5cceb50503af7d",
+      "packaged_sha256": "47d695d54f6c4351a8f10d68f25b48265d86a8dd3b0029d5ae5cceb50503af7d",
+      "bytes": 689,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/txt/gencode.v22.broad.category.txt",
+      "destination": "vendor/pybayesprism/txt/gencode.v22.broad.category.txt",
+      "source_sha256": "ba95292c0216d7e57229d8489b534474302168e7d6aae84316858e72c013c6f6",
+      "packaged_sha256": "ba95292c0216d7e57229d8489b534474302168e7d6aae84316858e72c013c6f6",
+      "bytes": 5679216,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/txt/genelist.hs.new.txt",
+      "destination": "vendor/pybayesprism/txt/genelist.hs.new.txt",
+      "source_sha256": "216ed14fd35deccb28d2c7ecaa08460578741a3f55e273ccbc90cf0d98c5a5a0",
+      "packaged_sha256": "216ed14fd35deccb28d2c7ecaa08460578741a3f55e273ccbc90cf0d98c5a5a0",
+      "bytes": 147298,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism/txt/genelist.mm.new.txt",
+      "destination": "vendor/pybayesprism/txt/genelist.mm.new.txt",
+      "source_sha256": "e1477e40fd38df5d8b9b64866cf16b4476973ccc9b15f410d6bb22648a5f8b19",
+      "packaged_sha256": "e1477e40fd38df5d8b9b64866cf16b4476973ccc9b15f410d6bb22648a5f8b19",
+      "bytes": 231186,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism-0.1.0.dist-info/INSTALLER",
+      "destination": "vendor/pybayesprism-0.1.0.dist-info/INSTALLER",
+      "source_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "packaged_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "bytes": 4,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism-0.1.0.dist-info/LICENSE",
+      "destination": "vendor/pybayesprism-0.1.0.dist-info/LICENSE",
+      "source_sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde",
+      "packaged_sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde",
+      "bytes": 1068,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism-0.1.0.dist-info/METADATA",
+      "destination": "vendor/pybayesprism-0.1.0.dist-info/METADATA",
+      "source_sha256": "e168b37ea8d44eae3cb5248b2da68ce6083f7c3c6080d657de0e14bf2f362aea",
+      "packaged_sha256": "e168b37ea8d44eae3cb5248b2da68ce6083f7c3c6080d657de0e14bf2f362aea",
+      "bytes": 2108,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism-0.1.0.dist-info/RECORD",
+      "destination": "vendor/pybayesprism-0.1.0.dist-info/RECORD",
+      "source_sha256": "48ec0b32e92c2de4fc8e6c668e506f7d6bf5328911e34b978af03783ddbe9229",
+      "packaged_sha256": "48ec0b32e92c2de4fc8e6c668e506f7d6bf5328911e34b978af03783ddbe9229",
+      "bytes": 2501,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism-0.1.0.dist-info/REQUESTED",
+      "destination": "vendor/pybayesprism-0.1.0.dist-info/REQUESTED",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism-0.1.0.dist-info/WHEEL",
+      "destination": "vendor/pybayesprism-0.1.0.dist-info/WHEEL",
+      "source_sha256": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+      "packaged_sha256": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+      "bytes": 91,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism-0.1.0.dist-info/top_level.txt",
+      "destination": "vendor/pybayesprism-0.1.0.dist-info/top_level.txt",
+      "source_sha256": "083a6f878c16debfc8de075b07630514aaa9348492bcc8219ac1d4b9bd9e2fbd",
+      "packaged_sha256": "083a6f878c16debfc8de075b07630514aaa9348492bcc8219ac1d4b9bd9e2fbd",
+      "bytes": 13,
+      "role": "Actual patched runtime vendor",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/__init__.py",
+      "destination": "vendor_original/pybayesprism/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/compare.py",
+      "destination": "vendor_original/pybayesprism/compare.py",
+      "source_sha256": "9e94984eca9dcf4dba00df21ec124a3a68a44810128a05248734ac2b9327fd88",
+      "packaged_sha256": "9e94984eca9dcf4dba00df21ec124a3a68a44810128a05248734ac2b9327fd88",
+      "bytes": 8338,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/extract.py",
+      "destination": "vendor_original/pybayesprism/extract.py",
+      "source_sha256": "3fbf072413e503a96a9e7dd57dd9f83f76e7d0c016c96715815a49f8184c16f7",
+      "packaged_sha256": "3fbf072413e503a96a9e7dd57dd9f83f76e7d0c016c96715815a49f8184c16f7",
+      "bytes": 1104,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/gibbs.py",
+      "destination": "vendor_original/pybayesprism/gibbs.py",
+      "source_sha256": "0bafd3256418c2fc6ccd7c41cadaf815cfa465e4d713d87d19cdcba76a9f0baa",
+      "packaged_sha256": "0bafd3256418c2fc6ccd7c41cadaf815cfa465e4d713d87d19cdcba76a9f0baa",
+      "bytes": 10916,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/joint_post.py",
+      "destination": "vendor_original/pybayesprism/joint_post.py",
+      "source_sha256": "09296d3645a70cc85bd0b7e482cb27c943b13d9f8e1c090d3517b6415e4cb69a",
+      "packaged_sha256": "09296d3645a70cc85bd0b7e482cb27c943b13d9f8e1c090d3517b6415e4cb69a",
+      "bytes": 2576,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/main.py",
+      "destination": "vendor_original/pybayesprism/main.py",
+      "source_sha256": "30b95c8e16dcf29168e6bb0ae74447c9f426bda901e65d2d7aaab9c7d0b0f305",
+      "packaged_sha256": "30b95c8e16dcf29168e6bb0ae74447c9f426bda901e65d2d7aaab9c7d0b0f305",
+      "bytes": 8248,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/optim.py",
+      "destination": "vendor_original/pybayesprism/optim.py",
+      "source_sha256": "d0e8493c2b57c7e3336072316803aed434a70ccc8ab8df8b7c6cdb57be6a084b",
+      "packaged_sha256": "d0e8493c2b57c7e3336072316803aed434a70ccc8ab8df8b7c6cdb57be6a084b",
+      "bytes": 7405,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/prism.py",
+      "destination": "vendor_original/pybayesprism/prism.py",
+      "source_sha256": "8749ee03b637be128c1de3c9181cf82e299756a9d3998c97f143f85ff7f50646",
+      "packaged_sha256": "8749ee03b637be128c1de3c9181cf82e299756a9d3998c97f143f85ff7f50646",
+      "bytes": 10809,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/process_input.py",
+      "destination": "vendor_original/pybayesprism/process_input.py",
+      "source_sha256": "b2fd6e8ca206fc1f990fc32d2660e54ddc5314dbd063dda85d984b2ef0ac6a61",
+      "packaged_sha256": "b2fd6e8ca206fc1f990fc32d2660e54ddc5314dbd063dda85d984b2ef0ac6a61",
+      "bytes": 6915,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/references.py",
+      "destination": "vendor_original/pybayesprism/references.py",
+      "source_sha256": "3d16961f23084ec4d9c363d5beea95d160e06241ab0eba2afaa3d96defb40d64",
+      "packaged_sha256": "3d16961f23084ec4d9c363d5beea95d160e06241ab0eba2afaa3d96defb40d64",
+      "bytes": 315,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/run.py",
+      "destination": "vendor_original/pybayesprism/run.py",
+      "source_sha256": "0d4ee2acf4bf48c5551a293f082236fd413c3f73f62c3c8e77236e6f4cc15e0c",
+      "packaged_sha256": "0d4ee2acf4bf48c5551a293f082236fd413c3f73f62c3c8e77236e6f4cc15e0c",
+      "bytes": 2914,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/theta_post.py",
+      "destination": "vendor_original/pybayesprism/theta_post.py",
+      "source_sha256": "47d695d54f6c4351a8f10d68f25b48265d86a8dd3b0029d5ae5cceb50503af7d",
+      "packaged_sha256": "47d695d54f6c4351a8f10d68f25b48265d86a8dd3b0029d5ae5cceb50503af7d",
+      "bytes": 689,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/txt/gencode.v22.broad.category.txt",
+      "destination": "vendor_original/pybayesprism/txt/gencode.v22.broad.category.txt",
+      "source_sha256": "ba95292c0216d7e57229d8489b534474302168e7d6aae84316858e72c013c6f6",
+      "packaged_sha256": "ba95292c0216d7e57229d8489b534474302168e7d6aae84316858e72c013c6f6",
+      "bytes": 5679216,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/txt/genelist.hs.new.txt",
+      "destination": "vendor_original/pybayesprism/txt/genelist.hs.new.txt",
+      "source_sha256": "216ed14fd35deccb28d2c7ecaa08460578741a3f55e273ccbc90cf0d98c5a5a0",
+      "packaged_sha256": "216ed14fd35deccb28d2c7ecaa08460578741a3f55e273ccbc90cf0d98c5a5a0",
+      "bytes": 147298,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_original/pybayesprism/txt/genelist.mm.new.txt",
+      "destination": "vendor_original/pybayesprism/txt/genelist.mm.new.txt",
+      "source_sha256": "e1477e40fd38df5d8b9b64866cf16b4476973ccc9b15f410d6bb22648a5f8b19",
+      "packaged_sha256": "e1477e40fd38df5d8b9b64866cf16b4476973ccc9b15f410d6bb22648a5f8b19",
+      "bytes": 231186,
+      "role": "Unmodified historical upstream source; seed123 defaults retain their historical identity",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/audit_shared18_direction.py",
+      "destination": "historical_scripts/audit_shared18_direction.py",
+      "source_sha256": "94152f337152a35e379f1d184a3fe32be90bfdefb74064bb15c51048e44d3365",
+      "packaged_sha256": "94152f337152a35e379f1d184a3fe32be90bfdefb74064bb15c51048e44d3365",
+      "bytes": 2763,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/launch.py",
+      "destination": "historical_scripts/launch.py",
+      "source_sha256": "930196b0fda886310bf33504361683482f780a5053226dde44742f661ac8be37",
+      "packaged_sha256": "930196b0fda886310bf33504361683482f780a5053226dde44742f661ac8be37",
+      "bytes": 1159,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/patch_port.py",
+      "destination": "historical_scripts/patch_port.py",
+      "source_sha256": "dd064e5720bee5da0b0ceebedde966466e2d8611e2255045ab99930d769f99d6",
+      "packaged_sha256": "dd064e5720bee5da0b0ceebedde966466e2d8611e2255045ab99930d769f99d6",
+      "bytes": 2173,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/postprocess.py",
+      "destination": "historical_scripts/postprocess.py",
+      "source_sha256": "d005327cf5881549d7693bbe356bed7d5b7ea618984a071af2c4a40db0a6577f",
+      "packaged_sha256": "d005327cf5881549d7693bbe356bed7d5b7ea618984a071af2c4a40db0a6577f",
+      "bytes": 3937,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/prepare.py",
+      "destination": "historical_scripts/prepare.py",
+      "source_sha256": "427537f1b892236c968ebc9ee7022d7f2de09867c2daff6597f45fb5de2d74e4",
+      "packaged_sha256": "427537f1b892236c968ebc9ee7022d7f2de09867c2daff6597f45fb5de2d74e4",
+      "bytes": 3947,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/run_cohort.py",
+      "destination": "historical_scripts/run_cohort.py",
+      "source_sha256": "dc76c2ccfe98275ef9c93f891fdebbaaa893e47a5a3d417da31bf18ea37e1fa0",
+      "packaged_sha256": "dc76c2ccfe98275ef9c93f891fdebbaaa893e47a5a3d417da31bf18ea37e1fa0",
+      "bytes": 2243,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/runtime.py",
+      "destination": "historical_scripts/runtime.py",
+      "source_sha256": "b85a52832086b80088a652e11f1b5e36318be7a964bc6c14c3cbfcd909173336",
+      "packaged_sha256": "b85a52832086b80088a652e11f1b5e36318be7a964bc6c14c3cbfcd909173336",
+      "bytes": 2167,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/summarize_composition.py",
+      "destination": "historical_scripts/summarize_composition.py",
+      "source_sha256": "c36eb297641796a4ec9313fb0b095aa3b624e6c9c2adccbdf5e37f813236cc1f",
+      "packaged_sha256": "c36eb297641796a4ec9313fb0b095aa3b624e6c9c2adccbdf5e37f813236cc1f",
+      "bytes": 2828,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/test_port.py",
+      "destination": "historical_scripts/test_port.py",
+      "source_sha256": "4edefd7a5568f6b4e800f968502e93f0af7bbad0c7199335412c76d6f0d397af",
+      "packaged_sha256": "4edefd7a5568f6b4e800f968502e93f0af7bbad0c7199335412c76d6f0d397af",
+      "bytes": 1004,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/test_smoke.py",
+      "destination": "historical_scripts/test_smoke.py",
+      "source_sha256": "3d1cb8ef86ea6321307a20100c40bcd0afbc9e9063a9eac5cedbef7ceef64aa3",
+      "packaged_sha256": "3d1cb8ef86ea6321307a20100c40bcd0afbc9e9063a9eac5cedbef7ceef64aa3",
+      "bytes": 844,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/watch.py",
+      "destination": "historical_scripts/watch.py",
+      "source_sha256": "ae991868caec42dd5a52327a73f10651f2ebdce2a9f16b6260bb7ff2d3c1e6bf",
+      "packaged_sha256": "ae991868caec42dd5a52327a73f10651f2ebdce2a9f16b6260bb7ff2d3c1e6bf",
+      "bytes": 1139,
+      "role": "Byte-identical historical script",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor_source_hashes.json",
+      "destination": "historical_scripts/vendor_source_hashes.json",
+      "source_sha256": "a18955017796572f0dd9470e9717c69108442e23229612d5d0890386095a1ec9",
+      "packaged_sha256": "a18955017796572f0dd9470e9717c69108442e23229612d5d0890386095a1ec9",
+      "bytes": 2612,
+      "role": "Recorded original source hash manifest",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/validation.json",
+      "destination": "resources/historical/validation.json",
+      "source_sha256": "dff94a34de71732dd5ec190c86678fac65eb2522588f51c48b08e6f74b112089",
+      "packaged_sha256": "dff94a34de71732dd5ec190c86678fac65eb2522588f51c48b08e6f74b112089",
+      "bytes": 1149,
+      "role": "Historical runtime metadata; not a new run",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/prepare_complete.json",
+      "destination": "resources/historical/prepare_complete.json",
+      "source_sha256": "5b20992188e3cd037c635525fa17fe175a3c438b25e459435970d347fc47f1ad",
+      "packaged_sha256": "5b20992188e3cd037c635525fa17fe175a3c438b25e459435970d347fc47f1ad",
+      "bytes": 176,
+      "role": "Historical runtime metadata; not a new run",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/input_audit.csv",
+      "destination": "resources/historical/input_audit.csv",
+      "source_sha256": "017861c1ade6d4a03ebf001018c3a1b0ec79fca5b4555c6cf8c7b288102f5b53",
+      "packaged_sha256": "017861c1ade6d4a03ebf001018c3a1b0ec79fca5b4555c6cf8c7b288102f5b53",
+      "bytes": 2216,
+      "role": "Historical runtime metadata; not a new run",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/launch.json",
+      "destination": "resources/historical/launch.json",
+      "source_sha256": "948cb51a3f7a136b5ad196cac65da42e4898a34722692a2f04c4dbd12e0e8ba3",
+      "packaged_sha256": "948cb51a3f7a136b5ad196cac65da42e4898a34722692a2f04c4dbd12e0e8ba3",
+      "bytes": 268,
+      "role": "Historical runtime metadata; not a new run",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/run_status.json",
+      "destination": "resources/historical/run_status.json",
+      "source_sha256": "61f1b628b7f04fdf7e32c53e7f76d19dc90d6e4e6eb1989556d60993933c62fd",
+      "packaged_sha256": "61f1b628b7f04fdf7e32c53e7f76d19dc90d6e4e6eb1989556d60993933c62fd",
+      "bytes": 160,
+      "role": "Historical runtime metadata; not a new run",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/reference/mapping.csv",
+      "destination": "resources/reference/mapping.csv",
+      "source_sha256": "24cc5a57e397cbe472d18f98e713ee2b29fc5fcf580e4c8e93dad62b728ffd48",
+      "packaged_sha256": "24cc5a57e397cbe472d18f98e713ee2b29fc5fcf580e4c8e93dad62b728ffd48",
+      "bytes": 1214,
+      "role": "Frozen prepared reference; raw-count profiles are original filtered integer-valued sums",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/reference/gene_audit.csv",
+      "destination": "resources/reference/gene_audit.csv",
+      "source_sha256": "b801fcc71a60a11c75693e767f72edb42f2baebd7c1366bc3e5212c34a736f93",
+      "packaged_sha256": "b801fcc71a60a11c75693e767f72edb42f2baebd7c1366bc3e5212c34a736f93",
+      "bytes": 774167,
+      "role": "Frozen prepared reference; raw-count profiles are original filtered integer-valued sums",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/reference/raw_count_profiles.pkl",
+      "destination": "resources/reference/raw_count_profiles.pkl",
+      "source_sha256": "341edbf7cf085be2c4312c8d560e9a29091a332ec1970ca8df16b35bbeb0685c",
+      "packaged_sha256": "341edbf7cf085be2c4312c8d560e9a29091a332ec1970ca8df16b35bbeb0685c",
+      "bytes": 9960883,
+      "role": "Frozen prepared reference; raw-count profiles are original filtered integer-valued sums",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/decode72_epi_seed2026/reference/cell_manifest.csv",
+      "destination": "resources/reference/cell_manifest.csv.gz",
+      "source_sha256": "3c803ce5cf5080855b163b87605f1418b45d43fb2e5e886a36abd0e5c581d4ad",
+      "packaged_sha256": "284387ce1e6e7565801917afad5d69b8fd1e9e08ca476277daa7c30997971671",
+      "bytes": 2556241,
+      "role": "Complete fixed reference cell manifest; losslessly gzip-compressed",
+      "byte_identical": false,
+      "decompressed_sha256": "3c803ce5cf5080855b163b87605f1418b45d43fb2e5e886a36abd0e5c581d4ad"
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/decode70_bulk_audited2026/sample_manifest.csv",
+      "destination": "resources/reference/sample_manifest.csv",
+      "source_sha256": "8bcee18c69a283184519f04ed3f4922c07ea69ae31ced076eebe219986ba864c",
+      "packaged_sha256": "8bcee18c69a283184519f04ed3f4922c07ea69ae31ced076eebe219986ba864c",
+      "bytes": 29504,
+      "role": "Historical sample identities; prepare reads dataset/sampleID only, not outcome fields",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/TCGA-COADREAD/config.json",
+      "destination": "resources/historical/cohorts/TCGA-COADREAD/config.json",
+      "source_sha256": "556cbf712d83f2ef81e1bcf808c539a89341541c363806a8ae60fd3eb389e73a",
+      "packaged_sha256": "556cbf712d83f2ef81e1bcf808c539a89341541c363806a8ae60fd3eb389e73a",
+      "bytes": 1272,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/TCGA-COADREAD/complete.json",
+      "destination": "resources/historical/cohorts/TCGA-COADREAD/complete.json",
+      "source_sha256": "61c30af71c767f385e7ee0134809f6cd94bcf537de13101bbb912244d6bf9643",
+      "packaged_sha256": "61c30af71c767f385e7ee0134809f6cd94bcf537de13101bbb912244d6bf9643",
+      "bytes": 194,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/TCGA-COADREAD/final_fractions.csv",
+      "destination": "resources/historical/cohorts/TCGA-COADREAD/final_fractions.csv",
+      "source_sha256": "a988ea696a68752435308fffc7db4e6dae05d128f838bb887efcd462a29e48e1",
+      "packaged_sha256": "a988ea696a68752435308fffc7db4e6dae05d128f838bb887efcd462a29e48e1",
+      "bytes": 572784,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/TCGA-COADREAD/final_CV_fractions.csv",
+      "destination": "resources/historical/cohorts/TCGA-COADREAD/final_CV_fractions.csv",
+      "source_sha256": "1ddb403bf6713219c1ae889e425d104423d787f709c24f6a3e88da76845d5c09",
+      "packaged_sha256": "1ddb403bf6713219c1ae889e425d104423d787f709c24f6a3e88da76845d5c09",
+      "bytes": 500008,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39582/config.json",
+      "destination": "resources/historical/cohorts/GSE39582/config.json",
+      "source_sha256": "3328c7f14b12ef86f3cdc72b9ebe56285740bfe3b88bc19ceee9fc70129c15ab",
+      "packaged_sha256": "3328c7f14b12ef86f3cdc72b9ebe56285740bfe3b88bc19ceee9fc70129c15ab",
+      "bytes": 1267,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39582/complete.json",
+      "destination": "resources/historical/cohorts/GSE39582/complete.json",
+      "source_sha256": "a63ed6a641b483cd855d455784271ce70912da1dda42eebcfd6f65f430bb090a",
+      "packaged_sha256": "a63ed6a641b483cd855d455784271ce70912da1dda42eebcfd6f65f430bb090a",
+      "bytes": 190,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39582/final_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE39582/final_fractions.csv",
+      "source_sha256": "76f2253ad002a498decb01c42d9ec8117b162e70c0db6478bc7349c563f61bbe",
+      "packaged_sha256": "76f2253ad002a498decb01c42d9ec8117b162e70c0db6478bc7349c563f61bbe",
+      "bytes": 849170,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39582/final_CV_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE39582/final_CV_fractions.csv",
+      "source_sha256": "a0c750028e5fcd9d77cb5eced0e36a9487a948dbb4e858f764f45e06164bab55",
+      "packaged_sha256": "a0c750028e5fcd9d77cb5eced0e36a9487a948dbb4e858f764f45e06164bab55",
+      "bytes": 757065,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE24550/config.json",
+      "destination": "resources/historical/cohorts/GSE24550/config.json",
+      "source_sha256": "3b0752c68792b4dc52959296a247d6d31cc81b4f58367eb61d611711a5059e3e",
+      "packaged_sha256": "3b0752c68792b4dc52959296a247d6d31cc81b4f58367eb61d611711a5059e3e",
+      "bytes": 1266,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE24550/complete.json",
+      "destination": "resources/historical/cohorts/GSE24550/complete.json",
+      "source_sha256": "3df18f2976bdbeacf1b49533eed4a6b373d863cc40b8202ec790d2c4356d56e9",
+      "packaged_sha256": "3df18f2976bdbeacf1b49533eed4a6b373d863cc40b8202ec790d2c4356d56e9",
+      "bytes": 189,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE24550/final_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE24550/final_fractions.csv",
+      "source_sha256": "e12e017b331b14bf567365289ec878501c051c8b09c61a7ef3c8f7402ffbd5cb",
+      "packaged_sha256": "e12e017b331b14bf567365289ec878501c051c8b09c61a7ef3c8f7402ffbd5cb",
+      "bytes": 103278,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE24550/final_CV_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE24550/final_CV_fractions.csv",
+      "source_sha256": "d2ce5804e90789d16324dcc392e66e17de2b827188ad859a02d7ca794eff2056",
+      "packaged_sha256": "d2ce5804e90789d16324dcc392e66e17de2b827188ad859a02d7ca794eff2056",
+      "bytes": 92448,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE25071/config.json",
+      "destination": "resources/historical/cohorts/GSE25071/config.json",
+      "source_sha256": "caa5548766a71927cb1c38d701172efcf614340778900a86a5522f45229be3bf",
+      "packaged_sha256": "caa5548766a71927cb1c38d701172efcf614340778900a86a5522f45229be3bf",
+      "bytes": 1265,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE25071/complete.json",
+      "destination": "resources/historical/cohorts/GSE25071/complete.json",
+      "source_sha256": "a1f50127b15670e7cc6b2918d01dd14f98757c192d60aac54969a4e4dee202f5",
+      "packaged_sha256": "a1f50127b15670e7cc6b2918d01dd14f98757c192d60aac54969a4e4dee202f5",
+      "bytes": 188,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE25071/final_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE25071/final_fractions.csv",
+      "source_sha256": "6d78af6f4a732d023bb7747eb33600152c1eaab77d408d5786a41ede6bbc840c",
+      "packaged_sha256": "6d78af6f4a732d023bb7747eb33600152c1eaab77d408d5786a41ede6bbc840c",
+      "bytes": 68663,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE25071/final_CV_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE25071/final_CV_fractions.csv",
+      "source_sha256": "0c0b2134d3cd7238c75be6d1967921ad1782fb1f4f7733a73d3161d3be9964ec",
+      "packaged_sha256": "0c0b2134d3cd7238c75be6d1967921ad1782fb1f4f7733a73d3161d3be9964ec",
+      "bytes": 61577,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE27544/config.json",
+      "destination": "resources/historical/cohorts/GSE27544/config.json",
+      "source_sha256": "798eaeb0154c1204c51a18e4c2e5d5e49366cc2cf7465b1fe6d47c7780707bbe",
+      "packaged_sha256": "798eaeb0154c1204c51a18e4c2e5d5e49366cc2cf7465b1fe6d47c7780707bbe",
+      "bytes": 1266,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE27544/complete.json",
+      "destination": "resources/historical/cohorts/GSE27544/complete.json",
+      "source_sha256": "8723ae2cc66cbc0b5f05edfce3df742acc76234069f02e48d86d9d2998dd4274",
+      "packaged_sha256": "8723ae2cc66cbc0b5f05edfce3df742acc76234069f02e48d86d9d2998dd4274",
+      "bytes": 190,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE27544/final_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE27544/final_fractions.csv",
+      "source_sha256": "55a0906c020a5146717559deaa320c1922163e495c432fa646fb6ba5fccd8132",
+      "packaged_sha256": "55a0906c020a5146717559deaa320c1922163e495c432fa646fb6ba5fccd8132",
+      "bytes": 35345,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE27544/final_CV_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE27544/final_CV_fractions.csv",
+      "source_sha256": "9de9cc31928f02f7c805feff2000fe5abe30dfa9ffe3a25933c8241a2f65650a",
+      "packaged_sha256": "9de9cc31928f02f7c805feff2000fe5abe30dfa9ffe3a25933c8241a2f65650a",
+      "bytes": 31426,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE35896/config.json",
+      "destination": "resources/historical/cohorts/GSE35896/config.json",
+      "source_sha256": "c0db532f8867d51bb4a60e14c3d0b49efef59567477af07bd508e057cec28541",
+      "packaged_sha256": "c0db532f8867d51bb4a60e14c3d0b49efef59567477af07bd508e057cec28541",
+      "bytes": 1266,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE35896/complete.json",
+      "destination": "resources/historical/cohorts/GSE35896/complete.json",
+      "source_sha256": "8e519f3b8999823f9151c5d54ce4d30dea83bc379b815f0b04767f01c6f196ee",
+      "packaged_sha256": "8e519f3b8999823f9151c5d54ce4d30dea83bc379b815f0b04767f01c6f196ee",
+      "bytes": 189,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE35896/final_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE35896/final_fractions.csv",
+      "source_sha256": "4db377b00ec8a622fdf8070e204620659367b52ed26a782445efe66caf59ec17",
+      "packaged_sha256": "4db377b00ec8a622fdf8070e204620659367b52ed26a782445efe66caf59ec17",
+      "bytes": 97226,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE35896/final_CV_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE35896/final_CV_fractions.csv",
+      "source_sha256": "14c645ef6108faadc2703e99598ace167fd02e7d9c80a641f013e6fcbc5a5df9",
+      "packaged_sha256": "14c645ef6108faadc2703e99598ace167fd02e7d9c80a641f013e6fcbc5a5df9",
+      "bytes": 86344,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39084/config.json",
+      "destination": "resources/historical/cohorts/GSE39084/config.json",
+      "source_sha256": "eaa34d2f6bc449a3513280faeeb55fbc5e540735f2c3a2d26483eb802ef95785",
+      "packaged_sha256": "eaa34d2f6bc449a3513280faeeb55fbc5e540735f2c3a2d26483eb802ef95785",
+      "bytes": 1266,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39084/complete.json",
+      "destination": "resources/historical/cohorts/GSE39084/complete.json",
+      "source_sha256": "188aea8343bdb270b4c1a42e29e1256299cd9d06d5cf3b6e7e66089d4eb04b10",
+      "packaged_sha256": "188aea8343bdb270b4c1a42e29e1256299cd9d06d5cf3b6e7e66089d4eb04b10",
+      "bytes": 190,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39084/final_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE39084/final_fractions.csv",
+      "source_sha256": "f7b944f86de8d23536bbe49ffafda8c0b8af1cd76abc3549292b3ddbe0b32127",
+      "packaged_sha256": "f7b944f86de8d23536bbe49ffafda8c0b8af1cd76abc3549292b3ddbe0b32127",
+      "bytes": 111243,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39084/final_CV_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE39084/final_CV_fractions.csv",
+      "source_sha256": "230bde1c1b469be6dc9ea48be9a7dc05b3949c1747ad8e014d0c775372130f0d",
+      "packaged_sha256": "230bde1c1b469be6dc9ea48be9a7dc05b3949c1747ad8e014d0c775372130f0d",
+      "bytes": 99443,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE75316/config.json",
+      "destination": "resources/historical/cohorts/GSE75316/config.json",
+      "source_sha256": "9cd525677459c5c9c11bf302b35fb61cffde8db0c9a88f2256069820b0e5a29d",
+      "packaged_sha256": "9cd525677459c5c9c11bf302b35fb61cffde8db0c9a88f2256069820b0e5a29d",
+      "bytes": 1266,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE75316/complete.json",
+      "destination": "resources/historical/cohorts/GSE75316/complete.json",
+      "source_sha256": "c72c09bb4df8c90a97e7d4ca64e15e92f1c3f81c742a5ea5a96165e7cd364bb0",
+      "packaged_sha256": "c72c09bb4df8c90a97e7d4ca64e15e92f1c3f81c742a5ea5a96165e7cd364bb0",
+      "bytes": 189,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE75316/final_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE75316/final_fractions.csv",
+      "source_sha256": "6da109931e91e48dd4e69f88f5e2ed16d2fb4f1c1e3b26ff0774cd23ceb0e30d",
+      "packaged_sha256": "6da109931e91e48dd4e69f88f5e2ed16d2fb4f1c1e3b26ff0774cd23ceb0e30d",
+      "bytes": 94115,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE75316/final_CV_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE75316/final_CV_fractions.csv",
+      "source_sha256": "d0e88cd596f3030340aaf3ec4e227f251cc40db3f58c23a6ce9b71b92346aab5",
+      "packaged_sha256": "d0e88cd596f3030340aaf3ec4e227f251cc40db3f58c23a6ce9b71b92346aab5",
+      "bytes": 83831,
+      "role": "Historical actual result; current manuscript cohort",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE92921/config.json",
+      "destination": "resources/historical/cohorts/GSE92921/config.json",
+      "source_sha256": "4bb9cc110dca7cd2ee71a166f1f93b486241cc1e22153f522bf7b8d7ef775e4f",
+      "packaged_sha256": "4bb9cc110dca7cd2ee71a166f1f93b486241cc1e22153f522bf7b8d7ef775e4f",
+      "bytes": 1266,
+      "role": "Historical ninth cohort, excluded from current eight-cohort manuscript",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE92921/complete.json",
+      "destination": "resources/historical/cohorts/GSE92921/complete.json",
+      "source_sha256": "3d34db02220ed762ae566c79399ffc63bbf379eb1c55991175952b127e2156b1",
+      "packaged_sha256": "3d34db02220ed762ae566c79399ffc63bbf379eb1c55991175952b127e2156b1",
+      "bytes": 190,
+      "role": "Historical ninth cohort, excluded from current eight-cohort manuscript",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE92921/final_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE92921/final_fractions.csv",
+      "source_sha256": "1bb3f42198173303fb9bfc730d53079e89990ce65f6115fde7bb9f2ee02e1d43",
+      "packaged_sha256": "1bb3f42198173303fb9bfc730d53079e89990ce65f6115fde7bb9f2ee02e1d43",
+      "bytes": 92557,
+      "role": "Historical ninth cohort, excluded from current eight-cohort manuscript",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE92921/final_CV_fractions.csv",
+      "destination": "resources/historical/cohorts/GSE92921/final_CV_fractions.csv",
+      "source_sha256": "6a2760a6cfd0e5efdb2444432d35c2f517cc4f6cf40fff7f5fc449ddc5c06603",
+      "packaged_sha256": "6a2760a6cfd0e5efdb2444432d35c2f517cc4f6cf40fff7f5fc449ddc5c06603",
+      "bytes": 82863,
+      "role": "Historical ninth cohort, excluded from current eight-cohort manuscript",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/report/article/pybayesprism9_seed2026/all72_reference_relative.csv",
+      "destination": "resources/historical_exports/all72_reference_relative.csv",
+      "source_sha256": "abf7292b229ad12b2b3d30343ce3eacb4d1bb4120b648828d6cec619ce376c98",
+      "packaged_sha256": "abf7292b229ad12b2b3d30343ce3eacb4d1bb4120b648828d6cec619ce376c98",
+      "bytes": 1938917,
+      "role": "Historical nine-cohort export; subset of eight cohorts feeds current paper",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/report/article/pybayesprism9_seed2026/major_reference_relative.csv",
+      "destination": "resources/historical_exports/major_reference_relative.csv",
+      "source_sha256": "4830e22586fbe0e8a2c23df77fadefbd900743b719ba9a2b3a2f754a8e39a93c",
+      "packaged_sha256": "4830e22586fbe0e8a2c23df77fadefbd900743b719ba9a2b3a2f754a8e39a93c",
+      "bytes": 207376,
+      "role": "Historical nine-cohort export; subset of eight cohorts feeds current paper",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/report/article/pybayesprism9_seed2026/subtype_over_major.csv",
+      "destination": "resources/historical_exports/subtype_over_major.csv",
+      "source_sha256": "d1e5244a68fab27f6901efa45ec447b845f5b1e8cc3d9d37fbb1d38fd242141b",
+      "packaged_sha256": "d1e5244a68fab27f6901efa45ec447b845f5b1e8cc3d9d37fbb1d38fd242141b",
+      "bytes": 1935032,
+      "role": "Historical nine-cohort export; subset of eight cohorts feeds current paper",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/report/article/pybayesprism9_seed2026/verification.json",
+      "destination": "resources/historical_exports/verification.json",
+      "source_sha256": "e8400bd14567f96e33ca1b3470f6a43f3f53e679e2faedea0ea77ed09905c9fc",
+      "packaged_sha256": "e8400bd14567f96e33ca1b3470f6a43f3f53e679e2faedea0ea77ed09905c9fc",
+      "bytes": 2204,
+      "role": "Historical nine-cohort export; subset of eight cohorts feeds current paper",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/report/article/pybayesprism9_seed2026/cohort_summary.csv",
+      "destination": "resources/historical_exports/cohort_summary.csv",
+      "source_sha256": "94295adc7ed5de83b9df5b46d33e6b08ded770469a1b37ee6f0ec0f84b9ce96a",
+      "packaged_sha256": "94295adc7ed5de83b9df5b46d33e6b08ded770469a1b37ee6f0ec0f84b9ce96a",
+      "bytes": 1027,
+      "role": "Historical nine-cohort export; subset of eight cohorts feeds current paper",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_decode70_direction_audit2026/singlecell_reference_direction.csv",
+      "destination": "resources/optional_audit/singlecell_reference_direction.csv",
+      "source_sha256": "f1c3bd5245a28ffd683cb97189605aa6de68a9ae3d913cecc0d20b4fc571febf",
+      "packaged_sha256": "f1c3bd5245a28ffd683cb97189605aa6de68a9ae3d913cecc0d20b4fc571febf",
+      "bytes": 3904,
+      "role": "Small dependency of archived descriptive shared18 audit; not current bulk12 feature selection",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_fusion_selection_20260930/input_features.csv",
+      "destination": "resources/optional_audit/historical_labels.csv",
+      "source_sha256": "5906c5f354bd013671e1a25df356e5b3b7f1842b75c91375e7341153448b1ecc",
+      "packaged_sha256": "5906c5f354bd013671e1a25df356e5b3b7f1842b75c91375e7341153448b1ecc",
+      "bytes": 375490,
+      "role": "Small dependency of archived descriptive shared18 audit; not current bulk12 feature selection",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/model/reference/shared18_weighted_mlh1_2026/model.joblib",
+      "destination": "resources/optional_audit/shared18_weighted_model.joblib",
+      "source_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
+      "packaged_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
+      "bytes": 5917,
+      "role": "Small dependency of archived descriptive shared18 audit; not current bulk12 feature selection",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/AGENTS.md",
+      "destination": "resources/protocols/AGENTS.md",
+      "source_sha256": "ce84df21cbfe4a7cb71ddec01e698e3094be16e28b8453b49ad95f70fdc3f78d",
+      "packaged_sha256": "ce84df21cbfe4a7cb71ddec01e698e3094be16e28b8453b49ad95f70fdc3f78d",
+      "bytes": 3820,
+      "role": "Approved project protocol snapshot",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/docs/superpowers/specs/locked-transcriptomic-workflow.md",
+      "destination": "resources/protocols/locked-transcriptomic-workflow.md",
+      "source_sha256": "8cf8b5976e64d3c34c4594289ec3507b6e49df583ef1821279f50391adacc9a8",
+      "packaged_sha256": "8cf8b5976e64d3c34c4594289ec3507b6e49df583ef1821279f50391adacc9a8",
+      "bytes": 15652,
+      "role": "Approved project protocol snapshot",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/docs/superpowers/specs/2026-10-03-python-bayesprism9.md",
+      "destination": "resources/protocols/2026-10-03-python-bayesprism9.md",
+      "source_sha256": "4d75992f5b313da4e2564839ff658f170a5a5af7547b91b7f581ed56b012e5af",
+      "packaged_sha256": "4d75992f5b313da4e2564839ff658f170a5a5af7547b91b7f581ed56b012e5af",
+      "bytes": 2529,
+      "role": "Approved project protocol snapshot",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/code/vendor/pybayesprism-0.1.0.dist-info/LICENSE",
+      "destination": "LICENSE_pybayesprism.txt",
+      "source_sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde",
+      "packaged_sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde",
+      "bytes": 1068,
+      "role": "Original MIT license retained",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/TCGA-COADREAD/initial_samples/identities.json",
+      "destination": "resources/historical/cohorts/TCGA-COADREAD/initial_samples/identities.json",
+      "source_sha256": "b24ca8f7ecc53d6e512e0254e6786d03b8f5133c0a4d93556f3e342981f66ba9",
+      "packaged_sha256": "b24ca8f7ecc53d6e512e0254e6786d03b8f5133c0a4d93556f3e342981f66ba9",
+      "bytes": 145492,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/TCGA-COADREAD/initial_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/TCGA-COADREAD/initial_samples/rng_states.json",
+      "source_sha256": "0b78c3fecab0d934d1bba6830b27048b6ec7d655e721a5c4a1880b928c42b6dd",
+      "packaged_sha256": "0b78c3fecab0d934d1bba6830b27048b6ec7d655e721a5c4a1880b928c42b6dd",
+      "bytes": 60045,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/TCGA-COADREAD/final_samples/identities.json",
+      "destination": "resources/historical/cohorts/TCGA-COADREAD/final_samples/identities.json",
+      "source_sha256": "b24ca8f7ecc53d6e512e0254e6786d03b8f5133c0a4d93556f3e342981f66ba9",
+      "packaged_sha256": "b24ca8f7ecc53d6e512e0254e6786d03b8f5133c0a4d93556f3e342981f66ba9",
+      "bytes": 145492,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/TCGA-COADREAD/final_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/TCGA-COADREAD/final_samples/rng_states.json",
+      "source_sha256": "64303bdde8e7e103f6a122746265a6f92c4856b9b324a03b8d0a9858170ea612",
+      "packaged_sha256": "64303bdde8e7e103f6a122746265a6f92c4856b9b324a03b8d0a9858170ea612",
+      "bytes": 60048,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39582/initial_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE39582/initial_samples/identities.json",
+      "source_sha256": "0a066ddc3309288d173635aed72315e23d15162d3cb7f1d2072f3e3eb9a36693",
+      "packaged_sha256": "0a066ddc3309288d173635aed72315e23d15162d3cb7f1d2072f3e3eb9a36693",
+      "bytes": 148479,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39582/initial_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE39582/initial_samples/rng_states.json",
+      "source_sha256": "9b7759ce00ab3330a2e02a0891764a7db962fa7a0c5e5b8ab3b28089ccb4b49f",
+      "packaged_sha256": "9b7759ce00ab3330a2e02a0891764a7db962fa7a0c5e5b8ab3b28089ccb4b49f",
+      "bytes": 90396,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39582/final_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE39582/final_samples/identities.json",
+      "source_sha256": "0a066ddc3309288d173635aed72315e23d15162d3cb7f1d2072f3e3eb9a36693",
+      "packaged_sha256": "0a066ddc3309288d173635aed72315e23d15162d3cb7f1d2072f3e3eb9a36693",
+      "bytes": 148479,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39582/final_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE39582/final_samples/rng_states.json",
+      "source_sha256": "6e0174bb01cb4f7722dfd632aa1ca6f2b5545732085945cd12de5c587f586c01",
+      "packaged_sha256": "6e0174bb01cb4f7722dfd632aa1ca6f2b5545732085945cd12de5c587f586c01",
+      "bytes": 90437,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE24550/initial_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE24550/initial_samples/identities.json",
+      "source_sha256": "3484b5bd241c892006426d1de2e25557307d6bd3b968d74f369a9647418a4bf3",
+      "packaged_sha256": "3484b5bd241c892006426d1de2e25557307d6bd3b968d74f369a9647418a4bf3",
+      "bytes": 128073,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE24550/initial_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE24550/initial_samples/rng_states.json",
+      "source_sha256": "81cd3cd81c0ed578e4b6298f34b1705655189d055e83e2270bc8df07f33a054b",
+      "packaged_sha256": "81cd3cd81c0ed578e4b6298f34b1705655189d055e83e2270bc8df07f33a054b",
+      "bytes": 10957,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE24550/final_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE24550/final_samples/identities.json",
+      "source_sha256": "3484b5bd241c892006426d1de2e25557307d6bd3b968d74f369a9647418a4bf3",
+      "packaged_sha256": "3484b5bd241c892006426d1de2e25557307d6bd3b968d74f369a9647418a4bf3",
+      "bytes": 128073,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE24550/final_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE24550/final_samples/rng_states.json",
+      "source_sha256": "58cfde6c8cfa3ab197179d509037f178e4eb922e26a9cfa58f8783d8cc0c56f6",
+      "packaged_sha256": "58cfde6c8cfa3ab197179d509037f178e4eb922e26a9cfa58f8783d8cc0c56f6",
+      "bytes": 10966,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE25071/initial_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE25071/initial_samples/identities.json",
+      "source_sha256": "c58ac409d88f0aa5a59740db3a4c56f40d8c7285558b0351dfa1651b3345574e",
+      "packaged_sha256": "c58ac409d88f0aa5a59740db3a4c56f40d8c7285558b0351dfa1651b3345574e",
+      "bytes": 89442,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE25071/initial_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE25071/initial_samples/rng_states.json",
+      "source_sha256": "4428d5dd20903bd701caa0be1af21d61575c60f1e665581e20d32e104d59fb88",
+      "packaged_sha256": "4428d5dd20903bd701caa0be1af21d61575c60f1e665581e20d32e104d59fb88",
+      "bytes": 7261,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE25071/final_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE25071/final_samples/identities.json",
+      "source_sha256": "c58ac409d88f0aa5a59740db3a4c56f40d8c7285558b0351dfa1651b3345574e",
+      "packaged_sha256": "c58ac409d88f0aa5a59740db3a4c56f40d8c7285558b0351dfa1651b3345574e",
+      "bytes": 89442,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE25071/final_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE25071/final_samples/rng_states.json",
+      "source_sha256": "b755087ce2d61cfea2ae9dac976f461b092c5683612248a9482fecd0a06140d7",
+      "packaged_sha256": "b755087ce2d61cfea2ae9dac976f461b092c5683612248a9482fecd0a06140d7",
+      "bytes": 7226,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE27544/initial_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE27544/initial_samples/identities.json",
+      "source_sha256": "1683b2519d7e07c288c1bd0babf5a1fb5b02fd1fd3b692ce66d12a7dcc2e124a",
+      "packaged_sha256": "1683b2519d7e07c288c1bd0babf5a1fb5b02fd1fd3b692ce66d12a7dcc2e124a",
+      "bytes": 134570,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE27544/initial_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE27544/initial_samples/rng_states.json",
+      "source_sha256": "0980d0fa65612c95402d7f85939a15742d9b6f2c1752344fb7522f3905239fb3",
+      "packaged_sha256": "0980d0fa65612c95402d7f85939a15742d9b6f2c1752344fb7522f3905239fb3",
+      "bytes": 3718,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE27544/final_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE27544/final_samples/identities.json",
+      "source_sha256": "1683b2519d7e07c288c1bd0babf5a1fb5b02fd1fd3b692ce66d12a7dcc2e124a",
+      "packaged_sha256": "1683b2519d7e07c288c1bd0babf5a1fb5b02fd1fd3b692ce66d12a7dcc2e124a",
+      "bytes": 134570,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE27544/final_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE27544/final_samples/rng_states.json",
+      "source_sha256": "ec6cdd27cc49cf3081f2fc4e565c69bead8f2bf73fe81af87bfba12fcaab31e0",
+      "packaged_sha256": "ec6cdd27cc49cf3081f2fc4e565c69bead8f2bf73fe81af87bfba12fcaab31e0",
+      "bytes": 3711,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE35896/initial_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE35896/initial_samples/identities.json",
+      "source_sha256": "67a31e511ef6e2f16889e3b1628ef7f2cd6976bfff48bc55069bdde720f79ebb",
+      "packaged_sha256": "67a31e511ef6e2f16889e3b1628ef7f2cd6976bfff48bc55069bdde720f79ebb",
+      "bytes": 142287,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE35896/initial_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE35896/initial_samples/rng_states.json",
+      "source_sha256": "7e9cad1c4744f72928227d651f933df3c38eea6f4103dc5ad3f4818c02c58579",
+      "packaged_sha256": "7e9cad1c4744f72928227d651f933df3c38eea6f4103dc5ad3f4818c02c58579",
+      "bytes": 10285,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE35896/final_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE35896/final_samples/identities.json",
+      "source_sha256": "67a31e511ef6e2f16889e3b1628ef7f2cd6976bfff48bc55069bdde720f79ebb",
+      "packaged_sha256": "67a31e511ef6e2f16889e3b1628ef7f2cd6976bfff48bc55069bdde720f79ebb",
+      "bytes": 142287,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE35896/final_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE35896/final_samples/rng_states.json",
+      "source_sha256": "a0fb50b66d66a8701ccdfce2abb29c34d196ee4dcdf9cf238b7f275746955e8a",
+      "packaged_sha256": "a0fb50b66d66a8701ccdfce2abb29c34d196ee4dcdf9cf238b7f275746955e8a",
+      "bytes": 10286,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39084/initial_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE39084/initial_samples/identities.json",
+      "source_sha256": "5cdef18ebefe865dea5b8d0a2d7c93d09febdcc5afa442bd7fe1768da0ffdd02",
+      "packaged_sha256": "5cdef18ebefe865dea5b8d0a2d7c93d09febdcc5afa442bd7fe1768da0ffdd02",
+      "bytes": 142404,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39084/initial_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE39084/initial_samples/rng_states.json",
+      "source_sha256": "5354807c160ab70726cb599bf5dee0f01e59f2dac3a8ad45d77572ea7d21819c",
+      "packaged_sha256": "5354807c160ab70726cb599bf5dee0f01e59f2dac3a8ad45d77572ea7d21819c",
+      "bytes": 11797,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39084/final_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE39084/final_samples/identities.json",
+      "source_sha256": "5cdef18ebefe865dea5b8d0a2d7c93d09febdcc5afa442bd7fe1768da0ffdd02",
+      "packaged_sha256": "5cdef18ebefe865dea5b8d0a2d7c93d09febdcc5afa442bd7fe1768da0ffdd02",
+      "bytes": 142404,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE39084/final_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE39084/final_samples/rng_states.json",
+      "source_sha256": "dd000e3beb2168c0bb88ef9d46ec2c34497d63a1805ab57fbb8e5ab24ff32052",
+      "packaged_sha256": "dd000e3beb2168c0bb88ef9d46ec2c34497d63a1805ab57fbb8e5ab24ff32052",
+      "bytes": 11816,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE75316/initial_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE75316/initial_samples/identities.json",
+      "source_sha256": "e29c3e6d0889c881bbb864a48d22f7cce39caec259d74ff878db69ae11ee5b8f",
+      "packaged_sha256": "e29c3e6d0889c881bbb864a48d22f7cce39caec259d74ff878db69ae11ee5b8f",
+      "bytes": 144541,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE75316/initial_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE75316/initial_samples/rng_states.json",
+      "source_sha256": "ed84e2aae90c4b2f91f7d3a988446bf6c2da35baaedaf8f4d6e38491653abef1",
+      "packaged_sha256": "ed84e2aae90c4b2f91f7d3a988446bf6c2da35baaedaf8f4d6e38491653abef1",
+      "bytes": 9949,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE75316/final_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE75316/final_samples/identities.json",
+      "source_sha256": "e29c3e6d0889c881bbb864a48d22f7cce39caec259d74ff878db69ae11ee5b8f",
+      "packaged_sha256": "e29c3e6d0889c881bbb864a48d22f7cce39caec259d74ff878db69ae11ee5b8f",
+      "bytes": 144541,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE75316/final_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE75316/final_samples/rng_states.json",
+      "source_sha256": "125307b49a22a8dac99be8e8bc20d980bcf28247c8c566378adf9308b7343e00",
+      "packaged_sha256": "125307b49a22a8dac99be8e8bc20d980bcf28247c8c566378adf9308b7343e00",
+      "bytes": 9946,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE92921/initial_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE92921/initial_samples/identities.json",
+      "source_sha256": "c7d5b5129e86df6e9ce8587b20f24e1005d38a7e85665c4126e8c613bf71e019",
+      "packaged_sha256": "c7d5b5129e86df6e9ce8587b20f24e1005d38a7e85665c4126e8c613bf71e019",
+      "bytes": 144525,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE92921/initial_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE92921/initial_samples/rng_states.json",
+      "source_sha256": "a998925029f4673c32c47db56ab86b1fa21b1c98287c1002fa7119261384beb7",
+      "packaged_sha256": "a998925029f4673c32c47db56ab86b1fa21b1c98287c1002fa7119261384beb7",
+      "bytes": 9781,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE92921/final_samples/identities.json",
+      "destination": "resources/historical/cohorts/GSE92921/final_samples/identities.json",
+      "source_sha256": "c7d5b5129e86df6e9ce8587b20f24e1005d38a7e85665c4126e8c613bf71e019",
+      "packaged_sha256": "c7d5b5129e86df6e9ce8587b20f24e1005d38a7e85665c4126e8c613bf71e019",
+      "bytes": 144525,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    },
+    {
+      "source": "/home/wyw/rstudio/MSI/最终模型/data/bulk/result/pybayesprism9_seed2026/cohorts/GSE92921/final_samples/rng_states.json",
+      "destination": "resources/historical/cohorts/GSE92921/final_samples/rng_states.json",
+      "source_sha256": "060b95d84474eef771a5184daed0e4df023f6043414b460eee1ae0014adf96d1",
+      "packaged_sha256": "060b95d84474eef771a5184daed0e4df023f6043414b460eee1ae0014adf96d1",
+      "bytes": 9776,
+      "role": "Saved sample/gene/type identities and PCG64 states from actual historical chain phase",
+      "byte_identical": true
+    }
+  ],
+  "portable_adaptations": {
+    "test_port.py": [],
+    "prepare.py": [
+      {
+        "original": "P=Path(__file__).resolve().parent;O=P.parent;R=Path('/home/wyw/rstudio/MSI');F=R/'最终模型';sys.path.insert(0,str(P/'vendor'))",
+        "portable": "from paths import PACKAGE_ROOT as P, WORK_ROOT as O, PROJECT_ROOT as R, reference_input, selected_cohorts\nF=R/'最终模型';O.mkdir(parents=True,exist_ok=True);sys.path.insert(0,str(P/'vendor'))"
+      },
+      {
+        "original": "F/'data/bulk/result/decode72_epi_seed2026/reference/cell_manifest.csv'",
+        "portable": "reference_input('cell_manifest.csv.gz')"
+      },
+      {
+        "original": "F/'data/bulk/result/decode70_bulk_audited2026/sample_manifest.csv'",
+        "portable": "reference_input('sample_manifest.csv')"
+      },
+      {
+        "original": "if d=='GSE18088':continue",
+        "portable": "if d not in selected_cohorts():continue"
+      }
+    ],
+    "runtime.py": [],
+    "run_cohort.py": [
+      {
+        "original": "P=Path(__file__).resolve().parent;O=P.parent;sys.path.insert(0,str(P/'vendor'))",
+        "portable": "from paths import PACKAGE_ROOT as P, WORK_ROOT as O, reference_input, selected_cohorts\nsys.path.insert(0,str(P/'vendor'))"
+      },
+      {
+        "original": "def run(d,cores):",
+        "portable": "def run(d,cores):\n assert d in selected_cohorts(), 'Cohort is not enabled by MSI_BAYESPRISM_COHORTS'"
+      },
+      {
+        "original": "O/'reference/raw_count_profiles.pkl'",
+        "portable": "reference_input('raw_count_profiles.pkl')"
+      }
+    ],
+    "test_smoke.py": [
+      {
+        "original": "out=P.parent/'smoke';out.mkdir(exist_ok=True);runtime.install(out)",
+        "portable": "from paths import WORK_ROOT\nout=WORK_ROOT/'synthetic_smoke';out.mkdir(parents=True,exist_ok=True);runtime.install(out)"
+      }
+    ],
+    "launch.py": [
+      {
+        "original": "P=Path(__file__).resolve().parent;O=P.parent",
+        "portable": "from paths import PACKAGE_ROOT as P, WORK_ROOT as O\nimport sys"
+      },
+      {
+        "original": "'/home/wyw/miniconda3/envs/MSI/bin/python'",
+        "portable": "sys.executable"
+      }
+    ],
+    "postprocess.py": [
+      {
+        "original": "P=Path(__file__).resolve().parent;O=P.parent;E=Path('/home/wyw/rstudio/MSI/最终模型/report/article/pybayesprism9_seed2026');E.mkdir(exist_ok=True)",
+        "portable": "from paths import PACKAGE_ROOT as P, WORK_ROOT as O, EXPORT_ROOT as E, reference_input\nE.mkdir(parents=True,exist_ok=True)"
+      },
+      {
+        "original": "O/'reference/mapping.csv'",
+        "portable": "reference_input('mapping.csv')"
+      },
+      {
+        "original": "'expected_cohorts':9,'expected_samples':1270,'all_complete':len(verification)==9",
+        "portable": "'expected_cohorts':len(pd.read_csv(O/'input_audit.csv')),'expected_samples':int(pd.read_csv(O/'input_audit.csv')['n'].sum()),'all_complete':len(verification)==len(pd.read_csv(O/'input_audit.csv'))"
+      },
+      {
+        "original": "Report title describes nine cohorts and 1270 samples",
+        "portable": "Expected counts derive from prepared ledger; report wording says selected independently processed cohorts",
+        "scope": "Output description only; historical script/results untouched"
+      }
+    ],
+    "watch.py": [
+      {
+        "original": "P=Path(__file__).resolve().parent;O=P.parent",
+        "portable": "from paths import PACKAGE_ROOT as P, WORK_ROOT as O\nimport sys,pandas as pd\nledger=pd.read_csv(O/'input_audit.csv');expected=len(ledger);samples=int(ledger['n'].sum())"
+      },
+      {
+        "original": "'expected_cohorts':9,'expected_samples':1270",
+        "portable": "'expected_cohorts':expected,'expected_samples':samples"
+      },
+      {
+        "original": "len(statuses)==9",
+        "portable": "len(statuses)==expected"
+      },
+      {
+        "original": "'/home/wyw/miniconda3/envs/MSI/bin/python'",
+        "portable": "sys.executable"
+      }
+    ],
+    "summarize_composition.py": [
+      {
+        "original": "P=Path('/home/wyw/rstudio/MSI/最终模型/report/article/pybayesprism9_seed2026')",
+        "portable": "from paths import EXPORT_ROOT as P, existing_export\nP.mkdir(parents=True,exist_ok=True)"
+      },
+      {
+        "original": "P/'major_reference_relative.csv'",
+        "portable": "existing_export('major_reference_relative.csv')"
+      },
+      {
+        "original": "P/'all72_reference_relative.csv'",
+        "portable": "existing_export('all72_reference_relative.csv')"
+      }
+    ],
+    "audit_shared18_direction.py": [
+      {
+        "original": "F=Path('/home/wyw/rstudio/MSI/最终模型');P=F/'report/article/pybayesprism9_seed2026'",
+        "portable": "from paths import PACKAGE_ROOT, EXPORT_ROOT as P, existing_export\nP.mkdir(parents=True,exist_ok=True)"
+      },
+      {
+        "original": "F/'model/reference/shared18_weighted_mlh1_2026/model.joblib'",
+        "portable": "PACKAGE_ROOT/'resources/optional_audit/shared18_weighted_model.joblib'"
+      },
+      {
+        "original": "F/'report/article/bulk_decode70_direction_audit2026/singlecell_reference_direction.csv'",
+        "portable": "PACKAGE_ROOT/'resources/optional_audit/singlecell_reference_direction.csv'"
+      },
+      {
+        "original": "P/'subtype_over_major.csv'",
+        "portable": "existing_export('subtype_over_major.csv')"
+      },
+      {
+        "original": "F/'report/article/bulk_fusion_selection_20260930/input_features.csv'",
+        "portable": "PACKAGE_ROOT/'resources/optional_audit/historical_labels.csv'"
+      }
+    ]
+  },
+  "verification_environment_versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "xarray": "2025.10.1",
+    "tqdm": "4.67.1",
+    "anndata": "0.12.6",
+    "h5py": "3.15.1",
+    "matplotlib": "3.10.7",
+    "joblib": "1.5.2",
+    "scikit-learn": "1.7.2"
+  },
+  "large_inputs_not_duplicated": [
+    {
+      "path": "/home/wyw/rstudio/MSI/GSE178341.h5ad",
+      "public_accession": "GSE178341",
+      "bytes": 18432871117,
+      "layer": "layers[counts]",
+      "historical_sha256": null
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/bulk_data/TCGA-COADREAD/expression.csv",
+      "public_accession": "TCGA-COADREAD",
+      "bytes": 41256899,
+      "source_sha256": "14b7f77122e14c8d6cb1e4de1d071aa94007763d10b41a649d27b5ada72faaf0"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/bulk_data/GSE39582/expression.csv",
+      "public_accession": "GSE39582",
+      "bytes": 127972882,
+      "source_sha256": "92d5b6a198469ed90c3b92a984d64a18c222e97f73c13f918fdbc9ea49f6c54d"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/bulk_data/GSE24550/expression.csv",
+      "public_accession": "GSE24550",
+      "bytes": 13532233,
+      "source_sha256": "01d4013e13e87989a6e13f21ccc961a3fe1e7b8cf455ee3cb0fa5a965db17b3f"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/bulk_data/GSE25071/expression.csv",
+      "public_accession": "GSE25071",
+      "bytes": 3940600,
+      "source_sha256": "77ec587413a9ea93f834b6c89fa1448e6ba2e1c7086f2958e51c2fa4ee8721ec"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/bulk_data/GSE27544/expression.csv",
+      "public_accession": "GSE27544",
+      "bytes": 4140935,
+      "source_sha256": "192cf7fce24d1f472c958ec9ce69bf94d342530d8e1426b62cdf2d73e7fca07f"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/bulk_data/GSE35896/expression.csv",
+      "public_accession": "GSE35896",
+      "bytes": 17888715,
+      "source_sha256": "b1ba410736b31b4d71802a573cf30b08f188a281876b09f496b5b74d240a1f0a"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/bulk_data/GSE39084/expression.csv",
+      "public_accession": "GSE39084",
+      "bytes": 16811335,
+      "source_sha256": "e8302d337e82a09969a6fc1a923b7aa2a13d0fa5e3e7f7df1ff0a99294d24ffe"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/bulk_data/GSE75316/expression.csv",
+      "public_accession": "GSE75316",
+      "bytes": 14277348,
+      "source_sha256": "a4c8557e8e43a30adf56609b16b2c4245c2d9773a2b885ddd1ddd0bcd7e3eb98"
+    },
+    {
+      "path": "/home/wyw/rstudio/MSI/bulk_data/GSE92921/expression.csv",
+      "public_accession": "GSE92921",
+      "bytes": 10707897,
+      "source_sha256": "e3547873f377f4b8da87f43e2a09ee4cf190950345cebcc96976a76780996e57"
+    }
+  ],
+  "known_limits": [
+    "Historical upstream Git commit and exact Python/dependency runtime versions absent. Packaging verification versions are not inferred historical versions.",
+    "No contemporaneous source h5ad hash found; prepared reference profiles and fixed cell membership are preserved.",
+    "The original patch_port.py is archived only: it is a one-time patch generator and must not be re-applied to already-patched vendor.",
+    "Archived vendor_original/default seed123 and upstream tutorial modules are historical provenance, not executable current paper entry flows.",
+    "Configured chain1000 retains indices500..998 by2 (250); actual loop executes999 updates per phase.",
+    "Current8 starts from independent cohort data, but measurements and source feature discovery remain historical/cohort-adaptive and exploratory.",
+    "Microarray inverse-transformed intensity is not RNA-seq counts; np.rint integer copy drives both initial and final inference.",
+    "Execution validated on Linux/POSIX with original fcntl/fork conventions; Windows/spawn-only execution not verified."
+  ],
+  "verification_status": "passed",
+  "verification_result_path": "verification/portable_verification.json",
+  "verification_summary": {
+    "status": "passed",
+    "copied_source_resources_verified": 143,
+    "vendor_import_path": "/home/wyw/rstudio/MSI/MSIClassifier/code/bayesprism/vendor/pybayesprism/gibbs.py",
+    "active_default_seed": 2026,
+    "reference_shape": [
+      72,
+      17039
+    ],
+    "n_historical_cohorts": 9,
+    "max_reconstructed_export_difference": 1.1102230246251565e-16,
+    "one_type_conservation_and_gene_filter_checks": "passed",
+    "two_type_synthetic_smoke": "passed",
+    "real_cohorts_computed": false,
+    "verification_python_version": "3.12.12",
+    "verification_dependency_versions": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scipy": "1.16.3",
+      "xarray": "2025.10.1",
+      "tqdm": "4.67.1",
+      "anndata": "0.12.6",
+      "h5py": "3.15.1",
+      "matplotlib": "3.10.7",
+      "joblib": "1.5.2",
+      "scikit-learn": "1.7.2"
+    },
+    "historical_runtime_versions_known": false
+  },
+  "historical_seed_evidence": [
+    {
+      "file": "vendor_original/pybayesprism/prism.py",
+      "line": 55,
+      "text": "'seed': 123,",
+      "role": "Preserved upstream archival default; not active current-paper entryflow"
+    }
+  ],
+  "portable_file_hashes": {
+    "LICENSE_pybayesprism.txt": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde",
+    "README_bayesprism.md": "0d60e0d8af4698a4c5e0d28bf0ae6afe3dfbc48d2ac53179d0ff03a2a26a4f09",
+    "audit_shared18_direction.py": "653714aae4835e9cb5645f1cfdaed2d20bc0a2312fbbacfc7231fd9ab631d2cd",
+    "launch.py": "bd4af9c7df481c73e9426fdb1a9bc1adfbda5b6abf880ee9bb3e00cfa437d2e6",
+    "paths.py": "df5b64f72660edc84f94d0f11edc5bfa1dd30075350dc07236e5694a16bf272b",
+    "postprocess.py": "f7c018fab15c831ba846eac82b1028d026656b020f1a5d9639b1aa4ef4231637",
+    "prepare.py": "ccedd9cd90cfb08e3a84cfa966f71dac824ca5902100015851041a6ef98bed70",
+    "requirements.txt": "f9ce39eb12c76d759152e5cdb259de14477a2e1aec95903a822453c3dca021c2",
+    "requirements_verified_environment.txt": "f0a0a5ca09dbe21c546273faaf4d45880ec969a0c33a95a8425803184a823b52",
+    "run_cohort.py": "9528969c222518e94b660c2935712dbcf7e5c10751da8a4e6cb15e0d339ec9d2",
+    "runtime.py": "b85a52832086b80088a652e11f1b5e36318be7a964bc6c14c3cbfcd909173336",
+    "summarize_composition.py": "b45ab4cb979b008aec35c55dcddb161f2519c9ebeb3e856ce319fcc9c1e87ddb",
+    "test_port.py": "4edefd7a5568f6b4e800f968502e93f0af7bbad0c7199335412c76d6f0d397af",
+    "test_smoke.py": "def91a9ec745c098f08fd687c895355eeff17fac05ff9942627f021bc0018aec",
+    "validate_portable.py": "1576f2e7102c909a748b8d0f618b769cd630e2d4121a20939590ea3c162910ac",
+    "watch.py": "2ba7b6419840efb9710ffa65766963b43c57e128846ddcc703b57b44e53a1ab6"
+  },
+  "saved_chain_identity_state_files": 36
+}

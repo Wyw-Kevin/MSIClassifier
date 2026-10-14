@@ -1,0 +1,3 @@
+metric,maximum,feature_set,n_subtype_features,normalization,model,development_oof_auc,external_auc,joint_min_auc,joint_mean_auc
+development_oof_auc,0.9349753694581282,top_7_direction_consistent_plus_mlh1,7,train_minmax,gradient_boosting_shallow,0.9349753694581282,0.9342105263157895,0.9342105263157895,0.9345929478869588
+external_auc,0.9736842105263158,top_16_direction_consistent_plus_mlh1,16,train_minmax,gradient_boosting,0.9241379310344827,0.9736842105263158,0.9241379310344827,0.9489110707803993

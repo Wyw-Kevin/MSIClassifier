@@ -1,0 +1,110 @@
+{
+  "status": "Predeclared exploratory bulk panel comparison; manuscript unchanged",
+  "seed": 2026,
+  "panels": {
+    "panel7": [
+      "cS27",
+      "cTNI16",
+      "cM06",
+      "cTNI05",
+      "cTNI10",
+      "cP1",
+      "cTNI13"
+    ],
+    "panel12": [
+      "cS27",
+      "cTNI16",
+      "cM06",
+      "cTNI05",
+      "cTNI10",
+      "cP1",
+      "cTNI13",
+      "cS18",
+      "cTNI04",
+      "cS17",
+      "cM05",
+      "cTNI08"
+    ],
+    "historical10_control": [
+      "cS27",
+      "cTNI16",
+      "cM06",
+      "cTNI26",
+      "cM04",
+      "cTNI05",
+      "cTNI02",
+      "cTNI10",
+      "cP1",
+      "cTNI13"
+    ]
+  },
+  "candidate_filter": "Source scRNA oriented AUROC strictly >0.70; 17 candidates",
+  "panel7_filter": "Both development oriented AUROCs strictly >0.60",
+  "panel12_filter": "Both development oriented AUROCs strictly >0.50",
+  "direction": "Frozen source scRNA direction, not bulk-optimized",
+  "feature_order": "Historical10 restricted to candidates, followed by other candidates in source ledger order",
+  "classifier": {
+    "activation": "relu",
+    "alpha": 1.0,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+      4
+    ],
+    "learning_rate": "constant",
+    "learning_rate_init": 0.001,
+    "max_fun": 15000,
+    "max_iter": 5000,
+    "momentum": 0.9,
+    "n_iter_no_change": 10,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": 2026,
+    "shuffle": true,
+    "solver": "adam",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+  },
+  "folds": "Archived five folds, unchanged",
+  "scaling": "Development training rows only, within each fold",
+  "input_identity": "Historical Python BayesPrism71 subtype/parent fractions; unchanged cohort-adaptive measurements",
+  "MMR4": "Archived eight-cohort LOCO; gene-order max sigmoid; target-cohort unsupervised normalization",
+  "fusion_weights": [
+    0.5,
+    0.5
+  ],
+  "class_threshold": 0.5,
+  "evaluation": "Six previously explored cohorts; retrospective",
+  "CV_scope": "Fixed-panel downstream classifier CV; selection and preprocessing not nested; MMR4 not classifier-fold isolated",
+  "software": {
+    "python": "3.12.12",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "sklearn": "1.7.2"
+  },
+  "panel": [
+    "cS27",
+    "cTNI16",
+    "cM06",
+    "cTNI05",
+    "cTNI10",
+    "cP1",
+    "cTNI13",
+    "cS18",
+    "cTNI04",
+    "cS17",
+    "cM05",
+    "cTNI08"
+  ],
+  "primary_classifier": "mlp_4_l2; actually refitted twelve-feature model",
+  "model_adoption": "After seven/twelve comparative results were viewed; exploratory",
+  "bootstrap_candidates": 17,
+  "bootstrap_threshold": 0.5,
+  "main_figure": "Twelve retained subtype frequencies only"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": 12170,
+  "indices_all_replayed": true,
+  "all_oriented_AUROCs_match_verified_archived_resamples": true,
+  "independent_sklearn_AUROC_checks": 170,
+  "model_input_frozen": true,
+  "original_sources_unchanged": true
+}

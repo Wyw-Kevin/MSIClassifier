@@ -1,0 +1,7 @@
+{
+  "prior_check": "failed as expected",
+  "cutoff": 0.6,
+  "passing_candidates": 39,
+  "previous_modeled_candidates": 18,
+  "cause": "head(18) introduced a second selection step"
+}

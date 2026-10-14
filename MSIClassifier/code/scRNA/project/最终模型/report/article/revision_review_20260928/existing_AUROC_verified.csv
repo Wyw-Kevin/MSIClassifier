@@ -1,0 +1,17 @@
+dataset,split,model,n,AUROC
+GSE132465,external,18 subtypes + raw MLH1,23,0.881578947368421
+GSE132465,external,18 subtypes + weighted MLH1,23,0.9605263157894737
+GSE132465,external,18 subtypes only,23,0.8421052631578947
+GSE132465,external,Weighted MLH1 only,23,0.9736842105263158
+GSE178341,grouped_OOF,18 subtypes + raw MLH1,64,0.9546798029556649
+GSE178341,grouped_OOF,18 subtypes + weighted MLH1,64,0.9783251231527094
+GSE178341,grouped_OOF,18 subtypes only,64,0.961576354679803
+GSE178341,grouped_OOF,Weighted MLH1 only,64,0.8926108374384236
+GSE178341,training_apparent,18 subtypes + raw MLH1,64,0.9812807881773399
+GSE178341,training_apparent,18 subtypes + weighted MLH1,64,0.9891625615763546
+GSE178341,training_apparent,18 subtypes only,64,0.9793103448275862
+GSE178341,training_apparent,Weighted MLH1 only,64,0.9201970443349754
+GSE200997,external,18 subtypes + raw MLH1,15,1.0
+GSE200997,external,18 subtypes + weighted MLH1,15,1.0
+GSE200997,external,18 subtypes only,15,1.0
+GSE200997,external,Weighted MLH1 only,15,0.8846153846153846

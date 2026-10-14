@@ -1,0 +1,52 @@
+{
+  "seed": 2026,
+  "status": "User-approved cohort-adaptive MMR4 LOCO, conditional fixed-subtype fusion",
+  "cohorts": [
+    "GSE24550",
+    "GSE25071",
+    "GSE27544",
+    "GSE35896",
+    "GSE39084",
+    "GSE39582",
+    "GSE75316",
+    "TCGA-COADREAD"
+  ],
+  "n_samples": 1212,
+  "genes": [
+    "MLH1",
+    "MSH2",
+    "MSH6",
+    "PMS2"
+  ],
+  "temperature": 0.5,
+  "normalization": "Independent within-cohort mean and sample SD (ddof=1); held-out expression but no held-out labels",
+  "cutoff_grid": "[-4,0] inclusive, step 0.5, Cartesian four-gene product (6561)",
+  "fit_objective": "Equal-weight mean AUROC over seven training cohorts",
+  "tie_rule": "Training macro AUROC rounded12; training macro BA at 0.5 rounded12; gene-order lexicographic",
+  "historical_threshold_anchor_used": false,
+  "subtype_refitted": false,
+  "fusion_weights": [
+    0.5,
+    0.5
+  ],
+  "classification_threshold": 0.5,
+  "source_sha256": {
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_10panel_mmr4_fixed05_20261005/input_features.csv": "7a341e3e49263f0aac878b702796b4a9db501989dc66e595229687158babd86a",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_10panel_mmr4_fixed05_20261005/predictions_10panel_fixed05.csv": "bae7814972ee377dde094c2abffee9bf159dc72bf6115b586c39e8d548007f4d",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_10panel_mmr4_fixed05_20261005/protocol.json": "7478727d8613b842c47b43e1116213dc4711aa78d271060ba0a48d1dd7c51ba8",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_10panel_mmr4_fixed05_20261005/MMR4_lock.json": "9a314d1c411a60d88033e918e5ee5b9240d0a9461de601e104be3c3e23dfb8ab",
+    "/home/wyw/rstudio/MSI/最终模型/report/article/bulk_10panel_mmr4_fixed05_20261005/feature_order.csv": "ec30aa87f1c43825b4b4c630baea6e43568d93b7708016df95b69bfdab8782e2"
+  },
+  "limitations": [
+    "Previously explored cohorts; no prospectively untouched external validation",
+    "Subtype panel, deconvolution and classifier predictions remain fixed; this is not end-to-end LOCO",
+    "MMR4 uses target-cohort unsupervised normalization; no direct frozen single-sample inference"
+  ],
+  "software": {
+    "python": "3.12.12",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "sklearn": "1.7.2"
+  }
+}

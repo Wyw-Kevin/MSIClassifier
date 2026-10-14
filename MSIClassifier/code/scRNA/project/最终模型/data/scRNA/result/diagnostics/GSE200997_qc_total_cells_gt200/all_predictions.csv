@@ -1,0 +1,181 @@
+model,sampleID,y,score,epithelial_proxy
+Shared18 + MLH1 (LDA),T_cac1,0,0.1690159074220041,True
+Shared18 + MLH1 (LDA),T_cac2,0,0.0021301841218102,True
+Shared18 + MLH1 (LDA),T_cac3,0,0.4880274537289772,True
+Shared18 + MLH1 (LDA),T_cac4,0,0.1228063938196933,True
+Shared18 + MLH1 (LDA),T_cac6,0,0.0002954533900418,True
+Shared18 + MLH1 (LDA),T_cac7,1,0.9725825248959312,True
+Shared18 + MLH1 (LDA),T_cac8,0,1.347681299356168e-05,True
+Shared18 + MLH1 (LDA),T_cac9,0,0.0058860102407583,True
+Shared18 + MLH1 (LDA),T_cac10,0,0.3823191150979181,True
+Shared18 + MLH1 (LDA),T_cac11,0,0.005766527584281,True
+Shared18 + MLH1 (LDA),T_cac12,1,0.9388374950090616,True
+Shared18 + MLH1 (LDA),T_cac13,0,2.3468414203072528e-09,True
+Shared18 + MLH1 (LDA),T_cac14,0,0.0064686487975781,True
+Shared18 + MLH1 (LDA),T_cac15,0,6.482851617968822e-06,True
+Shared18 + MLH1 (LDA),T_cac16,0,2.075049320794795e-05,True
+Shared18 only (LDA),T_cac1,0,0.1106202364486954,False
+Shared18 only (LDA),T_cac2,0,0.0009645119353046,False
+Shared18 only (LDA),T_cac3,0,0.4942769211310026,False
+Shared18 only (LDA),T_cac4,0,0.2543755163836362,False
+Shared18 only (LDA),T_cac6,0,0.0003014491407674,False
+Shared18 only (LDA),T_cac7,1,0.8006800786101624,False
+Shared18 only (LDA),T_cac8,0,1.099017601995808e-05,False
+Shared18 only (LDA),T_cac9,0,0.0067173693321057,False
+Shared18 only (LDA),T_cac10,0,0.3155618353480052,False
+Shared18 only (LDA),T_cac11,0,0.0311777674514462,False
+Shared18 only (LDA),T_cac12,1,0.7333690674758735,False
+Shared18 only (LDA),T_cac13,0,4.247543922383824e-09,False
+Shared18 only (LDA),T_cac14,0,0.0030425974968559,False
+Shared18 only (LDA),T_cac15,0,1.3153673572033916e-05,False
+Shared18 only (LDA),T_cac16,0,1.5336633442384063e-05,False
+MLH1 only (LDA),T_cac1,0,0.6176199594214293,True
+MLH1 only (LDA),T_cac2,0,0.720751050402505,True
+MLH1 only (LDA),T_cac3,0,0.5078009253034689,True
+MLH1 only (LDA),T_cac4,0,0.379498028191741,True
+MLH1 only (LDA),T_cac6,0,0.50360563999966,True
+MLH1 only (LDA),T_cac7,1,0.8916174216494741,True
+MLH1 only (LDA),T_cac8,0,0.65749408281262,True
+MLH1 only (LDA),T_cac9,0,0.4291470411301409,True
+MLH1 only (LDA),T_cac10,0,0.617734240806325,True
+MLH1 only (LDA),T_cac11,0,0.1468923802851126,True
+MLH1 only (LDA),T_cac12,1,0.853025200600065,True
+MLH1 only (LDA),T_cac13,0,0.8916174216494741,True
+MLH1 only (LDA),T_cac14,0,0.680449864683105,True
+MLH1 only (LDA),T_cac15,0,0.3947019616617317,True
+MLH1 only (LDA),T_cac16,0,0.5429193683869836,True
+Major7 + MLH1 (LDA),T_cac1,0,0.1965387898596967,True
+Major7 + MLH1 (LDA),T_cac2,0,0.0413361762781572,True
+Major7 + MLH1 (LDA),T_cac3,0,0.0127267688254975,True
+Major7 + MLH1 (LDA),T_cac4,0,0.9952826645822,True
+Major7 + MLH1 (LDA),T_cac6,0,0.910784280438524,True
+Major7 + MLH1 (LDA),T_cac7,1,0.9232255515631153,True
+Major7 + MLH1 (LDA),T_cac8,0,0.4648536754468707,True
+Major7 + MLH1 (LDA),T_cac9,0,0.9750522202703829,True
+Major7 + MLH1 (LDA),T_cac10,0,0.8670001046005805,True
+Major7 + MLH1 (LDA),T_cac11,0,0.5647966287828786,True
+Major7 + MLH1 (LDA),T_cac12,1,0.989559874171207,True
+Major7 + MLH1 (LDA),T_cac13,0,0.9794750492490344,True
+Major7 + MLH1 (LDA),T_cac14,0,0.9451569193511262,True
+Major7 + MLH1 (LDA),T_cac15,0,0.9687725884503832,True
+Major7 + MLH1 (LDA),T_cac16,0,0.9847496236126604,True
+Major7 + MLH1 (Logistic),T_cac1,0,0.2527170193558805,True
+Major7 + MLH1 (Logistic),T_cac2,0,0.0995550583196057,True
+Major7 + MLH1 (Logistic),T_cac3,0,0.0469421621925673,True
+Major7 + MLH1 (Logistic),T_cac4,0,0.98820863289681,True
+Major7 + MLH1 (Logistic),T_cac6,0,0.8975721977226511,True
+Major7 + MLH1 (Logistic),T_cac7,1,0.8596725322647907,True
+Major7 + MLH1 (Logistic),T_cac8,0,0.532323531530365,True
+Major7 + MLH1 (Logistic),T_cac9,0,0.956129389065325,True
+Major7 + MLH1 (Logistic),T_cac10,0,0.7938685263483043,True
+Major7 + MLH1 (Logistic),T_cac11,0,0.5586243409996539,True
+Major7 + MLH1 (Logistic),T_cac12,1,0.97280913015985,True
+Major7 + MLH1 (Logistic),T_cac13,0,0.9548891954488824,True
+Major7 + MLH1 (Logistic),T_cac14,0,0.8979745651714577,True
+Major7 + MLH1 (Logistic),T_cac15,0,0.9439330638552522,True
+Major7 + MLH1 (Logistic),T_cac16,0,0.9706104382885332,True
+Collapsed18 + MLH1 (LDA),T_cac1,0,0.3430182268461014,True
+Collapsed18 + MLH1 (LDA),T_cac2,0,0.284124965238371,True
+Collapsed18 + MLH1 (LDA),T_cac3,0,0.0663128554962695,True
+Collapsed18 + MLH1 (LDA),T_cac4,0,0.3768869245083991,True
+Collapsed18 + MLH1 (LDA),T_cac6,0,0.4666732087888073,True
+Collapsed18 + MLH1 (LDA),T_cac7,1,0.1019761092383561,True
+Collapsed18 + MLH1 (LDA),T_cac8,0,0.3555631402996088,True
+Collapsed18 + MLH1 (LDA),T_cac9,0,0.5853226507484894,True
+Collapsed18 + MLH1 (LDA),T_cac10,0,0.2428603037822069,True
+Collapsed18 + MLH1 (LDA),T_cac11,0,0.0499743214942977,True
+Collapsed18 + MLH1 (LDA),T_cac12,1,0.7753416289674195,True
+Collapsed18 + MLH1 (LDA),T_cac13,0,0.8688838927075196,True
+Collapsed18 + MLH1 (LDA),T_cac14,0,0.068324257253792,True
+Collapsed18 + MLH1 (LDA),T_cac15,0,0.1477229488959802,True
+Collapsed18 + MLH1 (LDA),T_cac16,0,0.5938145939672159,True
+MMR4 expression (Logistic),T_cac1,0,0.5595201833300584,False
+MMR4 expression (Logistic),T_cac2,0,0.5858804038813977,False
+MMR4 expression (Logistic),T_cac3,0,0.3587078836486734,False
+MMR4 expression (Logistic),T_cac4,0,0.1775468649272868,False
+MMR4 expression (Logistic),T_cac6,0,0.1747318237752222,False
+MMR4 expression (Logistic),T_cac7,1,0.3922543031539187,False
+MMR4 expression (Logistic),T_cac8,0,0.5247094017000212,False
+MMR4 expression (Logistic),T_cac9,0,0.0586149696262846,False
+MMR4 expression (Logistic),T_cac10,0,0.1110900041421681,False
+MMR4 expression (Logistic),T_cac11,0,0.1556877262048784,False
+MMR4 expression (Logistic),T_cac12,1,0.2751086593173983,False
+MMR4 expression (Logistic),T_cac13,0,0.496189554399793,False
+MMR4 expression (Logistic),T_cac14,0,0.1651738471711834,False
+MMR4 expression (Logistic),T_cac15,0,0.1117392186891055,False
+MMR4 expression (Logistic),T_cac16,0,0.0830666722417893,False
+397-gene expression (Logistic),T_cac1,0,6.175636556832755e-05,False
+397-gene expression (Logistic),T_cac2,0,2.388292260412161e-06,False
+397-gene expression (Logistic),T_cac3,0,9.967640800181412e-06,False
+397-gene expression (Logistic),T_cac4,0,0.9904036211018684,False
+397-gene expression (Logistic),T_cac6,0,0.8744089861556552,False
+397-gene expression (Logistic),T_cac7,1,0.9813945872108364,False
+397-gene expression (Logistic),T_cac8,0,0.0008745944351317,False
+397-gene expression (Logistic),T_cac9,0,0.0474582923392348,False
+397-gene expression (Logistic),T_cac10,0,0.2710164969803191,False
+397-gene expression (Logistic),T_cac11,0,0.0981439824301018,False
+397-gene expression (Logistic),T_cac12,1,0.9732650591618928,False
+397-gene expression (Logistic),T_cac13,0,0.8893295677903391,False
+397-gene expression (Logistic),T_cac14,0,0.0018965515967617,False
+397-gene expression (Logistic),T_cac15,0,0.7561185723419704,False
+397-gene expression (Logistic),T_cac16,0,0.8396147854919649,False
+397-gene expression (tuned Logistic),T_cac1,0,0.0703856714007887,False
+397-gene expression (tuned Logistic),T_cac2,0,0.0258945073721442,False
+397-gene expression (tuned Logistic),T_cac3,0,0.0237598206916513,False
+397-gene expression (tuned Logistic),T_cac4,0,0.913237567300308,False
+397-gene expression (tuned Logistic),T_cac6,0,0.7692979616871409,False
+397-gene expression (tuned Logistic),T_cac7,1,0.8558740280068741,False
+397-gene expression (tuned Logistic),T_cac8,0,0.1429160001615077,False
+397-gene expression (tuned Logistic),T_cac9,0,0.426778662348278,False
+397-gene expression (tuned Logistic),T_cac10,0,0.5616030212982015,False
+397-gene expression (tuned Logistic),T_cac11,0,0.4934853707007052,False
+397-gene expression (tuned Logistic),T_cac12,1,0.8520012359699534,False
+397-gene expression (tuned Logistic),T_cac13,0,0.7307022693715663,False
+397-gene expression (tuned Logistic),T_cac14,0,0.2232749771352569,False
+397-gene expression (tuned Logistic),T_cac15,0,0.7486934162779214,False
+397-gene expression (tuned Logistic),T_cac16,0,0.8057956994561548,False
+MSIsensor-RNA pseudobulk,T_cac1,0,0.0479760344326178,False
+MSIsensor-RNA pseudobulk,T_cac2,0,0.0165754086656488,False
+MSIsensor-RNA pseudobulk,T_cac3,0,0.0046800754467519,False
+MSIsensor-RNA pseudobulk,T_cac4,0,0.6907222149168836,False
+MSIsensor-RNA pseudobulk,T_cac6,0,0.8162299160589572,False
+MSIsensor-RNA pseudobulk,T_cac7,1,0.9456483669912668,False
+MSIsensor-RNA pseudobulk,T_cac8,0,0.220538045567848,False
+MSIsensor-RNA pseudobulk,T_cac9,0,0.633261753794959,False
+MSIsensor-RNA pseudobulk,T_cac10,0,0.6260163157751137,False
+MSIsensor-RNA pseudobulk,T_cac11,0,0.8154129734781149,False
+MSIsensor-RNA pseudobulk,T_cac12,1,0.7651855114781191,False
+MSIsensor-RNA pseudobulk,T_cac13,0,0.5,False
+MSIsensor-RNA pseudobulk,T_cac14,0,0.3520625547039764,False
+MSIsensor-RNA pseudobulk,T_cac15,0,0.6961653156051179,False
+MSIsensor-RNA pseudobulk,T_cac16,0,0.7963335387620509,False
+MSIsensor-RNA cell mean,T_cac1,0,0.1244179609229338,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac1,0,0.1328670656371902,False
+MSIsensor-RNA cell mean,T_cac2,0,0.0489145996641997,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac2,0,0.060340264682137,False
+MSIsensor-RNA cell mean,T_cac3,0,0.0135982545274466,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac3,0,0.0159365152596228,False
+MSIsensor-RNA cell mean,T_cac4,0,0.4637476997092372,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac4,0,0.4345562090715633,False
+MSIsensor-RNA cell mean,T_cac6,0,0.5312961734866478,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac6,0,0.4599734031294683,False
+MSIsensor-RNA cell mean,T_cac7,1,0.5991715778821515,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac7,1,0.5216077563831478,False
+MSIsensor-RNA cell mean,T_cac8,0,0.2601347219960704,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac8,0,0.2529148657026857,False
+MSIsensor-RNA cell mean,T_cac9,0,0.3170247412164109,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac9,0,0.2678733295646366,False
+MSIsensor-RNA cell mean,T_cac10,0,0.3574693892345826,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac10,0,0.3007434127783378,False
+MSIsensor-RNA cell mean,T_cac11,0,0.4610549763544401,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac11,0,0.3803456515373578,False
+MSIsensor-RNA cell mean,T_cac12,1,0.4558230644590447,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac12,1,0.4154999128731708,False
+MSIsensor-RNA cell mean,T_cac13,0,0.2424146158105578,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac13,0,0.2241058990083853,False
+MSIsensor-RNA cell mean,T_cac14,0,0.3903295783889394,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac14,0,0.3808060365412916,False
+MSIsensor-RNA cell mean,T_cac15,0,0.4287214254595069,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac15,0,0.3894730533922579,False
+MSIsensor-RNA cell mean,T_cac16,0,0.5816505692865274,False
+MSIsensor-RNA cell mean log-impute sensitivity,T_cac16,0,0.5332714761072149,False

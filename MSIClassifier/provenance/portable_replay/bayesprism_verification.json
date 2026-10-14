@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "copied_source_resources_verified": 143,
+  "vendor_import_path": "/tmp/MSIClassifier_relocation_gl7nr18_/MSIClassifier/code/bayesprism/vendor/pybayesprism/gibbs.py",
+  "active_default_seed": 2026,
+  "reference_shape": [
+    72,
+    17039
+  ],
+  "n_historical_cohorts": 9,
+  "max_reconstructed_export_difference": 1.1102230246251565e-16,
+  "one_type_conservation_and_gene_filter_checks": "passed",
+  "two_type_synthetic_smoke": "passed",
+  "real_cohorts_computed": false,
+  "verification_python_version": "3.12.12",
+  "verification_dependency_versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "xarray": "2025.10.1",
+    "tqdm": "4.67.1",
+    "anndata": "0.12.6",
+    "h5py": "3.15.1",
+    "matplotlib": "3.10.7",
+    "joblib": "1.5.2",
+    "scikit-learn": "1.7.2"
+  },
+  "historical_runtime_versions_known": false
+}

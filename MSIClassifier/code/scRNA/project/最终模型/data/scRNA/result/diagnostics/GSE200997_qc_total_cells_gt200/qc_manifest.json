@@ -1,0 +1,11 @@
+{
+  "seed": 2026,
+  "min_total_cells_inclusive": 200,
+  "rule": "total_cells >= 200",
+  "n_input": 16,
+  "n_pass": 15,
+  "n_excluded": 1,
+  "excluded_samples": [
+    "T_cac5"
+  ]
+}

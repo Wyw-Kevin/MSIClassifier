@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-09-08T20:04:32.916772+08:00",
+  "output_directory": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/unmerged_raw_subtypes_min50_20260908",
+  "random_state": 20260713,
+  "class_contract": {
+    "n_classes": 71,
+    "merge_subtypes": false,
+    "minimum_reference_cells_inclusive": 50,
+    "fraction_denominator": "all subtype-labelled cells within each major class"
+  },
+  "screening": {
+    "dataset": "GSE178341",
+    "threshold_rule": "auc_best_direction > 0.65",
+    "feature_selection_scope": "full development cohort before fixed-feature OOF",
+    "n_selected": 24,
+    "selected_features_ranked": [
+      "cTNI14",
+      "cTNI18",
+      "cS18",
+      "cTNI13",
+      "cTNI16",
+      "cTNI05",
+      "cTNI07",
+      "cS27",
+      "cTNI04",
+      "cS17",
+      "cM01",
+      "cP1",
+      "cM05",
+      "cM06",
+      "cTNI08",
+      "cTNI19",
+      "cTNI10",
+      "cM04",
+      "cM02",
+      "cTNI11",
+      "cTNI02",
+      "cTNI26",
+      "cS04",
+      "cS32"
+    ]
+  },
+  "cohorts": {
+    "GSE178341": {
+      "MSI": 35,
+      "MSS": 29
+    },
+    "GSE132465": {
+      "MSS": 19,
+      "MSI": 4
+    }
+  },
+  "tosica": {
+    "migration_file": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/process/GSE132465_tosica_migration_cells.csv",
+    "reused_existing_predictions": true,
+    "subtype_models": [
+      "TNKILC",
+      "Myeloid",
+      "Strom",
+      "Plasma"
+    ],
+    "major_only_without_subtype_model": [
+      "B",
+      "Mast"
+    ]
+  },
+  "model_protocol": {
+    "always_included_feature": "mean_MLH1_epithelial",
+    "normalization": "MinMaxScaler fit on each fold training split; final scaler fit on all GSE178341",
+    "primary_selection": "training OOF AUC, OOF balanced accuracy, fewer subtype features, stable model order",
+    "external_selection_status": "exploratory only; not used for primary selection"
+  },
+  "train_selected_primary": {
+    "feature_set": "top_12_plus_mlh1",
+    "model": "gradient_boosting_shallow",
+    "n_subtype_features": 12
+  },
+  "external_best_exploratory": {
+    "feature_set": "top_10_plus_mlh1",
+    "model": "ridge_classifier",
+    "n_subtype_features": 10,
+    "auc": 0.9473684210526316,
+    "balanced_accuracy": 0.9473684210526316
+  },
+  "failed_model_runs": 0,
+  "archived_model_replaced": false
+}

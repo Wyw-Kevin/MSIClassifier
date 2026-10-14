@@ -1,0 +1,36 @@
+{
+  "cutoffs": [
+    -0.5,
+    -2.0,
+    -2.0,
+    -2.5
+  ],
+  "training_cohorts": [
+    "GSE24550",
+    "GSE25071",
+    "GSE35896",
+    "GSE39084",
+    "GSE39582",
+    "GSE75316",
+    "TCGA-COADREAD"
+  ],
+  "training_macro_AUROC": 0.9082571950384865,
+  "training_macro_BA": 0.8641808559599361,
+  "held_out_cohort": "GSE27544",
+  "held_out_labels_used_for_fit": false,
+  "held_out_scaler": {
+    "mean": [
+      8.068491363636364,
+      7.372129545454545,
+      5.362765340909092,
+      5.3212506818181815
+    ],
+    "sample_sd": [
+      0.9770831708094272,
+      1.1634665566048208,
+      0.2492413043956449,
+      0.21114100721293783
+    ],
+    "normalization_uses_labels": false
+  }
+}

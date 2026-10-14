@@ -1,0 +1,545 @@
+{
+  "date": "2026-10-14",
+  "scope": "Scientific figure label edits only; no estimator, data value, source artifact or document changes. New PNG/PDF exports from existing SVG nodes.",
+  "files": [
+    {
+      "media_key": "image1",
+      "source_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/figures/Figure1_study_design_bulk12.svg",
+      "source_svg_sha256": "06220e31d6588b6e112767aa87fb176f5219e5cc88e3e0b32a434bb921021ac0",
+      "source_png": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/figures/Figure1_study_design_bulk12.png",
+      "source_png_sha256": "5c6598994d952a316588157265367963751843d11c1adbf7c7d44c768f66d0d3",
+      "source_png_dimensions": [
+        2400,
+        1500
+      ],
+      "source_svg_canvas_attributes": {
+        "width": "1200",
+        "height": "750",
+        "viewBox": "0 0 1200 750"
+      },
+      "output_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure1_study_design_bulk12.svg",
+      "output_svg_sha256": "16dd7e49d871755c3b267a283b43a880534914aa0aa77382210b92f91f4c1bf2",
+      "output_png": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure1_study_design_bulk12.png",
+      "output_png_sha256": "5eb20b2242fb3d647d6b6c990cb42f98dc77616b6f3e43077ce2ca57439ad803",
+      "output_png_dimensions": [
+        2400,
+        1500
+      ],
+      "output_pdf": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure1_study_design_bulk12.pdf",
+      "output_pdf_sha256": "9b6794f0d2e8c86071426315fdf6648c1d202416704be73bf652936950999f60",
+      "changes": [
+        {
+          "old": "MMR4 LOCO + fixed fusion",
+          "new": "Cohort-held-out MMR4 + fixed fusion",
+          "parent_id": null,
+          "text_attributes_before": {
+            "x": "478",
+            "y": "486",
+            "font-family": "Arial",
+            "font-size": "18",
+            "fill": "#252A30",
+            "font-weight": "bold",
+            "text-anchor": "middle",
+            "style": ";fill:#c00000;font-size:13px"
+          },
+          "text_attributes_after": {
+            "x": "478",
+            "y": "486",
+            "font-family": "Arial",
+            "font-size": "18",
+            "fill": "#252A30",
+            "font-weight": "bold",
+            "text-anchor": "middle",
+            "style": ";fill:#c00000;font-size:10px"
+          },
+          "layout_treatment": "Original red color retained; local effective font size13px→10px to fit existing bulk box."
+        },
+        {
+          "old": "MMR4 LOCO; fixed subtype predictions",
+          "new": "MMR4 held out by cohort; subtype scores fixed",
+          "parent_id": null,
+          "text_attributes_before": {
+            "x": "305",
+            "y": "677",
+            "font-family": "Arial",
+            "font-size": "15",
+            "fill": "#555555",
+            "font-weight": "normal",
+            "text-anchor": "middle",
+            "style": ";fill:#c00000;font-size:11px"
+          },
+          "text_attributes_after": {
+            "x": "305",
+            "y": "677",
+            "font-family": "Arial",
+            "font-size": "15",
+            "fill": "#555555",
+            "font-weight": "normal",
+            "text-anchor": "middle",
+            "style": ";fill:#c00000;font-size:11px"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        }
+      ],
+      "nontext_nodes_attributes_and_content_preserved": true,
+      "original_svg_unchanged": true,
+      "visual_inspection": "passed: each PNG viewed; requested replacement labels fit without clipping or overlap, original viewport and margins preserved.",
+      "renderer": "cairosvg",
+      "png_and_pdf_export_size_pixels": [
+        2400,
+        1500
+      ],
+      "pdf_single_page": true,
+      "pdf_page_dimensions_pt": [
+        1800.0,
+        1125.0
+      ],
+      "unmodified_text_elements_verified": 53,
+      "all_numerical_data_and_non_target_text_preserved": true
+    },
+    {
+      "media_key": "image5",
+      "source_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/editable_main_figures_20261005/Figure02_scRNA_main.svg",
+      "source_svg_sha256": "828ff00320fa267ed4068f5c6c1acb72ea130b3b296ac8a4ae87936f97d1fe22",
+      "source_png": "/home/wyw/rstudio/MSI/最终模型/report/article/editable_main_figures_20261005/Figure02_scRNA_main.png",
+      "source_png_sha256": "fd25f3c9f004070547de695ab5d5604fea4e35dee029f79251b9fb38310d94c7",
+      "source_png_dimensions": [
+        2200,
+        2052
+      ],
+      "source_svg_canvas_attributes": {
+        "width": "514.6pt",
+        "height": "480pt",
+        "viewBox": "0 0 514.6 480",
+        "version": "1.1"
+      },
+      "output_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure02_scRNA_main.svg",
+      "output_svg_sha256": "51156b055faed20f5977f08c4d8d3df15212a3f6ae9f37c9f1e6b32b8aa2e03d",
+      "output_png": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure02_scRNA_main.png",
+      "output_png_sha256": "3478d46620e38c431c0167d32167e36b4ff90fd9f43ad3f6bcde2b20c6dca429",
+      "output_png_dimensions": [
+        2200,
+        2052
+      ],
+      "output_pdf": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure02_scRNA_main.pdf",
+      "output_pdf_sha256": "194ec3e6d1a71123e4b8edc3c10824d31bfae5a8ca4e1960c38c1a02f8af26d0",
+      "changes": [
+        {
+          "old": "Subtype count (+ one original MLH1 feature)",
+          "new": "Subtype count + whole-epithelial MLH1 (historical)",
+          "parent_id": "text_16",
+          "text_attributes_before": {
+            "style": "font-size: 7.5px; font-family: 'DejaVu Serif'; text-anchor: middle",
+            "x": "296.208",
+            "y": "135.298156",
+            "transform": "rotate(-0 296.208 135.298156)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 7.5px; font-family: 'DejaVu Serif'; text-anchor: middle",
+            "x": "296.208",
+            "y": "135.298156",
+            "transform": "rotate(-0 296.208 135.298156)"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        },
+        {
+          "old": "Subtype count (+ one original MLH1 feature)",
+          "new": "Subtype count + whole-epithelial MLH1 (historical)",
+          "parent_id": "text_209",
+          "text_attributes_before": {
+            "style": "font-size: 7.5px; font-family: 'DejaVu Serif'; text-anchor: middle",
+            "x": "296.208",
+            "y": "289.550905",
+            "transform": "rotate(-0 296.208 289.550905)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 7.5px; font-family: 'DejaVu Serif'; text-anchor: middle",
+            "x": "296.208",
+            "y": "289.550905",
+            "transform": "rotate(-0 296.208 289.550905)"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        }
+      ],
+      "nontext_nodes_attributes_and_content_preserved": true,
+      "original_svg_unchanged": true,
+      "visual_inspection": "passed: each PNG viewed; requested replacement labels fit without clipping or overlap, original viewport and margins preserved.",
+      "renderer": "cairosvg",
+      "png_and_pdf_export_size_pixels": [
+        2200,
+        2052
+      ],
+      "pdf_single_page": true,
+      "pdf_page_dimensions_pt": [
+        1650.0,
+        1539.0
+      ],
+      "unmodified_text_elements_verified": 514,
+      "all_numerical_data_and_non_target_text_preserved": true
+    },
+    {
+      "media_key": "figure2_continued",
+      "source_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/editable_main_figures_20261005/Figure02_scRNA_continued.svg",
+      "source_svg_sha256": "7c4fa627e30628d9b91e7410b62cadd6da7c2c3ac68012f1b00048c4839c2c15",
+      "source_png": "/home/wyw/rstudio/MSI/最终模型/report/article/editable_main_figures_20261005/Figure02_scRNA_continued.png",
+      "source_png_sha256": "93257a5f8a3fcf35a6dfa39d59b451ab2a5c0fce2c8d799f7ace6ff9bebf3157",
+      "source_png_dimensions": [
+        2200,
+        2428
+      ],
+      "source_svg_canvas_attributes": {
+        "width": "514.6pt",
+        "height": "568pt",
+        "viewBox": "0 480 514.6 568",
+        "version": "1.1"
+      },
+      "output_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure02_scRNA_continued.svg",
+      "output_svg_sha256": "beeedadc9e88499cb80e4e0c0f7f73701938e1d23b832cbfdab2b588db4914dc",
+      "output_png": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure02_scRNA_continued.png",
+      "output_png_sha256": "b0a149ed7d8d601cda4e94cfb200850d40b2ed87c9f22da08be2bb8540a30337",
+      "output_png_dimensions": [
+        2200,
+        2428
+      ],
+      "output_pdf": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure02_scRNA_continued.pdf",
+      "output_pdf_sha256": "7465f30e752351e08946dc8021f455bc76c792ba222f318434988bf93bd66cc9",
+      "changes": [
+        {
+          "old": "Subtype count (+ one original MLH1 feature)",
+          "new": "Subtype count + whole-epithelial MLH1 (historical)",
+          "parent_id": "text_16",
+          "text_attributes_before": {
+            "style": "font-size: 7.5px; font-family: 'DejaVu Serif'; text-anchor: middle",
+            "x": "296.208",
+            "y": "135.298156",
+            "transform": "rotate(-0 296.208 135.298156)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 7.5px; font-family: 'DejaVu Serif'; text-anchor: middle",
+            "x": "296.208",
+            "y": "135.298156",
+            "transform": "rotate(-0 296.208 135.298156)"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        },
+        {
+          "old": "Subtype count (+ one original MLH1 feature)",
+          "new": "Subtype count + whole-epithelial MLH1 (historical)",
+          "parent_id": "text_209",
+          "text_attributes_before": {
+            "style": "font-size: 7.5px; font-family: 'DejaVu Serif'; text-anchor: middle",
+            "x": "296.208",
+            "y": "289.550905",
+            "transform": "rotate(-0 296.208 289.550905)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 7.5px; font-family: 'DejaVu Serif'; text-anchor: middle",
+            "x": "296.208",
+            "y": "289.550905",
+            "transform": "rotate(-0 296.208 289.550905)"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        }
+      ],
+      "nontext_nodes_attributes_and_content_preserved": true,
+      "original_svg_unchanged": true,
+      "visual_inspection": "passed: each PNG viewed; requested replacement labels fit without clipping or overlap, original viewport and margins preserved. The two edited historical axis labels are outside the continued viewport (same full-tree source as the main panel); displayed E–J panels remain unchanged in content.",
+      "renderer": "cairosvg",
+      "png_and_pdf_export_size_pixels": [
+        2200,
+        2428
+      ],
+      "pdf_single_page": true,
+      "pdf_page_dimensions_pt": [
+        1650.0,
+        1821.0
+      ],
+      "unmodified_text_elements_verified": 514,
+      "all_numerical_data_and_non_target_text_preserved": true
+    },
+    {
+      "media_key": "image9",
+      "source_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/figures/Figure4_twelve_subtype_MMR4_LOCO.svg",
+      "source_svg_sha256": "0e29960270c1c3d52b2de210ceabbacd147c8248b11d4b9fc63e1cfcb0806fed",
+      "source_png": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/figures/Figure4_twelve_subtype_MMR4_LOCO.png",
+      "source_png_sha256": "9d795781f1592c264c5c1f32f65a71bf3e4a0dae4044357454bbc980c4bedb8e",
+      "source_png_dimensions": [
+        3538,
+        2760
+      ],
+      "source_svg_canvas_attributes": {
+        "width": "979.931627pt",
+        "height": "764.39952pt",
+        "viewBox": "0 0 979.931627 764.39952",
+        "version": "1.1"
+      },
+      "output_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure4_twelve_subtype_MMR4_LOCO.svg",
+      "output_svg_sha256": "a5ecf342556dee13f67265c9db2a15ad4c3c076a179bbeabe0cb249d838abff8",
+      "output_png": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure4_twelve_subtype_MMR4_LOCO.png",
+      "output_png_sha256": "97518f224cc80ae1dee89c84e17a6f16ed11cb9e75b84fc3b6af8fd2e6442de1",
+      "output_png_dimensions": [
+        3538,
+        2760
+      ],
+      "output_pdf": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure4_twelve_subtype_MMR4_LOCO.pdf",
+      "output_pdf_sha256": "68432bdd74b7b2adfeb002d1cd24ee20d64c2b089d086098afa40bd1037800c5",
+      "changes": [
+        {
+          "old": "MMR4 LOCO",
+          "new": "Cohort-held-out MMR4",
+          "parent_id": "text_33",
+          "text_attributes_before": {
+            "style": "font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle",
+            "x": "721.375694",
+            "y": "346.09322",
+            "transform": "rotate(-0 721.375694 346.09322)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle",
+            "x": "721.375694",
+            "y": "346.09322",
+            "transform": "rotate(-0 721.375694 346.09322)"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        },
+        {
+          "old": "MMR4 LOCO",
+          "new": "Cohort-held-out MMR4",
+          "parent_id": "text_69",
+          "text_attributes_before": {
+            "style": "font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle",
+            "x": "231.532992",
+            "y": "709.064097",
+            "transform": "rotate(-0 231.532992 709.064097)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle",
+            "x": "231.532992",
+            "y": "709.064097",
+            "transform": "rotate(-0 231.532992 709.064097)"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        },
+        {
+          "old": "Fusion 0.50",
+          "new": "Fusion 0.50:0.50",
+          "parent_id": "text_34",
+          "text_attributes_before": {
+            "style": "font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle",
+            "x": "843.089355",
+            "y": "346.09322",
+            "transform": "rotate(-0 843.089355 346.09322)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle",
+            "x": "843.089355",
+            "y": "346.09322",
+            "transform": "rotate(-0 843.089355 346.09322)"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        },
+        {
+          "old": "GSE39582 (OOF)",
+          "new": "GSE39582 (subtype OOF)",
+          "parent_id": "text_35",
+          "text_attributes_before": {
+            "style": "font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end",
+            "x": "531.805202",
+            "y": "45.108453",
+            "transform": "rotate(-0 531.805202 45.108453)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end",
+            "x": "531.805202",
+            "y": "45.108453",
+            "transform": "rotate(-0 531.805202 45.108453)"
+          },
+          "layout_treatment": "Two lines within original heatmap row; same parent text x/y, font size and anchor."
+        },
+        {
+          "old": "TCGA-COADREAD (OOF)",
+          "new": "TCGA-COADREAD (subtype OOF)",
+          "parent_id": "text_36",
+          "text_attributes_before": {
+            "style": "font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end",
+            "x": "531.805202",
+            "y": "83.850516",
+            "transform": "rotate(-0 531.805202 83.850516)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end",
+            "x": "531.805202",
+            "y": "83.850516",
+            "transform": "rotate(-0 531.805202 83.850516)"
+          },
+          "layout_treatment": "Two lines within original heatmap row; same parent text x/y, font size and anchor."
+        },
+        {
+          "old": "Subtype-development cohorts (OOF)",
+          "new": "Subtype-development cohorts (subtype OOF)",
+          "parent_id": "text_85",
+          "text_attributes_before": {
+            "style": "font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start",
+            "x": "78.5625",
+            "y": "398.567752",
+            "transform": "rotate(-0 78.5625 398.567752)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start",
+            "x": "78.5625",
+            "y": "398.567752",
+            "transform": "rotate(-0 78.5625 398.567752)"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        }
+      ],
+      "nontext_nodes_attributes_and_content_preserved": true,
+      "original_svg_unchanged": true,
+      "visual_inspection": "passed: each PNG viewed; requested replacement labels fit without clipping or overlap, original viewport and margins preserved.",
+      "renderer": "cairosvg",
+      "png_and_pdf_export_size_pixels": [
+        3538,
+        2760
+      ],
+      "pdf_single_page": true,
+      "pdf_page_dimensions_pt": [
+        2653.5,
+        2070.0
+      ],
+      "unmodified_text_elements_verified": 105,
+      "all_numerical_data_and_non_target_text_preserved": true
+    },
+    {
+      "media_key": "image11",
+      "source_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/figures/Figure5_comparison_bulk12.svg",
+      "source_svg_sha256": "27fe3097f24ba60db40b0a3f04924a32e6ff2fd5d1de7de8a9d519f9e52d5f46",
+      "source_png": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/figures/Figure5_comparison_bulk12.png",
+      "source_png_sha256": "e5d42717a57699cd566ed062ca6b974da09d8ecd557dbf5f02bc346267ff00f1",
+      "source_png_dimensions": [
+        1834,
+        1712
+      ],
+      "source_svg_canvas_attributes": {
+        "width": "733.485562pt",
+        "height": "685.116767pt",
+        "viewBox": "0 0 733.485562 685.116767",
+        "version": "1.1"
+      },
+      "output_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure5_comparison_bulk12.svg",
+      "output_svg_sha256": "67e9ddc6a9ead0810f00cc456bffaa054e0b3a24098e7aad6e6f0e31e961fdc2",
+      "output_png": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure5_comparison_bulk12.png",
+      "output_png_sha256": "f8cf8be506397a3048a293fb80e15b4cd8805a5fed33f080acaf4241907ab8b3",
+      "output_png_dimensions": [
+        1834,
+        1712
+      ],
+      "output_pdf": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure5_comparison_bulk12.pdf",
+      "output_pdf_sha256": "25492c7e7868355bbe44df1e9f56fc08d315cf7c6a92daecbcb1a78c4c748f8c",
+      "changes": [
+        {
+          "old": "bulk RNA: twelve-subtype LOCO fusion",
+          "new": "bulk RNA: 12-subtype MLP + cohort-held-out MMR4",
+          "parent_id": "text_76",
+          "text_attributes_before": {
+            "style": "font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start",
+            "x": "110.282656",
+            "y": "333.04289",
+            "transform": "rotate(-0 110.282656 333.04289)"
+          },
+          "text_attributes_after": {
+            "style": "font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start",
+            "x": "110.282656",
+            "y": "333.04289",
+            "transform": "rotate(-0 110.282656 333.04289)"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        }
+      ],
+      "nontext_nodes_attributes_and_content_preserved": true,
+      "original_svg_unchanged": true,
+      "visual_inspection": "passed: each PNG viewed; requested replacement labels fit without clipping or overlap, original viewport and margins preserved.",
+      "renderer": "cairosvg",
+      "png_and_pdf_export_size_pixels": [
+        1834,
+        1712
+      ],
+      "pdf_single_page": true,
+      "pdf_page_dimensions_pt": [
+        1375.5,
+        1284.0
+      ],
+      "unmodified_text_elements_verified": 88,
+      "all_numerical_data_and_non_target_text_preserved": true
+    },
+    {
+      "media_key": "revision_selection_S1",
+      "source_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/figures/SupplementaryFigureS1_current_selection.svg",
+      "source_svg_sha256": "bbe6319bbbb8d6d112740877279c54216381a36f2f60c04678bc9d9fe44855d3",
+      "source_png": "/home/wyw/rstudio/MSI/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/figures/SupplementaryFigureS1_current_selection.png",
+      "source_png_sha256": "9c3adb100091455b753fc60b8f3a46af6efc8aff6a77f1ece8e4030346f68fb6",
+      "source_png_dimensions": [
+        2470,
+        1493
+      ],
+      "source_svg_canvas_attributes": {
+        "width": "684pt",
+        "height": "413.568pt",
+        "viewBox": "0 0 684 413.568",
+        "version": "1.1"
+      },
+      "output_svg": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/SupplementaryFigureS1_current_selection.svg",
+      "output_svg_sha256": "faa6a7ed9e1af548ec8062a0a3ce5dbd8de85a2418c0638f4f2183b165490ac4",
+      "output_png": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/SupplementaryFigureS1_current_selection.png",
+      "output_png_sha256": "fe36c277e814ba51810fe71852c548a084af23d8232b06967e60a8ba9c4e60ea",
+      "output_png_dimensions": [
+        2470,
+        1493
+      ],
+      "output_pdf": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/SupplementaryFigureS1_current_selection.pdf",
+      "output_pdf_sha256": "18f3d255c52528175a52c6685307cdca964757a7ec19662a12b82bed79bea46d",
+      "changes": [
+        {
+          "old": "Eight-cohort LOCO MMR4: fit7, score held-out1",
+          "new": "MMR4: fit 7 cohorts, score 1 held-out cohort",
+          "parent_id": "text_6",
+          "text_attributes_before": {
+            "style": "font-size: 10px; font-family: 'DejaVu Sans'",
+            "transform": "translate(386.842656 355.456031)"
+          },
+          "text_attributes_after": {
+            "style": "font-size: 10px; font-family: 'DejaVu Sans'",
+            "transform": "translate(386.842656 355.456031)"
+          },
+          "layout_treatment": "Text replacement; all positions and style preserved."
+        }
+      ],
+      "nontext_nodes_attributes_and_content_preserved": true,
+      "original_svg_unchanged": true,
+      "visual_inspection": "passed: each PNG viewed; requested replacement labels fit without clipping or overlap, original viewport and margins preserved.",
+      "renderer": "cairosvg",
+      "png_and_pdf_export_size_pixels": [
+        2470,
+        1493
+      ],
+      "pdf_single_page": true,
+      "pdf_page_dimensions_pt": [
+        1852.5,
+        1119.75
+      ],
+      "unmodified_text_elements_verified": 21,
+      "all_numerical_data_and_non_target_text_preserved": true
+    }
+  ],
+  "embedded_media_replacement_mapping": {
+    "image1": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure1_study_design_bulk12.png",
+    "image5": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure02_scRNA_main.png",
+    "figure2_continued": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure02_scRNA_continued.png",
+    "image9": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure4_twelve_subtype_MMR4_LOCO.png",
+    "image11": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/Figure5_comparison_bulk12.png",
+    "revision_selection_S1": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/figures/SupplementaryFigureS1_current_selection.png"
+  },
+  "renderer_version": "2.9.1",
+  "verification_status": "passed",
+  "changed_text_elements": 14,
+  "all_original_sources_unchanged": true
+}

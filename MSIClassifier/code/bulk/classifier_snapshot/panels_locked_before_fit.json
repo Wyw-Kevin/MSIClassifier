@@ -1,0 +1,37 @@
+{
+  "panel7": [
+    "cS27",
+    "cTNI16",
+    "cM06",
+    "cTNI05",
+    "cTNI10",
+    "cP1",
+    "cTNI13"
+  ],
+  "panel12": [
+    "cS27",
+    "cTNI16",
+    "cM06",
+    "cTNI05",
+    "cTNI10",
+    "cP1",
+    "cTNI13",
+    "cS18",
+    "cTNI04",
+    "cS17",
+    "cM05",
+    "cTNI08"
+  ],
+  "historical10_control": [
+    "cS27",
+    "cTNI16",
+    "cM06",
+    "cTNI26",
+    "cM04",
+    "cTNI05",
+    "cTNI02",
+    "cTNI10",
+    "cP1",
+    "cTNI13"
+  ]
+}

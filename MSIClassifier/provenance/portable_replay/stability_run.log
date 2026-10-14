@@ -1,0 +1,45 @@
+Verified selection resamples 500
+Verified selection resamples 1000
+Verified selection resamples 1500
+Verified selection resamples 2000
+{
+  "status": "complete; independently verified",
+  "seed": 2026,
+  "replicates": 2000,
+  "candidate_count": 17,
+  "panel_size": 12,
+  "n_development": 892,
+  "n_MSI": 129,
+  "n_MSS": 763,
+  "criterion": "Frozen source direction; both development AUROCs strictly >0.50",
+  "inclusion_min": 0.8905,
+  "inclusion_max": 1.0,
+  "selected_count_median": 12.0,
+  "selected_count_p025": 11.0,
+  "selected_count_p975": 13.0,
+  "Jaccard_median": 1.0,
+  "Jaccard_p025": 0.8333333333333334,
+  "Jaccard_p975": 1.0,
+  "exact_panel_recovery": 0.772,
+  "n_exact_panel_recovery": 1544,
+  "size12_frequency": 0.779,
+  "n_size12": 1558,
+  "interpretation": "Conditional selection sensitivity; source screen and cohort-adaptive measurements fixed",
+  "adoption": "User selected12 after7/12 comparison was viewed; not prospectively specified",
+  "GEO_patient_clustering_independently_audited": false,
+  "verification_checks": 12170,
+  "frequencies": {
+    "cS18": 0.9985,
+    "cTNI13": 0.9955,
+    "cTNI16": 0.999,
+    "cTNI05": 0.9995,
+    "cS27": 1.0,
+    "cTNI04": 0.9775,
+    "cS17": 0.8905,
+    "cP1": 0.9985,
+    "cM05": 0.928,
+    "cM06": 1.0,
+    "cTNI08": 0.983,
+    "cTNI10": 0.993
+  }
+}

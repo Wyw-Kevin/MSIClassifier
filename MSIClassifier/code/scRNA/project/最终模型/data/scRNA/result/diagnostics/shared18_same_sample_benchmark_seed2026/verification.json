@@ -1,0 +1,18 @@
+{
+  "fixed18_matches_previous": true,
+  "n_train": 64,
+  "n_external": 23,
+  "seed": 2026,
+  "n_model_configurations": 12,
+  "n_predictions": 1620,
+  "bootstrap": 2000,
+  "independent_rank_AUROC_checks": 33,
+  "paired_interval_checks": 22,
+  "raw_counts_and_library_normalization_checked": true,
+  "official_CLI_rounding_checked": true,
+  "pdf_embedded_font": "ArialMT",
+  "pdf_raster_images": 0,
+  "code_sha256": {
+    "summarize_scrna_shared18_benchmark.py": "b3e4a59d7b46a25aaf3e39eb296227d9d7a1aafd6dffe4458e5b2ecb7015b7cc"
+  }
+}

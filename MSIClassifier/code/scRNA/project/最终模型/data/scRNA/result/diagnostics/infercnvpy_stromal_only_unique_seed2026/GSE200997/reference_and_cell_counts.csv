@@ -1,0 +1,5 @@
+Class,cnv_reference,n_cells
+Normal,,0
+Normal,stromal,264
+Tumor,,30373
+Tumor,stromal,1039

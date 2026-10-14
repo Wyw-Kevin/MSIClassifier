@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "n_values_verified": 4848,
+  "eight_cohort_four_gene_values_equal_original_log_scale_expression_csv": true,
+  "BayesPrism_back_transformation_not_reused": true,
+  "MMR4_origin_code": "最终模型/model_data/bulk/code/modle2/run_decode_crc_bulk_mmr_model.py:121-159",
+  "GSE25071_origin_code": "最终模型/report/article/bulk_fusion_selection_20260930/run_analysis.py:16-19",
+  "current_LOCO_normalization_code": "最终模型/report/article/bulk_mmr4_loco_fixed05_seed2026_20261012/loco.py:48-52",
+  "threshold_tie_code": "loco.py:40-41",
+  "tie_order": "descending macro AUROC rounded12; descending macro BA rounded12; ascending MLH1/MSH2/MSH6/PMS2 cutoffs => lexicographically smallest",
+  "rounding_for_ranking_not_only_display": true
+}

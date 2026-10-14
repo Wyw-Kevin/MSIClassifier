@@ -1,0 +1,7 @@
+# Figures and document sources
+
+`publication_figures/` retains the final submitted SVG/PNG/PDF assets. `reproduce_publication_figures.py` regenerates bulk Figure4 and S1–S2 from stored numeric inputs using the actual plotting functions, S3 from the original sensitivity plotting block, and remaining current vector assets from their preserved SVG. It reapplies only the audited final text-label changes. The numeric sources and hashes are saved in its verification record; rendering a saved vector asset is distinguished from plotting numeric data.
+
+`historical_bulk12_build/`, `historical_scRNA_build/` and `historical_manuscript_build/` contain byte-preserved sources used to assemble earlier manuscript versions. Some historical document builders depend on prior manuscript layouts and folders and may write documents in place; do not treat them as primary scientific run commands. Use the portable runner to write new outputs. The project-specific final split/build scripts are also retained in `delivery_sources/` as provenance, with their input manuscript identity and change audit.
+
+Tables remain in the separate English Excel attachment. The standalone supplementary Word has Chinese methods/captions and three embedded supplementary figures. The new main manuscript copy removes the supplementary caption/image blocks and updates its code-availability paragraph; no model or scientific figure value was changed in this document split.

@@ -1,0 +1,36 @@
+{
+  "source_main": "/home/wyw/rstudio/MSI/最终模型/report/article/method_evidence_update_20261014/MMR分模态分类器_第三版_代码核实与配对增量修订_仅改动标红.docx",
+  "source_sha256": "7bf6aa9263d1f66ebdb765b7d8b0649047c3d125e142d4a5d6a33aed3d771b61",
+  "supplement_word": "/home/wyw/rstudio/MSI/MSIClassifier/supplement/MSIClassifier_补充方法与图片.docx",
+  "supplement_sha256": "0649a1f3af82985b26eafe2a7c64bf02a0329a9c338c8bf3fa274bfb13f05dcd",
+  "main_copy": "/home/wyw/rstudio/MSI/最终模型/report/article/MSIClassifier_delivery_20261014/MMR分模态分类器_第三版_补充资料独立版_仅改动标红.docx",
+  "main_sha256": "9c55465e4ffb66a3e6807a21fdd956b4d99589de2d3775b5d32e3edd4a7d32d0",
+  "body_blocks_removed": [
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+  ],
+  "main_text_change": {
+    "before": "分析代码及可核查数据随附复现资料包提供，英文工作簿汇总补充表S1–S14。S1–S5记录样本QC、CNV、表达层与标签来源，S2–S3附表列示CNV阈值对应的AUROC及变化范围。S6–S9列示配对差值、特征对照、样本纳入与低细胞数敏感性。S10–S11提供候选筛选、单亚型方向及单细胞筛选阈值敏感性结果。S12记录MMR4留一队列阈值及标准化前的输入尺度，S13记录12亚型MLP、MMR4和融合的逐队列结果、评分、7亚型与12亚型的配对比较，以及融合相对MMR4的逐队列和宏平均配对增量区间。补充方法列示BayesPrism实现及丰度输出、空间表达重建公式、后验汇总和归一化基因范围。S14列示17个候选的2,000次bootstrap入选频率、入选数量、集合重合度及完整12亚型集合的复现情况，历史十亚型与11种分类器记录另行存档。资料包包含特征矩阵、标签、预测、抽样索引、拟合记录、计算脚本及参数和版本信息，并保留各模型的历史身份与来源哈希。目前资料以本地补充包形式提供，尚无公开存档DOI。",
+    "after": "分析代码及可核查数据整理于MSIClassifier代码包；独立Word文件汇总补充方法与补充图S1–S3，英文Excel附件汇总补充表S1–S14。S1–S5记录样本QC、CNV、表达层与标签来源，S2–S3附表列示CNV阈值对应的AUROC及变化范围。S6–S9列示配对差值、特征对照、样本纳入与低细胞数敏感性。S10–S11提供候选筛选、单亚型方向及单细胞筛选阈值敏感性结果。S12记录MMR4留一队列阈值及标准化前的输入尺度，S13记录12亚型MLP、MMR4和融合的逐队列结果、评分、7亚型与12亚型的配对比较，以及融合相对MMR4的逐队列和宏平均配对增量区间。补充方法列示BayesPrism实现及丰度输出、空间表达重建公式、后验汇总和归一化基因范围。S14列示17个候选的2,000次bootstrap入选频率、入选数量、集合重合度及完整12亚型集合的复现情况，历史十亚型与11种分类器记录另行存档。资料包包含特征矩阵、标签、预测、抽样索引、拟合记录、计算脚本及参数和版本信息，并保留各模型的历史身份与来源哈希。目前资料以本地补充包形式提供，尚无公开存档DOI。"
+  },
+  "supplement_images": [
+    {
+      "name": "SupplementaryFigureS1_current_selection.png",
+      "sha256": "fe36c277e814ba51810fe71852c548a084af23d8232b06967e60a8ba9c4e60ea"
+    },
+    {
+      "name": "SupplementaryFigureS2_bulk12_selection_stability.png",
+      "sha256": "f2585c3260a6bb570aacc7debf7b1087b52249898d891e004d9eaf59436c3d58"
+    },
+    {
+      "name": "SupplementaryFigureS3_scRNA_threshold_CNV_sensitivity.png",
+      "sha256": "d6b2fb0b830389400d162ca79ed29fd3de55251f185695f0817b780c3ff31212"
+    }
+  ],
+  "supplement_method_sections": 14,
+  "tables_in_word": 0
+}

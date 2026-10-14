@@ -1,0 +1,13 @@
+      dataset  Delta_AUROC_Fusion_minus_MMR4    CI_low  CI_high
+     GSE24550                      -0.001401 -0.012605 0.008403
+     GSE25071                      -0.005263 -0.042105 0.021053
+     GSE27544                       0.044643  0.000000 0.160714
+     GSE35896                       0.057143 -0.007143 0.150000
+     GSE39084                       0.065972  0.012731 0.138889
+     GSE39582                       0.043714  0.019239 0.077244
+     GSE75316                       0.039773  0.000000 0.109848
+TCGA-COADREAD                       0.019357 -0.011580 0.060286
+          scope  n_cohorts                                                                      cohorts  n_samples  Fusion_macro_AUROC  MMR4_macro_AUROC  Delta_AUROC_Fusion_minus_MMR4   CI_low  CI_high  bootstrap_resamples
+development_OOF          2                                                       GSE39582;TCGA-COADREAD        892            0.933517          0.901981                       0.031536 0.010211 0.056636                 2000
+  retrospective          6                        GSE24550;GSE25071;GSE27544;GSE35896;GSE39084;GSE75316        320            0.938747          0.905269                       0.033478 0.011752 0.059945                 2000
+      all_eight          8 GSE24550;GSE25071;GSE27544;GSE35896;GSE39084;GSE39582;GSE75316;TCGA-COADREAD       1212            0.937439          0.904447                       0.032992 0.016030 0.054408                 2000

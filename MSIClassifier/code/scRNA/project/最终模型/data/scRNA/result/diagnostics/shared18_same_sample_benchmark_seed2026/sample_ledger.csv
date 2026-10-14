@@ -1,0 +1,88 @@
+dataset,sampleID,sample_source,patientID,MMR_source,age,sex_source,side_source,t_stage_source,node_source,grade_source,source_hospital,processing_team,chemistry,n_tumor_cells,MMR,y,female,right_sided,t_high,node_positive,grade_high,early_onset_lt50,overall_stage_source,anatomic_region,fold
+GSE178341,C103T,C103_T,C103,MMRp,45,M,left,pT2,Nneg,low,MGH,Hacohen,SC3Pv2,6096.0,MSS,0,0.0,0.0,0.0,0.0,0.0,1.0,,,3
+GSE178341,C104T,C104_T,C104,MMRp,81,M,right,pT3,Nneg,low,MGH,Hacohen,SC3Pv2,2886.0,MSS,0,0.0,1.0,1.0,0.0,0.0,0.0,,,4
+GSE178341,C105T,C105_T,C105,MMRp,71,M,right,pT4a,Npos,low,MGH,Hacohen,SC3Pv2,3281.0,MSS,0,0.0,1.0,1.0,1.0,0.0,0.0,,,5
+GSE178341,C106T,C106_T,C106,MMRd,67,M,right,pT4a,Nneg,low,MGH,Hacohen,SC3Pv2,1926.0,MSI,1,0.0,1.0,1.0,0.0,0.0,0.0,,,3
+GSE178341,C107T,C107_T,C107,MMRp,62,M,right,pT3,Npos,low,MGH,Hacohen,SC3Pv2,5401.0,MSS,0,0.0,1.0,1.0,1.0,0.0,0.0,,,4
+GSE178341,C109T,C109_T,C109,MMRd,60,F,right,pT3,Nneg,low,DFCI,Hacohen,SC3Pv2,2152.0,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,,,5
+GSE178341,C110T,C110_T,C110,MMRd,59,M,right,pT3,Npos,high,MGH,Hacohen,SC3Pv2,2527.0,MSI,1,0.0,1.0,1.0,1.0,1.0,0.0,,,1
+GSE178341,C111T,C111_T,C111,MMRd,62,F,right,pT3,Nneg,low,DFCI,CCPM_Hacohen,SC3Pv2,2069.0,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,,,3
+GSE178341,C112T,C112_T,C112,MMRp,50,M,right,pT3,Nneg,low,DFCI,Hacohen,SC3Pv2,4123.0,MSS,0,0.0,1.0,1.0,0.0,0.0,0.0,,,2
+GSE178341,C113T,C113_T,C113,MMRp,52,M,right,pT2,Npos,low,MGH,Hacohen,SC3Pv2,4482.0,MSS,0,0.0,1.0,0.0,1.0,0.0,0.0,,,5
+GSE178341,C114T,C114_T,C114,MMRd,76,M,right,pT3,Npos,low,MGH,Hacohen,SC3Pv2,2876.0,MSI,1,0.0,1.0,1.0,1.0,0.0,0.0,,,4
+GSE178341,C115T,C115_T,C115,MMRd,72,M,right,pT3,Nneg,low,MGH,Hacohen,SC3Pv2,1100.0,MSI,1,0.0,1.0,1.0,0.0,0.0,0.0,,,2
+GSE178341,C116T,C116_T,C116,MMRd,72,M,right,pT3,Nneg,low,DFCI,CCPM_Hacohen,SC3Pv2,3326.0,MSI,1,0.0,1.0,1.0,0.0,0.0,0.0,,,3
+GSE178341,C118T,C118_T,C118,MMRd,77,M,right,pT2,Nneg,low,MGH,Hacohen,SC3Pv2,3211.0,MSI,1,0.0,1.0,0.0,0.0,0.0,0.0,,,1
+GSE178341,C119T,C119_T,C119,MMRd,48,M,right,pT3,Npos,high,DFCI,CCPM_Hacohen,SC3Pv2,1487.0,MSI,1,0.0,1.0,1.0,1.0,1.0,1.0,,,1
+GSE178341,C122T,C122_T,C122,MMRd,82,F,right,pT3,Nneg,low,MGH,Hacohen,SC3Pv2,3296.0,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,,,4
+GSE178341,C123T,C123_T,C123,MMRd,58,M,right,pT3,Nneg,low,MGH,Hacohen,SC3Pv2,9234.0,MSI,1,0.0,1.0,1.0,0.0,0.0,0.0,,,5
+GSE178341,C124T,C124_T,C124,MMRp,81,F,left,pT4b,Npos,high,DFCI,Combined,SC3Pv2,6828.0,MSS,0,1.0,0.0,1.0,1.0,1.0,0.0,,,4
+GSE178341,C125T,C125_T,C125,MMRp,49,M,left,pT3,Npos,low,MGH,Hacohen,SC3Pv2,6172.0,MSS,0,0.0,0.0,1.0,1.0,0.0,1.0,,,5
+GSE178341,C126T,C126_T,C126,MMRp,81,F,right,pT4a,Nneg,low,MGH,Hacohen,SC3Pv2,2657.0,MSS,0,1.0,1.0,1.0,0.0,0.0,0.0,,,1
+GSE178341,C129T,C129_T,C129,MMRp,35,F,left,pT3,Nneg,low,MGH,Hacohen,SC3Pv2,7376.0,MSS,0,1.0,0.0,1.0,0.0,0.0,1.0,,,2
+GSE178341,C130TA,C130_TA,C130,MMRd,89,F,right,pT4a,Npos,low,MGH,Hacohen,SC3Pv2,2596.0,MSI,1,1.0,1.0,1.0,1.0,0.0,0.0,,,3
+GSE178341,C130TB,C130_TB,C130,MMRd,89,F,right,pT4a,Npos,low,MGH,Hacohen,SC3Pv2,4225.0,MSI,1,1.0,1.0,1.0,1.0,0.0,0.0,,,3
+GSE178341,C132T,C132_T,C132,MMRd,42,M,left,pT4a,Nneg,high,MGH,Hacohen,SC3Pv2,5609.0,MSI,1,0.0,0.0,1.0,0.0,1.0,1.0,,,1
+GSE178341,C133T,C133_T,C133,MMRp,73,F,right,pT4a,Nneg,low,DFCI,CCPM_Regev,SC3Pv2,3067.0,MSS,0,1.0,1.0,1.0,0.0,0.0,0.0,,,2
+GSE178341,C134T,C134_T,C134,MMRp,58,M,left,pT4a,Npos,low,DFCI,Combined,SC3Pv2,2563.0,MSS,0,0.0,0.0,1.0,1.0,0.0,0.0,,,3
+GSE178341,C135T,C135_T,C135,MMRp,90,M,right,pT1,Nneg,low,MGH,Hacohen,SC3Pv2,4677.0,MSS,0,0.0,1.0,0.0,0.0,0.0,0.0,,,2
+GSE178341,C136T,C136_T,C136,MMRp,60,M,left,pT3,Nneg,low,MGH,Hacohen,SC3Pv2,3297.0,MSS,0,0.0,0.0,1.0,0.0,0.0,0.0,,,4
+GSE178341,C137T,C137_T,C137,MMRd,56,F,right,pT3,Npos,high,MGH,Hacohen,SC3Pv2,2683.0,MSI,1,1.0,1.0,1.0,1.0,1.0,0.0,,,5
+GSE178341,C138T,C138_T,C138,MMRd,60,M,right,pT3,Nneg,low,DFCI,CCPM_Regev,SC3Pv2,1790.0,MSI,1,0.0,1.0,1.0,0.0,0.0,0.0,,,3
+GSE178341,C139T,C139_T,C139,MMRd,61,F,right,pT4a,Nneg,low,MGH,Hacohen,SC3Pv2,6411.0,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,,,1
+GSE178341,C140T,C140_T,C140,MMRp,35,M,left,pT1,Npos,low,MGH,Hacohen,SC3Pv2,4502.0,MSS,0,0.0,0.0,0.0,1.0,0.0,1.0,,,4
+GSE178341,C142T,C142_T,C142,MMRd,51,F,right,pT3,Npos,low,MGH,Hacohen,SC3Pv2,3102.0,MSI,1,1.0,1.0,1.0,1.0,0.0,0.0,,,5
+GSE178341,C143T,C143_T,C143,MMRd,55,F,right,pT3,Nneg,low,MGH,Hacohen,SC3Pv2,3392.0,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,,,2
+GSE178341,C144T,C144_T,C144,MMRd,91,M,right,pT3,Nneg,low,MGH,Hacohen,SC3Pv2,3899.0,MSI,1,0.0,1.0,1.0,0.0,0.0,0.0,,,1
+GSE178341,C145T,C145_T,C145,MMRp,59,F,right,pT4a,Npos,high,MGH,Hacohen,SC3Pv2,3091.0,MSS,0,1.0,1.0,1.0,1.0,1.0,0.0,,,2
+GSE178341,C146T,C146_T,C146,MMRd,64,F,right,pT3,Nneg,low,MGH,Hacohen,SC3Pv2,4731.0,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,,,5
+GSE178341,C147T,C147_T,C147,MMRd,73,F,right,pT4a,Npos,low,MGH,Hacohen,SC3Pv2,3801.0,MSI,1,1.0,1.0,1.0,1.0,0.0,0.0,,,3
+GSE178341,C149T,C149_T,C149,MMRp,47,F,right,pT4a,Npos,low,MGH,Hacohen,SC3Pv2,4015.0,MSS,0,1.0,1.0,1.0,1.0,0.0,1.0,,,4
+GSE178341,C150T,C150_T,C150,MMRp,70,M,left,pT3,Nneg,low,MGH,Hacohen,SC3Pv2,2418.0,MSS,0,0.0,0.0,1.0,0.0,0.0,0.0,,,1
+GSE178341,C151T,C151_T,C151,MMRd,76,F,right,pT3,Nneg,high,DFCI,CCPM_Regev,SC3Pv2,421.0,MSI,1,1.0,1.0,1.0,0.0,1.0,0.0,,,2
+GSE178341,C152T,C152_T,C152,MMRd,77,F,right,pT2,Nneg,low,DFCI,CCPM_Regev,SC3Pv2,1833.0,MSI,1,1.0,1.0,0.0,0.0,0.0,0.0,,,3
+GSE178341,C153T,C153_T,C153,MMRp,36,F,left,pT2,Npos,low,MGH,Hacohen,SC3Pv2,4860.0,MSS,0,1.0,0.0,0.0,1.0,0.0,1.0,,,5
+GSE178341,C154T,C154_T,C154,MMRd,78,F,right,pT2,Npos,low,MGH,Hacohen,SC3Pv3,3049.0,MSI,1,1.0,1.0,0.0,1.0,0.0,0.0,,,4
+GSE178341,C155T,C155_T,C155,MMRp,53,F,right,pT3,Npos,low,DFCI,CCPM_Regev,SC3Pv3,4085.0,MSS,0,1.0,1.0,1.0,1.0,0.0,0.0,,,1
+GSE178341,C156T,C156_T,C156,MMRd,76,F,right,pT3,Nneg,low,MGH,Hacohen,SC3Pv3,3975.0,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,,,2
+GSE178341,C157T,C157_T,C157,MMRp,62,F,left,pT4a,Npos,low,DFCI,CCPM_Regev,SC3Pv3,4757.0,MSS,0,1.0,0.0,1.0,1.0,0.0,0.0,,,3
+GSE178341,C158T,C158_T,C158,MMRd,84,F,right,pT3,Nneg,low,MGH,Hacohen,SC3Pv3,2352.0,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,,,4
+GSE178341,C159T,C159_T,C159,MMRp,57,M,right,pT3,Npos,high,MGH,Hacohen,SC3Pv3,2437.0,MSS,0,0.0,1.0,1.0,1.0,1.0,0.0,,,5
+GSE178341,C160T,C160_T,C160,MMRp,52,F,right,pt4a,Npos,high,MGH,Hacohen,SC3Pv3,3826.0,MSS,0,1.0,1.0,1.0,1.0,1.0,0.0,,,3
+GSE178341,C161T,C161_T,C161,MMRp,71,M,right,pT3,Nneg,low,MGH,Hacohen,SC3Pv3,3755.0,MSS,0,0.0,1.0,1.0,0.0,0.0,0.0,,,1
+GSE178341,C162T,C162_T,C162,MMRp,47,M,right,pt4a,Npos,low,DFCI,CCPM_Regev,SC3Pv2;SC3Pv3,15861.0,MSS,0,0.0,1.0,1.0,1.0,0.0,1.0,,,2
+GSE178341,C163T,C163_T,C163,MMRd,71,F,right,pT4a,Nneg,high,MGH,Hacohen,SC3Pv3,4717.0,MSI,1,1.0,1.0,1.0,0.0,1.0,0.0,,,4
+GSE178341,C164T,C164_T,C164,MMRd,60,F,right,pT4a,Nneg,low,MGH,Hacohen,SC3Pv3,3760.0,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,,,5
+GSE178341,C165T,C165_T,C165,MMRd,69,M,right,pT4a,Npos,high,DFCI,CCPM_Regev,SC3Pv3,2977.0,MSI,1,0.0,1.0,1.0,1.0,1.0,0.0,,,1
+GSE178341,C166T,C166_T,C166,MMRp,60,M,left,pT3,Npos,low,DFCI,CCPM_Regev,SC3Pv3,5527.0,MSS,0,0.0,0.0,1.0,1.0,0.0,0.0,,,3
+GSE178341,C167T,C167_T,C167,MMRd,72,F,right,pT3,Nneg,high,MGH,Hacohen,SC3Pv3,1443.0,MSI,1,1.0,1.0,1.0,0.0,1.0,0.0,,,2
+GSE178341,C168T,C168_T,C168,MMRd,82,M,right,pT2,Nneg,low,MGH,Hacohen,SC3Pv3,2552.0,MSI,1,0.0,1.0,0.0,0.0,0.0,0.0,,,4
+GSE178341,C169T,C169_T,C169,MMRd,62,M,right,pT2,Npos,low,MGH,Hacohen,SC3Pv3,2245.0,MSI,1,0.0,1.0,0.0,1.0,0.0,0.0,,,5
+GSE178341,C170T,C170_T,C170,MMRd,77,F,right,pT3,Nneg,low,DFCI,CCPM_Regev,SC3Pv3,10054.0,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,,,3
+GSE178341,C171TA,C171_TA,C171,MMRp,61,M,right,pT2,Nneg,low,MGH,Hacohen,SC3Pv3,10709.0,MSS,0,0.0,1.0,0.0,0.0,0.0,0.0,,,2
+GSE178341,C171TB,C171_TB,C171,MMRp,61,M,right,pT2,Nneg,low,MGH,Hacohen,SC3Pv3,5490.0,MSS,0,0.0,1.0,0.0,0.0,0.0,0.0,,,2
+GSE178341,C172T,C172_T,C172,MMRp,61,F,right,pT3,Nneg,low,DFCI,CCPM_Regev,SC3Pv3,1542.0,MSS,0,1.0,1.0,1.0,0.0,0.0,0.0,,,1
+GSE178341,C173T,C173_T,C173,MMRd,49,F,left,pT4a,Npos,high,DFCI,CCPM_Regev,SC3Pv3,2649.0,MSI,1,1.0,0.0,1.0,1.0,1.0,1.0,,,4
+GSE132465,SMC01-T,,SMC01,MSS,64,F,left,T3  N0  M0,T3  N0  M0,"Adenocarcinoma, well differentiated",,,,,MSS,0,1.0,0.0,1.0,0.0,0.0,0.0,IIA,rectum,0
+GSE132465,SMC02-T,,SMC02,MSS,66,M,left,T3  N1b  M0,T3  N1b  M0,"Adenocarcinoma, well differentiated",,,,,MSS,0,0.0,0.0,1.0,1.0,0.0,0.0,IIIB,rectum,0
+GSE132465,SMC03-T,,SMC03,MSI-H,83,F,right,T4b N2a M0  ,T4b N2a M0  ,"Adenocarcinoma, poorly differentiated",,,,,MSI,1,1.0,1.0,1.0,1.0,1.0,0.0,IIIC,hepatic flexure,0
+GSE132465,SMC04-T,,SMC04,MSS,69,M,left,T3  N1b  M0,T3  N1b  M0,"Adenocarcinoma, moderately differentiated",,,,,MSS,0,0.0,0.0,1.0,1.0,0.0,0.0,IIIB,sigmoid,0
+GSE132465,SMC05-T,,SMC05,MSS,58,F,right,T3  N0  M0 ,T3  N0  M0 ,"Adenocarcinoma, well differentiated with mucin production (<10%)",,,,,MSS,0,1.0,1.0,1.0,0.0,0.0,0.0,IIA,ascending,0
+GSE132465,SMC06-T,,SMC06,MSI-H,46,M,right,T3  N1b  M0,T3  N1b  M0,"Adenocarcinoma, well differentiated",,,,,MSI,1,0.0,1.0,1.0,1.0,0.0,1.0,IIIB,hepatic flexure,0
+GSE132465,SMC07-T,,SMC07,MSS,67,F,right,T2  N0  M0,T2  N0  M0,"Adenocarcinoma, well differentiated",,,,,MSS,0,1.0,1.0,0.0,0.0,0.0,0.0,I,ascending,0
+GSE132465,SMC08-T,,SMC08,MSS,68,M,left,T3  N1b  M0,T3  N1b  M0,"Adenocarcinoma, moderately differentiated",,,,,MSS,0,0.0,0.0,1.0,1.0,0.0,0.0,IIIB,sigmoid,0
+GSE132465,SMC09-T,,SMC09,MSS,75,M,left,T3  N0  M0,T3  N0  M0,"Adenocarcinoma, well differentiated",,,,,MSS,0,0.0,0.0,1.0,0.0,0.0,0.0,IIA,sigmoid,0
+GSE132465,SMC10-T,,SMC10,MSI-H,77,F,right,T3  N0  M0,T3  N0  M0,"Adenocarcinoma, moderately differentiated",,,,,MSI,1,1.0,1.0,1.0,0.0,0.0,0.0,IIA,ascending,0
+GSE132465,SMC11-T,,SMC11,MSS,38,F,left,T2  N1a  M0,T2  N1a  M0,"Adenocarcinoma, well differentiated",,,,,MSS,0,1.0,0.0,0.0,1.0,0.0,1.0,IIIA,sigmoid,0
+GSE132465,SMC14-T,,SMC14,MSS,77,M,left,T4a  N1b  M0,T4a  N1b  M0,"Adenocarcinoma, moderately differentiated",,,,,MSS,0,0.0,0.0,1.0,1.0,0.0,0.0,IIIB,rectosigmoid,0
+GSE132465,SMC15-T,,SMC15,MSS,56,M,left,T3  N0  M0,T3  N0  M0,"Adenocarcinoma, well differentiated",,,,,MSS,0,0.0,0.0,1.0,0.0,0.0,0.0,IIA,sigmoid,0
+GSE132465,SMC16-T,,SMC16,MSS,59,M,right,T4a  N1b  M0,T4a  N1b  M0,"Adenocarcinoma, moderately differentiated",,,,,MSS,0,0.0,1.0,1.0,1.0,0.0,0.0,IIIB,ascending,0
+GSE132465,SMC17-T,,SMC17,MSS,47,M,right,T4a  N1b  M0,T4a  N1b  M0,Mucinous adenocarcinoma,,,,,MSS,0,0.0,1.0,1.0,1.0,,1.0,IIIB,hepatic flexure,0
+GSE132465,SMC18-T,,SMC18,MSS,63,F,left,T3  N0  M0,T3  N0  M0,"Adenocarcinoma, moderately differentiated",,,,,MSS,0,1.0,0.0,1.0,0.0,0.0,0.0,IIA,sigmoid,0
+GSE132465,SMC19-T,,SMC19,MSS,80,F,right,T3  N1  M0,T3  N1  M0,"Adenocarcinoma, moderately differentiated",,,,,MSS,0,1.0,1.0,1.0,1.0,0.0,0.0,IIIB,ascending,0
+GSE132465,SMC20-T,,SMC20,MSS,65,F,right,T4a  N1c  M0,T4a  N1c  M0,Mucinous adenocarcinoma,,,,,MSS,0,1.0,1.0,1.0,1.0,,0.0,IIIB,ascending,0
+GSE132465,SMC21-T,,SMC21,MSS,51,M,left,T3  N1  M1a,T3  N1  M1a,"Adenocarcinoma, moderately differentiated",,,,,MSS,0,0.0,0.0,1.0,1.0,0.0,0.0,IVA,rectum,0
+GSE132465,SMC22-T,,SMC22,MSS,76,M,left,T3  N1b  M0,T3  N1b  M0,"Adenocarcinoma, moderately differentiated",,,,,MSS,0,0.0,0.0,1.0,1.0,0.0,0.0,IIIB,sigmoid,0
+GSE132465,SMC23-T,,SMC23,MSS,67,F,right,T3  N1b  M0,T3  N1b  M0,"Adenocarcinoma, moderately differentiated",,,,,MSS,0,1.0,1.0,1.0,1.0,0.0,0.0,IIIB,ascending,0
+GSE132465,SMC24-T,,SMC24,MSI-H,48,F,right,T1  N0  M0,T1  N0  M0,"Adenocarcinoma, well differentiated with mucin production (10%)",,,,,MSI,1,1.0,1.0,0.0,0.0,0.0,1.0,I,ascending,0
+GSE132465,SMC25-T,,SMC25,MSS,57,F,left,T3  N2b  M1a,T3  N2b  M1a,"Adenocarcinoma, moderately differentiated",,,,,MSS,0,1.0,0.0,1.0,1.0,0.0,0.0,IVA,sigmoid,0

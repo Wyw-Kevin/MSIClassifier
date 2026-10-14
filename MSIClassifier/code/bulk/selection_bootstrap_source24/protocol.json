@@ -1,0 +1,47 @@
+{
+  "status": "frozen before bootstrap results",
+  "seed": 2026,
+  "replicates": 2000,
+  "cohorts": [
+    "GSE39582",
+    "TCGA-COADREAD"
+  ],
+  "candidate_count": 24,
+  "original_panel": [
+    "cS27",
+    "cTNI16",
+    "cM06",
+    "cTNI26",
+    "cM04",
+    "cTNI05",
+    "cTNI02",
+    "cTNI10",
+    "cP1",
+    "cTNI13"
+  ],
+  "sampling": "With replacement within cohort-by-outcome strata; preserve stratum sizes",
+  "RNG": "One default_rng(2026) initialized once; loop replicate, cohort, class; no offsets or resets",
+  "screening": "Frozen GSE178341 direction; oriented AUROC strictly >0.60 in both development cohorts",
+  "conditional_scope": "Existing 24-candidate scRNA screen, directions and bulk BayesPrism estimates are fixed",
+  "sample_unit": "Unique bulk sample; TCGA patient prefix unique; GEO patient clustering not independently re-audited",
+  "summary": "All-candidate inclusion frequencies, selected counts, original-panel overlap and exact recovery; percentile AUROC summaries",
+  "model_use": "Descriptive stability assessment only; no feature replacement, model refitting or weight tuning",
+  "external_outcomes": "No external outcome rows enter development_inputs or bootstrap analysis",
+  "interpretation": "Post hoc sampling sensitivity, not prospective prespecification or end-to-end validation",
+  "software": {
+    "python": "3.12.12",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "platform": "Linux-3.10.0-1160.119.1.el7.x86_64-x86_64-with-glibc2.17"
+  },
+  "source_hashes": {
+    "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/report/article/\u7b2c\u4e09\u7248_MMR4\u7559\u4e00\u961f\u5217\u9a8c\u8bc1\u4fee\u8ba2/supplement/S10.csv": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80",
+    "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/report/article/pybayesprism9_seed2026/subtype_over_major.csv": "d1e5244a68fab27f6901efa45ec447b845f5b1e8cc3d9d37fbb1d38fd242141b",
+    "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/report/article/bulk_10panel_mmr4_fixed05_20261005/input_features.csv": "7a341e3e49263f0aac878b702796b4a9db501989dc66e595229687158babd86a",
+    "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/report/article/bulk_bayesprism10_dev_strict_exploratory_20261004/all_classifier_fits.joblib": "b3ed86c51871d96b360bf8838809759a0f9ca0146c942811a6fb43c9b004d92d",
+    "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/report/article/bulk_mmr4_loco_fixed05_seed2026_20261012/predictions_10panel_fixed05.csv": "fe0cdf3ad756020e79a767e2345d4f29e56e35d62e29cdaf7e4b229b577d33ef",
+    "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/report/article/bulk_mmr4_loco_fixed05_seed2026_20261012/computed_summary.json": "b24b1293097806bb824adae1879041a49adb3364b32afa0149c12cf6bb957910",
+    "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/report/article/\u7b2c\u4e09\u7248_MMR4\u7559\u4e00\u961f\u5217\u9a8c\u8bc1\u4fee\u8ba2/MMR\u5206\u6a21\u6001\u5206\u7c7b\u5668_\u7b2c\u4e09\u7248_MMR4\u7559\u4e00\u961f\u5217\u9a8c\u8bc1\u4fee\u8ba2_\u53e5\u5b50\u6807\u7ea2.docx": "ade9f0e291c31d70090cb54c782d53a7a50fe443b8d4f558893d3facd1a76a1c"
+  }
+}

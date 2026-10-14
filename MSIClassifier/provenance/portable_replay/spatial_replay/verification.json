@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "scope": "Existing saved-input feature and frozen-weight replay; no fitting or posterior sampling",
+  "n_sections": 14,
+  "n_patients": 7,
+  "n_spots": 20733,
+  "classifier_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
+  "max_section_probability_error": 2.220446049250313e-16,
+  "max_patient_probability_error": 2.220446049250313e-16,
+  "max_weighted_feature_reconstruction_error": 4.695447919367268e-09,
+  "figure_display_values_verified": false,
+  "figure_outputs": [],
+  "reference_epoch_history_available": false,
+  "convergence_established": false
+}

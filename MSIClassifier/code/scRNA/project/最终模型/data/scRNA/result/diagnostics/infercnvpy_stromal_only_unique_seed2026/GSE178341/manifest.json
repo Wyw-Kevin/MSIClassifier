@@ -1,0 +1,42 @@
+{
+  "dataset": "GSE178341",
+  "seed": 2026,
+  "reference_variant": "default",
+  "input": "/home/wyw/rstudio/MSI/GSE178341.h5ad",
+  "gene_file": "/home/wyw/rstudio/MSI/inferCNV/GSE132465/geneFile.txt",
+  "unique_cell_selection": true,
+  "pca_random_state": 2026,
+  "neighbors_random_state": 2026,
+  "min_total_cells_inclusive": 200,
+  "n_input_cells": 370115,
+  "n_after_sample_qc": 370068,
+  "n_cells_in_analysis": 111727,
+  "n_genes_with_positions": 19517,
+  "reference_mode": "stromal_only",
+  "reference_categories_requested": [
+    "stromal"
+  ],
+  "reference_categories_observed": [
+    "stromal"
+  ],
+  "reference_selection": "stromal_only",
+  "reference_cell_counts": {
+    "": 96291,
+    "stromal": 15436
+  },
+  "n_tumor_cells_analyzed": 105898,
+  "reference_q99_cnv_score": 0.01097913373772668,
+  "parameters": {
+    "lfc_clip": 3,
+    "window_size": 100,
+    "step": 10,
+    "dynamic_threshold": 1.5,
+    "exclude_chromosomes": [
+      "chrX",
+      "chrY"
+    ],
+    "n_jobs": 4
+  },
+  "reference_threshold_tolerance": 1e-12,
+  "interpretation": "infercnvpy CNV score and q99 reference threshold are exploratory malignancy evidence; infercnvpy does not prescribe this q99 threshold."
+}

@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "checked_candidates": 39,
+  "unsupported_selected_candidates": [],
+  "models": [
+    {
+      "parent": "TNKILC",
+      "n_classes": 26,
+      "classifier_shapes": {
+        "head.weight": [
+          26,
+          48
+        ]
+      },
+      "checkpoint": "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/TNKILC/model-9.pth",
+      "sha256": "a94bd048c14d0a8040af4d7987d8d6591879e0eeb4888eeda29b2fca53fdc313"
+    },
+    {
+      "parent": "Myeloid",
+      "n_classes": 10,
+      "classifier_shapes": {
+        "head.weight": [
+          10,
+          48
+        ]
+      },
+      "checkpoint": "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Myeloid/model-9.pth",
+      "sha256": "f94d44f96cbf00e7e702762b83c8854cf61b9522723859ed0bd9b97017b013ee"
+    },
+    {
+      "parent": "Strom",
+      "n_classes": 33,
+      "classifier_shapes": {
+        "head.weight": [
+          33,
+          48
+        ]
+      },
+      "checkpoint": "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Strom/model-14.pth",
+      "sha256": "fb5ae108b60d41769b6b9614c57d050f191bb3026be2a651397ca76f84ac908d"
+    },
+    {
+      "parent": "Plasma",
+      "n_classes": 3,
+      "classifier_shapes": {
+        "head.weight": [
+          3,
+          48
+        ]
+      },
+      "checkpoint": "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Plasma/model-9.pth",
+      "sha256": "a6660a63616b40c388301017785c04d668032ed6258263e347adf592ba2fb440"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "original_package_tests_failed_before_patch": [
+    "one-type conservation",
+    "gene-symbol categories",
+    "unknown gene handling"
+  ],
+  "patched_tests_pass": true,
+  "two_type_end_to_end_smoke_pass": true,
+  "gradient_error": 3.8829623174262224e-05,
+  "seed2026_exact_replay": true,
+  "script_hashes": {
+    "code/test_port.py": "4edefd7a5568f6b4e800f968502e93f0af7bbad0c7199335412c76d6f0d397af",
+    "code/patch_port.py": "dd064e5720bee5da0b0ceebedde966466e2d8611e2255045ab99930d769f99d6",
+    "code/prepare.py": "427537f1b892236c968ebc9ee7022d7f2de09867c2daff6597f45fb5de2d74e4",
+    "code/runtime.py": "b85a52832086b80088a652e11f1b5e36318be7a964bc6c14c3cbfcd909173336",
+    "code/run_cohort.py": "dc76c2ccfe98275ef9c93f891fdebbaaa893e47a5a3d417da31bf18ea37e1fa0",
+    "code/test_smoke.py": "3d1cb8ef86ea6321307a20100c40bcd0afbc9e9063a9eac5cedbef7ceef64aa3",
+    "code/launch.py": "930196b0fda886310bf33504361683482f780a5053226dde44742f661ac8be37",
+    "code/postprocess.py": "d005327cf5881549d7693bbe356bed7d5b7ea618984a071af2c4a40db0a6577f",
+    "code/watch.py": "ae991868caec42dd5a52327a73f10651f2ebdce2a9f16b6260bb7ff2d3c1e6bf"
+  }
+}

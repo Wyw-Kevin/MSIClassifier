@@ -1,0 +1,145 @@
+model,sampleID,y,score,epithelial_proxy
+Shared18 + MLH1 (LDA),T_cac1,0,0.16901590742200412,True
+Shared18 + MLH1 (LDA),T_cac2,0,0.0021301841218102323,True
+Shared18 + MLH1 (LDA),T_cac3,0,0.48802745372897727,True
+Shared18 + MLH1 (LDA),T_cac4,0,0.12280639381969334,True
+Shared18 + MLH1 (LDA),T_cac5,0,0.9943109427585671,True
+Shared18 + MLH1 (LDA),T_cac6,0,0.00029545339004189233,True
+Shared18 + MLH1 (LDA),T_cac7,1,0.9725825248959312,True
+Shared18 + MLH1 (LDA),T_cac8,0,1.3476812993561679e-05,True
+Shared18 + MLH1 (LDA),T_cac9,0,0.005886010240758382,True
+Shared18 + MLH1 (LDA),T_cac10,0,0.3823191150979181,True
+Shared18 + MLH1 (LDA),T_cac11,0,0.0057665275842810875,True
+Shared18 + MLH1 (LDA),T_cac12,1,0.9388374950090616,True
+Shared18 + MLH1 (LDA),T_cac13,0,2.3468414203072528e-09,True
+Shared18 + MLH1 (LDA),T_cac14,0,0.006468648797578191,True
+Shared18 + MLH1 (LDA),T_cac15,0,6.482851617968822e-06,True
+Shared18 + MLH1 (LDA),T_cac16,0,2.075049320794795e-05,True
+Shared18 only (LDA),T_cac1,0,0.11062023644869544,False
+Shared18 only (LDA),T_cac2,0,0.000964511935304622,False
+Shared18 only (LDA),T_cac3,0,0.4942769211310026,False
+Shared18 only (LDA),T_cac4,0,0.25437551638363626,False
+Shared18 only (LDA),T_cac5,0,0.965354331989784,False
+Shared18 only (LDA),T_cac6,0,0.0003014491407674753,False
+Shared18 only (LDA),T_cac7,1,0.8006800786101624,False
+Shared18 only (LDA),T_cac8,0,1.099017601995808e-05,False
+Shared18 only (LDA),T_cac9,0,0.0067173693321057985,False
+Shared18 only (LDA),T_cac10,0,0.3155618353480052,False
+Shared18 only (LDA),T_cac11,0,0.031177767451446264,False
+Shared18 only (LDA),T_cac12,1,0.7333690674758735,False
+Shared18 only (LDA),T_cac13,0,4.247543922383824e-09,False
+Shared18 only (LDA),T_cac14,0,0.0030425974968559272,False
+Shared18 only (LDA),T_cac15,0,1.3153673572033915e-05,False
+Shared18 only (LDA),T_cac16,0,1.5336633442384063e-05,False
+MLH1 only (LDA),T_cac1,0,0.6176199594214293,True
+MLH1 only (LDA),T_cac2,0,0.720751050402505,True
+MLH1 only (LDA),T_cac3,0,0.5078009253034689,True
+MLH1 only (LDA),T_cac4,0,0.379498028191741,True
+MLH1 only (LDA),T_cac5,0,0.8916174216494741,True
+MLH1 only (LDA),T_cac6,0,0.50360563999966,True
+MLH1 only (LDA),T_cac7,1,0.8916174216494741,True
+MLH1 only (LDA),T_cac8,0,0.65749408281262,True
+MLH1 only (LDA),T_cac9,0,0.4291470411301409,True
+MLH1 only (LDA),T_cac10,0,0.617734240806325,True
+MLH1 only (LDA),T_cac11,0,0.14689238028511262,True
+MLH1 only (LDA),T_cac12,1,0.853025200600065,True
+MLH1 only (LDA),T_cac13,0,0.8916174216494741,True
+MLH1 only (LDA),T_cac14,0,0.680449864683105,True
+MLH1 only (LDA),T_cac15,0,0.39470196166173177,True
+MLH1 only (LDA),T_cac16,0,0.5429193683869836,True
+Major7 + MLH1 (LDA),T_cac1,0,0.19653878985969675,True
+Major7 + MLH1 (LDA),T_cac2,0,0.04133617627815729,True
+Major7 + MLH1 (LDA),T_cac3,0,0.012726768825497595,True
+Major7 + MLH1 (LDA),T_cac4,0,0.9952826645821999,True
+Major7 + MLH1 (LDA),T_cac5,0,0.9992747324360443,True
+Major7 + MLH1 (LDA),T_cac6,0,0.9107842804385239,True
+Major7 + MLH1 (LDA),T_cac7,1,0.9232255515631151,True
+Major7 + MLH1 (LDA),T_cac8,0,0.4648536754468707,True
+Major7 + MLH1 (LDA),T_cac9,0,0.9750522202703829,True
+Major7 + MLH1 (LDA),T_cac10,0,0.8670001046005805,True
+Major7 + MLH1 (LDA),T_cac11,0,0.5647966287828786,True
+Major7 + MLH1 (LDA),T_cac12,1,0.989559874171207,True
+Major7 + MLH1 (LDA),T_cac13,0,0.9794750492490345,True
+Major7 + MLH1 (LDA),T_cac14,0,0.9451569193511262,True
+Major7 + MLH1 (LDA),T_cac15,0,0.9687725884503833,True
+Major7 + MLH1 (LDA),T_cac16,0,0.9847496236126605,True
+Major7 + MLH1 (Logistic),T_cac1,0,0.2527170193558805,True
+Major7 + MLH1 (Logistic),T_cac2,0,0.09955505831960573,True
+Major7 + MLH1 (Logistic),T_cac3,0,0.04694216219256732,True
+Major7 + MLH1 (Logistic),T_cac4,0,0.9882086328968099,True
+Major7 + MLH1 (Logistic),T_cac5,0,0.9966097995905148,True
+Major7 + MLH1 (Logistic),T_cac6,0,0.8975721977226511,True
+Major7 + MLH1 (Logistic),T_cac7,1,0.8596725322647907,True
+Major7 + MLH1 (Logistic),T_cac8,0,0.532323531530365,True
+Major7 + MLH1 (Logistic),T_cac9,0,0.956129389065325,True
+Major7 + MLH1 (Logistic),T_cac10,0,0.7938685263483043,True
+Major7 + MLH1 (Logistic),T_cac11,0,0.5586243409996539,True
+Major7 + MLH1 (Logistic),T_cac12,1,0.9728091301598499,True
+Major7 + MLH1 (Logistic),T_cac13,0,0.9548891954488825,True
+Major7 + MLH1 (Logistic),T_cac14,0,0.8979745651714577,True
+Major7 + MLH1 (Logistic),T_cac15,0,0.9439330638552522,True
+Major7 + MLH1 (Logistic),T_cac16,0,0.9706104382885332,True
+Collapsed18 + MLH1 (LDA),T_cac1,0,0.3430182268461014,True
+Collapsed18 + MLH1 (LDA),T_cac2,0,0.284124965238371,True
+Collapsed18 + MLH1 (LDA),T_cac3,0,0.06631285549626957,True
+Collapsed18 + MLH1 (LDA),T_cac4,0,0.3768869245083991,True
+Collapsed18 + MLH1 (LDA),T_cac5,0,0.769950647986111,True
+Collapsed18 + MLH1 (LDA),T_cac6,0,0.4666732087888073,True
+Collapsed18 + MLH1 (LDA),T_cac7,1,0.10197610923835612,True
+Collapsed18 + MLH1 (LDA),T_cac8,0,0.35556314029960884,True
+Collapsed18 + MLH1 (LDA),T_cac9,0,0.5853226507484894,True
+Collapsed18 + MLH1 (LDA),T_cac10,0,0.2428603037822069,True
+Collapsed18 + MLH1 (LDA),T_cac11,0,0.04997432149429774,True
+Collapsed18 + MLH1 (LDA),T_cac12,1,0.7753416289674195,True
+Collapsed18 + MLH1 (LDA),T_cac13,0,0.8688838927075196,True
+Collapsed18 + MLH1 (LDA),T_cac14,0,0.06832425725379201,True
+Collapsed18 + MLH1 (LDA),T_cac15,0,0.14772294889598026,True
+Collapsed18 + MLH1 (LDA),T_cac16,0,0.5938145939672159,True
+MMR4 expression (Logistic),T_cac1,0,0.5595201833300584,False
+MMR4 expression (Logistic),T_cac2,0,0.5858804038813977,False
+MMR4 expression (Logistic),T_cac3,0,0.35870788364867345,False
+MMR4 expression (Logistic),T_cac4,0,0.17754686492728686,False
+MMR4 expression (Logistic),T_cac5,0,0.050310015731220105,False
+MMR4 expression (Logistic),T_cac6,0,0.1747318237752222,False
+MMR4 expression (Logistic),T_cac7,1,0.3922543031539187,False
+MMR4 expression (Logistic),T_cac8,0,0.5247094017000212,False
+MMR4 expression (Logistic),T_cac9,0,0.0586149696262846,False
+MMR4 expression (Logistic),T_cac10,0,0.11109000414216812,False
+MMR4 expression (Logistic),T_cac11,0,0.15568772620487847,False
+MMR4 expression (Logistic),T_cac12,1,0.27510865931739836,False
+MMR4 expression (Logistic),T_cac13,0,0.496189554399793,False
+MMR4 expression (Logistic),T_cac14,0,0.16517384717118344,False
+MMR4 expression (Logistic),T_cac15,0,0.11173921868910558,False
+MMR4 expression (Logistic),T_cac16,0,0.08306667224178936,False
+397-gene expression (Logistic),T_cac1,0,6.175636556832755e-05,False
+397-gene expression (Logistic),T_cac2,0,2.388292260412161e-06,False
+397-gene expression (Logistic),T_cac3,0,9.967640800181412e-06,False
+397-gene expression (Logistic),T_cac4,0,0.9904036211018684,False
+397-gene expression (Logistic),T_cac5,0,0.9728589094929315,False
+397-gene expression (Logistic),T_cac6,0,0.8744089861556552,False
+397-gene expression (Logistic),T_cac7,1,0.9813945872108365,False
+397-gene expression (Logistic),T_cac8,0,0.000874594435131759,False
+397-gene expression (Logistic),T_cac9,0,0.047458292339234834,False
+397-gene expression (Logistic),T_cac10,0,0.2710164969803191,False
+397-gene expression (Logistic),T_cac11,0,0.09814398243010183,False
+397-gene expression (Logistic),T_cac12,1,0.9732650591618929,False
+397-gene expression (Logistic),T_cac13,0,0.8893295677903391,False
+397-gene expression (Logistic),T_cac14,0,0.001896551596761774,False
+397-gene expression (Logistic),T_cac15,0,0.7561185723419704,False
+397-gene expression (Logistic),T_cac16,0,0.8396147854919649,False
+397-gene expression (tuned Logistic),T_cac1,0,0.07038567140078876,False
+397-gene expression (tuned Logistic),T_cac2,0,0.025894507372144285,False
+397-gene expression (tuned Logistic),T_cac3,0,0.023759820691651334,False
+397-gene expression (tuned Logistic),T_cac4,0,0.913237567300308,False
+397-gene expression (tuned Logistic),T_cac5,0,0.8893590028626308,False
+397-gene expression (tuned Logistic),T_cac6,0,0.7692979616871409,False
+397-gene expression (tuned Logistic),T_cac7,1,0.8558740280068741,False
+397-gene expression (tuned Logistic),T_cac8,0,0.1429160001615077,False
+397-gene expression (tuned Logistic),T_cac9,0,0.426778662348278,False
+397-gene expression (tuned Logistic),T_cac10,0,0.5616030212982015,False
+397-gene expression (tuned Logistic),T_cac11,0,0.4934853707007052,False
+397-gene expression (tuned Logistic),T_cac12,1,0.8520012359699534,False
+397-gene expression (tuned Logistic),T_cac13,0,0.7307022693715663,False
+397-gene expression (tuned Logistic),T_cac14,0,0.22327497713525696,False
+397-gene expression (tuned Logistic),T_cac15,0,0.7486934162779214,False
+397-gene expression (tuned Logistic),T_cac16,0,0.8057956994561548,False

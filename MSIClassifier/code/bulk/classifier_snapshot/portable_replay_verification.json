@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "numerical_replay": "Archived inputs only in isolated directory",
+  "numerical_files": [
+    {
+      "file": "predictions.csv",
+      "byte_identical": true,
+      "sha256": "8b0996f84e1e6db7a7d6c1ed62b790d5b535bd30ff11eecf45d06e688670e8b2"
+    },
+    {
+      "file": "cohort_metrics.csv",
+      "byte_identical": true,
+      "sha256": "b53920b2fc8c651a7feb61b3894fc3b70f67aa421af3818d78add449775d1e99"
+    },
+    {
+      "file": "macro_metrics.csv",
+      "byte_identical": true,
+      "sha256": "3f4f1c0d69b6d33d13110afc1909a5a301d76ceececebd1c924dad28711f5162"
+    },
+    {
+      "file": "paired_differences.csv",
+      "byte_identical": true,
+      "sha256": "4cc4e88d768e152a2c970bc68b0dcff879564285e2b9902e85b30d2a365a994c"
+    },
+    {
+      "file": "panel_membership.csv",
+      "byte_identical": true,
+      "sha256": "df9daf777c2f6608f78d491353d3b9a17c475bc24417140b56041669f7deeed3"
+    },
+    {
+      "file": "inputs/all_cohort_features.csv",
+      "byte_identical": true,
+      "sha256": "83eee30823d02b8e965f168c5085478d74ef403f39e7c2d57cfededf59e1e739"
+    },
+    {
+      "file": "historical10_runtime_predictions.csv",
+      "byte_identical": true,
+      "sha256": "bdc23fec6219de3fcd221b6b153704c05f24a141e0dee07fc169baeb30a86cb9"
+    },
+    {
+      "file": "historical10_runtime_comparison.csv",
+      "byte_identical": true,
+      "sha256": "eb8fc6e56a3399dc0568215ab580cc8b207fe745032bd4b5ae9a32b20d4b8418"
+    },
+    {
+      "file": "panels_locked_before_fit.json",
+      "byte_identical": true,
+      "sha256": "30d798de31a598172c9cf8bb1b028a64e6dd1be63d869542b52b8e0ad4af8b19"
+    }
+  ],
+  "source_original_hashes_unchanged": true,
+  "replay_independent_checks": 2011,
+  "figure_max_difference": 1.1102230246251565e-16
+}

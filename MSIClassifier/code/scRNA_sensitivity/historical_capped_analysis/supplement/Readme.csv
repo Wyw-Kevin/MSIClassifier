@@ -1,0 +1,25 @@
+sheet,content
+S1,Supplementary Table S1
+S2,Supplementary Table S2
+S3,Supplementary Table S3
+S4,Supplementary Table S4
+S5,Supplementary Table S5
+S6,Supplementary Table S6
+S7,Supplementary Table S7
+S8,Supplementary Table S8
+S9,Supplementary Table S9
+S10,Supplementary Table S10
+S11,Supplementary Table S11
+S12,Supplementary Table S12
+S13,Supplementary Table S13
+S14,Supplementary Table S14
+S6_bootstrap,Paired patient bootstrap uncertainty
+S7_correlation,Correlation and VIF audit
+S13_macro,All classifiers; equal-weight cohort macro metrics
+S13_ranges,Descriptive ranges across eleven fixed classifiers
+S14_panel_summary,Exact-set recovery and overlap summaries
+S14_overlap,All 2000 resample membership and overlap records
+S14_thresholds,Development-only descriptive screening-threshold sensitivity
+MMR4_scalers,Label-free within-cohort four-gene standardization
+Parameters,Current protocol and preserved unaffected parameters
+Software,Verified reporting runtime and historical provenance notes

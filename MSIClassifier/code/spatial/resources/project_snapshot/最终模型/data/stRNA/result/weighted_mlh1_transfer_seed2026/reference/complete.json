@@ -1,0 +1,11 @@
+{
+  "n_cells": 54630,
+  "n_genes": 12079,
+  "n_types": 73,
+  "seed": 2026,
+  "reference_epochs": 180,
+  "posterior_samples": 200,
+  "reference": "tumor non-epithelial71 plus q95 candidate and other scored tumor epithelium",
+  "no_normal_claim": true,
+  "source_cnv": "/home/wyw/rstudio/MSI/\u6700\u7ec8\u6a21\u578b/data/scRNA/result/diagnostics/infercnvpy_stromal_only_unique_seed2026/GSE178341/cell_malignancy_scores.csv.gz"
+}

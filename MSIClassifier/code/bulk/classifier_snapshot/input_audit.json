@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "n_samples": 1212,
+  "candidate_n": 17,
+  "finite_nonnegative": true,
+  "label_fold_alignment": true,
+  "source_fraction_differences": [
+    {
+      "feature": "cS27",
+      "max_absolute_source_difference": 1.1102230246251565e-16
+    },
+    {
+      "feature": "cTNI16",
+      "max_absolute_source_difference": 2.220446049250313e-16
+    },
+    {
+      "feature": "cM06",
+      "max_absolute_source_difference": 1.1102230246251565e-16
+    },
+    {
+      "feature": "cTNI26",
+      "max_absolute_source_difference": 1.1102230246251565e-16
+    },
+    {
+      "feature": "cM04",
+      "max_absolute_source_difference": 1.1102230246251565e-16
+    },
+    {
+      "feature": "cTNI05",
+      "max_absolute_source_difference": 2.710505431213761e-20
+    },
+    {
+      "feature": "cTNI02",
+      "max_absolute_source_difference": 1.0061396160665481e-16
+    },
+    {
+      "feature": "cTNI10",
+      "max_absolute_source_difference": 2.710505431213761e-20
+    },
+    {
+      "feature": "cP1",
+      "max_absolute_source_difference": 2.220446049250313e-16
+    },
+    {
+      "feature": "cTNI13",
+      "max_absolute_source_difference": 1.1102230246251565e-16
+    }
+  ],
+  "preserved_exact_historical10_columns": true,
+  "checkpoint_coverage_source": "coverage.json"
+}

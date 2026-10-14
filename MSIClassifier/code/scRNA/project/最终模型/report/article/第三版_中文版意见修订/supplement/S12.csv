@@ -1,0 +1,5 @@
+gene,cutoff_z,temperature,definition,fit_scope
+MLH1,-1.0,0.5,"sigmoid((cutoff_z - gene_z) / temperature), max over four genes)",All eight cohorts; outcome-informed; resubstitution only
+MSH2,-2.5,0.5,"sigmoid((cutoff_z - gene_z) / temperature), max over four genes)",All eight cohorts; outcome-informed; resubstitution only
+MSH6,-2.5,0.5,"sigmoid((cutoff_z - gene_z) / temperature), max over four genes)",All eight cohorts; outcome-informed; resubstitution only
+PMS2,-3.0,0.5,"sigmoid((cutoff_z - gene_z) / temperature), max over four genes)",All eight cohorts; outcome-informed; resubstitution only
