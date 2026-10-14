@@ -1,8 +1,0 @@
-{
-  "passed": true,
-  "grouped_folds": 5,
-  "training_samples": 64,
-  "patients": 62,
-  "external_MSS_samples": 32,
-  "score_tolerance": 1e-07
-}

@@ -1,6 +1,0 @@
-model,model_dir,weight
-Major,/home/wyw/rstudio/MSI/最终模型/scRNA_model/reference_seed2026/tosica_major,model_best.pth
-TNKILC,/home/wyw/rstudio/MSI/最终模型/scRNA_model/reference_seed2026/CRC/TNKILC,model-9.pth
-Myeloid,/home/wyw/rstudio/MSI/最终模型/scRNA_model/reference_seed2026/CRC/Myeloid,model-9.pth
-Strom,/home/wyw/rstudio/MSI/最终模型/scRNA_model/reference_seed2026/CRC/Strom,model-14.pth
-Plasma,/home/wyw/rstudio/MSI/最终模型/scRNA_model/reference_seed2026/CRC/Plasma,model-9.pth

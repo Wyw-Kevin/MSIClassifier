@@ -1,8 +1,0 @@
-major_class,n_tumor_cells,n_cells_with_subtype_prediction,subtype_prediction_coverage,n_predicted_subtypes
-B,6335,0,0.0,0
-Epi,35787,0,0.0,0
-Mast,1100,0,0.0,0
-Myeloid,2549,2549,1.0,10
-Plasma,7865,7865,1.0,3
-Strom,3665,3665,1.0,33
-TNKILC,40722,40722,1.0,26

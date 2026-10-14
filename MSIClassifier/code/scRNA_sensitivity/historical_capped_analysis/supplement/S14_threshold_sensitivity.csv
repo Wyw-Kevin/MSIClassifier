@@ -1,5 +1,0 @@
-strict_AUROC_threshold,n_selected,selected_features,scope
-0.55,15,cS18;cTNI13;cTNI16;cTNI05;cS27;cTNI04;cP1;cM05;cM06;cTNI08;cTNI10;cM04;cTNI11;cTNI02;cTNI26,Descriptive development-only threshold sensitivity; no replacement or performance-based selection
-0.6,10,cTNI13;cTNI16;cTNI05;cS27;cP1;cM06;cTNI10;cM04;cTNI02;cTNI26,Descriptive development-only threshold sensitivity; no replacement or performance-based selection
-0.65,3,cTNI16;cS27;cM06,Descriptive development-only threshold sensitivity; no replacement or performance-based selection
-0.7,1,cS27,Descriptive development-only threshold sensitivity; no replacement or performance-based selection

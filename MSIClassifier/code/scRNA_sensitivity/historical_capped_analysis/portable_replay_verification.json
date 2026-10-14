@@ -1,8 +1,0 @@
-{
-  "status": "passed",
-  "analysis_reproduced_from_extracted_package": true,
-  "project_input_paths_unavailable_in_replay": true,
-  "prediction_and_metric_CSVs": "byte-identical",
-  "zip_SHA256": "89a8e16c202beb247b4f15c2c961ff6fe6d84838434017f955484c4c613d55ef",
-  "zip_bytes": 11021108
-}

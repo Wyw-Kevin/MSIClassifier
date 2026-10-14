@@ -1,9 +1,0 @@
-{
-  "dataset": "GSE27544",
-  "n": 22,
-  "n_genes": 14348,
-  "n_types": 72,
-  "elapsed_seconds": 367.39569783210754,
-  "fractions_verified": true,
-  "biological_validity_established": false
-}

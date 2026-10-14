@@ -1,9 +1,0 @@
-{
-  "dataset": "TCGA-COADREAD",
-  "n": 356,
-  "n_genes": 14794,
-  "n_types": 72,
-  "elapsed_seconds": 4376.01474404335,
-  "fractions_verified": true,
-  "biological_validity_established": false
-}

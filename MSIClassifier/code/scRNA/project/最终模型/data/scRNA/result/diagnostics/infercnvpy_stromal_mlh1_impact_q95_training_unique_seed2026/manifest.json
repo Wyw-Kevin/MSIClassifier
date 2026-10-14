@@ -1,8 +1,0 @@
-{
-  "seed": 2026,
-  "reference_branch": "/home/wyw/rstudio/MSI/最终模型/data/scRNA/result/diagnostics/infercnvpy_stromal_only_unique_seed2026",
-  "reference_quantile": 0.95,
-  "definition": "Class=Tumor, epithelial annotation, and infercnvpy cnv_score >= reference quantile",
-  "model": "/home/wyw/rstudio/MSI/最终模型/model/reference/shared18_LDA_zscore2026/model.joblib",
-  "interpretation": "Sensitivity analysis; ecology features and locked model were unchanged. Samples with no inferred malignant epithelial cells have missing MLH1 and are excluded from score calculation."
-}

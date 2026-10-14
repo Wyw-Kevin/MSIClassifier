@@ -1,9 +1,0 @@
-{
-  "dataset": "GSE25071",
-  "n": 43,
-  "n_genes": 9505,
-  "n_types": 72,
-  "elapsed_seconds": 582.0550200939178,
-  "fractions_verified": true,
-  "biological_validity_established": false
-}

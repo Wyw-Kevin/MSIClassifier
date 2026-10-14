@@ -1,4 +1,0 @@
-family,mode,dataset,split,n_samples,baseline_AUROC,AUROC_min,AUROC_max,AUROC_span,delta_vs_baseline_min,delta_vs_baseline_max
-subtype_threshold,refit,GSE132465,external,23,0.9605263157894736,0.9473684210526316,0.9605263157894736,0.013157894736842,-0.013157894736842,0.0
-subtype_threshold,refit,GSE178341,grouped_OOF,64,0.9783251231527094,0.9625615763546798,0.9802955665024632,0.0177339901477833,-0.0157635467980296,0.0019704433497537
-subtype_threshold,refit,GSE200997,external,15,1.0,1.0,1.0,0.0,0.0,0.0

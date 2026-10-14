@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "n_genes": 12079,
-  "n_types": 73,
-  "n_cells": 54630,
-  "MLH1_present": true,
-  "reference_epoch_history_available": false,
-  "reference_convergence_established": false
-}
