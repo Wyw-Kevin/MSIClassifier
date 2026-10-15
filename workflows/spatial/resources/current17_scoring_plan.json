@@ -1,0 +1,8 @@
+{
+  "classifier_sha256": "e91aac236505c790220a53d484f6b650ec87d895261eacef9f036101624ccb5b",
+  "classifier": "workflows/scRNA/resources/model/reference/auc070_17_weighted_mlh1_2026/model.joblib",
+  "original_reconstruction_plan": "transfer/analysis_plan.json",
+  "n_subtypes": 17,
+  "reconstruction_refitted": false,
+  "scope": "Current17 frozen scoring of the unchanged73-type spatial reference/reconstruction; technical transfer only"
+}

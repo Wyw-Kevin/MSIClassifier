@@ -1,0 +1,13 @@
+dataset,model,omitted,n,AUROC,interpretation
+GSE178341,17 subtypes + weighted MLH1,C165T;C172T,62,0.9852941176470589,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE178341,17 subtypes + mean MLH1,C165T;C172T,62,0.9747899159663864,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE178341,17 subtypes only,C165T;C172T,62,0.967436974789916,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE178341,Weighted MLH1 only,C165T;C172T,62,0.9191176470588235,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE132465,17 subtypes + weighted MLH1,SMC05-T;SMC06-T,21,0.9444444444444444,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE132465,17 subtypes + mean MLH1,SMC05-T;SMC06-T,21,0.8703703703703703,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE132465,17 subtypes only,SMC05-T;SMC06-T,21,0.7962962962962963,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE132465,Weighted MLH1 only,SMC05-T;SMC06-T,21,1.0,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE200997,17 subtypes + weighted MLH1,,15,1.0,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE200997,17 subtypes + mean MLH1,,15,1.0,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE200997,17 subtypes only,,15,1.0,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule
+GSE200997,Weighted MLH1 only,,15,0.8846153846153846,Subset of unchanged current17 predictions; no refit; <10 is not an eligibility rule

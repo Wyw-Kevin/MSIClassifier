@@ -1,0 +1,34 @@
+{
+  "scope": "Current scRNA cohort-role wording and figure labels only",
+  "main_document": {
+    "changed_sentences_all_red": 28,
+    "unchanged_sentences_preserved_in_edited_paragraphs": 66,
+    "fixed24pt_line_spacing": true,
+    "font12pt": true,
+    "unrelated_body_and_references_unchanged": true,
+    "numeric_table_cells_unchanged": true
+  },
+  "supplement_document": {
+    "changed_sentences_all_red": 7,
+    "unchanged_sentences_preserved_in_edited_paragraphs": 18,
+    "fixed24pt_line_spacing": true,
+    "font12pt": true,
+    "unrelated_body_and_references_unchanged": true,
+    "numeric_table_cells_unchanged": true
+  },
+  "supplement_table_rows_added": {
+    "Readme": 1,
+    "Parameters": 2,
+    "Methods_provenance": 1
+  },
+  "all_existing_supplement_values_unchanged": true,
+  "unchanged_scientific_files": 306,
+  "unchanged_historical_files": 110,
+  "all_models_and_sample_scores_unchanged": true,
+  "bulk_data_and_design_unchanged": true,
+  "fresh_scoring_entry_checked": true,
+  "max_example_score_error": 0.0,
+  "broken_local_links": [],
+  "GitHub_uploaded": false,
+  "development_OOF_selection_limitation_retained": true
+}

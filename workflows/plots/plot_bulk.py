@@ -76,7 +76,7 @@ def figures(metrics,macro,stability,summary):
     ax.bar_label(bars,fmt='%.2f%%',padding=5,fontsize=10);ax.set_ylim(0,105);ax.set_ylabel('Resamples (%)');ax.tick_params(axis='x',labelsize=8)
     ax.set_title('D   Panel size and exact-set recovery',loc='left',weight='bold')
     export(fig,'SupplementaryFigureS2_bulk12_selection_stability')
-    # Selection flow: keep the single-cell18 classifier and the separate bulk17 pool explicit.
+    # Selection flow: keep the current17 classifier and the separate bulk17 pool explicit.
     fig,ax=plt.subplots(figsize=(12,7.2));ax.set_xlim(0,12);ax.set_ylim(0,7.2);ax.axis('off')
     def box(x,y,w,h,t,color='#EDF3F6'):
         from matplotlib.patches import FancyBboxPatch
@@ -84,10 +84,10 @@ def figures(metrics,macro,stability,summary):
         ax.text(x+w/2,y+h/2,t,ha='center',va='center',fontsize=10,linespacing=1.5)
     def arrow(a,b):ax.annotate('',xy=b,xytext=a,arrowprops={'arrowstyle':'->','color':'#657780','lw':1.5})
     box(.4,5.8,11.2,1,'GSE178341 reference: 71 unmerged subtype candidates (at least 50 cells)\nFrozen cell definitions and source association directions')
-    box(.4,3.7,4.4,1.4,'scRNA primary branch\nHistorical source cutoff >0.65: 24 candidates\nHistorical configuration comparison: fixed18\n18 proportions + weighted malignant MLH1')
+    box(.4,3.7,4.4,1.4,'scRNA primary branch\nAll source AUROC >0.70: 17 subtypes\nCutoff selected by development grouped OOF\n17 proportions + weighted malignant MLH1')
     box(6.2,3.7,5.4,1.4,'Bulk candidate branch\nSource oriented AUROC >0.70: 17 candidates\nBoth development oriented AUROCs >0.50\n12 direction-concordant subtypes')
     arrow((3,5.8),(2.6,5.15));arrow((9,5.8),(8.9,5.15))
-    box(.4,1.9,4.4,1.1,'Grouped classifier OOF + retrospective scoring\nTraining-only Z-score + shrinkage LDA\nFrozen18 model transferred to spatial proxies')
+    box(.4,1.9,4.4,1.1,'Grouped classifier OOF + external scoring\nTraining-only Z-score + shrinkage LDA\nFrozen17 model transferred to spatial proxies')
     box(6.2,1.9,5.4,1.1,'GSE39582 + TCGA-COADREAD\nArchived five-fold OOF / full-fit MLP\nTraining-only Z-score, fixed 4-unit MLP')
     arrow((2.6,3.7),(2.6,3.0));arrow((8.9,3.7),(8.9,3.0))
     box(6.2,.25,5.4,.95,'Eight-cohort LOCO MMR4: fit7, score held-out1\nFixed fusion: 0.5 subtype probability + 0.5 MMR4\nTwo development + six retrospective cohorts','#F4EEE9')

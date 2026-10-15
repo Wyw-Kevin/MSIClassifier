@@ -8,7 +8,7 @@ import random
 import sys
 import numpy as np
 import pandas as pd
-from inputs import PANEL12, PANEL18, parent
+from inputs import PANEL12, PANEL17, parent
 
 ROOT = Path(__file__).resolve().parents[2]
 

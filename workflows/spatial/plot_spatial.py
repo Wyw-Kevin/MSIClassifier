@@ -31,7 +31,7 @@ def spatial():
             denom=a.loc[:,groups[groups.eq(groups.loc[f])].index].sum(axis=1)
             assert denom.gt(0).all()
             x[f]=a[f]/denom
-        s['local_ecology_score']=model['pipeline'].predict_proba(x[model['features']])[:,1]
+        s['local_ecology_score']=model['pipeline'].predict_proba(x[model['features']].to_numpy())[:,1]
         s['weighted_MLH1_display']=s.candidate_MLH1_reconstructed_log1p_cp10k*s.candidate_fraction
         s['epithelial_fraction']=fraction
         s['epithelial_enriched_display']=mask
@@ -53,26 +53,26 @@ def spatial():
             else:ecology_mappable=scatter
             ax.set_aspect('equal');ax.invert_yaxis();ax.set_xticks([]);ax.set_yticks([])
             for spine in ax.spines.values():spine.set_color('#D6DDE3');spine.set_linewidth(.45)
-            label='Epithelial-enriched MLH1' if j==0 else '18-subtype score'
+            label='Epithelial-enriched MLH1' if j==0 else '17-subtype score'
             ax.set_title(f'{row.sampleID} | {row.MMR}\n{label}',fontsize=6.6,pad=3)
-    fig.text(.025,.978,'A  Spatial MLH1 expression and 18-subtype patterns',fontsize=12,weight='bold')
-    for mapper,y,label in [(mlh1_mappable,.56,'Weighted reconstructed MLH1'),(ecology_mappable,.11,'Local 18-subtype score')]:
+    fig.text(.025,.978,'A  Spatial MLH1 expression and 17-subtype patterns',fontsize=12,weight='bold')
+    for mapper,y,label in [(mlh1_mappable,.56,'Weighted reconstructed MLH1'),(ecology_mappable,.11,'Local 17-subtype score')]:
         cb=fig.colorbar(mapper,cax=fig.add_axes([.572,y,.010,.31]));cb.set_label(label,fontsize=8);cb.ax.tick_params(labelsize=7);cb.solids.set_rasterized(False)
     ax=fig.add_axes([.71,.41,.265,.47]);ordered=sections.sort_values('score',ascending=False);y=np.arange(len(ordered))
-    for offset,column,color,label in [(-.23,'weighted_MLH1_proxy','#CA6575','Weighted MLH1'),(0,'ecology_only_score','#4F95BE','18-subtype ecology'),(.23,'score','#43A394','Combined model')]:
+    for offset,column,color,label in [(-.23,'weighted_MLH1_proxy','#CA6575','Weighted MLH1'),(0,'ecology_only_score','#4F95BE','17-subtype ecology'),(.23,'score','#43A394','Combined model')]:
         ax.barh(y+offset,ordered[column],height=.21,color=color,label=label)
         for yy,v in zip(y+offset,ordered[column]):ax.text(v+.01,yy,f'{v:.3f}',va='center',fontsize=6)
     ax.invert_yaxis();ax.set_yticks(y,[f'{r.sampleID.replace("VISDS","")}  {r.MMR}' for r in ordered.itertuples()],fontsize=7)
-    ax.set_xlim(0,.85);ax.set_xlabel('Component value / model score',fontsize=9)
+    ax.set_xlim(0,1.03);ax.set_xlabel('Component value / model score',fontsize=9)
     ax.legend(frameon=False,loc='lower left',bbox_to_anchor=(0,1.015),fontsize=8,ncol=1)
     fig.text(.71,.978,'B  Section components and model scores',fontsize=11,weight='bold')
     ax.spines[['top','right']].set_visible(False);ax.grid(False)
     ax=fig.add_axes([.74,.085,.235,.235])
-    values=[float(metrics.loc[metrics.level.eq(level)&metrics.model.eq('Weighted reconstructed transfer'),'AUROC'].iloc[0]) for level in ['Section','Patient']]
-    ax.bar([0,1],values,color=['#299C8E','#E67B60'],width=.56)
-    for i,v in enumerate(values):ax.text(i,v+.025,f'{v:.3f}',ha='center',fontsize=10,weight='bold')
-    ax.set_xticks([0,1],['Sections\n(n=14)','Patients\n(n=7)'],fontsize=9);ax.set_ylim(0,1.14);ax.set_ylabel('Descriptive AUROC')
-    ax.set_title('C  Exploratory spatial transfer',loc='left',fontsize=11,weight='bold',pad=12)
+    patients=pd.read_csv(CURRENT/'patient_predictions.csv')
+    for label,color in [('MSS','#277F8E'),('MSI','#B65066')]:
+        indices=np.flatnonzero(patients.MMR.eq(label));ax.scatter(indices,patients.iloc[indices].score,color=color,s=38,label=label)
+    ax.set_xticks(range(len(patients)),patients.patientID,fontsize=8);ax.set_ylim(0,1.03);ax.set_ylabel('Mean section score');ax.set_xlabel('Patient')
+    ax.set_title('C  Patient-level frozen-model scores',loc='left',fontsize=11,weight='bold',pad=12);ax.legend(frameon=False,fontsize=8)
     ax.spines[['top','right']].set_visible(False);ax.grid(False)
     for ext in ['pdf','svg','png']:fig.savefig(OUT/f'Figure04_paired_spatial.{ext}',dpi=230)
     plt.close(fig)

@@ -16,7 +16,7 @@ HERE=Path(__file__).resolve().parent
 SNAPSHOT=HERE/'resources'
 BASE=SNAPSHOT/'transfer'
 REPORT=SNAPSHOT/'report'
-MODEL=HERE.parent/'scRNA/resources/model/reference/shared18_weighted_mlh1_2026/model.joblib'
+MODEL=HERE.parent/'scRNA/resources/model/reference/auc070_17_weighted_mlh1_2026/model.joblib'
 
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
@@ -24,13 +24,13 @@ def main(argv=None):
     parser.add_argument('--figures',action='store_true',help='Recreate the paired spatial plot from its retained source and saved inputs.')
     args=parser.parse_args(argv)
     output=args.output_dir.resolve();output.mkdir(parents=True,exist_ok=True)
-    plan=json.loads((BASE/'analysis_plan.json').read_text())
+    plan=json.loads((SNAPSHOT/'current17_scoring_plan.json').read_text())
     model_hash=hashlib.sha256(MODEL.read_bytes()).hexdigest()
     assert model_hash==plan['classifier_sha256'],'Current frozen classifier identity mismatch'
     artifact=joblib.load(MODEL)
     ecology=joblib.load(REPORT/'ecology_only_comparator.joblib')
     features=artifact['features'];pipeline=artifact['pipeline']
-    assert len(features)==19 and features[-1]=='mean_MLH1_epithelial'
+    assert len(features)==18 and features[-1]=='weighted_MLH1'
     assert pipeline['model'].solver=='lsqr' and pipeline['model'].shrinkage=='auto'
     groups=pd.read_csv(BASE/'reference/mapping.csv').set_index('small_type').major_type
     frozen_inputs=pd.read_csv(REPORT/'spatial_classifier_features.csv',index_col=0)
@@ -51,19 +51,19 @@ def main(argv=None):
         weighted=float((reconstructed*candidate).sum()/(candidate+other).sum())
         totals=abundance.sum(axis=0)
         row={feature:float(totals[feature]/totals.loc[groups[groups.eq(groups.loc[feature])].index].sum()) for feature in features[:-1]}
-        row['mean_MLH1_epithelial']=weighted
+        row['weighted_MLH1']=weighted
         row['sampleID']=sid;rebuilt_rows.append(row)
         np.testing.assert_allclose([row[f] for f in features],frozen_inputs.loc[sid,features].to_numpy(dtype=float),atol=1e-7,rtol=1e-5)
         history=pd.read_csv(directory/'history_elbo_train.csv',index_col=0).iloc[:,-1]
         assert len(history)==500 and np.isfinite(history).all()
-        audit.append(dict(sampleID=sid,n_spots=len(spots),weighted_reconstructed=weighted,weighted_saved=float(frozen_inputs.loc[sid,'mean_MLH1_epithelial']),weighted_abs_error=abs(weighted-float(frozen_inputs.loc[sid,'mean_MLH1_epithelial'])),history_epochs=len(history)))
+        audit.append(dict(sampleID=sid,n_spots=len(spots),weighted_reconstructed=weighted,weighted_saved=float(frozen_inputs.loc[sid,'weighted_MLH1']),weighted_abs_error=abs(weighted-float(frozen_inputs.loc[sid,'weighted_MLH1'])),history_epochs=len(history)))
     rebuilt=pd.DataFrame(rebuilt_rows).set_index('sampleID')[features]
     assert len(rebuilt)==14
     # Prediction replay deliberately uses the exact archived feature table. The rebuilt
     # table above validates its meaning while retaining original float32/CSV provenance.
     X=frozen_inputs[features]
-    section=pd.DataFrame({'sampleID':X.index,'score':pipeline.predict_proba(X)[:,1],
-                          'ecology_only_score':ecology['pipeline'].predict_proba(X[ecology['features']])[:,1]})
+    section=pd.DataFrame({'sampleID':X.index,'score':pipeline.predict_proba(X.to_numpy())[:,1],
+                          'ecology_only_score':ecology['pipeline'].predict_proba(X[ecology['features']].to_numpy())[:,1]})
     section['patientID']=section.sampleID.map(expected_sections.patientID)
     section['MMR']=section.sampleID.map(expected_sections.MMR)
     assert section.patientID.notna().all()

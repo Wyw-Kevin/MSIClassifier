@@ -1,0 +1,7 @@
+dataset,comparison,n,positive,AUROC,BA,Brier,TN,FP,FN,TP,scope
+GSE178341,Primary_ge_common,64,35,0.9802955665024631,0.9339901477832513,0.05554863440395964,26,3,1,34,Same scoreable samples; frozen q95 classifier; no refit; no external-based threshold selection
+GSE178341,Strict_gt_common,64,35,0.9802955665024631,0.9339901477832513,0.05554863443642255,26,3,1,34,Same scoreable samples; frozen q95 classifier; no refit; no external-based threshold selection
+GSE132465,Primary_ge_common,23,4,0.9473684210526316,0.9473684210526316,0.09797838388221888,17,2,0,4,Same scoreable samples; frozen q95 classifier; no refit; no external-based threshold selection
+GSE132465,Strict_gt_common,23,4,0.9473684210526316,0.9473684210526316,0.09797838388221874,17,2,0,4,Same scoreable samples; frozen q95 classifier; no refit; no external-based threshold selection
+GSE200997,Primary_ge_common,14,2,1.0,0.9583333333333333,0.024101847718777512,11,1,0,2,Same scoreable samples; frozen q95 classifier; no refit; no external-based threshold selection
+GSE200997,Strict_gt_common,14,2,1.0,0.875,0.12888366867331452,9,3,0,2,Same scoreable samples; frozen q95 classifier; no refit; no external-based threshold selection

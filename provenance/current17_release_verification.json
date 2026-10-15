@@ -1,0 +1,121 @@
+{
+  "whole_package_replay": {
+    "status": "passed",
+    "mode": "archived measurements/models, no refit",
+    "branches": [
+      {
+        "branch": "bulk",
+        "returncode": 0
+      },
+      {
+        "branch": "scRNA",
+        "returncode": 0
+      },
+      {
+        "branch": "sensitivity",
+        "returncode": 0
+      },
+      {
+        "branch": "spatial",
+        "returncode": 0
+      },
+      {
+        "branch": "paired",
+        "returncode": 0
+      },
+      {
+        "branch": "stability",
+        "returncode": 0
+      },
+      {
+        "branch": "bayesprism",
+        "returncode": 0
+      }
+    ]
+  },
+  "final_cutoff_entry": {
+    "status": "passed",
+    "mode": "archived measurements/models, no refit",
+    "branches": [
+      {
+        "branch": "sensitivity",
+        "returncode": 0
+      }
+    ]
+  },
+  "plots": {
+    "status": "passed",
+    "mode": "archived measurements/models, no refit",
+    "branches": [
+      {
+        "branch": "plots",
+        "returncode": 0
+      }
+    ]
+  },
+  "unit_tests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "reference_coverage": {
+    "ecology": {
+      "supported": [
+        "cM01",
+        "cM05",
+        "cM06",
+        "cP1",
+        "cS17",
+        "cS18",
+        "cS27",
+        "cTNI04",
+        "cTNI05",
+        "cTNI07",
+        "cTNI08",
+        "cTNI10",
+        "cTNI13",
+        "cTNI14",
+        "cTNI16",
+        "cTNI18",
+        "cTNI19"
+      ],
+      "n_supported": 17,
+      "missing": []
+    },
+    "newer_full_hierarchy": {
+      "supported": [
+        "cM01",
+        "cM05",
+        "cM06",
+        "cP1",
+        "cS17",
+        "cS18",
+        "cS27",
+        "cTNI04",
+        "cTNI05",
+        "cTNI07",
+        "cTNI10",
+        "cTNI13"
+      ],
+      "n_supported": 12,
+      "missing": [
+        "cTNI08",
+        "cTNI14",
+        "cTNI16",
+        "cTNI18",
+        "cTNI19"
+      ]
+    }
+  },
+  "independent_patient_bootstrap": {
+    "passed": true,
+    "primary_subtypes": 17,
+    "scored_predictions": 1162,
+    "max_prediction_error": 0.0,
+    "max_interval_error": 1.1102230246251565e-16,
+    "bootstrap_check": "All2000 paired patient-cluster draws independently evaluated with sklearn sample_weight ROC",
+    "selection": "Highest development grouped OOF of four cutoffs; same data used for selection; no cutoff-selection uncertainty in CI",
+    "CNV_score_metrics_verified": true,
+    "patient_fold_separation_verified": true,
+    "seed": 2026
+  }
+}

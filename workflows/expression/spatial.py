@@ -3,7 +3,7 @@ import random
 import numpy as np
 import pandas as pd
 from scipy import sparse
-from inputs import PANEL18, parent, spatial_weighted_mlh1
+from inputs import PANEL17, parent, spatial_weighted_mlh1
 from runners import require_resources, score_features, manifest
 
 
@@ -51,7 +51,7 @@ def run(args, a, out):
     proxy = spatial_weighted_mlh1(allocated, a.var_names.get_loc("MLH1"), abundance)
     row = {"sampleID": args.sample_id}
     totals = abundance.sum(axis=0)
-    for feature in PANEL18:
+    for feature in PANEL17:
         denominator = totals.loc[mapping[mapping.eq(parent(feature))].index].sum()
         if denominator <= 0:
             raise ValueError("Missing spatial parent denominator for " + feature)

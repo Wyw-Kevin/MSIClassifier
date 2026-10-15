@@ -1,0 +1,16 @@
+configuration,family,screening_cutoff,CNV_quantile,mode,n_subtypes,dataset,split,n_samples,n_positive,n_negative,AUROC,BA,Brier,n_candidate_above_cutoff,selection_rule
+subtype_cutoff_60,subtype_threshold,0.6,0.95,refit,39,GSE132465,external,23,4,19,0.9736842105263158,0.9473684210526316,0.10754400541909309,39,All reference candidates above cutoff; no count cap
+subtype_cutoff_60,subtype_threshold,0.6,0.95,refit,39,GSE178341,grouped_OOF,64,35,29,0.9349753694581281,0.8911330049261084,0.09713538729075707,39,All reference candidates above cutoff; no count cap
+subtype_cutoff_60,subtype_threshold,0.6,0.95,refit,39,GSE200997,external,15,2,13,0.9230769230769231,0.9230769230769231,0.12875501338651027,39,All reference candidates above cutoff; no count cap
+subtype_cutoff_65,subtype_threshold,0.65,0.95,refit,24,GSE132465,external,23,4,19,0.9605263157894737,0.8223684210526316,0.10952149625996647,24,All reference candidates above cutoff; no count cap
+subtype_cutoff_65,subtype_threshold,0.65,0.95,refit,24,GSE178341,grouped_OOF,64,35,29,0.954679802955665,0.9197044334975369,0.07627902220495854,24,All reference candidates above cutoff; no count cap
+subtype_cutoff_65,subtype_threshold,0.65,0.95,refit,24,GSE200997,external,15,2,13,0.9615384615384616,0.7115384615384616,0.055787663521397496,24,All reference candidates above cutoff; no count cap
+subtype_cutoff_70,subtype_threshold,0.7,0.95,refit,17,GSE132465,external,23,4,19,0.9473684210526316,0.9473684210526316,0.09797838388221888,17,All reference candidates above cutoff; no count cap
+subtype_cutoff_70,subtype_threshold,0.7,0.95,refit,17,GSE178341,grouped_OOF,64,35,29,0.9802955665024631,0.9339901477832513,0.05554863440395964,17,All reference candidates above cutoff; no count cap
+subtype_cutoff_70,subtype_threshold,0.7,0.95,refit,17,GSE200997,external,15,2,13,1.0,0.9615384615384616,0.022495057870859023,17,All reference candidates above cutoff; no count cap
+subtype_cutoff_75,subtype_threshold,0.75,0.95,refit,9,GSE132465,external,23,4,19,0.9473684210526316,0.9473684210526316,0.06062779012317314,9,All reference candidates above cutoff; no count cap
+subtype_cutoff_75,subtype_threshold,0.75,0.95,refit,9,GSE178341,grouped_OOF,64,35,29,0.9625615763546798,0.9197044334975369,0.07861531547401844,9,All reference candidates above cutoff; no count cap
+subtype_cutoff_75,subtype_threshold,0.75,0.95,refit,9,GSE200997,external,15,2,13,1.0,1.0,0.030245470875470273,9,All reference candidates above cutoff; no count cap
+CNV_q95_refit,fixed_panel_reference,0.65,0.95,refit,18,GSE132465,external,23,4,19,0.9605263157894737,0.9473684210526316,0.09278293896086792,24,Historical top18 reference; not a cutoff-only model
+CNV_q95_refit,fixed_panel_reference,0.65,0.95,refit,18,GSE178341,grouped_OOF,64,35,29,0.9783251231527094,0.9339901477832513,0.05438812912991808,24,Historical top18 reference; not a cutoff-only model
+CNV_q95_refit,fixed_panel_reference,0.65,0.95,refit,18,GSE200997,external,15,2,13,1.0,0.9615384615384616,0.030533191388491157,24,Historical top18 reference; not a cutoff-only model

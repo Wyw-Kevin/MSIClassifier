@@ -10,11 +10,11 @@ def main():
     p.add_argument('--output-dir',type=Path,default=ROOT/'output')
     p.add_argument('--plots',action='store_true')
     args=p.parse_args();out=args.output_dir.resolve();out.mkdir(parents=True,exist_ok=True)
-    sense='workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/verify_analysis.py'
+    sense='workflows/scRNA/primary17/code/run_cutoff_comparison.py'
     steps={
       'bulk':['workflows/bulk/reproduce_frozen_bulk.py','--output-dir',str(out/'bulk')],
       'scRNA':['workflows/scRNA/replay_frozen_scRNA.py','--output-dir',str(out/'scRNA')],
-      'sensitivity':[sense,'--output',str(out/'sensitivity/verification.json')],
+      'sensitivity':[sense,'--replay','--output',str(out/'sensitivity/verification.json')],
       'spatial':['workflows/spatial/reproduce_frozen_spatial.py','--output-dir',str(out/'spatial')]+(['--figures'] if args.plots else []),
       'paired':['workflows/bulk/compute_paired_increment.py','--replay','--output',str(out/'paired')],
       'stability':['workflows/bulk/compute_selection_stability.py','--output',str(out/'stability')],

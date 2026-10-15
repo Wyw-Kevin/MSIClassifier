@@ -4,1945 +4,2207 @@
     "path": "workflows/bulk/reproduce_frozen_bulk.py",
     "source_sha256": "20f77b723498f881eb75d2955d3e9243d0014f95ed6beef700867033566deda4",
     "sha256": "20f77b723498f881eb75d2955d3e9243d0014f95ed6beef700867033566deda4",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "20f77b723498f881eb75d2955d3e9243d0014f95ed6beef700867033566deda4"
   },
   {
     "source": "MSIClassifier/code/bulk/compute_selection_stability.py",
     "path": "workflows/bulk/compute_selection_stability.py",
     "source_sha256": "3fcde7160512c3861ea051e35141ae2e1eb9c9c87894c92bc753936306db232a",
     "sha256": "3fcde7160512c3861ea051e35141ae2e1eb9c9c87894c92bc753936306db232a",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "3fcde7160512c3861ea051e35141ae2e1eb9c9c87894c92bc753936306db232a"
   },
   {
     "source": "MSIClassifier/code/bulk/test_archived_score_replay.py",
     "path": "workflows/bulk/test_archived_score_replay.py",
     "source_sha256": "2396274f06a6c236abcfcd85cc2490b3502aaddf85a17ab7000ac117ea5695c2",
     "sha256": "2396274f06a6c236abcfcd85cc2490b3502aaddf85a17ab7000ac117ea5695c2",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2396274f06a6c236abcfcd85cc2490b3502aaddf85a17ab7000ac117ea5695c2"
   },
   {
     "source": "MSIClassifier/code/bulk/compute_paired_increment.py",
     "path": "workflows/bulk/compute_paired_increment.py",
     "source_sha256": "a3670a5d4a389fc7c909b23122bbcfedc29ace5490d9dda84b8429a65574fc7c",
     "sha256": "87f120b543c5ca52b6e41d97b6fbd2d12efb43a844f795112c565855921ae9d0",
-    "adaptation": "paths/entrypoint packaging only"
+    "adaptation": "paths/entrypoint packaging only",
+    "previous_release_sha256": "87f120b543c5ca52b6e41d97b6fbd2d12efb43a844f795112c565855921ae9d0"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/run_analysis.py",
     "path": "workflows/bulk/classifier_snapshot/run_analysis.py",
     "source_sha256": "b97a4647e68f44e365479724bee25654255f1866a06896507795c89ea0ab2671",
     "sha256": "b97a4647e68f44e365479724bee25654255f1866a06896507795c89ea0ab2671",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b97a4647e68f44e365479724bee25654255f1866a06896507795c89ea0ab2671"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/predictions.csv",
     "path": "workflows/bulk/classifier_snapshot/predictions.csv",
     "source_sha256": "8b0996f84e1e6db7a7d6c1ed62b790d5b535bd30ff11eecf45d06e688670e8b2",
     "sha256": "8b0996f84e1e6db7a7d6c1ed62b790d5b535bd30ff11eecf45d06e688670e8b2",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "8b0996f84e1e6db7a7d6c1ed62b790d5b535bd30ff11eecf45d06e688670e8b2"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/cohort_metrics.csv",
     "path": "workflows/bulk/classifier_snapshot/cohort_metrics.csv",
     "source_sha256": "b53920b2fc8c651a7feb61b3894fc3b70f67aa421af3818d78add449775d1e99",
     "sha256": "b53920b2fc8c651a7feb61b3894fc3b70f67aa421af3818d78add449775d1e99",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b53920b2fc8c651a7feb61b3894fc3b70f67aa421af3818d78add449775d1e99"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/macro_metrics.csv",
     "path": "workflows/bulk/classifier_snapshot/macro_metrics.csv",
     "source_sha256": "3f4f1c0d69b6d33d13110afc1909a5a301d76ceececebd1c924dad28711f5162",
     "sha256": "3f4f1c0d69b6d33d13110afc1909a5a301d76ceececebd1c924dad28711f5162",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "3f4f1c0d69b6d33d13110afc1909a5a301d76ceececebd1c924dad28711f5162"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/bootstrap_indices.npz",
     "path": "workflows/bulk/classifier_snapshot/bootstrap_indices.npz",
     "source_sha256": "2240921a7e33c36548d3f8883c52a3a9b6b7119c7e1dcb635fd87bf54a2a8137",
     "sha256": "2240921a7e33c36548d3f8883c52a3a9b6b7119c7e1dcb635fd87bf54a2a8137",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2240921a7e33c36548d3f8883c52a3a9b6b7119c7e1dcb635fd87bf54a2a8137"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/bootstrap_index_metadata.json",
     "path": "workflows/bulk/classifier_snapshot/bootstrap_index_metadata.json",
     "source_sha256": "79eaa8da25eb6ba96882b7c0e0eb04734046e6af6577f5257c1900ad50ed045a",
     "sha256": "79eaa8da25eb6ba96882b7c0e0eb04734046e6af6577f5257c1900ad50ed045a",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "79eaa8da25eb6ba96882b7c0e0eb04734046e6af6577f5257c1900ad50ed045a"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/bootstrap_protocol.json",
     "path": "workflows/bulk/classifier_snapshot/bootstrap_protocol.json",
     "source_sha256": "53d8c9b10631c73d150f44e035077f88800fa2afec8e65a8945acf5007c98125",
     "sha256": "53d8c9b10631c73d150f44e035077f88800fa2afec8e65a8945acf5007c98125",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "53d8c9b10631c73d150f44e035077f88800fa2afec8e65a8945acf5007c98125"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/panels_locked_before_fit.json",
     "path": "workflows/bulk/classifier_snapshot/panels_locked_before_fit.json",
     "source_sha256": "30d798de31a598172c9cf8bb1b028a64e6dd1be63d869542b52b8e0ad4af8b19",
     "sha256": "30d798de31a598172c9cf8bb1b028a64e6dd1be63d869542b52b8e0ad4af8b19",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "30d798de31a598172c9cf8bb1b028a64e6dd1be63d869542b52b8e0ad4af8b19"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/panel_membership.csv",
     "path": "workflows/bulk/classifier_snapshot/panel_membership.csv",
     "source_sha256": "df9daf777c2f6608f78d491353d3b9a17c475bc24417140b56041669f7deeed3",
     "sha256": "df9daf777c2f6608f78d491353d3b9a17c475bc24417140b56041669f7deeed3",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "df9daf777c2f6608f78d491353d3b9a17c475bc24417140b56041669f7deeed3"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/protocol.json",
     "path": "workflows/bulk/classifier_snapshot/protocol.json",
     "source_sha256": "3f618dd9be78fa8eda9adadb8e18223111e6184af154976fd369a0b024822c09",
     "sha256": "3f618dd9be78fa8eda9adadb8e18223111e6184af154976fd369a0b024822c09",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "3f618dd9be78fa8eda9adadb8e18223111e6184af154976fd369a0b024822c09"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/verification.json",
     "path": "workflows/bulk/classifier_snapshot/verification.json",
     "source_sha256": "484978df4c7328803ffaeb3ab32d462dc9e0c0f51d5170f0159f187bcd72d936",
     "sha256": "484978df4c7328803ffaeb3ab32d462dc9e0c0f51d5170f0159f187bcd72d936",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "484978df4c7328803ffaeb3ab32d462dc9e0c0f51d5170f0159f187bcd72d936"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/inputs/all_cohort_features.csv",
     "path": "workflows/bulk/classifier_snapshot/inputs/all_cohort_features.csv",
     "source_sha256": "83eee30823d02b8e965f168c5085478d74ef403f39e7c2d57cfededf59e1e739",
     "sha256": "83eee30823d02b8e965f168c5085478d74ef403f39e7c2d57cfededf59e1e739",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "83eee30823d02b8e965f168c5085478d74ef403f39e7c2d57cfededf59e1e739"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/base.csv",
     "path": "workflows/bulk/classifier_snapshot/source_archive/base.csv",
     "source_sha256": "7a341e3e49263f0aac878b702796b4a9db501989dc66e595229687158babd86a",
     "sha256": "7a341e3e49263f0aac878b702796b4a9db501989dc66e595229687158babd86a",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "7a341e3e49263f0aac878b702796b4a9db501989dc66e595229687158babd86a"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/classifier_protocol.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/classifier_protocol.json",
     "source_sha256": "40c5d0b47faac2f14e4c72da445396d2656f7b5cb8e8734fca08964c1e925e70",
     "sha256": "40c5d0b47faac2f14e4c72da445396d2656f7b5cb8e8734fca08964c1e925e70",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "40c5d0b47faac2f14e4c72da445396d2656f7b5cb8e8734fca08964c1e925e70"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/coverage.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/coverage.json",
     "source_sha256": "60b20ed639ff602dcac9c7500ecd3d2959108828135d0dc922336c1883db5f2d",
     "sha256": "60b20ed639ff602dcac9c7500ecd3d2959108828135d0dc922336c1883db5f2d",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "60b20ed639ff602dcac9c7500ecd3d2959108828135d0dc922336c1883db5f2d"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/cutoffs.csv",
     "path": "workflows/bulk/classifier_snapshot/source_archive/cutoffs.csv",
     "source_sha256": "3c9365105f77c3753157af0fa669a0354198ddb4b1fcedd3235c84070bcf0227",
     "sha256": "3c9365105f77c3753157af0fa669a0354198ddb4b1fcedd3235c84070bcf0227",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "3c9365105f77c3753157af0fa669a0354198ddb4b1fcedd3235c84070bcf0227"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/development.csv",
     "path": "workflows/bulk/classifier_snapshot/source_archive/development.csv",
     "source_sha256": "99961c41809be8b30fb7f749270cde01025f5e0efa3a0270ee8c61fe3d4a2117",
     "sha256": "99961c41809be8b30fb7f749270cde01025f5e0efa3a0270ee8c61fe3d4a2117",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "99961c41809be8b30fb7f749270cde01025f5e0efa3a0270ee8c61fe3d4a2117"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/fractions.csv",
     "path": "workflows/bulk/classifier_snapshot/source_archive/fractions.csv",
     "source_sha256": "d1e5244a68fab27f6901efa45ec447b845f5b1e8cc3d9d37fbb1d38fd242141b",
     "sha256": "d1e5244a68fab27f6901efa45ec447b845f5b1e8cc3d9d37fbb1d38fd242141b",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "d1e5244a68fab27f6901efa45ec447b845f5b1e8cc3d9d37fbb1d38fd242141b"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/heldout_GSE24550.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/heldout_GSE24550.json",
     "source_sha256": "b0b9d00c434ad67f120311e5e86cc8281065bab15eff9ed395452425174f1e21",
     "sha256": "b0b9d00c434ad67f120311e5e86cc8281065bab15eff9ed395452425174f1e21",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b0b9d00c434ad67f120311e5e86cc8281065bab15eff9ed395452425174f1e21"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/heldout_GSE25071.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/heldout_GSE25071.json",
     "source_sha256": "c42bd0ec07bccceb8593c41cdc1a6fa4cfeed3a6c13a49930b134d0f1f37cef3",
     "sha256": "c42bd0ec07bccceb8593c41cdc1a6fa4cfeed3a6c13a49930b134d0f1f37cef3",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c42bd0ec07bccceb8593c41cdc1a6fa4cfeed3a6c13a49930b134d0f1f37cef3"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/heldout_GSE27544.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/heldout_GSE27544.json",
     "source_sha256": "55939656869f5781b79a94ec2d4695fe404cc408e60a9ad4c3cd68478ceffea4",
     "sha256": "55939656869f5781b79a94ec2d4695fe404cc408e60a9ad4c3cd68478ceffea4",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "55939656869f5781b79a94ec2d4695fe404cc408e60a9ad4c3cd68478ceffea4"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/heldout_GSE35896.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/heldout_GSE35896.json",
     "source_sha256": "d7880ac92aef4e2a1da8405ea392fe7f340a2ce08977374b7b2c44d30e566a06",
     "sha256": "d7880ac92aef4e2a1da8405ea392fe7f340a2ce08977374b7b2c44d30e566a06",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "d7880ac92aef4e2a1da8405ea392fe7f340a2ce08977374b7b2c44d30e566a06"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/heldout_GSE39084.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/heldout_GSE39084.json",
     "source_sha256": "49362f86b15fcfc6d0fb8532cb4057e3af2a6d0066565be805366a24b8b720cc",
     "sha256": "49362f86b15fcfc6d0fb8532cb4057e3af2a6d0066565be805366a24b8b720cc",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "49362f86b15fcfc6d0fb8532cb4057e3af2a6d0066565be805366a24b8b720cc"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/heldout_GSE39582.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/heldout_GSE39582.json",
     "source_sha256": "64a50427c5daddfc68f4b89adadefa5abc5a6ee489f095b86a6564cb2c294ff9",
     "sha256": "64a50427c5daddfc68f4b89adadefa5abc5a6ee489f095b86a6564cb2c294ff9",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "64a50427c5daddfc68f4b89adadefa5abc5a6ee489f095b86a6564cb2c294ff9"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/heldout_GSE75316.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/heldout_GSE75316.json",
     "source_sha256": "e1e2a9bcbdff57dbdd3c9382e6fd603b222ede8fbfc972eb210fdc7d0338a85e",
     "sha256": "e1e2a9bcbdff57dbdd3c9382e6fd603b222ede8fbfc972eb210fdc7d0338a85e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e1e2a9bcbdff57dbdd3c9382e6fd603b222ede8fbfc972eb210fdc7d0338a85e"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/heldout_TCGA-COADREAD.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/heldout_TCGA-COADREAD.json",
     "source_sha256": "1cc3acb139294e39c62b17897eeb1aa73cc0a8483fa2093d353f577d20acc976",
     "sha256": "1cc3acb139294e39c62b17897eeb1aa73cc0a8483fa2093d353f577d20acc976",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1cc3acb139294e39c62b17897eeb1aa73cc0a8483fa2093d353f577d20acc976"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/historical_predictions.csv",
     "path": "workflows/bulk/classifier_snapshot/source_archive/historical_predictions.csv",
     "source_sha256": "fe0cdf3ad756020e79a767e2345d4f29e56e35d62e29cdaf7e4b229b577d33ef",
     "sha256": "fe0cdf3ad756020e79a767e2345d4f29e56e35d62e29cdaf7e4b229b577d33ef",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "fe0cdf3ad756020e79a767e2345d4f29e56e35d62e29cdaf7e4b229b577d33ef"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/ledger.csv",
     "path": "workflows/bulk/classifier_snapshot/source_archive/ledger.csv",
     "source_sha256": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80",
     "sha256": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/mmr4.csv",
     "path": "workflows/bulk/classifier_snapshot/source_archive/mmr4.csv",
     "source_sha256": "08042ddd7e643cd31e15347d277ffd087ef089cf2ad9502d1522260a0abe2410",
     "sha256": "08042ddd7e643cd31e15347d277ffd087ef089cf2ad9502d1522260a0abe2410",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "08042ddd7e643cd31e15347d277ffd087ef089cf2ad9502d1522260a0abe2410"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/mmr4_protocol.json",
     "path": "workflows/bulk/classifier_snapshot/source_archive/mmr4_protocol.json",
     "source_sha256": "68417bc18f804236c33b6c6dbc4f3fc5774bad0e245d026ddf56f65c2f681049",
     "sha256": "68417bc18f804236c33b6c6dbc4f3fc5774bad0e245d026ddf56f65c2f681049",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "68417bc18f804236c33b6c6dbc4f3fc5774bad0e245d026ddf56f65c2f681049"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/source_archive/screening.csv",
     "path": "workflows/bulk/classifier_snapshot/source_archive/screening.csv",
     "source_sha256": "9beadd8bc3ceeaa23206dbf592d6d0ee0d2b7ea5dd7d75db0300f75cc99b5013",
     "sha256": "9beadd8bc3ceeaa23206dbf592d6d0ee0d2b7ea5dd7d75db0300f75cc99b5013",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9beadd8bc3ceeaa23206dbf592d6d0ee0d2b7ea5dd7d75db0300f75cc99b5013"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/models/panel12_fold0.joblib",
     "path": "workflows/bulk/classifier_snapshot/models/panel12_fold0.joblib",
     "source_sha256": "a1f32f5a585fe38330890c61fb0f5f790cdb75bf65108b25fdb1d0b73e64c6b3",
     "sha256": "a1f32f5a585fe38330890c61fb0f5f790cdb75bf65108b25fdb1d0b73e64c6b3",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a1f32f5a585fe38330890c61fb0f5f790cdb75bf65108b25fdb1d0b73e64c6b3"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/models/panel12_fold1.joblib",
     "path": "workflows/bulk/classifier_snapshot/models/panel12_fold1.joblib",
     "source_sha256": "7945bc3502925d8ab58e75fc87140aa753f5695af684d9577b4f7255b2f916b1",
     "sha256": "7945bc3502925d8ab58e75fc87140aa753f5695af684d9577b4f7255b2f916b1",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "7945bc3502925d8ab58e75fc87140aa753f5695af684d9577b4f7255b2f916b1"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/models/panel12_fold2.joblib",
     "path": "workflows/bulk/classifier_snapshot/models/panel12_fold2.joblib",
     "source_sha256": "a327a4214f9aac60eccfbe5786933ac86a3c9e41c2a310c5f2262df7ef56eacd",
     "sha256": "a327a4214f9aac60eccfbe5786933ac86a3c9e41c2a310c5f2262df7ef56eacd",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a327a4214f9aac60eccfbe5786933ac86a3c9e41c2a310c5f2262df7ef56eacd"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/models/panel12_fold3.joblib",
     "path": "workflows/bulk/classifier_snapshot/models/panel12_fold3.joblib",
     "source_sha256": "179c66f0cedb151f5689abcc5bef3677ac4902b6034dde93fb6e1767515fad24",
     "sha256": "179c66f0cedb151f5689abcc5bef3677ac4902b6034dde93fb6e1767515fad24",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "179c66f0cedb151f5689abcc5bef3677ac4902b6034dde93fb6e1767515fad24"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/models/panel12_fold4.joblib",
     "path": "workflows/bulk/classifier_snapshot/models/panel12_fold4.joblib",
     "source_sha256": "5aae48cb2ce272fb3b85f0e25f43843e18646c8a63d9ea41abe4faeedbef50f9",
     "sha256": "5aae48cb2ce272fb3b85f0e25f43843e18646c8a63d9ea41abe4faeedbef50f9",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "5aae48cb2ce272fb3b85f0e25f43843e18646c8a63d9ea41abe4faeedbef50f9"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/models/panel12_fold5.joblib",
     "path": "workflows/bulk/classifier_snapshot/models/panel12_fold5.joblib",
     "source_sha256": "2b7d00a692c58e9887f1aaf80c3ad3dc9c357a8e64636b7e02e0c37d5bcef578",
     "sha256": "2b7d00a692c58e9887f1aaf80c3ad3dc9c357a8e64636b7e02e0c37d5bcef578",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2b7d00a692c58e9887f1aaf80c3ad3dc9c357a8e64636b7e02e0c37d5bcef578"
   },
   {
     "source": "MSIClassifier/code/bulk/mmr4/loco.py",
     "path": "workflows/bulk/mmr4/loco.py",
     "source_sha256": "bcbfc9de1fa3a461818f7339ec5d5fb291a529be6e508fec7d9e9ddb034639bb",
     "sha256": "bcbfc9de1fa3a461818f7339ec5d5fb291a529be6e508fec7d9e9ddb034639bb",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "bcbfc9de1fa3a461818f7339ec5d5fb291a529be6e508fec7d9e9ddb034639bb"
   },
   {
     "source": "MSIClassifier/code/bulk/mmr4/test_loco.py",
     "path": "workflows/bulk/mmr4/test_loco.py",
     "source_sha256": "46c4a48dbbe4a84405455f4b9c3bbfbce12baefd01ee6b66d3989d3bf5c64c81",
     "sha256": "46c4a48dbbe4a84405455f4b9c3bbfbce12baefd01ee6b66d3989d3bf5c64c81",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "46c4a48dbbe4a84405455f4b9c3bbfbce12baefd01ee6b66d3989d3bf5c64c81"
   },
   {
     "source": "MSIClassifier/code/bulk/mmr4/locks/heldout_GSE24550.json",
     "path": "workflows/bulk/mmr4/locks/heldout_GSE24550.json",
     "source_sha256": "b0b9d00c434ad67f120311e5e86cc8281065bab15eff9ed395452425174f1e21",
     "sha256": "b0b9d00c434ad67f120311e5e86cc8281065bab15eff9ed395452425174f1e21",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b0b9d00c434ad67f120311e5e86cc8281065bab15eff9ed395452425174f1e21"
   },
   {
     "source": "MSIClassifier/code/bulk/mmr4/locks/heldout_GSE25071.json",
     "path": "workflows/bulk/mmr4/locks/heldout_GSE25071.json",
     "source_sha256": "c42bd0ec07bccceb8593c41cdc1a6fa4cfeed3a6c13a49930b134d0f1f37cef3",
     "sha256": "c42bd0ec07bccceb8593c41cdc1a6fa4cfeed3a6c13a49930b134d0f1f37cef3",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c42bd0ec07bccceb8593c41cdc1a6fa4cfeed3a6c13a49930b134d0f1f37cef3"
   },
   {
     "source": "MSIClassifier/code/bulk/mmr4/locks/heldout_GSE27544.json",
     "path": "workflows/bulk/mmr4/locks/heldout_GSE27544.json",
     "source_sha256": "55939656869f5781b79a94ec2d4695fe404cc408e60a9ad4c3cd68478ceffea4",
     "sha256": "55939656869f5781b79a94ec2d4695fe404cc408e60a9ad4c3cd68478ceffea4",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "55939656869f5781b79a94ec2d4695fe404cc408e60a9ad4c3cd68478ceffea4"
   },
   {
     "source": "MSIClassifier/code/bulk/mmr4/locks/heldout_GSE35896.json",
     "path": "workflows/bulk/mmr4/locks/heldout_GSE35896.json",
     "source_sha256": "d7880ac92aef4e2a1da8405ea392fe7f340a2ce08977374b7b2c44d30e566a06",
     "sha256": "d7880ac92aef4e2a1da8405ea392fe7f340a2ce08977374b7b2c44d30e566a06",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "d7880ac92aef4e2a1da8405ea392fe7f340a2ce08977374b7b2c44d30e566a06"
   },
   {
     "source": "MSIClassifier/code/bulk/mmr4/locks/heldout_GSE39084.json",
     "path": "workflows/bulk/mmr4/locks/heldout_GSE39084.json",
     "source_sha256": "49362f86b15fcfc6d0fb8532cb4057e3af2a6d0066565be805366a24b8b720cc",
     "sha256": "49362f86b15fcfc6d0fb8532cb4057e3af2a6d0066565be805366a24b8b720cc",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "49362f86b15fcfc6d0fb8532cb4057e3af2a6d0066565be805366a24b8b720cc"
   },
   {
     "source": "MSIClassifier/code/bulk/mmr4/locks/heldout_GSE39582.json",
     "path": "workflows/bulk/mmr4/locks/heldout_GSE39582.json",
     "source_sha256": "64a50427c5daddfc68f4b89adadefa5abc5a6ee489f095b86a6564cb2c294ff9",
     "sha256": "64a50427c5daddfc68f4b89adadefa5abc5a6ee489f095b86a6564cb2c294ff9",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "64a50427c5daddfc68f4b89adadefa5abc5a6ee489f095b86a6564cb2c294ff9"
   },
   {
     "source": "MSIClassifier/code/bulk/mmr4/locks/heldout_GSE75316.json",
     "path": "workflows/bulk/mmr4/locks/heldout_GSE75316.json",
     "source_sha256": "e1e2a9bcbdff57dbdd3c9382e6fd603b222ede8fbfc972eb210fdc7d0338a85e",
     "sha256": "e1e2a9bcbdff57dbdd3c9382e6fd603b222ede8fbfc972eb210fdc7d0338a85e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e1e2a9bcbdff57dbdd3c9382e6fd603b222ede8fbfc972eb210fdc7d0338a85e"
   },
   {
     "source": "MSIClassifier/code/bulk/mmr4/locks/heldout_TCGA-COADREAD.json",
     "path": "workflows/bulk/mmr4/locks/heldout_TCGA-COADREAD.json",
     "source_sha256": "1cc3acb139294e39c62b17897eeb1aa73cc0a8483fa2093d353f577d20acc976",
     "sha256": "1cc3acb139294e39c62b17897eeb1aa73cc0a8483fa2093d353f577d20acc976",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1cc3acb139294e39c62b17897eeb1aa73cc0a8483fa2093d353f577d20acc976"
   },
   {
     "source": "MSIClassifier/code/bulk/paired_increment/source_archive/mmr4/mmr4_loco_predictions.csv",
     "path": "workflows/bulk/mmr4/mmr4_loco_predictions.csv",
     "source_sha256": "08042ddd7e643cd31e15347d277ffd087ef089cf2ad9502d1522260a0abe2410",
     "sha256": "08042ddd7e643cd31e15347d277ffd087ef089cf2ad9502d1522260a0abe2410",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "08042ddd7e643cd31e15347d277ffd087ef089cf2ad9502d1522260a0abe2410"
   },
   {
     "source": "MSIClassifier/code/bulk/paired_increment/source_archive/mmr4/tables/table_mmr4_loco_cutoffs.csv",
     "path": "workflows/bulk/mmr4/tables/table_mmr4_loco_cutoffs.csv",
     "source_sha256": "3c9365105f77c3753157af0fa669a0354198ddb4b1fcedd3235c84070bcf0227",
     "sha256": "3c9365105f77c3753157af0fa669a0354198ddb4b1fcedd3235c84070bcf0227",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "3c9365105f77c3753157af0fa669a0354198ddb4b1fcedd3235c84070bcf0227"
   },
   {
     "source": "MSIClassifier/code/bulk/selection_bootstrap_source24/candidate_directions.csv",
     "path": "workflows/bulk/selection_bootstrap_source24/candidate_directions.csv",
     "source_sha256": "c8500b4bf0d5748f73c920e108743bd95ef13144fe4c34113f79fe6bc748e420",
     "sha256": "c8500b4bf0d5748f73c920e108743bd95ef13144fe4c34113f79fe6bc748e420",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c8500b4bf0d5748f73c920e108743bd95ef13144fe4c34113f79fe6bc748e420"
   },
   {
     "source": "MSIClassifier/code/bulk/selection_bootstrap_source24/development_inputs.csv",
     "path": "workflows/bulk/selection_bootstrap_source24/development_inputs.csv",
     "source_sha256": "99961c41809be8b30fb7f749270cde01025f5e0efa3a0270ee8c61fe3d4a2117",
     "sha256": "99961c41809be8b30fb7f749270cde01025f5e0efa3a0270ee8c61fe3d4a2117",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "99961c41809be8b30fb7f749270cde01025f5e0efa3a0270ee8c61fe3d4a2117"
   },
   {
     "source": "MSIClassifier/code/bulk/selection_bootstrap_source24/protocol.json",
     "path": "workflows/bulk/selection_bootstrap_source24/protocol.json",
     "source_sha256": "6bae77071236e6e7d513a61d8cccaf84b06e508c96fe870c3f50a7437b0aa322",
     "sha256": "6bae77071236e6e7d513a61d8cccaf84b06e508c96fe870c3f50a7437b0aa322",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "6bae77071236e6e7d513a61d8cccaf84b06e508c96fe870c3f50a7437b0aa322"
   },
   {
     "source": "MSIClassifier/code/bulk/selection_bootstrap_source24/resampling_records.npz",
     "path": "workflows/bulk/selection_bootstrap_source24/resampling_records.npz",
     "source_sha256": "a20e4b9e01a31341fcffb363bee888ba6d6b1104e88b81253646c664c2a0f6c6",
     "sha256": "a20e4b9e01a31341fcffb363bee888ba6d6b1104e88b81253646c664c2a0f6c6",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a20e4b9e01a31341fcffb363bee888ba6d6b1104e88b81253646c664c2a0f6c6"
   },
   {
     "source": "MSIClassifier/code/bulk/selection_bootstrap_source24/verification.json",
     "path": "workflows/bulk/selection_bootstrap_source24/verification.json",
     "source_sha256": "bb7235a29252936b3d2f905e2482be782b0f6008e076be2b85b6af9e0ce3b97b",
     "sha256": "bb7235a29252936b3d2f905e2482be782b0f6008e076be2b85b6af9e0ce3b97b",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "bb7235a29252936b3d2f905e2482be782b0f6008e076be2b85b6af9e0ce3b97b"
   },
   {
     "source": "MSIClassifier/code/bulk/stability_archive/S14.csv",
     "path": "workflows/bulk/stability_archive/S14.csv",
     "source_sha256": "f9dda6c7d45bf5008b68100b648d3752bd35256209fa802dd680ec829f7c9b93",
     "sha256": "f9dda6c7d45bf5008b68100b648d3752bd35256209fa802dd680ec829f7c9b93",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "f9dda6c7d45bf5008b68100b648d3752bd35256209fa802dd680ec829f7c9b93"
   },
   {
     "source": "MSIClassifier/code/bulk/stability_archive/S14_replicate_overlap.csv",
     "path": "workflows/bulk/stability_archive/S14_replicate_overlap.csv",
     "source_sha256": "1c76db060c18a0f2abb1f9ea4b94932dcb0d8bb2c69d4d538382d174de144c5d",
     "sha256": "1c76db060c18a0f2abb1f9ea4b94932dcb0d8bb2c69d4d538382d174de144c5d",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1c76db060c18a0f2abb1f9ea4b94932dcb0d8bb2c69d4d538382d174de144c5d"
   },
   {
     "source": "MSIClassifier/code/bulk/stability_archive/S14_selected_count_distribution.csv",
     "path": "workflows/bulk/stability_archive/S14_selected_count_distribution.csv",
     "source_sha256": "e59be26163aac44f5b70c766cef99abec475ba6cb6e5a1498c4cd0ce3e3452df",
     "sha256": "e59be26163aac44f5b70c766cef99abec475ba6cb6e5a1498c4cd0ce3e3452df",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e59be26163aac44f5b70c766cef99abec475ba6cb6e5a1498c4cd0ce3e3452df"
   },
   {
     "source": "MSIClassifier/code/bulk/stability_archive/summary.json",
     "path": "workflows/bulk/stability_archive/summary.json",
     "source_sha256": "897cebe9cfc8344ce74a036bfffd27f84cd81beda95ae941b9b00e4ab2367cfa",
     "sha256": "897cebe9cfc8344ce74a036bfffd27f84cd81beda95ae941b9b00e4ab2367cfa",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "897cebe9cfc8344ce74a036bfffd27f84cd81beda95ae941b9b00e4ab2367cfa"
   },
   {
     "source": "MSIClassifier/code/scRNA/replay_frozen_scRNA.py",
     "path": "workflows/scRNA/replay_frozen_scRNA.py",
     "source_sha256": "fa361989f0b4924b27e58bddcfc60d354a3e1f9d2ff57096e445bd4859dfb68a",
-    "sha256": "67f6595479f10ee1e75ab1caf6cd19689266150d9a6070c8e642efc202d00a04",
-    "adaptation": "paths/entrypoint packaging only"
+    "sha256": "786508cf370c2bb96fc5dd6d57a2badfbd6f0347eb873a9f1613afd25921008e",
+    "adaptation": "Current17 scoring/data/plot update; previous18 source/hash separately preserved",
+    "previous_release_sha256": "67f6595479f10ee1e75ab1caf6cd19689266150d9a6070c8e642efc202d00a04"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE178341_malignant_fraction_weighted_MLH1_refit_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE178341_malignant_fraction_weighted_MLH1_refit_features.csv",
     "path": "workflows/scRNA/resources/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE178341_malignant_fraction_weighted_MLH1_refit_features.csv",
     "source_sha256": "06c309735a914388c8d1b3e65e553a81c53f280661162deced07c9d789792b16",
     "sha256": "06c309735a914388c8d1b3e65e553a81c53f280661162deced07c9d789792b16",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "06c309735a914388c8d1b3e65e553a81c53f280661162deced07c9d789792b16"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE132465_malignant_fraction_weighted_MLH1_refit_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE132465_malignant_fraction_weighted_MLH1_refit_features.csv",
     "path": "workflows/scRNA/resources/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE132465_malignant_fraction_weighted_MLH1_refit_features.csv",
     "source_sha256": "2b9d18fd7059e7482b559df7d0406732106dcb7c3f87c5b22355068cd40aa2de",
     "sha256": "2b9d18fd7059e7482b559df7d0406732106dcb7c3f87c5b22355068cd40aa2de",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2b9d18fd7059e7482b559df7d0406732106dcb7c3f87c5b22355068cd40aa2de"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE200997_malignant_fraction_weighted_MLH1_refit_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE200997_malignant_fraction_weighted_MLH1_refit_features.csv",
     "path": "workflows/scRNA/resources/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/GSE200997_malignant_fraction_weighted_MLH1_refit_features.csv",
     "source_sha256": "90b4e786aa17bfa6e5ae68b9601aa8d2b167dc8ec4c05e4124a7c536cd4710c1",
     "sha256": "90b4e786aa17bfa6e5ae68b9601aa8d2b167dc8ec4c05e4124a7c536cd4710c1",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "90b4e786aa17bfa6e5ae68b9601aa8d2b167dc8ec4c05e4124a7c536cd4710c1"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/data/scRNA/result/diagnostics/shared18_same_sample_benchmark_seed2026/sample_ledger.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/data/scRNA/result/diagnostics/shared18_same_sample_benchmark_seed2026/sample_ledger.csv",
     "path": "workflows/scRNA/resources/diagnostics/shared18_same_sample_benchmark_seed2026/sample_ledger.csv",
     "source_sha256": "bfc9d1447ddcd47af23ba77566ccd903caa39a0c74d2f059b6788f19eb765ccf",
     "sha256": "bfc9d1447ddcd47af23ba77566ccd903caa39a0c74d2f059b6788f19eb765ccf",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "bfc9d1447ddcd47af23ba77566ccd903caa39a0c74d2f059b6788f19eb765ccf"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/weighted_scRNA_update/all_model_predictions.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/weighted_scRNA_update/all_model_predictions.csv",
     "path": "workflows/scRNA/resources/article/weighted_scRNA_update/all_model_predictions.csv",
     "source_sha256": "f68468a4afb92a3bb22e1e51c96dfefcb867806423c128ce23ed1f8de1a197fb",
     "sha256": "f68468a4afb92a3bb22e1e51c96dfefcb867806423c128ce23ed1f8de1a197fb",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "f68468a4afb92a3bb22e1e51c96dfefcb867806423c128ce23ed1f8de1a197fb"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/revision_review_20260928/additional_control_predictions.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/revision_review_20260928/additional_control_predictions.csv",
     "path": "workflows/scRNA/resources/article/revision_review_20260928/additional_control_predictions.csv",
     "source_sha256": "be34536d0273167d555bc08481cd3aa8df371ca85fd9f59df74a5fb79258dc5e",
     "sha256": "be34536d0273167d555bc08481cd3aa8df371ca85fd9f59df74a5fb79258dc5e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "be34536d0273167d555bc08481cd3aa8df371ca85fd9f59df74a5fb79258dc5e"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/revision_review_20260928/S1_sample_QC_and_counts.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/revision_review_20260928/S1_sample_QC_and_counts.csv",
     "path": "workflows/scRNA/resources/article/revision_review_20260928/S1_sample_QC_and_counts.csv",
     "source_sha256": "849b602b881e0b8c60f139d2521b49e1d8ad2502073dc20e793f4549e1fbf604",
     "sha256": "849b602b881e0b8c60f139d2521b49e1d8ad2502073dc20e793f4549e1fbf604",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "849b602b881e0b8c60f139d2521b49e1d8ad2502073dc20e793f4549e1fbf604"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/weighted_scRNA_update/AUROC_with_patient_bootstrap_CI.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/weighted_scRNA_update/AUROC_with_patient_bootstrap_CI.csv",
     "path": "workflows/scRNA/resources/article/weighted_scRNA_update/AUROC_with_patient_bootstrap_CI.csv",
     "source_sha256": "1c994ab97de1ffcb28a58069dc52b4ca15bb0681dfd0e64c9de028d1a66dba0e",
     "sha256": "1c994ab97de1ffcb28a58069dc52b4ca15bb0681dfd0e64c9de028d1a66dba0e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1c994ab97de1ffcb28a58069dc52b4ca15bb0681dfd0e64c9de028d1a66dba0e"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/restore_feature_selection_20260928/Figure02_source.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/restore_feature_selection_20260928/Figure02_source.csv",
     "path": "workflows/scRNA/resources/article/restore_feature_selection_20260928/Figure02_source.csv",
     "source_sha256": "c97fe2be03fabbca009ee110234ad53aadaa87d794297eeffa408ad652799301",
     "sha256": "c97fe2be03fabbca009ee110234ad53aadaa87d794297eeffa408ad652799301",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c97fe2be03fabbca009ee110234ad53aadaa87d794297eeffa408ad652799301"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/supplement/S7.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/bulk12_loco_manuscript_seed2026_20261013/supplement/S7.csv",
     "path": "workflows/scRNA/resources/article/bulk12_loco_manuscript_seed2026_20261013/supplement/S7.csv",
     "source_sha256": "360b686ef6a1cbeb6a7696a3b7c105877b672fa68ce7f8b238a8d93f034626eb",
     "sha256": "360b686ef6a1cbeb6a7696a3b7c105877b672fa68ce7f8b238a8d93f034626eb",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "360b686ef6a1cbeb6a7696a3b7c105877b672fa68ce7f8b238a8d93f034626eb"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/supplement/paired_patient_bootstrap_indices.npz",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/bulk12_loco_manuscript_seed2026_20261013/supplement/paired_patient_bootstrap_indices.npz",
     "path": "workflows/scRNA/resources/article/bulk12_loco_manuscript_seed2026_20261013/supplement/paired_patient_bootstrap_indices.npz",
     "source_sha256": "4d47c4caca6da212ef5af3cb8ba5db06e858f2581ab50b83a93cd6c2088c1d9f",
     "sha256": "4d47c4caca6da212ef5af3cb8ba5db06e858f2581ab50b83a93cd6c2088c1d9f",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "4d47c4caca6da212ef5af3cb8ba5db06e858f2581ab50b83a93cd6c2088c1d9f"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/supplement/S6_Bootstrap_p.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/bulk12_loco_manuscript_seed2026_20261013/supplement/S6_Bootstrap_p.csv",
     "path": "workflows/scRNA/resources/article/bulk12_loco_manuscript_seed2026_20261013/supplement/S6_Bootstrap_p.csv",
     "source_sha256": "cbe37c80e8ec817bb11596a49b79fc4b154b43754f9014ebc7b1d0cd1fd5b97b",
     "sha256": "cbe37c80e8ec817bb11596a49b79fc4b154b43754f9014ebc7b1d0cd1fd5b97b",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "cbe37c80e8ec817bb11596a49b79fc4b154b43754f9014ebc7b1d0cd1fd5b97b"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/bulk12_loco_manuscript_seed2026_20261013/supplement/S7_Correlation_VIF.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/bulk12_loco_manuscript_seed2026_20261013/supplement/S7_Correlation_VIF.csv",
     "path": "workflows/scRNA/resources/article/bulk12_loco_manuscript_seed2026_20261013/supplement/S7_Correlation_VIF.csv",
     "source_sha256": "a00f245d57b19e9b1642932b7560750ca20b310554fbc207070f4c76d27b36b6",
     "sha256": "a00f245d57b19e9b1642932b7560750ca20b310554fbc207070f4c76d27b36b6",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a00f245d57b19e9b1642932b7560750ca20b310554fbc207070f4c76d27b36b6"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/model/reference/shared18_weighted_mlh1_2026/model.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/model/reference/shared18_weighted_mlh1_2026/model.joblib",
     "path": "workflows/scRNA/resources/model/reference/shared18_weighted_mlh1_2026/model.joblib",
     "source_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
     "sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/model/reference/shared18_weighted_mlh1_2026/manifest.json",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/model/reference/shared18_weighted_mlh1_2026/manifest.json",
     "path": "workflows/scRNA/resources/model/reference/shared18_weighted_mlh1_2026/manifest.json",
     "source_sha256": "733be28ad092419472d072bc3bacd6b37ec0268a47f9214f981fc02dd7eb18c1",
     "sha256": "733be28ad092419472d072bc3bacd6b37ec0268a47f9214f981fc02dd7eb18c1",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "733be28ad092419472d072bc3bacd6b37ec0268a47f9214f981fc02dd7eb18c1"
   },
   {
     "source": "MSIClassifier/code/scRNA/score_weighted_features.py",
     "path": "workflows/scRNA/predict_scrna.py",
     "source_sha256": "f5334147e6ad12c8154cf97a832eea662f12f94e56619a90b1ffff028dbf99b5",
-    "sha256": "a9ef03be9a2f959e3edf5e35e22691c9eb30f9cb1bad0cd68b76bab35dba13dc",
-    "adaptation": "paths/entrypoint packaging only"
+    "sha256": "41b5aeb377915e99aee33b83dfff9ea5afea4d7154ebed3abb9d1ee25a355436",
+    "adaptation": "Current17 scoring/data/plot update; previous18 source/hash separately preserved",
+    "previous_release_sha256": "a9ef03be9a2f959e3edf5e35e22691c9eb30f9cb1bad0cd68b76bab35dba13dc"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/all_predictions.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/all_predictions.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/all_predictions.csv",
     "source_sha256": "dceb36f16b79ad29cb11b0efc0a6adbfff88870997bf5c53a647e34574f3128b",
     "sha256": "dceb36f16b79ad29cb11b0efc0a6adbfff88870997bf5c53a647e34574f3128b",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "dceb36f16b79ad29cb11b0efc0a6adbfff88870997bf5c53a647e34574f3128b"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/CNV_quantile_sample_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/CNV_quantile_sample_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/CNV_quantile_sample_features.csv",
     "source_sha256": "17d8c07b3a3f24e06cc22fc4c29573ab928e5c378588229dd3ba82b02676f2bb",
     "sha256": "17d8c07b3a3f24e06cc22fc4c29573ab928e5c378588229dd3ba82b02676f2bb",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "17d8c07b3a3f24e06cc22fc4c29573ab928e5c378588229dd3ba82b02676f2bb"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/CNV_quantile_summary.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/CNV_quantile_summary.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/CNV_quantile_summary.csv",
     "source_sha256": "f18dd073cc463c065d815e4560ad6b01f5c405d640175271751b6650ed928cfc",
     "sha256": "f18dd073cc463c065d815e4560ad6b01f5c405d640175271751b6650ed928cfc",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "f18dd073cc463c065d815e4560ad6b01f5c405d640175271751b6650ed928cfc"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q90_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q90_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q90_features.csv",
     "source_sha256": "c9efbe9ee552c7926149395eaab9e08fdc69913c5ba0bda29e7d6a2e89d92396",
     "sha256": "c9efbe9ee552c7926149395eaab9e08fdc69913c5ba0bda29e7d6a2e89d92396",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c9efbe9ee552c7926149395eaab9e08fdc69913c5ba0bda29e7d6a2e89d92396"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q95_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q95_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q95_features.csv",
     "source_sha256": "1d560bbdd75421a1831d6005f34e45d303f857b4bed2cfb6840dd29785abb5a7",
     "sha256": "1d560bbdd75421a1831d6005f34e45d303f857b4bed2cfb6840dd29785abb5a7",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1d560bbdd75421a1831d6005f34e45d303f857b4bed2cfb6840dd29785abb5a7"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q95_features_labels_folds.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q95_features_labels_folds.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q95_features_labels_folds.csv",
     "source_sha256": "1d560bbdd75421a1831d6005f34e45d303f857b4bed2cfb6840dd29785abb5a7",
     "sha256": "1d560bbdd75421a1831d6005f34e45d303f857b4bed2cfb6840dd29785abb5a7",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1d560bbdd75421a1831d6005f34e45d303f857b4bed2cfb6840dd29785abb5a7"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q99_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q99_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE132465_q99_features.csv",
     "source_sha256": "8ba07fa529c4ed2d4ff9cc12190b7102327b630db8d85b709df975ccd892ac3f",
     "sha256": "8ba07fa529c4ed2d4ff9cc12190b7102327b630db8d85b709df975ccd892ac3f",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "8ba07fa529c4ed2d4ff9cc12190b7102327b630db8d85b709df975ccd892ac3f"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q90_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q90_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q90_features.csv",
     "source_sha256": "1b1f0327092d7a42390db85a6abe44119353650a72c0dcbda6fff99ea0a400dd",
     "sha256": "1b1f0327092d7a42390db85a6abe44119353650a72c0dcbda6fff99ea0a400dd",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1b1f0327092d7a42390db85a6abe44119353650a72c0dcbda6fff99ea0a400dd"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q95_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q95_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q95_features.csv",
     "source_sha256": "67217fe5764c5c7599424f1c8c0085296f85bff08d92eb97dc23e1e0f274c1b9",
     "sha256": "67217fe5764c5c7599424f1c8c0085296f85bff08d92eb97dc23e1e0f274c1b9",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "67217fe5764c5c7599424f1c8c0085296f85bff08d92eb97dc23e1e0f274c1b9"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q95_features_labels_folds.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q95_features_labels_folds.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q95_features_labels_folds.csv",
     "source_sha256": "67217fe5764c5c7599424f1c8c0085296f85bff08d92eb97dc23e1e0f274c1b9",
     "sha256": "67217fe5764c5c7599424f1c8c0085296f85bff08d92eb97dc23e1e0f274c1b9",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "67217fe5764c5c7599424f1c8c0085296f85bff08d92eb97dc23e1e0f274c1b9"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q99_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q99_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE178341_q99_features.csv",
     "source_sha256": "03d67454ee2170327c7cd186362e15d2ec8905e42dbb54684f89b344a94ab203",
     "sha256": "03d67454ee2170327c7cd186362e15d2ec8905e42dbb54684f89b344a94ab203",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "03d67454ee2170327c7cd186362e15d2ec8905e42dbb54684f89b344a94ab203"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q90_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q90_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q90_features.csv",
     "source_sha256": "99def1511f5d03a8e9b0322279ac2007682723e86994f687114f9730d0dfd0f7",
     "sha256": "99def1511f5d03a8e9b0322279ac2007682723e86994f687114f9730d0dfd0f7",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "99def1511f5d03a8e9b0322279ac2007682723e86994f687114f9730d0dfd0f7"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q95_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q95_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q95_features.csv",
     "source_sha256": "315b7f8b067336454f607e63ff96a8d9b2dbbf9c7fbe683f8d4549a979a16aeb",
     "sha256": "315b7f8b067336454f607e63ff96a8d9b2dbbf9c7fbe683f8d4549a979a16aeb",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "315b7f8b067336454f607e63ff96a8d9b2dbbf9c7fbe683f8d4549a979a16aeb"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q95_features_labels_folds.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q95_features_labels_folds.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q95_features_labels_folds.csv",
     "source_sha256": "315b7f8b067336454f607e63ff96a8d9b2dbbf9c7fbe683f8d4549a979a16aeb",
     "sha256": "315b7f8b067336454f607e63ff96a8d9b2dbbf9c7fbe683f8d4549a979a16aeb",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "315b7f8b067336454f607e63ff96a8d9b2dbbf9c7fbe683f8d4549a979a16aeb"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q99_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q99_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/GSE200997_q99_features.csv",
     "source_sha256": "1dc215db0909db7ebc452afb05ed37443a5a200e69be7f8bfdcb6fe081ceb408",
     "sha256": "1dc215db0909db7ebc452afb05ed37443a5a200e69be7f8bfdcb6fe081ceb408",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1dc215db0909db7ebc452afb05ed37443a5a200e69be7f8bfdcb6fe081ceb408"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/Myeloid_label_dictionary.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/Myeloid_label_dictionary.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/Myeloid_label_dictionary.csv",
     "source_sha256": "fb52d09bb57e6ad809989579dc2aa333f821e1a56a8750f4c4558aa61b53d5b3",
     "sha256": "fb52d09bb57e6ad809989579dc2aa333f821e1a56a8750f4c4558aa61b53d5b3",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "fb52d09bb57e6ad809989579dc2aa333f821e1a56a8750f4c4558aa61b53d5b3"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/Plasma_label_dictionary.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/Plasma_label_dictionary.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/Plasma_label_dictionary.csv",
     "source_sha256": "9b4a3b5f4a96fb673bd277df270e1667fa1f3d91a8fbfc9a7deae30ffd66968f",
     "sha256": "9b4a3b5f4a96fb673bd277df270e1667fa1f3d91a8fbfc9a7deae30ffd66968f",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9b4a3b5f4a96fb673bd277df270e1667fa1f3d91a8fbfc9a7deae30ffd66968f"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/Strom_label_dictionary.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/Strom_label_dictionary.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/Strom_label_dictionary.csv",
     "source_sha256": "44aa44ffe2f0ab722910048ffa0dfe25a2d2d94168bfc7084a65f7b02ac65742",
     "sha256": "44aa44ffe2f0ab722910048ffa0dfe25a2d2d94168bfc7084a65f7b02ac65742",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "44aa44ffe2f0ab722910048ffa0dfe25a2d2d94168bfc7084a65f7b02ac65742"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/TNKILC_label_dictionary.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/TNKILC_label_dictionary.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/TNKILC_label_dictionary.csv",
     "source_sha256": "6c69e66ee317efce3ce8bd51577d530aeb3bb94c6b5366c705c35703c8501e17",
     "sha256": "6c69e66ee317efce3ce8bd51577d530aeb3bb94c6b5366c705c35703c8501e17",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "6c69e66ee317efce3ce8bd51577d530aeb3bb94c6b5366c705c35703c8501e17"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/candidate_ledger.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/candidate_ledger.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/candidate_ledger.csv",
     "source_sha256": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80",
     "sha256": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/reference71_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/reference71_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/reference71_features.csv",
     "source_sha256": "19e18a58d7fb225cd747cd3b584cd7c69c4d101f6077fb7786dba997370092c5",
     "sha256": "19e18a58d7fb225cd747cd3b584cd7c69c4d101f6077fb7786dba997370092c5",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "19e18a58d7fb225cd747cd3b584cd7c69c4d101f6077fb7786dba997370092c5"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE132465_all_subtypes.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE132465_all_subtypes.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE132465_all_subtypes.csv",
     "source_sha256": "e0e4f47d5836d97cc7f5ccbdc2eceb227f39ae9bd05d41f99e1fca1405599d0c",
     "sha256": "e0e4f47d5836d97cc7f5ccbdc2eceb227f39ae9bd05d41f99e1fca1405599d0c",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e0e4f47d5836d97cc7f5ccbdc2eceb227f39ae9bd05d41f99e1fca1405599d0c"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE132465_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE132465_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE132465_features.csv",
     "source_sha256": "2b9d18fd7059e7482b559df7d0406732106dcb7c3f87c5b22355068cd40aa2de",
     "sha256": "2b9d18fd7059e7482b559df7d0406732106dcb7c3f87c5b22355068cd40aa2de",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2b9d18fd7059e7482b559df7d0406732106dcb7c3f87c5b22355068cd40aa2de"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE178341_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE178341_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE178341_features.csv",
     "source_sha256": "06c309735a914388c8d1b3e65e553a81c53f280661162deced07c9d789792b16",
     "sha256": "06c309735a914388c8d1b3e65e553a81c53f280661162deced07c9d789792b16",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "06c309735a914388c8d1b3e65e553a81c53f280661162deced07c9d789792b16"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE200997_all_subtypes.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE200997_all_subtypes.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE200997_all_subtypes.csv",
     "source_sha256": "ca67d011607773bc6ed4db6f43b03896f598f1e811c7385621683d834720db26",
     "sha256": "ca67d011607773bc6ed4db6f43b03896f598f1e811c7385621683d834720db26",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ca67d011607773bc6ed4db6f43b03896f598f1e811c7385621683d834720db26"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE200997_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE200997_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/GSE200997_features.csv",
     "source_sha256": "90b4e786aa17bfa6e5ae68b9601aa8d2b167dc8ec4c05e4124a7c536cd4710c1",
     "sha256": "90b4e786aa17bfa6e5ae68b9601aa8d2b167dc8ec4c05e4124a7c536cd4710c1",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "90b4e786aa17bfa6e5ae68b9601aa8d2b167dc8ec4c05e4124a7c536cd4710c1"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/candidate_ledger.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/candidate_ledger.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/candidate_ledger.csv",
     "source_sha256": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80",
     "sha256": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "01cef559172f5d4756b8bd7c42cf16598085a3e89519e43a99efd78d0fb2dd80"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/cnv_quantile_summary.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/cnv_quantile_summary.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/cnv_quantile_summary.csv",
     "source_sha256": "f18dd073cc463c065d815e4560ad6b01f5c405d640175271751b6650ed928cfc",
     "sha256": "f18dd073cc463c065d815e4560ad6b01f5c405d640175271751b6650ed928cfc",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "f18dd073cc463c065d815e4560ad6b01f5c405d640175271751b6650ed928cfc"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/cnv_sample_features.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/cnv_sample_features.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/cnv_sample_features.csv",
     "source_sha256": "17d8c07b3a3f24e06cc22fc4c29573ab928e5c378588229dd3ba82b02676f2bb",
     "sha256": "17d8c07b3a3f24e06cc22fc4c29573ab928e5c378588229dd3ba82b02676f2bb",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "17d8c07b3a3f24e06cc22fc4c29573ab928e5c378588229dd3ba82b02676f2bb"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/current_manifest.json",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/current_manifest.json",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/current_manifest.json",
     "source_sha256": "733be28ad092419472d072bc3bacd6b37ec0268a47f9214f981fc02dd7eb18c1",
     "sha256": "733be28ad092419472d072bc3bacd6b37ec0268a47f9214f981fc02dd7eb18c1",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "733be28ad092419472d072bc3bacd6b37ec0268a47f9214f981fc02dd7eb18c1"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/current_model.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/current_model.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/current_model.joblib",
     "source_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
     "sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/current_predictions.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/current_predictions.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/current_predictions.csv",
     "source_sha256": "f68468a4afb92a3bb22e1e51c96dfefcb867806423c128ce23ed1f8de1a197fb",
     "sha256": "f68468a4afb92a3bb22e1e51c96dfefcb867806423c128ce23ed1f8de1a197fb",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "f68468a4afb92a3bb22e1e51c96dfefcb867806423c128ce23ed1f8de1a197fb"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/fold_manifest.json",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/fold_manifest.json",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/fold_manifest.json",
     "source_sha256": "36a2d8023df16327f6288c9bc1485d79acb386e451260409c8f1acb418c1ff5b",
     "sha256": "36a2d8023df16327f6288c9bc1485d79acb386e451260409c8f1acb418c1ff5b",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "36a2d8023df16327f6288c9bc1485d79acb386e451260409c8f1acb418c1ff5b"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/patient_ledger.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/patient_ledger.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/patient_ledger.csv",
     "source_sha256": "bfc9d1447ddcd47af23ba77566ccd903caa39a0c74d2f059b6788f19eb765ccf",
     "sha256": "bfc9d1447ddcd47af23ba77566ccd903caa39a0c74d2f059b6788f19eb765ccf",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "bfc9d1447ddcd47af23ba77566ccd903caa39a0c74d2f059b6788f19eb765ccf"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/reference71.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/reference71.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/reference71.csv",
     "source_sha256": "eefa24060c26a2664accef53ec15a49af7acfef2188b39a1c5c3ca8d4ba1a398",
     "sha256": "eefa24060c26a2664accef53ec15a49af7acfef2188b39a1c5c3ca8d4ba1a398",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "eefa24060c26a2664accef53ec15a49af7acfef2188b39a1c5c3ca8d4ba1a398"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/model_index.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/model_index.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/model_index.csv",
     "source_sha256": "23b798c852222dfc2f2cd6280812200b0a1b1d5e46daf84f83aa360c1d2a352f",
     "sha256": "23b798c852222dfc2f2cd6280812200b0a1b1d5e46daf84f83aa360c1d2a352f",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "23b798c852222dfc2f2cd6280812200b0a1b1d5e46daf84f83aa360c1d2a352f"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold1.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold1.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold1.joblib",
     "source_sha256": "c298efc8ac56f480f1148170e32f7c4cad5a4434b6bc9c94d925e97714cbba0c",
     "sha256": "c298efc8ac56f480f1148170e32f7c4cad5a4434b6bc9c94d925e97714cbba0c",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c298efc8ac56f480f1148170e32f7c4cad5a4434b6bc9c94d925e97714cbba0c"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold2.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold2.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold2.joblib",
     "source_sha256": "c41c522f7bf004ad86e0ca48a69451f7179c0bb474d8c15fda6edca583097eec",
     "sha256": "c41c522f7bf004ad86e0ca48a69451f7179c0bb474d8c15fda6edca583097eec",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c41c522f7bf004ad86e0ca48a69451f7179c0bb474d8c15fda6edca583097eec"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold3.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold3.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold3.joblib",
     "source_sha256": "d94ff4c270c209cefc438cefb86c1c081b154a53ebd5b45bcefe24a0c81ccfdf",
     "sha256": "d94ff4c270c209cefc438cefb86c1c081b154a53ebd5b45bcefe24a0c81ccfdf",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "d94ff4c270c209cefc438cefb86c1c081b154a53ebd5b45bcefe24a0c81ccfdf"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold4.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold4.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold4.joblib",
     "source_sha256": "9ad9685f8aca523d4e8e65033a28d35187f4790600323fad41a38a50316a65ce",
     "sha256": "9ad9685f8aca523d4e8e65033a28d35187f4790600323fad41a38a50316a65ce",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9ad9685f8aca523d4e8e65033a28d35187f4790600323fad41a38a50316a65ce"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold5.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold5.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__fold5.joblib",
     "source_sha256": "063a9d9fbe8f23ec0d389c650910a4a217781fa09c0264a4959d74599c802f71",
     "sha256": "063a9d9fbe8f23ec0d389c650910a4a217781fa09c0264a4959d74599c802f71",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "063a9d9fbe8f23ec0d389c650910a4a217781fa09c0264a4959d74599c802f71"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__foldfull.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__foldfull.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q90_refit__foldfull.joblib",
     "source_sha256": "084377007f22ecc7e8cce76637860224fad097dffdbf71fdd3a7221a4322dec4",
     "sha256": "084377007f22ecc7e8cce76637860224fad097dffdbf71fdd3a7221a4322dec4",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "084377007f22ecc7e8cce76637860224fad097dffdbf71fdd3a7221a4322dec4"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold1.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold1.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold1.joblib",
     "source_sha256": "2b19b2ac1d7b65362681e8f0a20abecb940b9e271b74934392d2aa01b77600f9",
     "sha256": "2b19b2ac1d7b65362681e8f0a20abecb940b9e271b74934392d2aa01b77600f9",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2b19b2ac1d7b65362681e8f0a20abecb940b9e271b74934392d2aa01b77600f9"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold2.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold2.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold2.joblib",
     "source_sha256": "94d9856a49f8145c093e21c8d0a6f637a1c2994e05d19b048e5a239fbdd05b80",
     "sha256": "94d9856a49f8145c093e21c8d0a6f637a1c2994e05d19b048e5a239fbdd05b80",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "94d9856a49f8145c093e21c8d0a6f637a1c2994e05d19b048e5a239fbdd05b80"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold3.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold3.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold3.joblib",
     "source_sha256": "53747e7af024cd7a884e501c7a28be0ed1cfe641ca33b89a18572d45a74a008c",
     "sha256": "53747e7af024cd7a884e501c7a28be0ed1cfe641ca33b89a18572d45a74a008c",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "53747e7af024cd7a884e501c7a28be0ed1cfe641ca33b89a18572d45a74a008c"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold4.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold4.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold4.joblib",
     "source_sha256": "a9425183753ec52a699f898fd4ae826d346f2e9573cd97724cb28f9f18e1f8f1",
     "sha256": "a9425183753ec52a699f898fd4ae826d346f2e9573cd97724cb28f9f18e1f8f1",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a9425183753ec52a699f898fd4ae826d346f2e9573cd97724cb28f9f18e1f8f1"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold5.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold5.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__fold5.joblib",
     "source_sha256": "1da76719665055a73747ee4623b302d9836455843db05f1896df39c236c73aad",
     "sha256": "1da76719665055a73747ee4623b302d9836455843db05f1896df39c236c73aad",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1da76719665055a73747ee4623b302d9836455843db05f1896df39c236c73aad"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__foldfull.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__foldfull.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q95_refit__foldfull.joblib",
     "source_sha256": "8ae2b0ca1a91e2ad6c4168323b7c9684dcd06ccf5c979462b293423e2e1bd188",
     "sha256": "8ae2b0ca1a91e2ad6c4168323b7c9684dcd06ccf5c979462b293423e2e1bd188",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "8ae2b0ca1a91e2ad6c4168323b7c9684dcd06ccf5c979462b293423e2e1bd188"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold1.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold1.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold1.joblib",
     "source_sha256": "9e1f94a2fc2dcf522a2fcf8c5440b0b669723a6bc55f4c660fe19e79db4524df",
     "sha256": "9e1f94a2fc2dcf522a2fcf8c5440b0b669723a6bc55f4c660fe19e79db4524df",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9e1f94a2fc2dcf522a2fcf8c5440b0b669723a6bc55f4c660fe19e79db4524df"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold2.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold2.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold2.joblib",
     "source_sha256": "e4ce9bbf88e4d06a257e12b320430427337e26978c8465b6147c73766dec8900",
     "sha256": "e4ce9bbf88e4d06a257e12b320430427337e26978c8465b6147c73766dec8900",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e4ce9bbf88e4d06a257e12b320430427337e26978c8465b6147c73766dec8900"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold3.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold3.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold3.joblib",
     "source_sha256": "9b6b96a80eb35a93986cfedcb23e5a1ae933a3209ab886077610532472f57415",
     "sha256": "9b6b96a80eb35a93986cfedcb23e5a1ae933a3209ab886077610532472f57415",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9b6b96a80eb35a93986cfedcb23e5a1ae933a3209ab886077610532472f57415"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold4.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold4.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold4.joblib",
     "source_sha256": "bbd6883c3beb50bf3ba2c4db679ffe6399c47ac1952f4fced043c1b827783f5c",
     "sha256": "bbd6883c3beb50bf3ba2c4db679ffe6399c47ac1952f4fced043c1b827783f5c",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "bbd6883c3beb50bf3ba2c4db679ffe6399c47ac1952f4fced043c1b827783f5c"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold5.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold5.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__fold5.joblib",
     "source_sha256": "607f6f41d56e63c042c5f897eb0d43f8c4f3dc7ea5f7ce2aaf3a22da527a2610",
     "sha256": "607f6f41d56e63c042c5f897eb0d43f8c4f3dc7ea5f7ce2aaf3a22da527a2610",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "607f6f41d56e63c042c5f897eb0d43f8c4f3dc7ea5f7ce2aaf3a22da527a2610"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__foldfull.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__foldfull.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/CNV_q99_refit__foldfull.joblib",
     "source_sha256": "5142d0fac686b6e43d6587da6ce74c0bce5b51b0fb34501cd0d79084529cd72c",
     "sha256": "5142d0fac686b6e43d6587da6ce74c0bce5b51b0fb34501cd0d79084529cd72c",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "5142d0fac686b6e43d6587da6ce74c0bce5b51b0fb34501cd0d79084529cd72c"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold1.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold1.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold1.joblib",
     "source_sha256": "082b8926eafaff69d903a9e78c1f309a05284884765d995136285eeb18959c09",
     "sha256": "082b8926eafaff69d903a9e78c1f309a05284884765d995136285eeb18959c09",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "082b8926eafaff69d903a9e78c1f309a05284884765d995136285eeb18959c09"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold2.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold2.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold2.joblib",
     "source_sha256": "2bf6cb7833d6b6356c957be77b197445442c4abbcc533bda21b07a76277507b5",
     "sha256": "2bf6cb7833d6b6356c957be77b197445442c4abbcc533bda21b07a76277507b5",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2bf6cb7833d6b6356c957be77b197445442c4abbcc533bda21b07a76277507b5"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold3.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold3.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold3.joblib",
     "source_sha256": "4e67638fa9eb4bda09d97b94dd3a15cabcdfc317f4d297fbeeea73b6741e8f6a",
     "sha256": "4e67638fa9eb4bda09d97b94dd3a15cabcdfc317f4d297fbeeea73b6741e8f6a",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "4e67638fa9eb4bda09d97b94dd3a15cabcdfc317f4d297fbeeea73b6741e8f6a"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold4.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold4.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold4.joblib",
     "source_sha256": "6cad827616d992c10dcefb478e7676707493523f4e76bcdcc14d631e6981663b",
     "sha256": "6cad827616d992c10dcefb478e7676707493523f4e76bcdcc14d631e6981663b",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "6cad827616d992c10dcefb478e7676707493523f4e76bcdcc14d631e6981663b"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold5.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold5.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__fold5.joblib",
     "source_sha256": "c11f3334ffbdb07e5b510c058b3786cb5aec6ae35ee488f7197ed23bdeec62b3",
     "sha256": "c11f3334ffbdb07e5b510c058b3786cb5aec6ae35ee488f7197ed23bdeec62b3",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c11f3334ffbdb07e5b510c058b3786cb5aec6ae35ee488f7197ed23bdeec62b3"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__foldfull.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__foldfull.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_60__foldfull.joblib",
     "source_sha256": "4aba59bd08e52b87c4bc30ede33cbf9d6cb5f6087d4f26a348fcc322ecd85c1e",
     "sha256": "4aba59bd08e52b87c4bc30ede33cbf9d6cb5f6087d4f26a348fcc322ecd85c1e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "4aba59bd08e52b87c4bc30ede33cbf9d6cb5f6087d4f26a348fcc322ecd85c1e"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold1.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold1.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold1.joblib",
     "source_sha256": "5ceca659ae9b903d31840d3fc2a7b97e60ade47056d1f927fe79859ff2127e06",
     "sha256": "5ceca659ae9b903d31840d3fc2a7b97e60ade47056d1f927fe79859ff2127e06",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "5ceca659ae9b903d31840d3fc2a7b97e60ade47056d1f927fe79859ff2127e06"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold2.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold2.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold2.joblib",
     "source_sha256": "dac3f662111ab305db60902e38b4f6b14e9903a570ca422f68a740317406cb27",
     "sha256": "dac3f662111ab305db60902e38b4f6b14e9903a570ca422f68a740317406cb27",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "dac3f662111ab305db60902e38b4f6b14e9903a570ca422f68a740317406cb27"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold3.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold3.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold3.joblib",
     "source_sha256": "41f460647f6d28703d56bb27a69f0c47ed77d36ae63fadc0c13b488b832cdccf",
     "sha256": "41f460647f6d28703d56bb27a69f0c47ed77d36ae63fadc0c13b488b832cdccf",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "41f460647f6d28703d56bb27a69f0c47ed77d36ae63fadc0c13b488b832cdccf"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold4.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold4.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold4.joblib",
     "source_sha256": "b201e05f932e38480691e9efc6c741f2081fbf49316f66e149bb51741f2be34f",
     "sha256": "b201e05f932e38480691e9efc6c741f2081fbf49316f66e149bb51741f2be34f",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b201e05f932e38480691e9efc6c741f2081fbf49316f66e149bb51741f2be34f"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold5.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold5.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__fold5.joblib",
     "source_sha256": "3ac53b3769393b97745569186199e5000cb3771f900748d405526802d6855bfe",
     "sha256": "3ac53b3769393b97745569186199e5000cb3771f900748d405526802d6855bfe",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "3ac53b3769393b97745569186199e5000cb3771f900748d405526802d6855bfe"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__foldfull.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__foldfull.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_65__foldfull.joblib",
     "source_sha256": "911764f0f75cbcc1640fd7c34c5aac207e07bbaf200ce4c97559b081c1c2ce9a",
     "sha256": "911764f0f75cbcc1640fd7c34c5aac207e07bbaf200ce4c97559b081c1c2ce9a",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "911764f0f75cbcc1640fd7c34c5aac207e07bbaf200ce4c97559b081c1c2ce9a"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold1.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold1.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold1.joblib",
     "source_sha256": "9f2cb5b2aac257c8edc8c94ef0380a5c6860d5ef46a94aa47b61eba675e7bfa8",
     "sha256": "9f2cb5b2aac257c8edc8c94ef0380a5c6860d5ef46a94aa47b61eba675e7bfa8",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9f2cb5b2aac257c8edc8c94ef0380a5c6860d5ef46a94aa47b61eba675e7bfa8"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold2.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold2.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold2.joblib",
     "source_sha256": "0fca8776b77861be868fff52a07fbf4451f9198d5b473aa7ef7100527e1b3576",
     "sha256": "0fca8776b77861be868fff52a07fbf4451f9198d5b473aa7ef7100527e1b3576",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "0fca8776b77861be868fff52a07fbf4451f9198d5b473aa7ef7100527e1b3576"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold3.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold3.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold3.joblib",
     "source_sha256": "f58ad3e1829f931272effdba6e8f6e610ce8437cc3a5ef365266342411eb614a",
     "sha256": "f58ad3e1829f931272effdba6e8f6e610ce8437cc3a5ef365266342411eb614a",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "f58ad3e1829f931272effdba6e8f6e610ce8437cc3a5ef365266342411eb614a"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold4.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold4.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold4.joblib",
     "source_sha256": "5a7298d25dcb40d9efd3b2f84bb05f5cb5bf8e4a0a26fef0d9eb4fdc72cc0f22",
     "sha256": "5a7298d25dcb40d9efd3b2f84bb05f5cb5bf8e4a0a26fef0d9eb4fdc72cc0f22",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "5a7298d25dcb40d9efd3b2f84bb05f5cb5bf8e4a0a26fef0d9eb4fdc72cc0f22"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold5.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold5.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__fold5.joblib",
     "source_sha256": "86736505bc5e0dfa322e7759f42fdbe7504188ea23d908592b8271caca5c272e",
     "sha256": "86736505bc5e0dfa322e7759f42fdbe7504188ea23d908592b8271caca5c272e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "86736505bc5e0dfa322e7759f42fdbe7504188ea23d908592b8271caca5c272e"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__foldfull.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__foldfull.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_70__foldfull.joblib",
     "source_sha256": "f6ff66aa165d2384ce61e267d0b12752b62806600dbee5b51685e814c2f0188e",
     "sha256": "f6ff66aa165d2384ce61e267d0b12752b62806600dbee5b51685e814c2f0188e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "f6ff66aa165d2384ce61e267d0b12752b62806600dbee5b51685e814c2f0188e"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold1.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold1.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold1.joblib",
     "source_sha256": "a907662b1aa1e2d972cd9ab6cb3effc5560048622c1f0c968482576942aff93f",
     "sha256": "a907662b1aa1e2d972cd9ab6cb3effc5560048622c1f0c968482576942aff93f",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a907662b1aa1e2d972cd9ab6cb3effc5560048622c1f0c968482576942aff93f"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold2.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold2.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold2.joblib",
     "source_sha256": "a8729d490da2341a228d19627fe52db81b1bf5411bfe8ad1f37e381145ebae59",
     "sha256": "a8729d490da2341a228d19627fe52db81b1bf5411bfe8ad1f37e381145ebae59",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a8729d490da2341a228d19627fe52db81b1bf5411bfe8ad1f37e381145ebae59"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold3.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold3.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold3.joblib",
     "source_sha256": "cab2925dcee9011e3fe78881c130aae3f4c3002eca16e48f445c7055d99fb165",
     "sha256": "cab2925dcee9011e3fe78881c130aae3f4c3002eca16e48f445c7055d99fb165",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "cab2925dcee9011e3fe78881c130aae3f4c3002eca16e48f445c7055d99fb165"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold4.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold4.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold4.joblib",
     "source_sha256": "17cadf6b7a11cab82a6985858f7941c0e5f8e8732c6373d414ac82c5d18420f7",
     "sha256": "17cadf6b7a11cab82a6985858f7941c0e5f8e8732c6373d414ac82c5d18420f7",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "17cadf6b7a11cab82a6985858f7941c0e5f8e8732c6373d414ac82c5d18420f7"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold5.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold5.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__fold5.joblib",
     "source_sha256": "b39c05d270d1a984f4f296ca3f9c21310b75409c69fc84f11d2ec1ebbc868148",
     "sha256": "b39c05d270d1a984f4f296ca3f9c21310b75409c69fc84f11d2ec1ebbc868148",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b39c05d270d1a984f4f296ca3f9c21310b75409c69fc84f11d2ec1ebbc868148"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__foldfull.joblib",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__foldfull.joblib",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/models/subtype_cutoff_75__foldfull.joblib",
     "source_sha256": "a267ca328d79b7da673fa76287a903bc095c72a899c4b01b10916cf265bd4a4e",
     "sha256": "a267ca328d79b7da673fa76287a903bc095c72a899c4b01b10916cf265bd4a4e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a267ca328d79b7da673fa76287a903bc095c72a899c4b01b10916cf265bd4a4e"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/protocol.json",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/protocol.json",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/protocol.json",
     "source_sha256": "c53c8131e2296d7be9088bdaa781eb60ac2de8a24a9a1fb198239873d2ea2b45",
     "sha256": "c53c8131e2296d7be9088bdaa781eb60ac2de8a24a9a1fb198239873d2ea2b45",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c53c8131e2296d7be9088bdaa781eb60ac2de8a24a9a1fb198239873d2ea2b45"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/source_manifest.json",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/source_manifest.json",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/source_manifest.json",
     "source_sha256": "0224b9a13847c67d2e6637969cc5d469f59ab6bb50e462c558fde68f82754f73",
     "sha256": "0224b9a13847c67d2e6637969cc5d469f59ab6bb50e462c558fde68f82754f73",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "0224b9a13847c67d2e6637969cc5d469f59ab6bb50e462c558fde68f82754f73"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/AUROC_sensitivity_ranges.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/AUROC_sensitivity_ranges.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/AUROC_sensitivity_ranges.csv",
     "source_sha256": "f955356717575aa9ea9e8498484df361ddcfeb4dabc3d053fd59fd4a37d86008",
     "sha256": "f955356717575aa9ea9e8498484df361ddcfeb4dabc3d053fd59fd4a37d86008",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "f955356717575aa9ea9e8498484df361ddcfeb4dabc3d053fd59fd4a37d86008"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/S10_threshold_performance.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/S10_threshold_performance.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/S10_threshold_performance.csv",
     "source_sha256": "eb0b539c3e3c6d8ea301704a9f6f62d05e7547c1bc245f3a9f7a578aec40614e",
     "sha256": "eb0b539c3e3c6d8ea301704a9f6f62d05e7547c1bc245f3a9f7a578aec40614e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "eb0b539c3e3c6d8ea301704a9f6f62d05e7547c1bc245f3a9f7a578aec40614e"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/S3_CNV_quantile_performance.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/S3_CNV_quantile_performance.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/S3_CNV_quantile_performance.csv",
     "source_sha256": "8b153d5483373d8acc0882e5a2ac03dbbbd59c989c483a2d732489581ffcc832",
     "sha256": "8b153d5483373d8acc0882e5a2ac03dbbbd59c989c483a2d732489581ffcc832",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "8b153d5483373d8acc0882e5a2ac03dbbbd59c989c483a2d732489581ffcc832"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/all_metrics.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/all_metrics.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/all_metrics.csv",
     "source_sha256": "573b708c9e84f639b1bef4fe93797f7706917900c3468e5bd35fef8ca6eb3356",
     "sha256": "573b708c9e84f639b1bef4fe93797f7706917900c3468e5bd35fef8ca6eb3356",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "573b708c9e84f639b1bef4fe93797f7706917900c3468e5bd35fef8ca6eb3356"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/fixed18_reference_performance.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/fixed18_reference_performance.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/fixed18_reference_performance.csv",
     "source_sha256": "9b458beed21e76addf94bf163fbd82eefa94aa9a1c8aba65bb4db122ebe32153",
     "sha256": "9b458beed21e76addf94bf163fbd82eefa94aa9a1c8aba65bb4db122ebe32153",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9b458beed21e76addf94bf163fbd82eefa94aa9a1c8aba65bb4db122ebe32153"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/reported_metrics.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/reported_metrics.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/reported_metrics.csv",
     "source_sha256": "723156b00466fc956a930592c76d72b79ae2ca1a5e971d50acc3e80e6736006f",
     "sha256": "723156b00466fc956a930592c76d72b79ae2ca1a5e971d50acc3e80e6736006f",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "723156b00466fc956a930592c76d72b79ae2ca1a5e971d50acc3e80e6736006f"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/subtype_threshold_membership.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/subtype_threshold_membership.csv",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/tables/subtype_threshold_membership.csv",
     "source_sha256": "36b2d754fd20d0a3983775677c5c703c38334bd57ab51bcfa8d13238bc3b155a",
     "sha256": "36b2d754fd20d0a3983775677c5c703c38334bd57ab51bcfa8d13238bc3b155a",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "36b2d754fd20d0a3983775677c5c703c38334bd57ab51bcfa8d13238bc3b155a"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/run_analysis.py",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/run_analysis.py",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/run_analysis.py",
     "source_sha256": "5da95c3a18266946dbc7f092fe13aef548fcf16d62b7bb3ffb8a874f8371d022",
     "sha256": "34b568fd42088a508dfd054bd3c4705abfe708aa3ebf8c138fb57ca1f20e7b6a",
-    "adaptation": "paths/entrypoint packaging only"
+    "adaptation": "paths/entrypoint packaging only",
+    "previous_release_sha256": "34b568fd42088a508dfd054bd3c4705abfe708aa3ebf8c138fb57ca1f20e7b6a"
   },
   {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/verify_analysis.py",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/report/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/verify_analysis.py",
     "path": "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/verify_analysis.py",
     "source_sha256": "f567202aba90af8b32c41f45acb48f67b75b63e6a27457df44c435e20985d343",
     "sha256": "dae245ce33804be4b8e2577f7b96271e83a149d8c05c732b90a9d45e5dad7ab0",
-    "adaptation": "paths/entrypoint packaging only"
+    "adaptation": "paths/entrypoint packaging only",
+    "previous_release_sha256": "dae245ce33804be4b8e2577f7b96271e83a149d8c05c732b90a9d45e5dad7ab0"
   },
   {
     "source": "MSIClassifier/code/spatial/reproduce_frozen_spatial.py",
     "path": "workflows/spatial/reproduce_frozen_spatial.py",
     "source_sha256": "c30a34747d2a5728195a158c055581f3e05aac8103bdaf4b514898d8f109290a",
-    "sha256": "a203c79a1f513fc2813cb6790934ec95712c75fa95fe3ee3298a68247e588e92",
-    "adaptation": "paths/entrypoint packaging only"
+    "sha256": "8ebaa1a96e9c8b07c73c938fc1307f46f73715fff857a342f99ef9beb0a55e88",
+    "adaptation": "Current17 scoring/data/plot update; previous18 source/hash separately preserved",
+    "previous_release_sha256": "a203c79a1f513fc2813cb6790934ec95712c75fa95fe3ee3298a68247e588e92"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/analysis_plan.json",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/analysis_plan.json",
     "path": "workflows/spatial/resources/transfer/analysis_plan.json",
     "source_sha256": "a9ac7f23d7f67cd10d0cb2052a3599bc5a8f49a3add048bec3e24c3c30d8c42d",
     "sha256": "a9ac7f23d7f67cd10d0cb2052a3599bc5a8f49a3add048bec3e24c3c30d8c42d",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a9ac7f23d7f67cd10d0cb2052a3599bc5a8f49a3add048bec3e24c3c30d8c42d"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/mapping.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/mapping.csv",
     "path": "workflows/spatial/resources/transfer/reference/mapping.csv",
     "source_sha256": "28b68f67b173db6d7c95fb91b8e9c2cc285452e969f330137775bcf5c76c23f3",
     "sha256": "28b68f67b173db6d7c95fb91b8e9c2cc285452e969f330137775bcf5c76c23f3",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "28b68f67b173db6d7c95fb91b8e9c2cc285452e969f330137775bcf5c76c23f3"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000771(S5_Rec_Rep1)/small_cell_abundance_means.csv",
     "source_sha256": "9ff55f6984997690bf3e5ae85a25c9b4f4700f3b74e51176c2dbc7f69c0b2f9e",
     "sha256": "9ff55f6984997690bf3e5ae85a25c9b4f4700f3b74e51176c2dbc7f69c0b2f9e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9ff55f6984997690bf3e5ae85a25c9b4f4700f3b74e51176c2dbc7f69c0b2f9e"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000771(S5_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "8b2524121d00704d9a9b81c808f617fd23ae75b981b84436635553abd3ba3510",
     "sha256": "8b2524121d00704d9a9b81c808f617fd23ae75b981b84436635553abd3ba3510",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "8b2524121d00704d9a9b81c808f617fd23ae75b981b84436635553abd3ba3510"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000771(S5_Rec_Rep1)/posterior_means.npz",
     "source_sha256": "29de4ff4b0137462bc4300d6df7d1d73255c6d0f0f7d01433b4ab5ff19d8a0a5",
     "sha256": "29de4ff4b0137462bc4300d6df7d1d73255c6d0f0f7d01433b4ab5ff19d8a0a5",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "29de4ff4b0137462bc4300d6df7d1d73255c6d0f0f7d01433b4ab5ff19d8a0a5"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000771(S5_Rec_Rep1)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000771(S5_Rec_Rep1)/history_elbo_train.csv",
     "source_sha256": "d65a79e80b1fc3bab2497f5c183a300080427dccca5a9f2d95fe5bb37dc8ec2e",
     "sha256": "d65a79e80b1fc3bab2497f5c183a300080427dccca5a9f2d95fe5bb37dc8ec2e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "d65a79e80b1fc3bab2497f5c183a300080427dccca5a9f2d95fe5bb37dc8ec2e"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000772(S5_Rec_Rep2)/small_cell_abundance_means.csv",
     "source_sha256": "d61c7b59e1f328376c3781a041a5d576bddf825f360c607def132dceb8021487",
     "sha256": "d61c7b59e1f328376c3781a041a5d576bddf825f360c607def132dceb8021487",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "d61c7b59e1f328376c3781a041a5d576bddf825f360c607def132dceb8021487"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000772(S5_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "fd22a4c4337b73fffa665d0fee63640ac5b3a5f08e55171d961daa3fa9ed97df",
     "sha256": "fd22a4c4337b73fffa665d0fee63640ac5b3a5f08e55171d961daa3fa9ed97df",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "fd22a4c4337b73fffa665d0fee63640ac5b3a5f08e55171d961daa3fa9ed97df"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000772(S5_Rec_Rep2)/posterior_means.npz",
     "source_sha256": "16d15c141c56752ea9ff61b96256ef1bfef069ee9e5b9e25c4a9907d21ea4764",
     "sha256": "16d15c141c56752ea9ff61b96256ef1bfef069ee9e5b9e25c4a9907d21ea4764",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "16d15c141c56752ea9ff61b96256ef1bfef069ee9e5b9e25c4a9907d21ea4764"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000772(S5_Rec_Rep2)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000772(S5_Rec_Rep2)/history_elbo_train.csv",
     "source_sha256": "dbdfa58f2df46e77da8e5b42c2bf27be23f000593a90f3b00fd3ec16bfcc7ffe",
     "sha256": "dbdfa58f2df46e77da8e5b42c2bf27be23f000593a90f3b00fd3ec16bfcc7ffe",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "dbdfa58f2df46e77da8e5b42c2bf27be23f000593a90f3b00fd3ec16bfcc7ffe"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000773(S3_Col_R_Rep1)/small_cell_abundance_means.csv",
     "source_sha256": "ba75e0b9279c09a15cc0bab7d0e336d8e7255e3c7f089d286eaa643f294e8eb2",
     "sha256": "ba75e0b9279c09a15cc0bab7d0e336d8e7255e3c7f089d286eaa643f294e8eb2",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ba75e0b9279c09a15cc0bab7d0e336d8e7255e3c7f089d286eaa643f294e8eb2"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000773(S3_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "3ef664dc0d67a8cc50d9c7e2661be39994dffe79eb68566e515b3e47ed4db445",
     "sha256": "3ef664dc0d67a8cc50d9c7e2661be39994dffe79eb68566e515b3e47ed4db445",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "3ef664dc0d67a8cc50d9c7e2661be39994dffe79eb68566e515b3e47ed4db445"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000773(S3_Col_R_Rep1)/posterior_means.npz",
     "source_sha256": "a965acf7fddcc44b0aa29f18f088a180efb456dfdd953c5c5a9d6b317a60eb49",
     "sha256": "a965acf7fddcc44b0aa29f18f088a180efb456dfdd953c5c5a9d6b317a60eb49",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a965acf7fddcc44b0aa29f18f088a180efb456dfdd953c5c5a9d6b317a60eb49"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000773(S3_Col_R_Rep1)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000773(S3_Col_R_Rep1)/history_elbo_train.csv",
     "source_sha256": "0ff30b0f7595b5a7e7ad678545a63252d3fdcc72e7cb73754d4c4ba2d73834db",
     "sha256": "0ff30b0f7595b5a7e7ad678545a63252d3fdcc72e7cb73754d4c4ba2d73834db",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "0ff30b0f7595b5a7e7ad678545a63252d3fdcc72e7cb73754d4c4ba2d73834db"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000774(S3_Col_R_Rep2)/small_cell_abundance_means.csv",
     "source_sha256": "975f384dacec8964e93f39882708777f3c798419dafb13fca106d92bd829157e",
     "sha256": "975f384dacec8964e93f39882708777f3c798419dafb13fca106d92bd829157e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "975f384dacec8964e93f39882708777f3c798419dafb13fca106d92bd829157e"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000774(S3_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "2e7d4e18a8cac7e5148c1e1bbc2cf42255f6f5ad8ca96d6805a4bff61763ea09",
     "sha256": "2e7d4e18a8cac7e5148c1e1bbc2cf42255f6f5ad8ca96d6805a4bff61763ea09",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2e7d4e18a8cac7e5148c1e1bbc2cf42255f6f5ad8ca96d6805a4bff61763ea09"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000774(S3_Col_R_Rep2)/posterior_means.npz",
     "source_sha256": "01ad006d222e649143d35e9e0a7932c29b8ebadf93b64be85c92acc962e57578",
     "sha256": "01ad006d222e649143d35e9e0a7932c29b8ebadf93b64be85c92acc962e57578",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "01ad006d222e649143d35e9e0a7932c29b8ebadf93b64be85c92acc962e57578"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000774(S3_Col_R_Rep2)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000774(S3_Col_R_Rep2)/history_elbo_train.csv",
     "source_sha256": "1f8d3d84a108b050be95b04a92102748736f87a69fa50a74fe5f0ea7dbcaaf21",
     "sha256": "1f8d3d84a108b050be95b04a92102748736f87a69fa50a74fe5f0ea7dbcaaf21",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1f8d3d84a108b050be95b04a92102748736f87a69fa50a74fe5f0ea7dbcaaf21"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000775(S1_Cec_Rep1)/small_cell_abundance_means.csv",
     "source_sha256": "37816dc03857e6cd1a860fbe69645ac92eeccb5d1a86202271de87f8735ae553",
     "sha256": "37816dc03857e6cd1a860fbe69645ac92eeccb5d1a86202271de87f8735ae553",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "37816dc03857e6cd1a860fbe69645ac92eeccb5d1a86202271de87f8735ae553"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000775(S1_Cec_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "c24f86bf2ee7dd35ad58b15b8fff80487c131996373a9ec4e52847326da592d3",
     "sha256": "c24f86bf2ee7dd35ad58b15b8fff80487c131996373a9ec4e52847326da592d3",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c24f86bf2ee7dd35ad58b15b8fff80487c131996373a9ec4e52847326da592d3"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000775(S1_Cec_Rep1)/posterior_means.npz",
     "source_sha256": "1612a9bc33a1c1520d4fc1e2763d884ba4bf0985f81aa39ac05e670d1abc6ea9",
     "sha256": "1612a9bc33a1c1520d4fc1e2763d884ba4bf0985f81aa39ac05e670d1abc6ea9",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "1612a9bc33a1c1520d4fc1e2763d884ba4bf0985f81aa39ac05e670d1abc6ea9"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000775(S1_Cec_Rep1)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000775(S1_Cec_Rep1)/history_elbo_train.csv",
     "source_sha256": "ae78acf580ded066e2ee6dddd28b06d1cb6c38a45d5baa7946ebcb22aeb7fb2f",
     "sha256": "ae78acf580ded066e2ee6dddd28b06d1cb6c38a45d5baa7946ebcb22aeb7fb2f",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ae78acf580ded066e2ee6dddd28b06d1cb6c38a45d5baa7946ebcb22aeb7fb2f"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000776(S2_Col_R_Rep1)/small_cell_abundance_means.csv",
     "source_sha256": "d4ffba15e7fb165768e2dd33463158157e06a08062af8e57db8f0b7f07f684bd",
     "sha256": "d4ffba15e7fb165768e2dd33463158157e06a08062af8e57db8f0b7f07f684bd",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "d4ffba15e7fb165768e2dd33463158157e06a08062af8e57db8f0b7f07f684bd"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000776(S2_Col_R_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "e7df6c746db7d3d95b9d4a90a8805f0cca9f5fccb860822fb550404d4243e474",
     "sha256": "e7df6c746db7d3d95b9d4a90a8805f0cca9f5fccb860822fb550404d4243e474",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e7df6c746db7d3d95b9d4a90a8805f0cca9f5fccb860822fb550404d4243e474"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000776(S2_Col_R_Rep1)/posterior_means.npz",
     "source_sha256": "b00afbb201e07550590fa711387800352d69bbb7ded10e5b7d2c63feee6f7a95",
     "sha256": "b00afbb201e07550590fa711387800352d69bbb7ded10e5b7d2c63feee6f7a95",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b00afbb201e07550590fa711387800352d69bbb7ded10e5b7d2c63feee6f7a95"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000776(S2_Col_R_Rep1)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000776(S2_Col_R_Rep1)/history_elbo_train.csv",
     "source_sha256": "36ad34bb9d0fbd1faed9e96b467d67fd4683a3a3d5f1c093e539a980046799d4",
     "sha256": "36ad34bb9d0fbd1faed9e96b467d67fd4683a3a3d5f1c093e539a980046799d4",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "36ad34bb9d0fbd1faed9e96b467d67fd4683a3a3d5f1c093e539a980046799d4"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000777(S7_RecSig_Rep1)/small_cell_abundance_means.csv",
     "source_sha256": "148f6d6dbfca89a9725690aa8888fd52754d7ce46373a5b1d6c733f71e856fe1",
     "sha256": "148f6d6dbfca89a9725690aa8888fd52754d7ce46373a5b1d6c733f71e856fe1",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "148f6d6dbfca89a9725690aa8888fd52754d7ce46373a5b1d6c733f71e856fe1"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000777(S7_RecSig_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "dcbb801c228ceef94331eff4f9481ac28d1e16506722d35d77ba5936768f7050",
     "sha256": "dcbb801c228ceef94331eff4f9481ac28d1e16506722d35d77ba5936768f7050",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "dcbb801c228ceef94331eff4f9481ac28d1e16506722d35d77ba5936768f7050"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000777(S7_RecSig_Rep1)/posterior_means.npz",
     "source_sha256": "ad754157e7dc228c1e95f2be6e89b74aca7895da0b5fdc1eb2026fc1cec4635f",
     "sha256": "ad754157e7dc228c1e95f2be6e89b74aca7895da0b5fdc1eb2026fc1cec4635f",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ad754157e7dc228c1e95f2be6e89b74aca7895da0b5fdc1eb2026fc1cec4635f"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000777(S7_RecSig_Rep1)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000777(S7_RecSig_Rep1)/history_elbo_train.csv",
     "source_sha256": "dcda14c6dba067465a41d2c2829082d51dfcdf71716d3aa456e180cbcc2b66d5",
     "sha256": "dcda14c6dba067465a41d2c2829082d51dfcdf71716d3aa456e180cbcc2b66d5",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "dcda14c6dba067465a41d2c2829082d51dfcdf71716d3aa456e180cbcc2b66d5"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000778(S6_Rec_Rep1)/small_cell_abundance_means.csv",
     "source_sha256": "b0f6752cc20ec6e118d4954e5e1db4faf983e85d42b9992ff6602f7b2661fb02",
     "sha256": "b0f6752cc20ec6e118d4954e5e1db4faf983e85d42b9992ff6602f7b2661fb02",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b0f6752cc20ec6e118d4954e5e1db4faf983e85d42b9992ff6602f7b2661fb02"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000778(S6_Rec_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "d6804ebbb7cb64147f7185df98906a259d8c32d7993ff31a9003b8bd1ee4e64d",
     "sha256": "d6804ebbb7cb64147f7185df98906a259d8c32d7993ff31a9003b8bd1ee4e64d",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "d6804ebbb7cb64147f7185df98906a259d8c32d7993ff31a9003b8bd1ee4e64d"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000778(S6_Rec_Rep1)/posterior_means.npz",
     "source_sha256": "b6d18b733e3d3258ab7902c7479d94632d9c43377544d85f78c9089c8b2f65b9",
     "sha256": "b6d18b733e3d3258ab7902c7479d94632d9c43377544d85f78c9089c8b2f65b9",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b6d18b733e3d3258ab7902c7479d94632d9c43377544d85f78c9089c8b2f65b9"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000778(S6_Rec_Rep1)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000778(S6_Rec_Rep1)/history_elbo_train.csv",
     "source_sha256": "489da1529d61e0460a167c5869873622e2c3a9b4e0afb57475f5d30555834c71",
     "sha256": "489da1529d61e0460a167c5869873622e2c3a9b4e0afb57475f5d30555834c71",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "489da1529d61e0460a167c5869873622e2c3a9b4e0afb57475f5d30555834c71"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/small_cell_abundance_means.csv",
-    "path": "workflows/spatial/resources/transfer/VISDS000779(S1_Cec_Rep2劣质)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2\u52a3\u8d28)/small_cell_abundance_means.csv",
+    "path": "workflows/spatial/resources/transfer/VISDS000779(S1_Cec_Rep2\u52a3\u8d28)/small_cell_abundance_means.csv",
     "source_sha256": "ef8263d71eb3c88400d76747bd8e2117737a462b7cb7c887d511c07b50b83eef",
     "sha256": "ef8263d71eb3c88400d76747bd8e2117737a462b7cb7c887d511c07b50b83eef",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ef8263d71eb3c88400d76747bd8e2117737a462b7cb7c887d511c07b50b83eef"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/spot_mlh1_and_abundance.csv.gz",
-    "path": "workflows/spatial/resources/transfer/VISDS000779(S1_Cec_Rep2劣质)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2\u52a3\u8d28)/spot_mlh1_and_abundance.csv.gz",
+    "path": "workflows/spatial/resources/transfer/VISDS000779(S1_Cec_Rep2\u52a3\u8d28)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "6ca4dca31b1a67fd56275867556b723d95c659181dada18a70d6afe161c0fcab",
     "sha256": "6ca4dca31b1a67fd56275867556b723d95c659181dada18a70d6afe161c0fcab",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "6ca4dca31b1a67fd56275867556b723d95c659181dada18a70d6afe161c0fcab"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/posterior_means.npz",
-    "path": "workflows/spatial/resources/transfer/VISDS000779(S1_Cec_Rep2劣质)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2\u52a3\u8d28)/posterior_means.npz",
+    "path": "workflows/spatial/resources/transfer/VISDS000779(S1_Cec_Rep2\u52a3\u8d28)/posterior_means.npz",
     "source_sha256": "ed546e61ed8bd37d08c436c3f18a016ffecd9d262f08c74ea09147c95adb2ef2",
     "sha256": "ed546e61ed8bd37d08c436c3f18a016ffecd9d262f08c74ea09147c95adb2ef2",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ed546e61ed8bd37d08c436c3f18a016ffecd9d262f08c74ea09147c95adb2ef2"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2劣质)/history_elbo_train.csv",
-    "path": "workflows/spatial/resources/transfer/VISDS000779(S1_Cec_Rep2劣质)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000779(S1_Cec_Rep2\u52a3\u8d28)/history_elbo_train.csv",
+    "path": "workflows/spatial/resources/transfer/VISDS000779(S1_Cec_Rep2\u52a3\u8d28)/history_elbo_train.csv",
     "source_sha256": "9f40033ca046638bc9484e1cd58cfdc3d1257e829756680b0bfaa7f83fb97e16",
     "sha256": "9f40033ca046638bc9484e1cd58cfdc3d1257e829756680b0bfaa7f83fb97e16",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9f40033ca046638bc9484e1cd58cfdc3d1257e829756680b0bfaa7f83fb97e16"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000780(S2_Col_R_Rep2)/small_cell_abundance_means.csv",
     "source_sha256": "e9b1593c814dba03489c46835b9e92ecfbb9847faabadd8c81fa60b279b9b2d4",
     "sha256": "e9b1593c814dba03489c46835b9e92ecfbb9847faabadd8c81fa60b279b9b2d4",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e9b1593c814dba03489c46835b9e92ecfbb9847faabadd8c81fa60b279b9b2d4"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000780(S2_Col_R_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "324390dbb98087913e3b6c7e03c2d1a95e3f8d36850a72291de9220e959c3634",
     "sha256": "324390dbb98087913e3b6c7e03c2d1a95e3f8d36850a72291de9220e959c3634",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "324390dbb98087913e3b6c7e03c2d1a95e3f8d36850a72291de9220e959c3634"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000780(S2_Col_R_Rep2)/posterior_means.npz",
     "source_sha256": "7a8c59ccbd8150f87da824c4350f0d6a5c03d43b3d5d91de0d79f1c32fd30082",
     "sha256": "7a8c59ccbd8150f87da824c4350f0d6a5c03d43b3d5d91de0d79f1c32fd30082",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "7a8c59ccbd8150f87da824c4350f0d6a5c03d43b3d5d91de0d79f1c32fd30082"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000780(S2_Col_R_Rep2)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000780(S2_Col_R_Rep2)/history_elbo_train.csv",
     "source_sha256": "75a5ab70949eadfc440f8f7e7c1a7c3daae73f7a03c2661ca5fb51407e8a1ac5",
     "sha256": "75a5ab70949eadfc440f8f7e7c1a7c3daae73f7a03c2661ca5fb51407e8a1ac5",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "75a5ab70949eadfc440f8f7e7c1a7c3daae73f7a03c2661ca5fb51407e8a1ac5"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000781(S7_RecSig_Rep2)/small_cell_abundance_means.csv",
     "source_sha256": "2702f6f711ae8296066624cbfd7e3efdca177acdd8ba4eb5dd0871db8599a8f2",
     "sha256": "2702f6f711ae8296066624cbfd7e3efdca177acdd8ba4eb5dd0871db8599a8f2",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2702f6f711ae8296066624cbfd7e3efdca177acdd8ba4eb5dd0871db8599a8f2"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000781(S7_RecSig_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "cbe4e4a0337a68b963568cba9162999a3557b88b83ea73090784cbc99b14abd5",
     "sha256": "cbe4e4a0337a68b963568cba9162999a3557b88b83ea73090784cbc99b14abd5",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "cbe4e4a0337a68b963568cba9162999a3557b88b83ea73090784cbc99b14abd5"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000781(S7_RecSig_Rep2)/posterior_means.npz",
     "source_sha256": "c249e802209bf4192d8976112870f13ba696f9f789cd6ac018225b97a02cb8df",
     "sha256": "c249e802209bf4192d8976112870f13ba696f9f789cd6ac018225b97a02cb8df",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c249e802209bf4192d8976112870f13ba696f9f789cd6ac018225b97a02cb8df"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000781(S7_RecSig_Rep2)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000781(S7_RecSig_Rep2)/history_elbo_train.csv",
     "source_sha256": "ca9ab73b0331d63c27611b810d98963ec834aef5a076701d616288c19d769493",
     "sha256": "ca9ab73b0331d63c27611b810d98963ec834aef5a076701d616288c19d769493",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ca9ab73b0331d63c27611b810d98963ec834aef5a076701d616288c19d769493"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000782(S6_Rec_Rep2)/small_cell_abundance_means.csv",
     "source_sha256": "c53cf8772b68f8a1769e263579b0c37a358b4487167fe55ceee5938be5e097f3",
     "sha256": "c53cf8772b68f8a1769e263579b0c37a358b4487167fe55ceee5938be5e097f3",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c53cf8772b68f8a1769e263579b0c37a358b4487167fe55ceee5938be5e097f3"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000782(S6_Rec_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "02930cb7e43dd4adc285f13b683588bc2492439cec36ff70fd7f278da3a151f0",
     "sha256": "02930cb7e43dd4adc285f13b683588bc2492439cec36ff70fd7f278da3a151f0",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "02930cb7e43dd4adc285f13b683588bc2492439cec36ff70fd7f278da3a151f0"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000782(S6_Rec_Rep2)/posterior_means.npz",
     "source_sha256": "2bfa43795bfe2cd05e36f0b7e53341796df9c3476a06032d1b8c3ba54ba995b2",
     "sha256": "2bfa43795bfe2cd05e36f0b7e53341796df9c3476a06032d1b8c3ba54ba995b2",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2bfa43795bfe2cd05e36f0b7e53341796df9c3476a06032d1b8c3ba54ba995b2"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000782(S6_Rec_Rep2)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000782(S6_Rec_Rep2)/history_elbo_train.csv",
     "source_sha256": "c7fc3007530e835b665361d320f18649a5a3f43bf682b86667ae49ff84ea6d6d",
     "sha256": "c7fc3007530e835b665361d320f18649a5a3f43bf682b86667ae49ff84ea6d6d",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "c7fc3007530e835b665361d320f18649a5a3f43bf682b86667ae49ff84ea6d6d"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000783(S4_Col_Sig_Rep1)/small_cell_abundance_means.csv",
     "source_sha256": "2d55f5bce9e7ffc5166dff14c308628b09f7d38399b053679900360d95fcf085",
     "sha256": "2d55f5bce9e7ffc5166dff14c308628b09f7d38399b053679900360d95fcf085",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2d55f5bce9e7ffc5166dff14c308628b09f7d38399b053679900360d95fcf085"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000783(S4_Col_Sig_Rep1)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "ac8091ebc682d41067f1c31d0b311935f6ec95cf01ce8ce64d8ee6f69990fa4b",
     "sha256": "ac8091ebc682d41067f1c31d0b311935f6ec95cf01ce8ce64d8ee6f69990fa4b",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ac8091ebc682d41067f1c31d0b311935f6ec95cf01ce8ce64d8ee6f69990fa4b"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000783(S4_Col_Sig_Rep1)/posterior_means.npz",
     "source_sha256": "34ee3b8fb11a594994e509fb40446425ec28f0216bb6c9b638bc64b00e271a4e",
     "sha256": "34ee3b8fb11a594994e509fb40446425ec28f0216bb6c9b638bc64b00e271a4e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "34ee3b8fb11a594994e509fb40446425ec28f0216bb6c9b638bc64b00e271a4e"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000783(S4_Col_Sig_Rep1)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000783(S4_Col_Sig_Rep1)/history_elbo_train.csv",
     "source_sha256": "518a992c57f912decec74daf29d5dfb9c3ee01589c2488e2d823cf6b26848ce7",
     "sha256": "518a992c57f912decec74daf29d5dfb9c3ee01589c2488e2d823cf6b26848ce7",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "518a992c57f912decec74daf29d5dfb9c3ee01589c2488e2d823cf6b26848ce7"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/small_cell_abundance_means.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/small_cell_abundance_means.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000784(S4_Col_Sig_Rep2)/small_cell_abundance_means.csv",
     "source_sha256": "64b90f193452501b27c7a2c3c303ce7b4265e4bc1ae72ba0f474020ab89cdac7",
     "sha256": "64b90f193452501b27c7a2c3c303ce7b4265e4bc1ae72ba0f474020ab89cdac7",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "64b90f193452501b27c7a2c3c303ce7b4265e4bc1ae72ba0f474020ab89cdac7"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/spot_mlh1_and_abundance.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "path": "workflows/spatial/resources/transfer/VISDS000784(S4_Col_Sig_Rep2)/spot_mlh1_and_abundance.csv.gz",
     "source_sha256": "48ab8c71b5d2abaffbbf6c8e796bd64ef971ba945741568d65cd9bb09f175c21",
     "sha256": "48ab8c71b5d2abaffbbf6c8e796bd64ef971ba945741568d65cd9bb09f175c21",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "48ab8c71b5d2abaffbbf6c8e796bd64ef971ba945741568d65cd9bb09f175c21"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/posterior_means.npz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/posterior_means.npz",
     "path": "workflows/spatial/resources/transfer/VISDS000784(S4_Col_Sig_Rep2)/posterior_means.npz",
     "source_sha256": "78e2d41c6f8fcefa5c630d23829a5f120c63c43fed7d2b1fdeaa17b7ee751a0d",
     "sha256": "78e2d41c6f8fcefa5c630d23829a5f120c63c43fed7d2b1fdeaa17b7ee751a0d",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "78e2d41c6f8fcefa5c630d23829a5f120c63c43fed7d2b1fdeaa17b7ee751a0d"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/history_elbo_train.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/VISDS000784(S4_Col_Sig_Rep2)/history_elbo_train.csv",
     "path": "workflows/spatial/resources/transfer/VISDS000784(S4_Col_Sig_Rep2)/history_elbo_train.csv",
     "source_sha256": "517679ddfc7eda4d995a71a945006b37bb1c559eca444a84b23cb1f7548877b9",
     "sha256": "517679ddfc7eda4d995a71a945006b37bb1c559eca444a84b23cb1f7548877b9",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "517679ddfc7eda4d995a71a945006b37bb1c559eca444a84b23cb1f7548877b9"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/report/article/weighted_spatial_update/ecology_only_comparator.joblib",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/report/article/weighted_spatial_update/ecology_only_comparator.joblib",
     "path": "workflows/spatial/resources/report/ecology_only_comparator.joblib",
     "source_sha256": "97d84a1bef35a9693bb7e3bda2bc9e46700ae432cde9dcca7f230ebadd5f10a5",
-    "sha256": "97d84a1bef35a9693bb7e3bda2bc9e46700ae432cde9dcca7f230ebadd5f10a5",
-    "adaptation": "byte-preserved"
+    "sha256": "1dcc42b0de61ad33e886c10e74c088d1ae55355605189ea8134c2f4747bb7cfd",
+    "adaptation": "Current17 scoring/data/plot update; previous18 source/hash separately preserved",
+    "previous_release_sha256": "97d84a1bef35a9693bb7e3bda2bc9e46700ae432cde9dcca7f230ebadd5f10a5"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/report/article/weighted_spatial_update/spatial_classifier_features.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/report/article/weighted_spatial_update/spatial_classifier_features.csv",
     "path": "workflows/spatial/resources/report/spatial_classifier_features.csv",
     "source_sha256": "dae6ae4bb339039f6e86066b0450b10ef9928840a4abafef8ee771e49c4325d1",
-    "sha256": "dae6ae4bb339039f6e86066b0450b10ef9928840a4abafef8ee771e49c4325d1",
-    "adaptation": "byte-preserved"
+    "sha256": "9d1a91222eef5b6aca33de64233cbe08631eeaad56f314f8ec5e3b8bede2c7a6",
+    "adaptation": "Current17 scoring/data/plot update; previous18 source/hash separately preserved",
+    "previous_release_sha256": "dae6ae4bb339039f6e86066b0450b10ef9928840a4abafef8ee771e49c4325d1"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/report/article/weighted_spatial_update/section_predictions.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/report/article/weighted_spatial_update/section_predictions.csv",
     "path": "workflows/spatial/resources/report/section_predictions.csv",
     "source_sha256": "2b20cb82073d41e4bf39d67465338c17b1eb16ebd289ead56c6d9441864de6e9",
-    "sha256": "2b20cb82073d41e4bf39d67465338c17b1eb16ebd289ead56c6d9441864de6e9",
-    "adaptation": "byte-preserved"
+    "sha256": "37c38805f18ff38382d836fe241f4b468f7abb33ac456a927643513e9f4d20bf",
+    "adaptation": "Current17 scoring/data/plot update; previous18 source/hash separately preserved",
+    "previous_release_sha256": "2b20cb82073d41e4bf39d67465338c17b1eb16ebd289ead56c6d9441864de6e9"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/report/article/weighted_spatial_update/patient_predictions.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/report/article/weighted_spatial_update/patient_predictions.csv",
     "path": "workflows/spatial/resources/report/patient_predictions.csv",
     "source_sha256": "9b5ada486f1c3ad2427a3c089507e2f54a59e89c4b5fc7f3d0989f2c0b1e9607",
-    "sha256": "9b5ada486f1c3ad2427a3c089507e2f54a59e89c4b5fc7f3d0989f2c0b1e9607",
-    "adaptation": "byte-preserved"
+    "sha256": "197a8e50f11ae359e1bde3dfb0419b3aa798a517686d4b514473ad0d528e72cb",
+    "adaptation": "Current17 scoring/data/plot update; previous18 source/hash separately preserved",
+    "previous_release_sha256": "9b5ada486f1c3ad2427a3c089507e2f54a59e89c4b5fc7f3d0989f2c0b1e9607"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/report/article/weighted_spatial_update/descriptive_AUROC.csv",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/report/article/weighted_spatial_update/descriptive_AUROC.csv",
     "path": "workflows/spatial/resources/report/descriptive_AUROC.csv",
     "source_sha256": "0ff9e7d7ba4b3ece2687848b2a32d24c8a0b5fac24d323dbabb699e3bb474195",
-    "sha256": "0ff9e7d7ba4b3ece2687848b2a32d24c8a0b5fac24d323dbabb699e3bb474195",
-    "adaptation": "byte-preserved"
+    "sha256": "25ad881e24dc1ee151ba8d94019a3905fc2873e2be53f6abb3af83e8d5bc7744",
+    "adaptation": "Current17 scoring/data/plot update; previous18 source/hash separately preserved",
+    "previous_release_sha256": "0ff9e7d7ba4b3ece2687848b2a32d24c8a0b5fac24d323dbabb699e3bb474195"
   },
   {
-    "source": "MSIClassifier/code/spatial/resources/project_snapshot/最终模型/report/article/figure_layout_corrections/Figure04_spot_display_values.csv.gz",
+    "source": "MSIClassifier/code/spatial/resources/project_snapshot/\u6700\u7ec8\u6a21\u578b/report/article/figure_layout_corrections/Figure04_spot_display_values.csv.gz",
     "path": "workflows/spatial/resources/Figure04_spot_display_values.csv.gz",
     "source_sha256": "89f02ddfe66f2a7895a23f37fe79336ffd4414f6ea6d23630127eeadb9e8ba1f",
-    "sha256": "89f02ddfe66f2a7895a23f37fe79336ffd4414f6ea6d23630127eeadb9e8ba1f",
-    "adaptation": "byte-preserved"
+    "sha256": "1696242d64670dfabd1e1e07edf6f876be5da31069dad488de04dd72e90db695",
+    "adaptation": "Current17 scoring/data/plot update; previous18 source/hash separately preserved",
+    "previous_release_sha256": "89f02ddfe66f2a7895a23f37fe79336ffd4414f6ea6d23630127eeadb9e8ba1f"
   },
   {
     "source": "MSIClassifier/code/spatial/fix_spatial_and_bulk_figure_layout.py",
     "path": "workflows/spatial/plot_spatial.py",
     "source_sha256": "1a725e1e3c08614280e44461ef0c6cb472372bd488a3b1696b3117dbed2fdccb",
-    "sha256": "d49e70c3e2a798c89c304b00e5618e052f4854dfa37e46f6768f73981de262e4",
-    "adaptation": "retained scientific spatial() only; document editing omitted"
+    "sha256": "42a273b1507801f43c693d2195c4e26b0fc50204495b24fe84be7bcbfde7611d",
+    "adaptation": "Current17 scoring/data/plot update; previous18 source/hash separately preserved",
+    "previous_release_sha256": "d49e70c3e2a798c89c304b00e5618e052f4854dfa37e46f6768f73981de262e4"
   },
   {
     "source": "MSIClassifier/code/bayesprism/paths.py",
     "path": "workflows/bayesprism/paths.py",
     "source_sha256": "df5b64f72660edc84f94d0f11edc5bfa1dd30075350dc07236e5694a16bf272b",
     "sha256": "df5b64f72660edc84f94d0f11edc5bfa1dd30075350dc07236e5694a16bf272b",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "df5b64f72660edc84f94d0f11edc5bfa1dd30075350dc07236e5694a16bf272b"
   },
   {
     "source": "MSIClassifier/code/bayesprism/runtime.py",
     "path": "workflows/bayesprism/runtime.py",
     "source_sha256": "b85a52832086b80088a652e11f1b5e36318be7a964bc6c14c3cbfcd909173336",
     "sha256": "b85a52832086b80088a652e11f1b5e36318be7a964bc6c14c3cbfcd909173336",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b85a52832086b80088a652e11f1b5e36318be7a964bc6c14c3cbfcd909173336"
   },
   {
     "source": "MSIClassifier/code/bayesprism/prepare.py",
     "path": "workflows/bayesprism/prepare.py",
     "source_sha256": "ccedd9cd90cfb08e3a84cfa966f71dac824ca5902100015851041a6ef98bed70",
     "sha256": "ccedd9cd90cfb08e3a84cfa966f71dac824ca5902100015851041a6ef98bed70",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ccedd9cd90cfb08e3a84cfa966f71dac824ca5902100015851041a6ef98bed70"
   },
   {
     "source": "MSIClassifier/code/bayesprism/run_cohort.py",
     "path": "workflows/bayesprism/run_cohort.py",
     "source_sha256": "9528969c222518e94b660c2935712dbcf7e5c10751da8a4e6cb15e0d339ec9d2",
     "sha256": "9528969c222518e94b660c2935712dbcf7e5c10751da8a4e6cb15e0d339ec9d2",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9528969c222518e94b660c2935712dbcf7e5c10751da8a4e6cb15e0d339ec9d2"
   },
   {
     "source": "MSIClassifier/code/bayesprism/launch.py",
     "path": "workflows/bayesprism/launch.py",
     "source_sha256": "bd4af9c7df481c73e9426fdb1a9bc1adfbda5b6abf880ee9bb3e00cfa437d2e6",
     "sha256": "bd4af9c7df481c73e9426fdb1a9bc1adfbda5b6abf880ee9bb3e00cfa437d2e6",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "bd4af9c7df481c73e9426fdb1a9bc1adfbda5b6abf880ee9bb3e00cfa437d2e6"
   },
   {
     "source": "MSIClassifier/code/bayesprism/postprocess.py",
     "path": "workflows/bayesprism/postprocess.py",
     "source_sha256": "f7c018fab15c831ba846eac82b1028d026656b020f1a5d9639b1aa4ef4231637",
     "sha256": "fe3c9e63b6b0ab25e4ed10b8e19a6d974d9c95501bf431b41a57b2d83e19de90",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "fe3c9e63b6b0ab25e4ed10b8e19a6d974d9c95501bf431b41a57b2d83e19de90"
   },
   {
     "source": "MSIClassifier/code/bayesprism/test_port.py",
     "path": "workflows/bayesprism/test_port.py",
     "source_sha256": "4edefd7a5568f6b4e800f968502e93f0af7bbad0c7199335412c76d6f0d397af",
     "sha256": "4edefd7a5568f6b4e800f968502e93f0af7bbad0c7199335412c76d6f0d397af",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "4edefd7a5568f6b4e800f968502e93f0af7bbad0c7199335412c76d6f0d397af"
   },
   {
     "source": "MSIClassifier/code/bayesprism/test_smoke.py",
     "path": "workflows/bayesprism/test_smoke.py",
     "source_sha256": "def91a9ec745c098f08fd687c895355eeff17fac05ff9942627f021bc0018aec",
     "sha256": "def91a9ec745c098f08fd687c895355eeff17fac05ff9942627f021bc0018aec",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "def91a9ec745c098f08fd687c895355eeff17fac05ff9942627f021bc0018aec"
   },
   {
     "source": "MSIClassifier/code/bayesprism/LICENSE_pybayesprism.txt",
     "path": "workflows/bayesprism/LICENSE_pybayesprism.txt",
     "source_sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde",
     "sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde"
   },
   {
     "source": "MSIClassifier/code/bayesprism/requirements.txt",
     "path": "workflows/bayesprism/requirements.txt",
     "source_sha256": "f9ce39eb12c76d759152e5cdb259de14477a2e1aec95903a822453c3dca021c2",
     "sha256": "f9ce39eb12c76d759152e5cdb259de14477a2e1aec95903a822453c3dca021c2",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "f9ce39eb12c76d759152e5cdb259de14477a2e1aec95903a822453c3dca021c2"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/__init__.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/__init__.py",
     "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/compare.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/compare.py",
     "source_sha256": "9e94984eca9dcf4dba00df21ec124a3a68a44810128a05248734ac2b9327fd88",
     "sha256": "9e94984eca9dcf4dba00df21ec124a3a68a44810128a05248734ac2b9327fd88",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "9e94984eca9dcf4dba00df21ec124a3a68a44810128a05248734ac2b9327fd88"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/extract.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/extract.py",
     "source_sha256": "3fbf072413e503a96a9e7dd57dd9f83f76e7d0c016c96715815a49f8184c16f7",
     "sha256": "3fbf072413e503a96a9e7dd57dd9f83f76e7d0c016c96715815a49f8184c16f7",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "3fbf072413e503a96a9e7dd57dd9f83f76e7d0c016c96715815a49f8184c16f7"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/gibbs.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/gibbs.py",
     "source_sha256": "18d2a067e04100297d678585e63cce34bf81445d3d5908115d9e507ce3247aad",
     "sha256": "18d2a067e04100297d678585e63cce34bf81445d3d5908115d9e507ce3247aad",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "18d2a067e04100297d678585e63cce34bf81445d3d5908115d9e507ce3247aad"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/joint_post.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/joint_post.py",
     "source_sha256": "09296d3645a70cc85bd0b7e482cb27c943b13d9f8e1c090d3517b6415e4cb69a",
     "sha256": "09296d3645a70cc85bd0b7e482cb27c943b13d9f8e1c090d3517b6415e4cb69a",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "09296d3645a70cc85bd0b7e482cb27c943b13d9f8e1c090d3517b6415e4cb69a"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/main.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/main.py",
     "source_sha256": "30b95c8e16dcf29168e6bb0ae74447c9f426bda901e65d2d7aaab9c7d0b0f305",
     "sha256": "30b95c8e16dcf29168e6bb0ae74447c9f426bda901e65d2d7aaab9c7d0b0f305",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "30b95c8e16dcf29168e6bb0ae74447c9f426bda901e65d2d7aaab9c7d0b0f305"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/optim.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/optim.py",
     "source_sha256": "4c72a82d071535d3eb8ee6b31d6301451f3a3c3d24f599162883f81bd0ff36fb",
     "sha256": "4c72a82d071535d3eb8ee6b31d6301451f3a3c3d24f599162883f81bd0ff36fb",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "4c72a82d071535d3eb8ee6b31d6301451f3a3c3d24f599162883f81bd0ff36fb"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/prism.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/prism.py",
     "source_sha256": "7297cfe546c0716f78a8bb1b937bd9ef29e284e0ffdbebe0d22204d39bfd9400",
     "sha256": "7297cfe546c0716f78a8bb1b937bd9ef29e284e0ffdbebe0d22204d39bfd9400",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "7297cfe546c0716f78a8bb1b937bd9ef29e284e0ffdbebe0d22204d39bfd9400"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/process_input.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/process_input.py",
     "source_sha256": "82fe86eeae834bd3046d99b02cfbcaa153ac085aaee5b4be92f5256bbd125ec2",
     "sha256": "82fe86eeae834bd3046d99b02cfbcaa153ac085aaee5b4be92f5256bbd125ec2",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "82fe86eeae834bd3046d99b02cfbcaa153ac085aaee5b4be92f5256bbd125ec2"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/references.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/references.py",
     "source_sha256": "3d16961f23084ec4d9c363d5beea95d160e06241ab0eba2afaa3d96defb40d64",
     "sha256": "3d16961f23084ec4d9c363d5beea95d160e06241ab0eba2afaa3d96defb40d64",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "3d16961f23084ec4d9c363d5beea95d160e06241ab0eba2afaa3d96defb40d64"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/run.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/run.py",
     "source_sha256": "0d4ee2acf4bf48c5551a293f082236fd413c3f73f62c3c8e77236e6f4cc15e0c",
     "sha256": "0d4ee2acf4bf48c5551a293f082236fd413c3f73f62c3c8e77236e6f4cc15e0c",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "0d4ee2acf4bf48c5551a293f082236fd413c3f73f62c3c8e77236e6f4cc15e0c"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/theta_post.py",
     "path": "workflows/bayesprism/vendor/pybayesprism/theta_post.py",
     "source_sha256": "47d695d54f6c4351a8f10d68f25b48265d86a8dd3b0029d5ae5cceb50503af7d",
     "sha256": "47d695d54f6c4351a8f10d68f25b48265d86a8dd3b0029d5ae5cceb50503af7d",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "47d695d54f6c4351a8f10d68f25b48265d86a8dd3b0029d5ae5cceb50503af7d"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/txt/gencode.v22.broad.category.txt",
     "path": "workflows/bayesprism/vendor/pybayesprism/txt/gencode.v22.broad.category.txt",
     "source_sha256": "ba95292c0216d7e57229d8489b534474302168e7d6aae84316858e72c013c6f6",
     "sha256": "ba95292c0216d7e57229d8489b534474302168e7d6aae84316858e72c013c6f6",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ba95292c0216d7e57229d8489b534474302168e7d6aae84316858e72c013c6f6"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/txt/genelist.hs.new.txt",
     "path": "workflows/bayesprism/vendor/pybayesprism/txt/genelist.hs.new.txt",
     "source_sha256": "216ed14fd35deccb28d2c7ecaa08460578741a3f55e273ccbc90cf0d98c5a5a0",
     "sha256": "216ed14fd35deccb28d2c7ecaa08460578741a3f55e273ccbc90cf0d98c5a5a0",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "216ed14fd35deccb28d2c7ecaa08460578741a3f55e273ccbc90cf0d98c5a5a0"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism/txt/genelist.mm.new.txt",
     "path": "workflows/bayesprism/vendor/pybayesprism/txt/genelist.mm.new.txt",
     "source_sha256": "e1477e40fd38df5d8b9b64866cf16b4476973ccc9b15f410d6bb22648a5f8b19",
     "sha256": "e1477e40fd38df5d8b9b64866cf16b4476973ccc9b15f410d6bb22648a5f8b19",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e1477e40fd38df5d8b9b64866cf16b4476973ccc9b15f410d6bb22648a5f8b19"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism-0.1.0.dist-info/INSTALLER",
     "path": "workflows/bayesprism/vendor/pybayesprism-0.1.0.dist-info/INSTALLER",
     "source_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
     "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism-0.1.0.dist-info/LICENSE",
     "path": "workflows/bayesprism/vendor/pybayesprism-0.1.0.dist-info/LICENSE",
     "source_sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde",
     "sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism-0.1.0.dist-info/METADATA",
     "path": "workflows/bayesprism/vendor/pybayesprism-0.1.0.dist-info/METADATA",
     "source_sha256": "e168b37ea8d44eae3cb5248b2da68ce6083f7c3c6080d657de0e14bf2f362aea",
     "sha256": "e168b37ea8d44eae3cb5248b2da68ce6083f7c3c6080d657de0e14bf2f362aea",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e168b37ea8d44eae3cb5248b2da68ce6083f7c3c6080d657de0e14bf2f362aea"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism-0.1.0.dist-info/RECORD",
     "path": "workflows/bayesprism/vendor/pybayesprism-0.1.0.dist-info/RECORD",
     "source_sha256": "48ec0b32e92c2de4fc8e6c668e506f7d6bf5328911e34b978af03783ddbe9229",
     "sha256": "48ec0b32e92c2de4fc8e6c668e506f7d6bf5328911e34b978af03783ddbe9229",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "48ec0b32e92c2de4fc8e6c668e506f7d6bf5328911e34b978af03783ddbe9229"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism-0.1.0.dist-info/REQUESTED",
     "path": "workflows/bayesprism/vendor/pybayesprism-0.1.0.dist-info/REQUESTED",
     "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism-0.1.0.dist-info/WHEEL",
     "path": "workflows/bayesprism/vendor/pybayesprism-0.1.0.dist-info/WHEEL",
     "source_sha256": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
     "sha256": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb"
   },
   {
     "source": "MSIClassifier/code/bayesprism/vendor/pybayesprism-0.1.0.dist-info/top_level.txt",
     "path": "workflows/bayesprism/vendor/pybayesprism-0.1.0.dist-info/top_level.txt",
     "source_sha256": "083a6f878c16debfc8de075b07630514aaa9348492bcc8219ac1d4b9bd9e2fbd",
     "sha256": "083a6f878c16debfc8de075b07630514aaa9348492bcc8219ac1d4b9bd9e2fbd",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "083a6f878c16debfc8de075b07630514aaa9348492bcc8219ac1d4b9bd9e2fbd"
   },
   {
     "source": "MSIClassifier/code/bayesprism/resources/reference/cell_manifest.csv.gz",
     "path": "workflows/bayesprism/resources/reference/cell_manifest.csv.gz",
     "source_sha256": "284387ce1e6e7565801917afad5d69b8fd1e9e08ca476277daa7c30997971671",
     "sha256": "284387ce1e6e7565801917afad5d69b8fd1e9e08ca476277daa7c30997971671",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "284387ce1e6e7565801917afad5d69b8fd1e9e08ca476277daa7c30997971671"
   },
   {
     "source": "MSIClassifier/code/bayesprism/resources/reference/gene_audit.csv",
     "path": "workflows/bayesprism/resources/reference/gene_audit.csv",
     "source_sha256": "b801fcc71a60a11c75693e767f72edb42f2baebd7c1366bc3e5212c34a736f93",
     "sha256": "b801fcc71a60a11c75693e767f72edb42f2baebd7c1366bc3e5212c34a736f93",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "b801fcc71a60a11c75693e767f72edb42f2baebd7c1366bc3e5212c34a736f93"
   },
   {
     "source": "MSIClassifier/code/bayesprism/resources/reference/mapping.csv",
     "path": "workflows/bayesprism/resources/reference/mapping.csv",
     "source_sha256": "24cc5a57e397cbe472d18f98e713ee2b29fc5fcf580e4c8e93dad62b728ffd48",
     "sha256": "24cc5a57e397cbe472d18f98e713ee2b29fc5fcf580e4c8e93dad62b728ffd48",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "24cc5a57e397cbe472d18f98e713ee2b29fc5fcf580e4c8e93dad62b728ffd48"
   },
   {
     "source": "MSIClassifier/code/bayesprism/resources/reference/raw_count_profiles.pkl",
     "path": "workflows/bayesprism/resources/reference/raw_count_profiles.pkl",
     "source_sha256": "341edbf7cf085be2c4312c8d560e9a29091a332ec1970ca8df16b35bbeb0685c",
     "sha256": "341edbf7cf085be2c4312c8d560e9a29091a332ec1970ca8df16b35bbeb0685c",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "341edbf7cf085be2c4312c8d560e9a29091a332ec1970ca8df16b35bbeb0685c"
   },
   {
     "source": "MSIClassifier/code/bayesprism/resources/reference/sample_manifest.csv",
     "path": "workflows/bayesprism/resources/reference/sample_manifest.csv",
     "source_sha256": "8bcee18c69a283184519f04ed3f4922c07ea69ae31ced076eebe219986ba864c",
     "sha256": "8bcee18c69a283184519f04ed3f4922c07ea69ae31ced076eebe219986ba864c",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "8bcee18c69a283184519f04ed3f4922c07ea69ae31ced076eebe219986ba864c"
   },
   {
     "source": "MSIClassifier/code/reporting/historical_bulk12_build/build_tables_figures.py",
     "path": "workflows/plots/plot_bulk.py",
     "source_sha256": "a2dafccb37f48d1f7e52eaaccd111f72053dc7cab8add66c78e8533b41f72dda",
-    "sha256": "ae4638a9afcf193f5a2db5701c132ed8e2be6ca85347615cc252e87d3261442f",
-    "adaptation": "retained scientific plotting functions; document and table builders omitted"
+    "sha256": "d9f7127e82677d732b074fc329382fb3495b0a5be414f9fc95cb4281d380c285",
+    "adaptation": "Current scRNA development/external-evaluation description and figure labels clarified; numerical artifacts unchanged",
+    "previous_release_sha256": "ae4638a9afcf193f5a2db5701c132ed8e2be6ca85347615cc252e87d3261442f"
   },
   {
-    "source": "MSIClassifier/code/reporting/resources/plot_scRNA_sensitivity_block.py",
-    "path": "workflows/plots/plot_scRNA_sensitivity_block.py",
-    "source_sha256": "48afaf85984cab30c43967e4f3483a5040b016b5fb1419adfc20f13f84af5a62",
-    "sha256": "48afaf85984cab30c43967e4f3483a5040b016b5fb1419adfc20f13f84af5a62",
-    "adaptation": "byte-preserved"
-  },
-  {
-    "source": "MSIClassifier/code/scRNA/project/最终模型/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/sample_counts_and_weights.csv",
+    "source": "MSIClassifier/code/scRNA/project/\u6700\u7ec8\u6a21\u578b/data/scRNA/result/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/sample_counts_and_weights.csv",
     "path": "workflows/scRNA/resources/diagnostics/shared18_malignant_fraction_weighted_mlh1_seed2026/sample_counts_and_weights.csv",
     "source_sha256": "72ddcc766c0ad88e6909264494a5c4ce4362c71e1c58dabe10aae75e80eef332",
     "sha256": "72ddcc766c0ad88e6909264494a5c4ce4362c71e1c58dabe10aae75e80eef332",
-    "adaptation": "byte-preserved"
-  },
-  {
-    "source": "MSIClassifier/code/reporting/historical_scRNA_build/merge_figures.py",
-    "path": "workflows/plots/plot_scRNA.py",
-    "source_sha256": "6c01e2027cf578ef501a46c58d721a2bc651281ab76a9133247de09a4bac42a4",
-    "sha256": "d28d52f57f384a16817fbebc5baa19e5d5c56eb084f4f063cc3920481c163f60",
-    "adaptation": "numeric figure source only; original document mutations omitted"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "72ddcc766c0ad88e6909264494a5c4ce4362c71e1c58dabe10aae75e80eef332"
   },
   {
     "source": "MSIClassifier/environment/requirements_core.txt",
     "path": "requirements.txt",
     "source_sha256": "2bab95b708c00797b4e6fc6f9c12e5d1507d4f525d558f77e7dccc0eac86581e",
     "sha256": "2bab95b708c00797b4e6fc6f9c12e5d1507d4f525d558f77e7dccc0eac86581e",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "2bab95b708c00797b4e6fc6f9c12e5d1507d4f525d558f77e7dccc0eac86581e"
   },
   {
     "source": "MSIClassifier/environment/current_runtime_versions.json",
     "path": "provenance/runtime_versions.json",
     "source_sha256": "056779b275cca2fc5bbf2ad0837b647a9559c322274e174937dc8e5e0577ffe7",
     "sha256": "056779b275cca2fc5bbf2ad0837b647a9559c322274e174937dc8e5e0577ffe7",
-    "adaptation": "byte-preserved"
+    "adaptation": "byte-preserved",
+    "previous_release_sha256": "056779b275cca2fc5bbf2ad0837b647a9559c322274e174937dc8e5e0577ffe7"
   },
   {
     "source": "MSIClassifier/code/bulk/classifier_snapshot/verify_analysis.py",
     "path": "workflows/bulk/classifier_snapshot/verify_analysis.py",
     "source_sha256": "7de73c311ff1c07e317fa8926b591de23ff23994d133a811ca472839d0acc80a",
     "sha256": "7de73c311ff1c07e317fa8926b591de23ff23994d133a811ca472839d0acc80a",
-    "adaptation": "byte-preserved refit verifier; generated results supplied as argument"
+    "adaptation": "byte-preserved refit verifier; generated results supplied as argument",
+    "previous_release_sha256": "7de73c311ff1c07e317fa8926b591de23ff23994d133a811ca472839d0acc80a"
   }
 ]

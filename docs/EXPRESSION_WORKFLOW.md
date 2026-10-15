@@ -176,9 +176,9 @@ python predict.py scrna \
 
 For already normalized expression, replace `--scale counts` with `--scale log1p-cp10k` and select the corresponding layer or X. This declaration requires natural-log `log1p` of full-library CP10k expression; HVG-only, scaled, residual, log2 and doubly normalized matrices are incompatible. Library normalization occurs **before** genomic/model-gene subsetting. A genuine raw matrix must have nonnegative integer values and no zero-library cells.
 
-The workflow retains samples with at least 200 total cells, independently applies the frozen historical ecology Major/CRC models with exact gene orders, and separately uses the current seed2026 Major model for Strom/Epi calls in the CNV branch. CNV uses Strom references only, a unique union of at most 100,000 tumor-tissue cells and 20,000 reference cells, and the reference q95 score rule. It calculates the 18 within-parent proportions and weighted MLH1 from the same retained CNV epithelial/candidate set, then applies the current frozen scaler/LDA.
+The workflow retains samples with at least 200 total cells, independently applies the frozen historical ecology Major/CRC models with exact gene orders, and separately uses the current seed2026 Major model for Strom/Epi calls in the CNV branch. CNV uses Strom references only, a unique union of at most 100,000 tumor-tissue cells and 20,000 reference cells, and the reference q95 score rule. It calculates the 17 within-parent proportions and weighted MLH1 from the same retained CNV epithelial/candidate set, then applies the current frozen scaler/LDA.
 
-The ecology family supports all 18 required classifier types; it does not measure all 71 candidate subtypes. The separate newer full hierarchical family supports 13/18, so it is not silently substituted. Historical checkpoint training seeds remain their actual values (Major 20260723; some CRC seeds unknown), while all new explicit RNG settings are 2026. Missing model genes are zero-aligned following the historical annotation implementation and reported; an unsupported subtype is never zero-filled.
+The ecology family supports all 17 required classifier types; it does not measure all 71 candidate subtypes. The separate newer full hierarchical family supports 12/17, so it is not silently substituted. Historical checkpoint training seeds remain their actual values (Major 20260723; some CRC seeds unknown), while all new explicit RNG settings are 2026. Missing model genes are zero-aligned following the historical annotation implementation and reported; an unsupported subtype is never zero-filled.
 
 For `--dataset GSE178341`, original `clTopLevel` and `cl295v11SubShort` must be supplied and are used as the fixed reference definitions.
 
@@ -218,7 +218,7 @@ sum_spots(candidate_MLH1_log1p_CP10k * candidate_abundance)
  / sum_spots(candidate_abundance + other_epithelial_abundance)
 ```
 
-The 18 reconstructed subtype/parent ratios and this proxy are passed to the frozen current scRNA classifier. `Epi_other` is not confirmed normal epithelium. Reference epoch history was not recovered; a fixed section budget does not establish convergence. This is exploratory proxy transfer, not evidence of cross-platform measurement equivalence.
+The 17 reconstructed subtype/parent ratios and this proxy are passed to the frozen current scRNA classifier. `Epi_other` is not confirmed normal epithelium. Reference epoch history was not recovered; a fixed section budget does not establish convergence. This is exploratory proxy transfer, not evidence of cross-platform measurement equivalence.
 
 ## 5. Inspect files before running models
 

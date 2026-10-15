@@ -1,5 +1,7 @@
 # MSIClassifier
 
+Current scRNA model:17 subtypes plus weighted MLH1, developed only in GSE178341 and evaluated externally in GSE132465/GSE200997; see [model version and OOF selection limits](docs/CURRENT_MODEL.md).
+
 MSIClassifier generates colorectal cancer MSI/dMMR research scores from bulk, single-cell and spatial gene expression. It constructs cell subtype and MMR-related features, then applies the supplied classifiers. MSI labels and BAM files are not required.
 
 [中文说明](README_zh.md)

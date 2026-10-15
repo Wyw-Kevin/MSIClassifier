@@ -1,0 +1,49 @@
+{
+  "ecology": {
+    "supported": [
+      "cM01",
+      "cM05",
+      "cM06",
+      "cP1",
+      "cS17",
+      "cS18",
+      "cS27",
+      "cTNI04",
+      "cTNI05",
+      "cTNI07",
+      "cTNI08",
+      "cTNI10",
+      "cTNI13",
+      "cTNI14",
+      "cTNI16",
+      "cTNI18",
+      "cTNI19"
+    ],
+    "n_supported": 17,
+    "missing": []
+  },
+  "newer_full_hierarchy": {
+    "supported": [
+      "cM01",
+      "cM05",
+      "cM06",
+      "cP1",
+      "cS17",
+      "cS18",
+      "cS27",
+      "cTNI04",
+      "cTNI05",
+      "cTNI07",
+      "cTNI10",
+      "cTNI13"
+    ],
+    "n_supported": 12,
+    "missing": [
+      "cTNI08",
+      "cTNI14",
+      "cTNI16",
+      "cTNI18",
+      "cTNI19"
+    ]
+  }
+}

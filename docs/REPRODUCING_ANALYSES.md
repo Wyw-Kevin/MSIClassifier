@@ -38,7 +38,7 @@ Logs and a completion summary are written beneath the selected output directory.
 
 Optional bulk/scRNA classifier refits and the historical raw-cohort BayesPrism preparation commands are listed in [TUTORIAL.md](TUTORIAL.md). The expression entry `predict.py` applies the current classifiers to newly generated measurements.
 
-The archived development bulk scores use fold1–5 models; direct bulk prediction uses the complete-development fold0 model. Those two outputs serve different computational roles. The original primary scRNA fold objects were not retained; the separately identified q95 sensitivity refits reproduce archived OOF scores and retain their own identity.
+The archived development bulk scores use fold1–5 models; direct bulk prediction uses the complete-development fold0 model. Those two outputs serve different computational roles. The current17 scRNA primary stores all five training-fold objects and the full-development classifier under a distinct model identity; both reproduce the archived17 threshold results.
 
 The eight MMR4 parameter files belong to cohort-specific evaluation rounds. Threshold fitting and fixed-score replay are separate commands. The paired comparison uses the same samples and resampling indices for both branches.
 
@@ -46,4 +46,4 @@ The eight MMR4 parameter files belong to cohort-specific evaluation rounds. Thre
 
 Exact feature orders, model hashes, folds, reference sources and RNG records are retained with the executable analyses and in [provenance](../provenance). Historical training seeds remain attached to their original weights. All new explicit seeds use2026.
 
-Frozen ecological annotation uses the older Major/CRC family that supports18/18 required classifier types. The separate2026 Major supplies external Strom/Epi calls for CNV. Spatial replay and new spatial prediction both use reconstructed proxy features; the stored reference regression has no retained epoch history. Detailed computational definitions remain in the workflow and parameter documents.
+Frozen ecological annotation uses the older Major/CRC family that supports17/17 required classifier types. The separate2026 Major supplies external Strom/Epi calls for CNV. Spatial replay and new spatial prediction both use reconstructed proxy features; the stored reference regression has no retained epoch history. Detailed computational definitions remain in the workflow and parameter documents.

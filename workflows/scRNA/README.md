@@ -1,22 +1,17 @@
-# scRNA
+# Single-cell scoring and reproduction
 
-`predict_scrna.py` applies the frozen fixed18＋weighted-MLH1 model without labels. Supply `sampleID`, every subtype column named in `resources/model/reference/shared18_weighted_mlh1_2026/manifest.json`, and explicitly weighted MLH1. `--model` can select a matching artifact, and `--weighted-mlh1-column` can select a verified weighted column. Missing or non-finite values stop execution.
+The current model uses **all17 source-oriented AUROC>0.70 subtypes plus weighted MLH1**. `predict_scrna.py` scores finite sample rows with the distinct `auc070_17_weighted_mlh1_2026/model.joblib` artifact. Start from expression using the root `predict.py scrna` command; see [input files](../../docs/INPUT_FILES.md) and [expression tutorial](../../docs/EXPRESSION_WORKFLOW.md). Existing reference resources1/2 remain compatible.
 
-`replay_frozen_scRNA.py` verifies the64 apparent＋23＋15 frozen scores, archived patient-grouped OOF,21 S7 control AUROCs, saved patient bootstrap and rho/VIF. Original primary CV-fold objects were not saved; separately identified q95 sensitivity fold refits reproduce stored OOF scores. Those model identities remain separate.
-
-Current sensitivity code is under `resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013`. Verification reads saved models/inputs and writes a separate result:
-
-```sh
-python reproduce.py --branch sensitivity
+```bash
+python workflows/scRNA/predict_scrna.py --feature-table examples/scRNA_features.csv --output output/scRNA_scores.csv
+python reproduce.py --branch scRNA --output-dir output
+python reproduce.py --branch sensitivity --output-dir output
+python workflows/scRNA/primary17/code/run_analysis.py
+python reproduce.py --branch plots --output-dir output
 ```
 
-Explicit optional refit from the retained source feature measurements:
+The first command is unlabeled inference. Replay verifies all stored fold/full predictions and patient-bootstrap intervals independently with sklearn ROC. `run_analysis.py` explicitly refits fold/full classifiers and controls from bundled measured features; it does not rerun annotation or CNV. Explicit seeds are2026 and resamples advance one RNG stream. Optional refitting writes under `primary17/models` and `primary17/tables`; copy the package first if preserving the supplied snapshot.
 
-```sh
-python workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/run_analysis.py --output-dir output/scRNA_sensitivity_refit
-python workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/verify_analysis.py --analysis-dir output/scRNA_sensitivity_refit --output output/scRNA_sensitivity_refit_checks.json
-```
+The source direction and single-feature AUROC use full development data. Four cutoffs0.60/0.65/0.70/0.75 select39/24/17/9 subtypes. Cutoff0.70 was adopted after observing the highest development groupedOOF AUROC0.9803. The same OOF comparison selects the cutoff; it is not nested evaluation and its conditional CI excludes selection uncertainty. The current model is constructed only in GSE178341. GSE132465 and GSE200997 provide external evaluation using the frozen full-development scaler/classifier; their samples and labels do not enter current feature or cutoff selection or classifier fitting. Historical18 resources retain their original identity and are not the default model. Current spatial scores use17 features with the unchanged73-type reconstruction.
 
-The uncapped thresholds select all39/24/17/9 passing candidates. The fixed18 historical reference is separate; CNV q90/q95/q99 comparisons use fixed retained measurements and identical patient folds. These optional commands refit classifiers, not CNV/TOSICA. Runtime remains2026 where a seed is configured. The current scalar isW=μ×N_candidate/N_all_epithelial; zero candidates mean missing. No50-cell sample rule applies.
-
-For a new h5ad/10x expression dataset, use `python predict.py scrna` from the repository root. The [expression workflow](../../docs/EXPRESSION_WORKFLOW.md) documents input metadata, scales and installation of both frozen-reference archives. This route performs annotation, Strom-only CNVq95, current weightedMLH1 construction and frozen scoring. The feature-table command above skips those upstream steps.
+To refit all four cutoff configurations from measured features: `python workflows/scRNA/primary17/code/run_cutoff_comparison.py`. To verify the supplied24 cutoff models and all three-cohort AUROC/BA/Brier results without refitting: `python reproduce.py --branch sensitivity --output-dir output`.

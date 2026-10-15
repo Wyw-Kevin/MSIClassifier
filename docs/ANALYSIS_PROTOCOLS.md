@@ -1,0 +1,7 @@
+# Analysis protocol scopes
+
+The [current index](../provenance/current_analysis_protocol_index.json) separates scRNA development/external evaluation, bulk subtype/MMR4 fusion, spatial proxy transfer and the boundary diagnostic. The original `workflows/bulk/classifier_snapshot/protocol.json` is the archived7/12 bulk comparison record; its historical "manuscript unchanged" state does not describe the current whole article. It remains byte-preserved. Current adopted bulk12 uses fixed0.5 fusion and the same LOCO locks.
+
+The scRNA model is developed only in GSE178341; the same development OOF comparison selects0.70, so its OOF estimate and bootstrap intervals remain conditional on selection. GSE132465/GSE200997 use the frozen classifier for external evaluation. S8 records post-QC scores, not an all16-versus-QC15 experiment. GSE200997 AUROC1.000 is a ranking result; at fixed0.5 the current joint model has one false-positive specimen (T_cac3, score0.5424517548580291; BA0.9615384615). No external threshold is optimized to eliminate it.
+
+Bulk labels and primary predictions remain unchanged. GSE24550 contains ten original MSI-L records categorized as negative by the archived processing table; the complete source mapping explicitly identifies them. This exception is distinct from confirmed MSS. Bulk macro increment intervals condition on the observed fixed cohorts and scores; cohorts themselves are not resampled.

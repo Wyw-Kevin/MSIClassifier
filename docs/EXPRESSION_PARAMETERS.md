@@ -47,7 +47,7 @@ Hard-coded scientific settings remain reference72, `key=None`, independent targe
 | `--tumor-value VALUE` | `Tumor` | Exact tumor designation |
 | `--batch-size N` | 1024 | Positive TOSICA inference batch size |
 
-Fixed values: specimen QC >=200 total cells; historical frozen ecology annotation; separately frozen2026 Major for external Strom/Epi CNV calls; up to100000 tumor-tissue cells and20000 reference cells; Strom-only infercnvpy with lfc_clip3, window100, step10, dynamic threshold1.5, excludechrX/Y, jobs4; PCA/neighbors/Leiden seed2026; reference q95 boundary tolerance1e-12. All18 features and the current weighted MLH1 definition remain fixed. Complete features use the unchanged training-only scaler and LDA. Samples with missing required inputs abstain.
+Fixed values: specimen QC >=200 total cells; historical frozen ecology annotation; separately frozen2026 Major for external Strom/Epi CNV calls; up to100000 tumor-tissue cells and20000 reference cells; Strom-only infercnvpy with lfc_clip3, window100, step10, dynamic threshold1.5, excludechrX/Y, jobs4; PCA/neighbors/Leiden seed2026; reference q95 boundary tolerance1e-12. All17 features and the current weighted MLH1 definition remain fixed. Complete features use the unchanged training-only scaler and LDA. Samples with missing required inputs abstain.
 
 ## Spatial only
 

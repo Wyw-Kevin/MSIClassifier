@@ -16,7 +16,6 @@ scRNA,cM06,Myeloid,parent-normalized fraction,"[0,1]",True
 scRNA,cTNI08,TNKILC,parent-normalized fraction,"[0,1]",True
 scRNA,cTNI19,TNKILC,parent-normalized fraction,"[0,1]",True
 scRNA,cTNI10,TNKILC,parent-normalized fraction,"[0,1]",True
-scRNA,cM04,Myeloid,parent-normalized fraction,"[0,1]",True
 bulk,cS27,Strom,parent-normalized fraction,"[0,1]",True
 bulk,cTNI16,TNKILC,parent-normalized fraction,"[0,1]",True
 bulk,cM06,Myeloid,parent-normalized fraction,"[0,1]",True

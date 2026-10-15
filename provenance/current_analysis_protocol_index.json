@@ -1,0 +1,23 @@
+{
+  "scRNA": {
+    "development": "GSE178341 only",
+    "external_evaluation": [
+      "GSE132465",
+      "GSE200997"
+    ],
+    "panel": "All17 source orientedAUROC>0.70 + weightedMLH1",
+    "cutoff_selection": "Highest development grouped OOF among four candidates; same OOF used for selection; conditional, not nested"
+  },
+  "bulk": {
+    "current_protocol": "bulk_primary_protocol.json",
+    "historical_comparison_protocol": "bulk_panel_comparison_protocol_original.json",
+    "primary": "12 subtypes; fixed0.5 fusion; archived MMR4 LOCO locks unchanged",
+    "label_exception": "GSE24550 ten original MSI-L retained as negative"
+  },
+  "spatial": {
+    "scope": "Exploratory frozen17 proxy transfer; unchanged73-type reconstruction"
+  },
+  "boundary_diagnostic": {
+    "scope": "Frozen-q95 input perturbation only; primary rule remains >=q95 with stored tolerance"
+  }
+}

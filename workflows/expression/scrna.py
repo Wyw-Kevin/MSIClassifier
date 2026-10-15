@@ -3,7 +3,7 @@ import json
 import random
 import numpy as np
 import pandas as pd
-from inputs import PANEL18, cell_fractions, weighted_mlh1
+from inputs import PANEL17, cell_fractions, weighted_mlh1
 from runners import require_resources, score_features, manifest
 import tosica
 
@@ -74,9 +74,9 @@ def run(args, a, out):
     models = {"TNKILC": ("CRC/TNKILC", "model-9.pth"), "Myeloid": ("CRC/Myeloid", "model-9.pth"),
               "Strom": ("CRC/Strom", "model-14.pth"), "Plasma": ("CRC/Plasma", "model-9.pth")}
     supported = set().union(*(set(tosica.labels(r / "ecology" / folder)) for folder, _ in models.values()))
-    missing = set(PANEL18) - supported
+    missing = set(PANEL17) - supported
     if missing:
-        raise ValueError("Unmeasured fixed18 checkpoint classes: " + ", ".join(sorted(missing)))
+        raise ValueError("Unmeasured current17 checkpoint classes: " + ", ".join(sorted(missing)))
     rows = np.arange(a.n_obs)
     if args.dataset == "GSE178341":
         if any(c not in a.obs for c in ["clTopLevel", "cl295v11SubShort"]):
@@ -101,15 +101,15 @@ def run(args, a, out):
     cells = pd.DataFrame({"sampleID": a.obs.sampleID.to_numpy(), "is_tumor": a.obs.is_tumor.to_numpy(),
                           "major": major, "subtype": subtype, "cnv_major": cnv_major.to_numpy()}, index=a.obs_names)
     cells.to_csv(out / "annotations.csv.gz", index_label="cell_id")
-    fractions = cell_fractions(cells[cells.is_tumor], PANEL18, supported)
+    fractions = cell_fractions(cells[cells.is_tumor], PANEL17, supported)
     expression = infer_cnv(a, cnv_major, r / "gene_positions.tsv", out)
     features = fractions.merge(expression, on="sampleID", how="left", validate="one_to_one")
     features.insert(0, "dataset", args.dataset)
-    required = PANEL18 + ["weighted_MLH1"]
+    required = PANEL17 + ["weighted_MLH1"]
     valid = np.isfinite(features[required].to_numpy(dtype=float)).all(axis=1)
     features.assign(scoring_status=np.where(valid, "complete", "unmeasured_feature_abstain")).to_csv(out / "all_samples_features.csv", index=False)
     if not valid.any():
-        raise ValueError("No complete fixed18+weightedMLH1 inputs; see all_samples_features.csv; no zero imputation")
+        raise ValueError("No complete current17+weightedMLH1 inputs; see all_samples_features.csv; no zero imputation")
     score_features(features.loc[valid].copy(), out, "scrna")
     manifest(out, {"modality": "scrna", "n_scored": int(valid.sum()), "n_abstained": int((~valid).sum()),
                    "annotation_models": infos, "reference_files": records, "model_refit": False,

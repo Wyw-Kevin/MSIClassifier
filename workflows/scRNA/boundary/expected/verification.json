@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "seed": 2026,
+  "random_resampling_used": false,
+  "q95_model_frozen": true,
+  "classifier_refit": false,
+  "primary_predictions_max_error": 0.0,
+  "strict_rule": "cnv_score > same unrounded q95 threshold; equality excluded",
+  "primary_rule": "cnv_score >= q95 -1e-12; tolerance adds no cells in saved audit",
+  "missing_handling": "No candidate cells => W/score missing; paired metrics use common scoreable specimens",
+  "external_outcomes_used_for_selection": false,
+  "interpretation": "Boundary-rule input perturbation only; primary q95 rule unchanged"
+}

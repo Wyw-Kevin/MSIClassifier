@@ -1,0 +1,11 @@
+{
+  "current_model_subtypes": 17,
+  "sections": 14,
+  "patients": 7,
+  "classifier_sha256": "e91aac236505c790220a53d484f6b650ec87d895261eacef9f036101624ccb5b",
+  "saved_reference_and_reconstruction_unchanged": true,
+  "spatial_refitting_performed": false,
+  "proxy_arithmetic_verified": true,
+  "spot_scores_recomputed": true,
+  "measurement_equivalence_claimed": false
+}

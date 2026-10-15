@@ -20,7 +20,7 @@ Start from bulk gene/probe expression or scRNA/spatial expression files: [Expres
 | Error/message | Meaning and correction |
 | --- | --- |
 | Missing explicitly weighted MLH1 | Provide the correctly calculated `weighted_MLH1`, or select a verified weighted alias |
-| Missing/unmeasured fixed 18 features | Some required subtype columns are absent; recover supported measurements, not zero placeholders |
+| Missing/unmeasured current 17 features | Some required subtype columns are absent; recover supported measurements, not zero placeholders |
 | Missing panel 12 features | Use all 12 named parent-normalized features; the old 10/7 panels are different models |
 | Non-finite inputs | Locate NaN/Inf/blank/unmeasured values and correct their measurement provenance; no automatic imputation is performed |
 | Fractions outside `[0,1]` | Do not submit percentages, whole-cell-normalized values, Z-scores or signed screening statistics |
@@ -50,7 +50,7 @@ The direct predictors take subtype features, not a gene-only matrix. Bulk fracti
 
 ## Raw-data branch boundaries
 
-The newer seed 2026 TOSICA dictionary supports 13/18 fixed-panel features, missing cTNI14,cTNI18,cTNI16,cTNI08,cTNI19. It cannot stand in for the older 18/18 ecological measurements. Correct checkpoint/reference provenance is required before deriving a new complete feature table.
+The newer seed 2026 TOSICA dictionary supports 12/17 fixed-panel features, missing cTNI14,cTNI18,cTNI16,cTNI08,cTNI19. It cannot stand in for the older 17/17 ecological measurements. Correct checkpoint/reference provenance is required before deriving a new complete feature table.
 
 Spatial replay rebuilds features from saved candidate allocation totals and posterior means; fresh reconstruction from original 10x counts is a different raw pipeline. Parameter means substituted into a reconstruction formula are not an average of per-draw reconstructed expression. Reference loss history was not recovered, so no convergence claim follows from the replay.
 
@@ -60,4 +60,4 @@ BayesPrism is a locally patched Python port. Its target updates use no MSI label
 
 Direct prediction does not need a label column. When retained as optional metadata, `MMR` is not used to estimate the score. Positive research coding combines MSI-H/dMMR source labels; not every public sample was confirmed by the same assay.
 
-The examples and paper scores are not independently calibrated clinical probabilities. A value above 0.5 is the paper's fixed scoring convention, not a validated diagnostic cutoff for an arbitrary new population. Previously examined cohorts remain retrospective, and spatial proxy transfer does not establish measurement equivalence.
+The examples and paper scores are not independently calibrated clinical probabilities. A value above 0.5 is the paper's fixed scoring convention, not a validated diagnostic cutoff for an arbitrary new population. Current scRNA construction uses GSE178341 only; GSE132465/GSE200997 are frozen-model external evaluation cohorts. The development OOF comparison also selects the scRNA cutoff, so its reported OOF performance is conditional on model selection. Bulk retrospective and MMR4 leave-one-cohort evaluation retain their separate scope. Spatial proxy transfer does not establish measurement equivalence.

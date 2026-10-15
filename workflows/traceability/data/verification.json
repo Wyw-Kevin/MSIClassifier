@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "all_analyzed_samples": 1328,
+  "excluded_QC_sample": 1,
+  "rows_by_modality": {
+    "bulk": 1212,
+    "scRNA": 103,
+    "spatial": 14
+  },
+  "renamed_GEO_samples": 81,
+  "expression_mapping_audits": [
+    {
+      "dataset": "GSE27544",
+      "n_renamed": 22,
+      "common_genes": 15274,
+      "min_matching_fraction": 0.9677229278512505,
+      "max_next_best_matching_fraction": 0.00019641220374492602,
+      "unique_bijective_expression_mapping": true
+    },
+    {
+      "dataset": "GSE75316",
+      "n_renamed": 59,
+      "common_genes": 15974,
+      "min_matching_fraction": 0.9568048078126956,
+      "max_next_best_matching_fraction": 0.0006886190058845624,
+      "unique_bijective_expression_mapping": true
+    }
+  ],
+  "MSI_L_archived_negative_count": 10,
+  "labels_changed": false,
+  "assay_gaps_not_inferred": true
+}

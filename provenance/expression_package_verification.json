@@ -1,10 +1,9 @@
 {
-  "original_files_unchanged": 293,
-  "original_scientific_files_changed": [],
-  "python_sources_parsed": 51,
-  "broken_local_document_links": [],
-  "model_weights_retrained": false,
-  "manuscript_changed": false,
+  "scope": "Current17 package update",
+  "MIT_license_preserved": true,
+  "historical_model_bytes_preserved": true,
   "github_uploaded": false,
-  "MIT_license_preserved": true
+  "tests": 16,
+  "current17_fitted_models": 54,
+  "raw_reference_files_unchanged": true
 }

@@ -14,7 +14,7 @@ Command-line options are taken from the supplied scripts' actual argument declar
 | --- | --- | --- | --- |
 | `--feature-table` | Path | Required | Headered sample-by-feature CSV |
 | `--output` | Path | Required | Write identifier/score CSV; create parents |
-| `--model` | Path | Default: included `resources/model/reference/shared18_weighted_mlh1_2026/model.joblib` | Select compatible artifact; recorded seed/formula are checked |
+| `--model` | Path | Default: included `resources/model/reference/auc070_17_weighted_mlh1_2026/model.joblib` | Select compatible artifact; recorded seed/formula are checked |
 | `--weighted-mlh1-column` | String | `weighted_MLH1` | Select the explicitly verified weighted-value input column |
 | `-h`, `--help` | Flag | Off | Help and exit before model loading |
 
@@ -87,7 +87,7 @@ The bulk refit's parser defaults to the script directory and `--replay=False`; t
 
 | Model setting | scRNA | Bulk subtype |
 | --- | --- | --- |
-| Input panel | Fixed 18 subtype proportions plus weighted MLH1 | Adopted 12 parent-normalized subtype abundances |
+| Input panel | All17 source-oriented AUROC>0.70 subtype proportions plus weighted MLH1 | Adopted 12 parent-normalized subtype abundances |
 | Scaling | Training StandardScaler | Training StandardScaler |
 | Classifier | LDA `solver=lsqr`, `shrinkage=auto` | MLP one hidden layer `(4,)`, ReLU, Adam |
 | CV | Existing patient-grouped five folds | Existing development five folds |

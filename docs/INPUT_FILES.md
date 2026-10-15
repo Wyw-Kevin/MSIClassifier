@@ -12,12 +12,12 @@ Column order can differ from the examples: each scorer selects columns in the fr
 
 ## 2. scRNA scoring CSV
 
-Required files are your feature CSV, `workflows/scRNA/predict_scrna.py`, and the supplied classifier at `workflows/scRNA/resources/model/reference/shared18_weighted_mlh1_2026/model.joblib`. The default model path is resolved relative to the script, so keeping the repository layout is sufficient.
+Required files are your feature CSV, `workflows/scRNA/predict_scrna.py`, and the supplied classifier at `workflows/scRNA/resources/model/reference/auc070_17_weighted_mlh1_2026/model.joblib`. The default model path is resolved relative to the script, so keeping the repository layout is sufficient.
 
 | Field | Type | Definition |
 | --- | --- | --- |
 | `sampleID` | Nonempty unique identifier | One tumor specimen per row; repeat patient specimens retain distinct sample IDs |
-| 18 subtype columns below | Finite decimal fractions | Subtype cell count divided by its major parent count, using the frozen reference/QC definitions |
+| 17 subtype columns below | Finite decimal fractions | Subtype cell count divided by its major parent count, using the frozen reference/QC definitions |
 | `weighted_MLH1` | Finite continuous value | Candidate malignant epithelial MLH1 mean multiplied by the candidate fraction within all retained epithelial cells |
 | `dataset` | Optional identifier | Metadata only |
 | `MMR` | Optional text | Metadata only; not needed for prediction |
@@ -28,7 +28,7 @@ Required files are your feature CSV, `workflows/scRNA/predict_scrna.py`, and the
 | --- | --- |
 | TNKILC | `cTNI14`, `cTNI18`, `cTNI13`, `cTNI16`, `cTNI05`, `cTNI07`, `cTNI04`, `cTNI08`, `cTNI19`, `cTNI10` |
 | Strom | `cS18`, `cS27`, `cS17` |
-| Myeloid | `cM01`, `cM05`, `cM06`, `cM04` |
+| Myeloid | `cM01`, `cM05`, `cM06` |
 | Plasma | `cP1` |
 
 For example, `cTNI16 = N_cTNI16 / N_TNKILC`, not `N_cTNI16 / N_all_cells`. The archived ecology measurements included a zero-encoding convention for some absent major classes. Distinguish a measured biological absence under that convention from an unsupported/unmeasured subtype; the latter must not be filled with zero. The newer seed 2026 annotation family lacks five fixed-panel types and cannot replace the older measurements.
@@ -36,7 +36,7 @@ For example, `cTNI16 = N_cTNI16 / N_TNKILC`, not `N_cTNI16 / N_all_cells`. The a
 The complete header is:
 
 ```text
-sampleID,cTNI14,cTNI18,cS18,cTNI13,cTNI16,cTNI05,cTNI07,cS27,cTNI04,cS17,cM01,cP1,cM05,cM06,cTNI08,cTNI19,cTNI10,cM04,weighted_MLH1
+sampleID,cTNI14,cTNI18,cS18,cTNI13,cTNI16,cTNI05,cTNI07,cS27,cTNI04,cS17,cM01,cP1,cM05,cM06,cTNI08,cTNI19,cTNI10,weighted_MLH1
 ```
 
 See [the complete five-row example](../examples/scRNA_features.csv). A small excerpt of the same values is:
@@ -57,7 +57,7 @@ This excerpt omits other required columns for readability; use the complete CSV 
 
 For a mean of `0.5`, 20 candidate cells and 80 retained epithelial cells, `weighted_MLH1 = 0.5 × 20/80 = 0.125`. No per-sample 50-cell threshold applies. Zero candidates or a zero epithelial denominator means missing; measured zero MLH1 among eligible candidate cells remains zero.
 
-The historical artifact slot `mean_MLH1_epithelial` stores weighted MLH1 in the current archived weighted tables. If you supply such a verified table, select it explicitly with `--weighted-mlh1-column mean_MLH1_epithelial`. The same column name in an older raw/whole-epithelial table does not make it compatible.
+The current artifact uses `weighted_MLH1`. Some historical weighted tables use the slot `mean_MLH1_epithelial`. If you supply such a verified table, select it explicitly with `--weighted-mlh1-column mean_MLH1_epithelial`. The same column name in an older raw/whole-epithelial table does not make it compatible.
 
 ## 3. Bulk subtype scoring CSV
 

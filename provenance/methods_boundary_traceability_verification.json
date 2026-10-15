@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "main_document": {
+    "changed_sentences_red": 20,
+    "unchanged_sentence_colors_preserved": 51,
+    "other_paragraphs_media_and_references_unchanged": true,
+    "English_tables": true,
+    "edited_font12pt_fixed24pt_and_indentation_preserved": true
+  },
+  "supplement_document": {
+    "changed_sentences_red": 17,
+    "unchanged_sentence_colors_preserved": 29,
+    "other_paragraphs_media_and_references_unchanged": true,
+    "English_tables": true,
+    "edited_font12pt_fixed24pt_and_indentation_preserved": true
+  },
+  "original_data_sheets_and_numeric_cells_unchanged": true,
+  "English_supplement_sheets": 44,
+  "implementation_identifiers_removed_from_main_retained_in_supplement": true,
+  "boundary_portable_replay_freshly_passed": true,
+  "boundary_independent_LDA_max_error": 2.7755575615628914e-16,
+  "traceability_fresh_saved_input_verification": {
+    "passed": true,
+    "analyzed_samples_or_sections": 1328,
+    "QC_exclusion": 1,
+    "renamed_GEO_samples": 81,
+    "expression_witness_values": 10368,
+    "primary_labels_match_saved_predictions": true,
+    "archived_MSI_L_negative_records": 10,
+    "spatial_labels": "Public grouping inference; assay not confirmed",
+    "source_assay_gaps_not_inferred": true
+  },
+  "unchanged_scientific_files": 323,
+  "unchanged_historical_records": 12,
+  "all_existing_models_labels_predictions_unchanged": true,
+  "broken_local_links": [],
+  "GitHub_uploaded": false,
+  "primary_q95_rule_unchanged": true,
+  "GSE24550_MSI_L_archived_negative_count": 10,
+  "MSI_L_exception_disclosed_not_relabelled": true,
+  "full_document_rendering": "OOXML layout/media preserved and verified; no Word renderer available"
+}

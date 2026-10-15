@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "mode": "Actual fresh fit",
+  "cutoff_models": 24,
+  "predictions": 664,
+  "counts": [
+    39,
+    24,
+    17,
+    9
+  ],
+  "selected_cutoff": 0.7,
+  "selection_uses": "Development grouped OOF only; final choice after comparison",
+  "all12_reported_cohort_AUROC_BA_Brier_reproduced": true,
+  "CNV_metric_checks": true,
+  "seed": 2026
+}

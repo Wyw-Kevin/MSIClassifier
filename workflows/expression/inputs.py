@@ -6,9 +6,9 @@ import numpy as np
 import pandas as pd
 from scipy import sparse
 
-PANEL18 = ["cTNI14", "cTNI18", "cS18", "cTNI13", "cTNI16", "cTNI05",
+PANEL17 = ["cTNI14", "cTNI18", "cS18", "cTNI13", "cTNI16", "cTNI05",
            "cTNI07", "cS27", "cTNI04", "cS17", "cM01", "cP1", "cM05",
-           "cM06", "cTNI08", "cTNI19", "cTNI10", "cM04"]
+           "cM06", "cTNI08", "cTNI19", "cTNI10"]
 PANEL12 = ["cS27", "cTNI16", "cM06", "cTNI05", "cTNI10", "cP1",
            "cTNI13", "cS18", "cTNI04", "cS17", "cM05", "cTNI08"]
 

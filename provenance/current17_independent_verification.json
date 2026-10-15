@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "primary_subtypes": 17,
+  "scored_predictions": 1162,
+  "max_prediction_error": 0.0,
+  "max_interval_error": 1.1102230246251565e-16,
+  "bootstrap_check": "All2000 paired patient-cluster draws independently evaluated with sklearn sample_weight ROC",
+  "selection": "Highest development grouped OOF of four cutoffs; same data used for selection; no cutoff-selection uncertainty in CI",
+  "CNV_score_metrics_verified": true,
+  "patient_fold_separation_verified": true,
+  "seed": 2026
+}

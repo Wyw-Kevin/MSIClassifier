@@ -25,7 +25,7 @@ python predict.py scrna --expression examples/expression/scRNA_200cells_log1p_cp
   --output-dir output/expression_scRNA_example --device cuda:0
 ```
 
-The tested CUDA output is `scrna_example_scores.csv`. CPU execution is available by changing `--device`; hardware/version differences can affect CNV clustering. Install both raw-reference archives before running. This 200-cell subset score does not replace the archived full-specimen score.
+The saved CUDA annotation/CNV measurements have been rescored with the current17 classifier; the output is `scrna_example_scores.csv`. CPU execution is available by changing `--device`; hardware/version differences can affect CNV clustering. Install both raw-reference archives before running. This 200-cell subset score does not replace the archived full-specimen score.
 
 ## Synthetic spatial counts
 
@@ -36,4 +36,4 @@ python predict.py spatial --expression examples/expression/spatial_32spots_count
   --sample-id synthetic_section --output-dir output/expression_spatial_example --device cuda:0
 ```
 
-This actually fits500 epochs and samples200 posterior draws before reconstructing the proxy. Its run is larger than preflight or feature scoring. Use `--check-only` to inspect only the input. The full current reference and expression dependencies are required. Numerical example scores document one tested run and are not calibration targets.
+This actually fits500 epochs and samples200 posterior draws before reconstructing the proxy. Its run is larger than preflight or feature scoring. Use `--check-only` to inspect only the input. The full current reference and expression dependencies are required. The current17 score reuses measured features from that completed spatial run; spatial fitting was not repeated for this panel update. Numerical example scores document one tested run and are not calibration targets.

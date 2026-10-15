@@ -21,8 +21,7 @@
       "cM06",
       "cTNI08",
       "cTNI19",
-      "cTNI10",
-      "cM04"
+      "cTNI10"
     ],
     "weighted_feature": "weighted_MLH1",
     "formula": "mean(candidate malignant epithelial MLH1) * N_candidate/N_all_epithelial",

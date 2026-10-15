@@ -1,5 +1,7 @@
 # MSIClassifier 使用说明
 
+当前单细胞模型采用17个亚型及加权MLH1，仅在GSE178341中构建，GSE132465和GSE200997用于冻结模型的外部评价；开发集折外结果同时参与阈值选择，详见[模型版本说明](docs/CURRENT_MODEL.md)。
+
 MSIClassifier从bulk、单细胞和空间基因表达数据生成结直肠癌MSI/dMMR研究评分。程序构建细胞亚型及MMR相关特征，再应用随附分类器。运行不需要MSI标签或BAM文件。
 
 [English README](README.md)

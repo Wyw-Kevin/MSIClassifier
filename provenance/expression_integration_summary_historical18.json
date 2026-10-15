@@ -1,0 +1,28 @@
+{
+  "input_and_cli_tests": 13,
+  "bulk": {
+    "status": "passed",
+    "input": "1 synthetic sample x17039 genes",
+    "adaptation": "full1000/500/2 updated-reference BayesPrism",
+    "final_score_exists": true
+  },
+  "scrna": {
+    "status": "passed",
+    "input": "200 real public GSE132465 cells x33694 genes, one specimen",
+    "stages": "historical frozen ecology annotation, separately frozen2026 Major, Strom-only CNVq95, weightedMLH1, fixed18 LDA",
+    "final_score_exists": true
+  },
+  "spatial": {
+    "status": "passed",
+    "input": "32 synthetic spots x12079 genes",
+    "epochs": 500,
+    "finite_loss_records": 500,
+    "posterior_draws": 200,
+    "official_conditional_formula_verified": true,
+    "final_score_exists": true
+  },
+  "new_cohort_AUROC_computed": false,
+  "existing_classifier_weights_changed": false,
+  "historical_training_seed_relabelled": false,
+  "loom_execution_checked": false
+}
