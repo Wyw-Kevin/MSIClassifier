@@ -1,0 +1,389 @@
+{
+  "bulk": [
+    {
+      "flags": [
+        "-h",
+        "--help"
+      ],
+      "required": false,
+      "default": "==SUPPRESS==",
+      "choices": null,
+      "help": "show this help message and exit"
+    },
+    {
+      "flags": [
+        "--expression"
+      ],
+      "required": true,
+      "default": null,
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--output-dir"
+      ],
+      "required": true,
+      "default": null,
+      "choices": null,
+      "help": "New output directory for this run"
+    },
+    {
+      "flags": [
+        "--check-only"
+      ],
+      "required": false,
+      "default": false,
+      "choices": null,
+      "help": "Inspect input only; no model execution"
+    },
+    {
+      "flags": [
+        "--resource-dir"
+      ],
+      "required": false,
+      "default": "resources/raw_reference",
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--scale"
+      ],
+      "required": true,
+      "default": null,
+      "choices": [
+        "linear",
+        "log2",
+        "log2p1"
+      ],
+      "help": null
+    },
+    {
+      "flags": [
+        "--dataset"
+      ],
+      "required": true,
+      "default": null,
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--probe-map"
+      ],
+      "required": false,
+      "default": null,
+      "choices": null,
+      "help": "CSV with probe_id,gene_symbol; median probes in supplied scale"
+    },
+    {
+      "flags": [
+        "--workers"
+      ],
+      "required": false,
+      "default": 4,
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--mmr4-lock"
+      ],
+      "required": false,
+      "default": null,
+      "choices": null,
+      "help": "Matching existing-cohort evaluation lock only"
+    }
+  ],
+  "scrna": [
+    {
+      "flags": [
+        "-h",
+        "--help"
+      ],
+      "required": false,
+      "default": "==SUPPRESS==",
+      "choices": null,
+      "help": "show this help message and exit"
+    },
+    {
+      "flags": [
+        "--expression"
+      ],
+      "required": true,
+      "default": null,
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--output-dir"
+      ],
+      "required": true,
+      "default": null,
+      "choices": null,
+      "help": "New output directory for this run"
+    },
+    {
+      "flags": [
+        "--check-only"
+      ],
+      "required": false,
+      "default": false,
+      "choices": null,
+      "help": "Inspect input only; no model execution"
+    },
+    {
+      "flags": [
+        "--resource-dir"
+      ],
+      "required": false,
+      "default": "resources/raw_reference",
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--format"
+      ],
+      "required": false,
+      "default": "auto",
+      "choices": [
+        "auto",
+        "h5ad",
+        "10x-h5",
+        "10x-mtx",
+        "loom",
+        "text"
+      ],
+      "help": null
+    },
+    {
+      "flags": [
+        "--transpose"
+      ],
+      "required": false,
+      "default": false,
+      "choices": null,
+      "help": "Transpose text gene-by-cell/spot matrix"
+    },
+    {
+      "flags": [
+        "--layer"
+      ],
+      "required": false,
+      "default": null,
+      "choices": null,
+      "help": "Explicit AnnData expression layer; default X"
+    },
+    {
+      "flags": [
+        "--gene-symbol-column"
+      ],
+      "required": false,
+      "default": null,
+      "choices": null,
+      "help": "var column to use instead of var_names"
+    },
+    {
+      "flags": [
+        "--device"
+      ],
+      "required": false,
+      "default": "cpu",
+      "choices": [
+        "cpu",
+        "cuda:0"
+      ],
+      "help": null
+    },
+    {
+      "flags": [
+        "--scale"
+      ],
+      "required": true,
+      "default": null,
+      "choices": [
+        "counts",
+        "log1p-cp10k"
+      ],
+      "help": null
+    },
+    {
+      "flags": [
+        "--dataset"
+      ],
+      "required": true,
+      "default": null,
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--metadata"
+      ],
+      "required": false,
+      "default": null,
+      "choices": null,
+      "help": "CSV indexed by cell_id with Sample and Class"
+    },
+    {
+      "flags": [
+        "--sample-column"
+      ],
+      "required": false,
+      "default": "Sample",
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--tissue-column"
+      ],
+      "required": false,
+      "default": "Class",
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--tumor-value"
+      ],
+      "required": false,
+      "default": "Tumor",
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--batch-size"
+      ],
+      "required": false,
+      "default": 1024,
+      "choices": null,
+      "help": null
+    }
+  ],
+  "spatial": [
+    {
+      "flags": [
+        "-h",
+        "--help"
+      ],
+      "required": false,
+      "default": "==SUPPRESS==",
+      "choices": null,
+      "help": "show this help message and exit"
+    },
+    {
+      "flags": [
+        "--expression"
+      ],
+      "required": true,
+      "default": null,
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--output-dir"
+      ],
+      "required": true,
+      "default": null,
+      "choices": null,
+      "help": "New output directory for this run"
+    },
+    {
+      "flags": [
+        "--check-only"
+      ],
+      "required": false,
+      "default": false,
+      "choices": null,
+      "help": "Inspect input only; no model execution"
+    },
+    {
+      "flags": [
+        "--resource-dir"
+      ],
+      "required": false,
+      "default": "resources/raw_reference",
+      "choices": null,
+      "help": null
+    },
+    {
+      "flags": [
+        "--format"
+      ],
+      "required": false,
+      "default": "auto",
+      "choices": [
+        "auto",
+        "h5ad",
+        "10x-h5",
+        "10x-mtx",
+        "loom",
+        "text"
+      ],
+      "help": null
+    },
+    {
+      "flags": [
+        "--transpose"
+      ],
+      "required": false,
+      "default": false,
+      "choices": null,
+      "help": "Transpose text gene-by-cell/spot matrix"
+    },
+    {
+      "flags": [
+        "--layer"
+      ],
+      "required": false,
+      "default": null,
+      "choices": null,
+      "help": "Explicit AnnData expression layer; default X"
+    },
+    {
+      "flags": [
+        "--gene-symbol-column"
+      ],
+      "required": false,
+      "default": null,
+      "choices": null,
+      "help": "var column to use instead of var_names"
+    },
+    {
+      "flags": [
+        "--device"
+      ],
+      "required": false,
+      "default": "cpu",
+      "choices": [
+        "cpu",
+        "cuda:0"
+      ],
+      "help": null
+    },
+    {
+      "flags": [
+        "--sample-id"
+      ],
+      "required": true,
+      "default": null,
+      "choices": null,
+      "help": "One section per invocation"
+    },
+    {
+      "flags": [
+        "--positions"
+      ],
+      "required": false,
+      "default": null,
+      "choices": null,
+      "help": "Optional CSV indexed by spot_id, columns x,y"
+    }
+  ]
+}

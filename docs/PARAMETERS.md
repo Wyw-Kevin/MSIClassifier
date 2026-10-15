@@ -1,5 +1,7 @@
 # Command and model parameter reference
 
+Start from bulk gene/probe expression or scRNA/spatial expression files: [Expression prediction parameters](EXPRESSION_PARAMETERS.md). The existing tables below describe stored-feature scoring and archived replay where stated.
+
 [Main README](../README.md) · [Tutorial](TUTORIAL.md) · [Input files](INPUT_FILES.md)
 
 Command-line options are taken from the supplied scripts' actual argument declarations. Model settings below come from preserved protocols/manifests and are distinct from CLI options. No command optimizes fusion weights or deployment thresholds using your prediction labels.

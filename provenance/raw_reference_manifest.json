@@ -1,0 +1,183 @@
+{
+  "files": {
+    "ecology/tosica_major/model_best.pth": {
+      "bytes": 506886262,
+      "sha256": "acb0543dca8cef0bc5759af8342734fe2aea47a3f9cacce234691bcd74eed597",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/tosica_major/model_best.pth"
+    },
+    "ecology/tosica_major/mask.npy": {
+      "bytes": 15836288,
+      "sha256": "e4aba596d717b243a1acc2b2e0d692feea1c35946a1bb0c01c1efbca07a733e4",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/tosica_major/mask.npy"
+    },
+    "ecology/tosica_major/genes_used.csv": {
+      "bytes": 105176,
+      "sha256": "ff99f05042ef528c967dee4dc8e4618ccbe8d5484031b2dd8b6952fed2e058fe",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/tosica_major/genes_used.csv"
+    },
+    "ecology/tosica_major/label_dictionary.csv": {
+      "bytes": 65,
+      "sha256": "e0059eacae825a4fe8f44bef2d657cb1cc5668d5a7163c3106afd2a49921535b",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/tosica_major/label_dictionary.csv"
+    },
+    "ecology/tosica_major/model_manifest.json": {
+      "bytes": 1121,
+      "sha256": "c33302594f45a7e4694200658f2297d4a8739f3f66b0dd6e2f2372c290a2920f",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/tosica_major/model_manifest.json"
+    },
+    "ecology/CRC/TNKILC/model-9.pth": {
+      "bytes": 345901199,
+      "sha256": "a94bd048c14d0a8040af4d7987d8d6591879e0eeb4888eeda29b2fca53fdc313",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/TNKILC/model-9.pth"
+    },
+    "ecology/CRC/TNKILC/mask.npy": {
+      "bytes": 7200128,
+      "sha256": "64bec2b4afa63ac0cf5005ce3d34025fc80535881649d4f3497d504f90d742c6",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/TNKILC/mask.npy"
+    },
+    "ecology/CRC/TNKILC/train_genes.csv": {
+      "bytes": 18891,
+      "sha256": "8140bcf19ca8502903bf2a8d28d907188c2b2321025f0694e5f016a8e46988bb",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/TNKILC/train_genes.csv"
+    },
+    "ecology/CRC/TNKILC/label_dictionary.csv": {
+      "bytes": 268,
+      "sha256": "6c69e66ee317efce3ce8bd51577d530aeb3bb94c6b5366c705c35703c8501e17",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/TNKILC/label_dictionary.csv"
+    },
+    "ecology/CRC/Myeloid/model-9.pth": {
+      "bytes": 345898063,
+      "sha256": "f94d44f96cbf00e7e702762b83c8854cf61b9522723859ed0bd9b97017b013ee",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Myeloid/model-9.pth"
+    },
+    "ecology/CRC/Myeloid/mask.npy": {
+      "bytes": 7200128,
+      "sha256": "04c5ca743961a9837f32009f6506a74ce58107595f2f837005ed989e4f71ee87",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Myeloid/mask.npy"
+    },
+    "ecology/CRC/Myeloid/train_genes.csv": {
+      "bytes": 18872,
+      "sha256": "340e37ea1547216c97df41493c27a4c33657da2a3fe8f54e05cb54eecec12068",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Myeloid/train_genes.csv"
+    },
+    "ecology/CRC/Myeloid/label_dictionary.csv": {
+      "bytes": 88,
+      "sha256": "fb52d09bb57e6ad809989579dc2aa333f821e1a56a8750f4c4558aa61b53d5b3",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Myeloid/label_dictionary.csv"
+    },
+    "ecology/CRC/Strom/model-14.pth": {
+      "bytes": 345902607,
+      "sha256": "fb5ae108b60d41769b6b9614c57d050f191bb3026be2a651397ca76f84ac908d",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Strom/model-14.pth"
+    },
+    "ecology/CRC/Strom/mask.npy": {
+      "bytes": 7200128,
+      "sha256": "7dda504efaa3e2289921ba99935213ee8b9c6707d839ddead19d4d3513f4a8a5",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Strom/mask.npy"
+    },
+    "ecology/CRC/Strom/train_genes.csv": {
+      "bytes": 18659,
+      "sha256": "d477dd48eb51a2f667be280861aefdd6bc8c7be2ef6e501129a3a3ae70458af7",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Strom/train_genes.csv"
+    },
+    "ecology/CRC/Strom/label_dictionary.csv": {
+      "bytes": 272,
+      "sha256": "44aa44ffe2f0ab722910048ffa0dfe25a2d2d94168bfc7084a65f7b02ac65742",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Strom/label_dictionary.csv"
+    },
+    "ecology/CRC/Plasma/model-9.pth": {
+      "bytes": 345896719,
+      "sha256": "a6660a63616b40c388301017785c04d668032ed6258263e347adf592ba2fb440",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Plasma/model-9.pth"
+    },
+    "ecology/CRC/Plasma/mask.npy": {
+      "bytes": 7200128,
+      "sha256": "6f690ff09d944594ccb3314d6c6f4344d00ccdc7df9fd0d3a59cb7e1f788da53",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Plasma/mask.npy"
+    },
+    "ecology/CRC/Plasma/train_genes.csv": {
+      "bytes": 18901,
+      "sha256": "f70877ef4ff42dce75235b5d6bcd958f50c0989f1d0d9690b056c30e702dc3a9",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Plasma/train_genes.csv"
+    },
+    "ecology/CRC/Plasma/label_dictionary.csv": {
+      "bytes": 36,
+      "sha256": "9b4a3b5f4a96fb673bd277df270e1667fa1f3d91a8fbfc9a7deae30ffd66968f",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/CRC/Plasma/label_dictionary.csv"
+    },
+    "cnv_major/model_best.pth": {
+      "bytes": 506886262,
+      "sha256": "4699468c8d3892b82a74ecb4de52a9f80c420d9898469331c3720ce872b36a64",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference_seed2026/Migrate/models/tosica_major/model_best.pth"
+    },
+    "cnv_major/mask.npy": {
+      "bytes": 15836288,
+      "sha256": "e4aba596d717b243a1acc2b2e0d692feea1c35946a1bb0c01c1efbca07a733e4",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference_seed2026/Migrate/models/tosica_major/mask.npy"
+    },
+    "cnv_major/genes_used.csv": {
+      "bytes": 105176,
+      "sha256": "ff99f05042ef528c967dee4dc8e4618ccbe8d5484031b2dd8b6952fed2e058fe",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference_seed2026/Migrate/models/tosica_major/genes_used.csv"
+    },
+    "cnv_major/label_dictionary.csv": {
+      "bytes": 65,
+      "sha256": "e0059eacae825a4fe8f44bef2d657cb1cc5668d5a7163c3106afd2a49921535b",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference_seed2026/Migrate/models/tosica_major/label_dictionary.csv"
+    },
+    "cnv_major/model_manifest.json": {
+      "bytes": 1177,
+      "sha256": "639599b0d46b7e1aaa0c14377cdcb0db4a1e79f6002f39f00ddbaa35d6d1aec8",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference_seed2026/Migrate/models/tosica_major/model_manifest.json"
+    },
+    "TOSICA_source/TOSICA/TOSICA_model.py": {
+      "bytes": 11667,
+      "sha256": "9f2e171e0e03d6190389e4d01354d241b544d0ee457dd840e72479a92c4d6b3d",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/TOSICA_source/TOSICA/TOSICA_model.py"
+    },
+    "TOSICA_source/TOSICA/customized_linear.py": {
+      "bytes": 5670,
+      "sha256": "21068f84e6f9ceb8619455951f4172a6af684cd23818925dcffb1ca86317badb",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/TOSICA_source/TOSICA/customized_linear.py"
+    },
+    "TOSICA_source/LICENSE": {
+      "bytes": 1069,
+      "sha256": "93545cb0b4246259fadeb494695f43dcd0ab0918ba88f54aabac55aef84d7a7b",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/TOSICA_source/LICENSE"
+    },
+    "TOSICA_source/VERSION.txt": {
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "source": "\u6700\u7ec8\u6a21\u578b/scRNA_model/reference/TOSICA_source/VERSION.txt"
+    },
+    "gene_positions.tsv": {
+      "bytes": 680262,
+      "sha256": "7b94e6ca1c7c18342e5e9c6f1f0b28de0ce3493bf678b634d4b0443f9239ddcd",
+      "source": "inferCNV/GSE132465/geneFile.txt"
+    },
+    "spatial/signature.csv": {
+      "bytes": 10136181,
+      "sha256": "0897b65cf16f9078059994778b3e9f4b553cf816cbcd7561f67c361d472ab73c",
+      "source": "\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/signature.csv"
+    },
+    "spatial/mapping.csv": {
+      "bytes": 922,
+      "sha256": "28b68f67b173db6d7c95fb91b8e9c2cc285452e969f330137775bcf5c76c23f3",
+      "source": "\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/mapping.csv"
+    },
+    "spatial/complete.json": {
+      "bytes": 427,
+      "sha256": "7e3e095706cfe225288ba8f35503a97775d32501e25819adfc339305cdb1d629",
+      "source": "\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/complete.json"
+    },
+    "spatial/verification.json": {
+      "bytes": 193,
+      "sha256": "f90d10551803e1a23ca37ebaa683b80bb22c273a0b662b941dc64a53b340cd6d",
+      "source": "\u6700\u7ec8\u6a21\u578b/data/stRNA/result/weighted_mlh1_transfer_seed2026/reference/verification.json"
+    }
+  },
+  "provenance": "Existing weights and signatures copied byte-for-byte; no retraining or seed relabelling.",
+  "ecology": "historical Major(seed20260723) plus CRC subtype weights(training seeds not all retained); supports18/18 fixed features, not all71 candidates",
+  "cnv_major": "separately trained2026 Major only, for Strom and Epi calls in new external cohorts",
+  "spatial": "saved73-type reference; history not recovered"
+}

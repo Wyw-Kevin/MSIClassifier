@@ -2,15 +2,16 @@
 
 **Colorectal cancer MSI/dMMR research scoring from cell subtype composition and MMR expression.**
 
-MSIClassifier connects single-cell, bulk and spatial transcriptomic analyses through fixed cell subtype definitions. Its classifiers combine cell composition with MMR-associated expression information. Direct prediction requires a sample-by-feature CSV; BAM files and outcome labels are not required. Gene-expression matrices must first be converted into the appropriate subtype and MLH1 features.
+MSIClassifier connects single-cell, bulk and spatial transcriptomic analyses through fixed cell subtype definitions. Its classifiers combine cell composition with MMR-associated expression information. The main prediction entry starts from bulk gene/probe expression or single-cell/spatial expression files and constructs the required subtype and MMR features internally. BAM files and MSI outcome labels are not required.
 
-Two workflows are provided: apply frozen classifiers to complete feature tables, and reproduce the paper's stored-input analyses. Original raw datasets, large cell-annotation/spatial checkpoints and manuscript supplements are supplied separately. The repository is used through Python scripts; it is not currently a PyPI command or Docker image. [中文说明](README_zh.md).
+Three entry points are provided: expression-to-score prediction, direct scoring of already measured features, and replay of the paper's stored-input analyses. The required large frozen annotation resources are supplied as a separate reference archive; original full raw datasets and manuscript supplements remain separate. The repository is used through Python scripts; it is not currently a PyPI command or Docker image. [中文说明](README_zh.md).
 
 ## Contents
 
 - [Models and scope](#models-and-scope)
 - [Installation](#installation)
-- [Quick start](#quick-start)
+- [Start from expression data](#start-from-expression-data)
+- [Already measured features](#already-measured-features)
 - [Input files](#input-files)
 - [Command options](#command-options)
 - [Reproducing analyses](#reproducing-analyses)
@@ -20,11 +21,12 @@ Two workflows are provided: apply frozen classifiers to complete feature tables,
 
 ## Models and scope
 
-| Workflow | Input | Supplied model | Output |
+| Workflow | Intermediate/classifier input | Supplied model | Output |
 | --- | --- | --- | --- |
 | scRNA | 18 subtype proportions and malignant-fraction weighted MLH1 | Training StandardScaler and shrinkage LDA | Specimen-level `score` |
 | Bulk subtype | 12 parent-normalized subtype abundances | Full-development StandardScaler and 4-unit MLP | Sample-level `Subtype` |
 | Existing-cohort bulk fusion | Bulk subtype features, four log2 gene values and a matching MMR4 lock | Full-development MLP plus saved cohort MMR4 parameters | `Subtype`, `MMR4_LOCO`, `Fusion05` |
+| Spatial expression | Raw spot counts, saved73-type reference, reconstructed18+weightedMLH1 proxy | Frozen scRNA classifier | New section score |
 | Spatial replay | Bundled allocated-count, abundance and posterior-mean records | Frozen scRNA classifier applied to reconstructed proxies | 14 section and 7 patient scores |
 
 Weighted MLH1 is:
@@ -46,7 +48,7 @@ Scores increase toward the positive research outcome, combining public MSI-H or 
 
 - Python **3.12**; the audited environment used 3.12.12.
 - Linux is the tested platform. BayesPrism uses Linux multiprocessing/file locking; spatial plots also need fontconfig.
-- Direct scoring and bundled-input replay need no GPU.
+- Feature-table scoring and bundled-input replay need no GPU. The new cell/spot mapping routes default to CPU and can request CUDA explicitly.
 - Keep supplied models and resource folders with the scripts. Exact tested dependencies are pinned in [requirements.txt](requirements.txt).
 
 Extract/download the repository and enter its `MSIClassifier` directory. All commands below assume that working directory.
@@ -75,6 +77,10 @@ sudo apt-get install fontconfig
 Inspect interfaces without loading models:
 
 ~~~bash
+python predict.py --help
+python predict.py bulk --help
+python predict.py scrna --help
+python predict.py spatial --help
 python reproduce.py --help
 python workflows/scRNA/predict_scrna.py --help
 python workflows/bulk/predict_bulk.py --help
@@ -82,9 +88,33 @@ python workflows/bulk/predict_bulk.py --help
 
 BayesPrism imports the included `workflows/bayesprism/vendor/` implementation. Installing another port does not substitute for this preserved patched version.
 
-## Quick start
+## Start from expression data
 
-### 1. Score the scRNA example
+Install `requirements.txt`; scRNA/spatial additionally use `requirements-expression.txt` and **both** `MSIClassifier_RawReference_part1.zip` and `MSIClassifier_RawReference_part2.zip`. Extract the resource archive inside this directory so that `resources/raw_reference/manifest.json` exists. Bulk uses its already bundled BayesPrism reference.
+
+```bash
+# Bulk: gene rows × sample columns, explicit scale
+python predict.py bulk --expression bulk_expression.csv --scale log2p1 \
+  --dataset MY_BULK --output-dir output/my_bulk
+
+# Single-cell: raw counts in a h5ad layer
+python predict.py scrna --expression cells.h5ad --layer counts --scale counts \
+  --dataset MY_SCRNA --output-dir output/my_scRNA
+
+# Spatial: one raw-count section
+python predict.py spatial --expression section.h5ad --layer counts \
+  --sample-id sectionA --output-dir output/sectionA
+```
+
+Single-cell input requires specimen and tumor/normal tissue metadata in obs or `--metadata`. Readers support h5ad, 10x HDF5, 10x MTX directories, loom and cell/spot-by-gene text. Add `--transpose` for gene-by-cell text. An arbitrary HDF5 file is not necessarily a 10x file. Microarray probe matrices additionally need `--probe-map`; raw CEL/IDAT requires platform preprocessing first.
+
+Each route writes measured/reconstructed `features.csv`, `scores.csv`, and a processing manifest. Add `--check-only` to inspect inputs without running models. Use a new output directory. These are new technical runs with unchanged classifier weights, not an automatic recomputation of archived AUROC.
+
+[Runnable bundled expression examples](examples/expression/README.md) · [Complete expression workflow, required files and resource installation](docs/EXPRESSION_WORKFLOW.md) · [All expression parameters](docs/EXPRESSION_PARAMETERS.md)
+
+## Already measured features
+
+### Score the scRNA feature example
 
 ~~~bash
 python workflows/scRNA/predict_scrna.py \
@@ -94,7 +124,7 @@ python workflows/scRNA/predict_scrna.py \
 
 Five specimens are supplied with all 19 numerical features. Output is `sampleID,score`. The first two expected scores are approximately 0.119320418 and 0.083181782. Compare against [examples/scRNA_expected_scores.csv](examples/scRNA_expected_scores.csv).
 
-### 2. Score the bulk subtype example
+### Score the bulk feature example
 
 ~~~bash
 python workflows/bulk/predict_bulk.py \
@@ -104,7 +134,7 @@ python workflows/bulk/predict_bulk.py \
 
 This uses the full-development MLP without requiring labels or MMR4. Reference output: [examples/bulk_expected_scores.csv](examples/bulk_expected_scores.csv).
 
-### 3. Apply the matching GSE24550 fusion lock
+### Apply the matching GSE24550 fusion lock
 
 ~~~bash
 python workflows/bulk/predict_bulk.py \
@@ -213,13 +243,13 @@ For the supplied expected outputs, compare numeric values with tolerance around 
 
 ## Detailed documentation
 
-- [Tutorial: examples, custom inputs, refitting, BayesPrism and spatial replay](docs/TUTORIAL.md)
+- [Tutorial: expression inputs followed by advanced examples, refitting and replay](docs/TUTORIAL.md)
 - [Input schemas and bundled/external file inventory](docs/INPUT_FILES.md)
 - [Command/model parameter reference](docs/PARAMETERS.md)
 - [Troubleshooting and interpretation](docs/TROUBLESHOOTING.md)
 - [Third-party notices](THIRD_PARTY_NOTICES.md)
 
-Results condition on fixed upstream features and previously viewed cohorts. Older ecological TOSICA weights support 18/18 classifier types; the newer seed 2026 family supports 13/18. Spatial reconstruction is proxy-feature transfer, and missing reference epoch history does not establish convergence. Detailed documentation preserves these boundaries.
+Results condition on fixed upstream features and previously viewed cohorts. Older ecological TOSICA weights support 18/18 classifier types; the newer seed 2026 family supports 13/18. The expression scRNA route explicitly uses the older ecology family and the newer Major-only CNV reference. Spatial reconstruction is proxy-feature transfer, and missing reference epoch history does not establish convergence. Detailed documentation preserves these boundaries.
 
 ## License
 

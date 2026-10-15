@@ -4,7 +4,7 @@
   "explicit_current_seeds": 2026,
   "model_weights_relabelled_or_replaced": false,
   "primary_scRNA_fold_object_status": "Original primary fold artifacts absent; separately identified q95 sensitivity refits numerically reproduce stored OOF",
-  "TOSICA_ecology_source": "older frozen family18/18; seed2026 family13/18; raw annotation not claimed in lean pipeline",
+  "TOSICA_ecology_source": "historical frozen Major/CRC ecology family supports18/18 classifier types; Major training seed20260723 and CRC historical seeds retained; raw expression route uses it explicitly. Separate2026 Major supplies external Strom/Epi CNV calls; the newer full hierarchical family supports13/18 and is not substituted.",
   "historical_BayesPrism_installation_commit": "not retained",
   "spatial_reference_epoch_history": "not recovered",
   "direct_scoring_requires_labels": false,
@@ -61,5 +61,6 @@
     "workflows/scRNA/resources/article/scRNA_AUROC_threshold_all_candidates_seed2026_20261013/inputs/source_archive/current_model.joblib": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
     "workflows/scRNA/resources/model/reference/shared18_weighted_mlh1_2026/model.joblib": "bb3c46aa955ae272f5f862cffa4017d5712e30f5bfaf9fd60e4ac10f96bc764b",
     "workflows/spatial/resources/report/ecology_only_comparator.joblib": "97d84a1bef35a9693bb7e3bda2bc9e46700ae432cde9dcca7f230ebadd5f10a5"
-  }
+  },
+  "expression_interface": "predict.py: bulk expression->fixed-reference BayesPrism target update->panel12; scRNA expression->frozen annotation+Strom CNVq95->fixed18weightedLDA; spatial raw counts->saved73-type reference mapping->weighted proxy->same frozenLDA. New technical runs, no archived AUROC recomputation implied."
 }

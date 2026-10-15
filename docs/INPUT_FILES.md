@@ -1,5 +1,7 @@
 # Input formats and required files
 
+Start from bulk gene/probe expression or scRNA/spatial expression files: [Expression input schemas](EXPRESSION_WORKFLOW.md). The existing tables below describe stored-feature scoring and archived replay where stated.
+
 [Main README](../README.md) · [Tutorial](TUTORIAL.md) · [Parameters](PARAMETERS.md)
 
 ## 1. General CSV conventions

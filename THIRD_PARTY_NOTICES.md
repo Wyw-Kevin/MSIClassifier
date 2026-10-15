@@ -24,3 +24,7 @@ Example/evaluation features, reference summaries and spatial records derive from
 ## Model identities
 
 Classifier artifacts retain their actual source/seed/feature definitions. Documentation changes do not retrain or relabel them. Root model metadata is under `provenance/model_identity.json`; source/resource hashes are under `provenance/source_hashes.json`.
+
+## Frozen TOSICA and raw-reference archive
+
+The optional `resources/raw_reference/TOSICA_source/` retains the original TOSICA model implementation and MIT notice, copyright2022 JiaweiChenGo. Its exact upstream LICENSE is inside the separate reference archive. The customized linear layer retains its original source attribution. The archive includes actual existing annotation weights, gene masks/orders, parent dictionaries, genomic position resource and current spatial signature. It does not relabel historical training seeds or recover missing training history. Full raw data are not included.

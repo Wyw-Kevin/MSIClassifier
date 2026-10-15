@@ -1,5 +1,7 @@
 # Troubleshooting and result interpretation
 
+Start from bulk gene/probe expression or scRNA/spatial expression files: [Expression input workflow](EXPRESSION_WORKFLOW.md). The existing tables below describe stored-feature scoring and archived replay where stated.
+
 [Main README](../README.md) · [Input format](INPUT_FILES.md)
 
 ## Installation and file paths
