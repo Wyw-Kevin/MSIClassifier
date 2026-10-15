@@ -18,10 +18,12 @@ For `.loom` input also install its optional Scanpy reader dependency with `pytho
 
 For bulk only, `requirements.txt` is sufficient. The existing patched BayesPrism port and its 72-type raw-count reference are already in the code archive. The original scRNA reference h5ad is not needed for this new bulk entry; it remains required only for rebuilding the reference with the archived `prepare.py`.
 
-For scRNA/spatial, extract **both** `MSIClassifier_RawReference_part1.zip` and `MSIClassifier_RawReference_part2.zip` **inside the code directory**:
+Download the resources from this repository's Releases. Single-cell expression analysis uses **both** `MSIClassifier_RawReference_part1.zip` and `MSIClassifier_RawReference_part2.zip`; spatial expression analysis needs **part2 only**. Extract the required archives **inside the code directory**:
 
 ```bash
+# Single-cell only:
 python -m zipfile -e /path/to/MSIClassifier_RawReference_part1.zip .
+# Single-cell and spatial:
 python -m zipfile -e /path/to/MSIClassifier_RawReference_part2.zip .
 python predict.py --help
 ```
@@ -59,7 +61,8 @@ MLH1,7.1,6.5
 MSH2,8.2,7.9
 MSH6,7.6,8.0
 PMS2,6.8,6.6
-...```
+...
+```
 
 Supply the complete measured gene matrix, not just four MMR genes or a small marker panel. Gene/sample identifiers must be unique and all values finite. At least 1,000 reference genes must overlap; the exact overlap is recorded. Do not precompute subtype proportions or classifier Z-scores.
 

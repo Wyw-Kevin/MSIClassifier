@@ -1,6 +1,6 @@
 # Step-by-step usage tutorial
 
-[Main README](../README.md) · [Input files](INPUT_FILES.md) · [Parameters](PARAMETERS.md)
+[Main README](../README.md) · [Paper analysis replay](REPRODUCING_ANALYSES.md) · [Input files](INPUT_FILES.md) · [Parameters](PARAMETERS.md)
 
 Run commands from the repository root after installing `requirements.txt`. Paths containing spaces should be quoted. Scoring creates missing output parent directories; it leaves supplied models unchanged.
 
